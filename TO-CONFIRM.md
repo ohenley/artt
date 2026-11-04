@@ -146,6 +146,7 @@ Open items from the [XA mods](models/xa/mods/README.md). Each page also marks th
 | TM1 | Master4 hum on the XA | Not stated by Grado | Listen at the inner groove with the motor running | Open | |
 | TM2 | Counterweight balances the shell and Master4 | Not tested | Balance with the actual parts, before ordering | Open | |
 | DC1 | JnB cover size, fixing, and clearance over the arm | Not published | Ask the maker, or measure one | Open | |
+| TB1 | Stock T-bar mass, thickness, spring and bearing positions | Not recorded | Balance and calipers | Open | |
 
 ## Recheck a source
 

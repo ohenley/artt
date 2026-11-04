@@ -14,3 +14,4 @@ Upgrades for anyone restoring an XA. Each page says if a mod also applies to the
 - [Motor phase capacitor](motor-capacitor.md): Replace the aged motor capacitor with a new film part.
 - [Headshell with top mounting holes](headshell-top-mount.md): Fit a Grado wood-body cartridge to the stock arm.
 - [Tall acrylic dust cover](dust-cover.md): Give the arm more clearance under the cover.
+- [Replacement armboard (T-bar)](armboard.md): Stiffen the link between the arm pivot and platter bearing.
