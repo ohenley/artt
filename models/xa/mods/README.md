@@ -19,3 +19,4 @@ Upgrades for anyone restoring an XA. Each page says if a mod also applies to the
 ## Companion mods
 
 - [Suspension kit](suspension-kit.md): Replace tired springs and grommets.
+- [Belt and machined pulley](belt-and-pulley.md): Restore speed accuracy and clean starts.
