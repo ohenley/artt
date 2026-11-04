@@ -110,7 +110,7 @@ Measure an original shell and its retaining nut, and record the model and serial
 | HD17 | Finger-lift width | 6 mm placeholder | Calipers | Open | |
 | HD18 | Finger-lift thickness | 2.5 mm placeholder | Calipers; must suit PMMA | Open | |
 | HD19 | Neck key or locating feature | Not modeled; the exploded view shows a notched part, item 21a | Inspect and photograph | Open | |
-| HD20 | Pin count, type, and spring travel | Four wires per AR sheet L-1591; Pat's Audio advertises spring-loaded pins on its shell | Inspect the shell and arm socket; find a source for pins | Open | |
+| HD20 | Pin count, type, and spring travel | Four contacts in the arm receptacle, per Hamrick; four wires per AR sheet L-1591; Pat's Audio advertises spring-loaded pins on its shell | Inspect the shell and arm socket; find a source for pins | Open | |
 | HD21 | Original shell mass, with hardware | Not recorded | Balance; needed to judge the counterweight | Open | |
 
 ### Other parts
@@ -143,6 +143,8 @@ Open items from the [XA mods](models/xa/mods/README.md). Each page also marks th
 | WD1 | Original base material on your table | Solid walnut, veneer, or vinyl, by era | Inspect; record the serial | Open | |
 | MC1 | Existing capacitor markings and dielectric | Values on manual p. 3; dielectric unknown | Read the part; record motor and serial | Open | |
 | MC2 | Replacement capacitor with a suitable AC rating | Not selected | Datasheet, for continuous mains use | Open | |
+| TM1 | Master4 hum on the XA | Not stated by Grado | Listen at the inner groove with the motor running | Open | |
+| TM2 | Counterweight balances the shell and Master4 | Not tested | Balance with the actual parts, before ordering | Open | |
 
 ## Recheck a source
 
