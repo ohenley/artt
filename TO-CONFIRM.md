@@ -137,6 +137,7 @@ Open items from the [XA mods](models/xa/mods/README.md). Each page also marks th
 | RJ2 | Chosen jack: panel hole, maximum panel, and insulation | See the [RCA jacks page](models/xa/mods/rca-jacks.md#parts) | Datasheet, then check on the part | Open | |
 | IE1 | Motor rated current and fuse value | Not recorded | Motor label, then choose the fuse | Open | |
 | IE2 | Whether the stock top plate is tied to signal ground | Not stated in any source read | Ohmmeter from the arm braid to the plate, before modifying | Open | |
+| RW1 | Your arm's color-to-pin map | AR sheet: green is left ground. Modern code: green is right ground | Ohmmeter from each pin to each post | Conflict | |
 
 ## Recheck a source
 
