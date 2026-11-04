@@ -147,6 +147,7 @@ Open items from the [XA mods](models/xa/mods/README.md). Each page also marks th
 | TM2 | Counterweight balances the shell and Master4 | Not tested | Balance with the actual parts, before ordering | Open | |
 | DC1 | JnB cover size, fixing, and clearance over the arm | Not published | Ask the maker, or measure one | Open | |
 | TB1 | Stock T-bar mass, thickness, spring and bearing positions | Not recorded | Balance and calipers | Open | |
+| SK1 | Kit stud length against plinth depth | 2 in listed; one report of other studs too long for a stock plinth | Measure the plinth depth | Open | |
 
 ## Recheck a source
 

@@ -15,3 +15,7 @@ Upgrades for anyone restoring an XA. Each page says if a mod also applies to the
 - [Headshell with top mounting holes](headshell-top-mount.md): Fit a Grado wood-body cartridge to the stock arm.
 - [Tall acrylic dust cover](dust-cover.md): Give the arm more clearance under the cover.
 - [Replacement armboard (T-bar)](armboard.md): Stiffen the link between the arm pivot and platter bearing.
+
+## Companion mods
+
+- [Suspension kit](suspension-kit.md): Replace tired springs and grommets.
