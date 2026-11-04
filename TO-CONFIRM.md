@@ -138,6 +138,8 @@ Open items from the [XA mods](models/xa/mods/README.md). Each page also marks th
 | IE1 | Motor rated current and fuse value | Not recorded | Motor label, then choose the fuse | Open | |
 | IE2 | Whether the stock top plate is tied to signal ground | Not stated in any source read | Ohmmeter from the arm braid to the plate, before modifying | Open | |
 | RW1 | Your arm's color-to-pin map | AR sheet: green is left ground. Modern code: green is right ground | Ohmmeter from each pin to each post | Conflict | |
+| VP1 | Jewel cup type, size, and fitting method | Not established | Inspect a converted arm, or ask a rebuilder | Open | |
+| VP2 | Who currently offers the pivot service | Unconfirmed. Vinyl Nirvana's page does not list the XA | Ask directly | Open | |
 
 ## Recheck a source
 
