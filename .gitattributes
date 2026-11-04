@@ -1,0 +1,10 @@
+*.md text eol=lf
+*.tsv text eol=lf
+*.scad text eol=lf
+*.py text eol=lf
+*.step text eol=lf
+*.stl text eol=lf
+*.dxf text eol=lf
+*.pdf binary
+*.tif binary
+*.jpg binary
