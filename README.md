@@ -9,6 +9,7 @@ A small, sourced workshop reference for the **XA, XB, and AR77XB**. Start with y
 | [AR77XB](models/ar77xb/README.md) | [Identification and fit questions](models/ar77xb/README.md#mechanical) | [What still needs a model-specific source](models/ar77xb/README.md#electrical) |
 
 - [**What it is and where it goes:** screws, the overhang gauge, and plain definitions](docs/what-goes-where.md)
+- [XA mods: upgrades, parts, and gotchas](models/xa/mods/README.md)
 - [Parts, makers, and community](parts/README.md)
 - [Part-by-part drawings and reproduction worklist](parts/reproduction.md)
 - [CAD models, machinist drawings, and STEP files](cad/README.md)

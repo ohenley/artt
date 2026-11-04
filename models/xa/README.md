@@ -1,6 +1,6 @@
 # AR XA
 
-[Home](../../README.md) · [Parts and makers](../../parts/README.md) · [Documents](../../docs/README.md)
+[Home](../../README.md) · [Parts and makers](../../parts/README.md) · [Documents](../../docs/README.md) · [Mods](mods/README.md)
 
 ## Mechanical
 

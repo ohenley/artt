@@ -4,6 +4,8 @@
 
 The XB has a separate cueing lift. The factory drawings below cover multiple XB configurations; check the drawing revision and fitted parts before ordering. The British **XB1** has its own [original operating manual](../../docs/originals/xb1-owners.pdf) and is not automatically equivalent to the AR77XB.
 
+Some [XA mods](../xa/mods/README.md) also apply to the XB; each page says so.
+
 ## Mechanical
 
 ### Factory hardware

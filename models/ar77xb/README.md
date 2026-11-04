@@ -4,6 +4,8 @@
 
 Search aliases: **AR77-XB, AR77 XB, AR77XB, XB77, XB-77**. These spellings help locate references; confirm the badge on the table. Keep **XB1** separate unless a document explicitly establishes compatibility.
 
+Some [XA mods](../xa/mods/README.md) may apply here. None is confirmed for the AR77XB.
+
 ## Mechanical
 
 | Item | What the evidence supports |

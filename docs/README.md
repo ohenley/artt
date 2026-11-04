@@ -51,6 +51,7 @@ Extracted hardware and electrical facts are on the [XB page](../models/xb/README
 | [Scott Hamrick's XA rewiring account](https://vinylnirvana.com/ar-turntable-resources/ar-diy-do-it-yourself/rewiring-an-ar-xa-tonearm) | Firsthand replacement-wire example. |
 | [Parts and community directory](../parts/README.md) | Direct supplier descriptions and firsthand restoration galleries, with model-fit limits. |
 | [XA counterweight/rest measurements by patrickhenrypdx](https://www.reddit.com/r/turntables/comments/1t5vqzh/ar_xa_tone_arm_counter_weight_tone_arm_rest/) | Firsthand dimensions, mass, and material reported for the owner's XA; [measurement record](../parts/xa-counterweight.md). No manufacturing tolerances supplied. |
+| [Gary Galo, "A Belt-Drive Turntable Upgrade", audioXpress](https://audioXpress.com/assets/upload/files/galo2931.pdf) | Connector plate, wiring, and grounding on a modified XA-based table, used by the [XA mods](../models/xa/mods/README.md). Not a stock XA. Link only; no local copy. |
 | [Roy Allison: Acoustic Research Inc., The Golden Years](https://vinylnirvana.com/ar-turntable-resources/ar-turntable-history/acoustic-research-inc-the-golden-years-by-roy-allison) | Firsthand manufacturing history, including early bearing-material and belt-production problems; useful context for reproductions. |
 
 ## Preservation

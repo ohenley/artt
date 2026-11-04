@@ -127,6 +127,13 @@ Measure an original shell and its retaining nut, and record the model and serial
 | GA5 | Overhang gauge width | 18 mm placeholder | Design freedom | Open | |
 | GA6 | Overhang gauge thickness | 3 mm placeholder | Check the spindle shoulder and arm height | Open | |
 
+## XA mods
+
+Open items from the [XA mods](models/xa/mods/README.md). Each page also marks these "to confirm on the part".
+
+| ID | What to confirm | Value now | How to check | Status | Result |
+| --- | --- | --- | --- | --- | --- |
+
 ## Recheck a source
 
 | ID | What to confirm | Why it is unconfirmed | Status | Result |
@@ -145,3 +152,5 @@ Measure an original shell and its retaining nut, and record the model and serial
 | SR12 | AR's 1990 public-domain release of the drawings | Stated by [Audio Appraisal](https://audioappraisal.com/acoustic-research-drawings-archive/); not independently established | Open | |
 | SR13 | Grado wood-body screw thread: [Vinyl Asylum](https://www.audioasylum.com/messages/vinyl/866913/psssst-hey-buddy-need-grado-cartridge-screws) (3-48), [Audiogon](https://forum.audiogon.com/discussions/grado-wood-bodies) (M2.6 or about 2 mm), and [a Reference Master thread](https://www.tapatalk.com/groups/daveyw/grado-reference-master-cartridge-fixing-t184.html) (2.5 mm) | HTTP 403 on 2026-11-04; seen only in search excerpts, none about the Master4, so GR1 stays a placeholder | Blocked | |
 | SR14 | Grado Master4 body wood | American Osage on [Grado's page](https://gradolabs.com/products/master4); Australian Jarrah on [one retailer's](https://soundapproach.com/grado-master4-timbre-series-turntable-phono-cartridge.html). Grado's own page is the stronger source, and this affects mass more than fit | Conflict | |
+| SR15 | AudioKarma threads on XA grounding and suspension | HTTP 403 on 2026-11-04, so not used for any value. Examples: [grounding problem](https://audiokarma.org/forums/threads/ar-xa-grounding-problem.787681/), [suspension spring upgrade](https://audiokarma.org/forums/threads/ar-xa-suspension-spring-upgrade.1102797/) | Blocked | |
+| SR16 | Date of Galo's "A Belt-Drive Turntable Upgrade" | [The PDF](https://audioXpress.com/assets/upload/files/galo2931.pdf) footers say 2008, the last says June 2005, and a mirror labels it July 2008 | Conflict | |
