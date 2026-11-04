@@ -141,6 +141,8 @@ Open items from the [XA mods](models/xa/mods/README.md). Each page also marks th
 | VP1 | Jewel cup type, size, and fitting method | Not established | Inspect a converted arm, or ask a rebuilder | Open | |
 | VP2 | Who currently offers the pivot service | Unconfirmed. Vinyl Nirvana's page does not list the XA | Ask directly | Open | |
 | WD1 | Original base material on your table | Solid walnut, veneer, or vinyl, by era | Inspect; record the serial | Open | |
+| MC1 | Existing capacitor markings and dielectric | Values on manual p. 3; dielectric unknown | Read the part; record motor and serial | Open | |
+| MC2 | Replacement capacitor with a suitable AC rating | Not selected | Datasheet, for continuous mains use | Open | |
 
 ## Recheck a source
 

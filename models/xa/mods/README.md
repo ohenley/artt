@@ -11,3 +11,4 @@ Upgrades for anyone restoring an XA. Each page says if a mod also applies to the
 - [Tonearm rewire](tonearm-rewire.md): Replace the aged arm wire, and record the pin map.
 - [Vertical pivot bearing upgrade](vertical-pivot-bearing.md): Use jewel cups for lower pivot friction.
 - [Hardwood plinth](hardwood-plinth.md): Replace a damaged or low-grade base with solid hardwood.
+- [Motor phase capacitor](motor-capacitor.md): Replace the aged motor capacitor with a new film part.
