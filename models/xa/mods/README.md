@@ -7,3 +7,4 @@ Upgrades for anyone restoring an XA. Each page says if a mod also applies to the
 ## Mods
 
 - [RCA jacks in the plinth](rca-jacks.md): Stop a stiff interconnect from loading the subchassis.
+- [IEC mains inlet in the plinth](iec-inlet.md): Fit a detachable, fused mains cord, with one star ground.

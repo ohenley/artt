@@ -185,8 +185,47 @@ def overhang():
     plt.close(fig)
 
 
+def grounding():
+    """Proposed scheme for the IEC inlet mod. Schematic; not built or tested."""
+    fig, ax = plt.subplots(figsize=(12, 6.2))
+    setup(ax, "Proposed ground scheme: one star point, nothing else bridged", (0, 100), (2, 58))
+
+    def box(x, y, w, h, text, color="#eef1f4"):
+        rect(ax, x, y, w, h, color)
+        ax.text(x + w / 2, y + h / 2, text, ha="center", va="center", fontsize=FONT)
+
+    def wire(points, color=INK, style="-", lw=2.0):
+        xs, ys = zip(*points)
+        ax.plot(xs, ys, color=color, linestyle=style, linewidth=lw, solid_capstyle="round")
+
+    box(3, 42, 19, 11, "IEC inlet\nearth pin", "#f6dedb")
+    box(34, 42, 22, 11, "Metal top plate")
+    box(38, 18, 24, 12, "GROUND POST\nstar point", "#fbeeb8")
+    box(3, 18, 19, 11, "Arm ground braid\nand T-bar")
+    box(76, 5, 21, 48, "Phono stage", "#dcecdc")
+    box(38, 5, 24, 7, "L and R jacks, insulated")
+
+    wire([(22, 47.5), (34, 47.5)], ACCENT)
+    ax.text(28, 49, "mains earth", ha="center", fontsize=9, color=ACCENT)
+    wire([(50, 42), (50, 30)])
+    ax.text(51, 36, "one link only", ha="left", fontsize=9)
+    wire([(22, 24), (38, 24)])
+    ax.text(30, 25.3, "signal ground", ha="center", fontsize=9)
+    wire([(62, 24), (76, 24)], style="--")
+    ax.text(69, 25.3, "ground lead:", ha="center", fontsize=9)
+    ax.text(69, 21.3, "test on and off", ha="center", fontsize=9)
+    wire([(62, 8.5), (76, 8.5)], GREY, lw=1.2)
+    ax.text(69, 9.8, "interconnects", ha="center", fontsize=9, color=GREY)
+    fig.text(0.5, 0.015, "Schematic. Proposed, not built or tested. Never lift mains earth to cure hum. L and R grounds meet only at the phono stage.",
+             ha="center", fontsize=9, color=GREY)
+    fig.tight_layout(rect=(0, 0.04, 1, 1))
+    fig.savefig(OUT / "grounding-scheme.png", dpi=130, bbox_inches="tight", pad_inches=0.15)
+    plt.close(fig)
+
+
 if __name__ == "__main__":
     OUT.mkdir(parents=True, exist_ok=True)
     mounting()
     hardware_set()
     overhang()
+    grounding()
