@@ -20,3 +20,4 @@ Upgrades for anyone restoring an XA. Each page says if a mod also applies to the
 
 - [Suspension kit](suspension-kit.md): Replace tired springs and grommets.
 - [Belt and machined pulley](belt-and-pulley.md): Restore speed accuracy and clean starts.
+- [Platter bearing clean and oil](platter-bearing.md): Clean, inspect the thrust ball, and oil the bearing.

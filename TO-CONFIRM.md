@@ -149,6 +149,7 @@ Open items from the [XA mods](models/xa/mods/README.md). Each page also marks th
 | TB1 | Stock T-bar mass, thickness, spring and bearing positions | Not recorded | Balance and calipers | Open | |
 | SK1 | Kit stud length against plinth depth | 2 in listed; one report of other studs too long for a stock plinth | Measure the plinth depth | Open | |
 | BP1 | Machined pulley for Haydon or Philips motors | None found; the listed one is Hurst only | Ask suppliers | Open | |
+| PB1 | XA main bearing parts and their positions | Parts 996 and 1092 are listed, positions unclear | Inspect during the clean | Open | |
 
 ## Recheck a source
 
