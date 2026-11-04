@@ -6,4 +6,4 @@ Upgrades for anyone restoring an XA. Each page says if a mod also applies to the
 
 ## Mods
 
-Pages are being added.
+- [RCA jacks in the plinth](rca-jacks.md): Stop a stiff interconnect from loading the subchassis.

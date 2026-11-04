@@ -133,6 +133,8 @@ Open items from the [XA mods](models/xa/mods/README.md). Each page also marks th
 
 | ID | What to confirm | Value now | How to check | Status | Result |
 | --- | --- | --- | --- | --- | --- |
+| RJ1 | Base wall thickness at the jack position | Not recorded | Calipers | Open | |
+| RJ2 | Chosen jack: panel hole, maximum panel, and insulation | See the [RCA jacks page](models/xa/mods/rca-jacks.md#parts) | Datasheet, then check on the part | Open | |
 
 ## Recheck a source
 
