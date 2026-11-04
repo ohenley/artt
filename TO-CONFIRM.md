@@ -140,6 +140,7 @@ Open items from the [XA mods](models/xa/mods/README.md). Each page also marks th
 | RW1 | Your arm's color-to-pin map | AR sheet: green is left ground. Modern code: green is right ground | Ohmmeter from each pin to each post | Conflict | |
 | VP1 | Jewel cup type, size, and fitting method | Not established | Inspect a converted arm, or ask a rebuilder | Open | |
 | VP2 | Who currently offers the pivot service | Unconfirmed. Vinyl Nirvana's page does not list the XA | Ask directly | Open | |
+| WD1 | Original base material on your table | Solid walnut, veneer, or vinyl, by era | Inspect; record the serial | Open | |
 
 ## Recheck a source
 
