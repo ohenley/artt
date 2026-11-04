@@ -22,3 +22,4 @@ Upgrades for anyone restoring an XA. Each page says if a mod also applies to the
 - [Belt and machined pulley](belt-and-pulley.md): Restore speed accuracy and clean starts.
 - [Platter bearing clean and oil](platter-bearing.md): Clean, inspect the thrust ball, and oil the bearing.
 - [Motor mounting grommets](motor-grommets.md): Soft-mount the motor; unproven, so measure first.
+- [Constrained-layer damping under the top plate](top-plate-damping.md): Reduce top plate ringing; unmeasured so far.
