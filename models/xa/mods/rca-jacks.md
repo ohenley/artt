@@ -6,6 +6,8 @@
 
 Stop the stiff interconnect from loading the floating subchassis. Thin tonearm wire runs from the arm to jacks fixed in the plinth, so any interconnect can be used. The idea also applies to the XB, whose [cable and terminal parts](../../xb/README.md#factory-component-identifiers) differ.
 
+Building all three plinth mods at once: see the [plinth rebuild](plinth-rebuild.md).
+
 ## Stock situation
 
 The stock cable leaves the base directly, and stock capacitance is known only for that cable: see [Wire and audio cable](../README.md#wire-and-audio-cable).

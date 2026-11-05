@@ -105,6 +105,7 @@ VIEWS = {
     "bottom": ((0, 0, -1), (1, 0, 0)),
     "right": ((1, 0, 0), (0, 1, 0)),
     "left": ((-1, 0, 0), (0, -1, 0)),
+    "rear": ((0, 1, 0), (-1, 0, 0)),
     "iso": ((1, -1, 0.8), (1, 1, 0)),
 }
 
@@ -438,11 +439,16 @@ def section_cut(shape, axis, position):
     lo, hi = box.CornerMin(), box.CornerMax()
     x0, y0, z0, x1, y1, z1 = lo.X(), lo.Y(), lo.Z(), hi.X(), hi.Y(), hi.Z()
     pad = 5.0
-    if axis != "y":
-        raise ValueError("Only sections on a Y plane are supported")
-    cutter = BRepPrimAPI_MakeBox(
-        gp_Pnt(x0 - pad, y0 - pad, z0 - pad), x1 - x0 + 2 * pad, position - y0 + pad, z1 - z0 + 2 * pad
-    ).Shape()
+    if axis == "y":
+        cutter = BRepPrimAPI_MakeBox(
+            gp_Pnt(x0 - pad, y0 - pad, z0 - pad), x1 - x0 + 2 * pad, position - y0 + pad, z1 - z0 + 2 * pad
+        ).Shape()
+    elif axis == "x":
+        cutter = BRepPrimAPI_MakeBox(
+            gp_Pnt(position, y0 - pad, z0 - pad), x1 - position + pad, y1 - y0 + 2 * pad, z1 - z0 + 2 * pad
+        ).Shape()
+    else:
+        raise ValueError("Only sections on an X or a Y plane are supported")
     cut = clean(BRepAlgoAPI_Cut(shape, cutter).Shape())
     faces = []
     explorer = TopExp_Explorer(cut, TopAbs_FACE)
@@ -452,13 +458,14 @@ def section_cut(shape, axis, position):
         if surface.GetType() == GeomAbs_Plane:
             normal = surface.Plane().Axis().Direction()
             location = surface.Plane().Location()
-            if abs(abs(normal.Y()) - 1) < 1e-6 and abs(location.Y() - position) < 1e-6:
+            along, where = (normal.Y(), location.Y()) if axis == "y" else (normal.X(), location.X())
+            if abs(abs(along) - 1) < 1e-6 and abs(where - position) < 1e-6:
                 faces.append(face)
         explorer.Next()
     return cut, faces
 
 
-def face_loops(face):
+def face_loops(face, axis="y"):
     loops = []
     wires = TopExp_Explorer(face, TopAbs_WIRE)
     while wires.More():
@@ -470,7 +477,7 @@ def face_loops(face):
             curve = BRepAdaptor_Curve(edge)
             params = np.linspace(curve.FirstParameter(), curve.LastParameter(), 2 if curve.GetType() == GeomAbs_Line else 25)
             pts = [curve.Value(float(t)) for t in params]
-            pts = [(p.X(), p.Z()) for p in pts]
+            pts = [(p.X() if axis == "y" else p.Y(), p.Z()) for p in pts]
             if edge.Orientation() == TopAbs_REVERSED:
                 pts.reverse()
             loop.extend(pts[:-1])
@@ -731,6 +738,7 @@ STACK_TOP = 272.0  # top of the view stack; labels above it stay inside the bord
 STACK_BOTTOM = 83.0  # lowest edge for the stack, above its title and the band
 VIEW_GAP = 28.0  # space between views, for dimensions and view titles
 EXTRAS_GAP = 44.0  # wider gap before the isometric and section column
+SECTION_VIEW = {"y": "front", "x": "right"}
 SECTION_INSET = 12.0  # moves a section clear of the bottom view's dimensions
 MARGIN_LEFT_VIEW = 22.0  # left margin when a left view is drawn
 MARGIN_NO_LEFT = 42.0  # left margin otherwise, leaving room for labels
@@ -744,14 +752,21 @@ def iso_scale(sizes, scale):
     return min(scale, ISO_MAX / max(sizes["iso"]))
 
 
-def layout_scale(sizes, views, sections):
+def view_scale_for(view, sizes, scale, view_scales):
+    """Sheet scale of one view. meta "view_scales" can enlarge a view: [["rear", 0.4]]."""
+    if view in view_scales:
+        return view_scales[view]
+    return iso_scale(sizes, scale) if view == "iso" else scale
+
+
+def layout_scale(sizes, views, sections, view_scales):
     """Largest standard scale that fits the views in the area above the title band."""
     area_w, extras_h = 405.0 - margin_for(views), 205.0
     stack_h = STACK_TOP - STACK_BOTTOM
     gap = VIEW_GAP
-    for scale in (20, 10, 5, 2, 1, 0.5):
+    for scale in (20, 10, 5, 2, 1, 0.5, 0.2, 0.1):
         def size(v):
-            s = iso_scale(sizes, scale) if v == "iso" else scale
+            s = view_scale_for(v, sizes, scale, view_scales)
             return sizes[v][0] * s, sizes[v][1] * s
 
         width = size("front")[0]
@@ -767,9 +782,11 @@ def layout_scale(sizes, views, sections):
         elif extras:
             width += max(size(v)[0] for v in extras) + EXTRAS_GAP
         height = size("front")[1]
-        for stacked in ("top", "bottom"):
+        for stacked in ("top", "bottom", "rear"):
             if stacked in views:
                 height += size(stacked)[1] + gap
+        if "rear" in views:
+            width = max(width, size("rear")[0])
         extra_h = 0 if "bottom" in views else sum(size(v)[1] for v in extras) + gap * (len(extras) - 1)
         if width <= area_w and height <= stack_h and extra_h <= extras_h:
             return scale
@@ -792,20 +809,22 @@ def main_sheet(meta, params, dims, shape, variant_label, volume):
     section_faces = {}
     for label, axis, position in section_specs:
         cut, faces = section_cut(shape, axis, position)
-        visible, hidden = hlr(cut, "front")
-        projected[label] = (visible, [], view_axes("front"))
+        visible, hidden = hlr(cut, SECTION_VIEW[axis])
+        projected[label] = (visible, [], view_axes(SECTION_VIEW[axis]))
         section_faces[label] = faces
         x0, x1, y0, y1 = bounds(visible)
         sizes[label] = (x1 - x0, y1 - y0)
 
     section_names = [s[0] for s in section_specs]
-    scale = layout_scale(sizes, view_names, section_names)
+    section_axis = {s[0]: s[1] for s in section_specs}
+    view_scales = dict(meta.get("view_scales", []))
+    scale = layout_scale(sizes, view_names, section_names, view_scales)
     sheet = Sheet()
     origin = {}
     area_top = 287.0
 
     def size(v):
-        s = iso_scale(sizes, scale) if v == "iso" else scale
+        s = view_scale_for(v, sizes, scale, view_scales)
         return sizes[v][0] * s, sizes[v][1] * s
 
     # Column positions, left to right.
@@ -830,6 +849,10 @@ def main_sheet(meta, params, dims, shape, variant_label, volume):
     if "bottom" in view_names:
         y -= gap + size("bottom")[1]
         origin["bottom"] = (front_x, y)
+    if "rear" in view_names:
+        # Below the stack and labeled, so it can carry its own scale.
+        y -= gap + size("rear")[1]
+        origin["rear"] = (front_x, y)
     if "left" in view_names:
         origin["left"] = (front_x - gap - size("left")[0], front_y)
     if "right" in view_names:
@@ -853,7 +876,7 @@ def main_sheet(meta, params, dims, shape, variant_label, volume):
         x0, x1, y0, y1 = bounds(visible + hidden)
         ox, oy = origin[name]
 
-        view_scale = iso_scale(sizes, scale) if name == "iso" else scale
+        view_scale = view_scale_for(name, sizes, scale, view_scales)
 
         def to_sheet(p, ox=ox, oy=oy, x0=x0, y0=y0, s=view_scale):
             return (ox + (p[0] - x0) * s, oy + (p[1] - y0) * s)
@@ -864,7 +887,7 @@ def main_sheet(meta, params, dims, shape, variant_label, volume):
             sheet.line([to_sheet(p) for p in line], "VISIBLE")
         if name in section_faces:
             for face in section_faces[name]:
-                sheet.hatches.append([[to_sheet(p) for p in loop] for loop in face_loops(face)])
+                sheet.hatches.append([[to_sheet(p) for p in loop] for loop in face_loops(face, section_axis[name])])
 
         _, ax_x, ax_y = axes
 
@@ -875,15 +898,26 @@ def main_sheet(meta, params, dims, shape, variant_label, volume):
         placers[name] = place
         box = (ox, ox + (x1 - x0) * view_scale, oy, oy + (y1 - y0) * view_scale)
         title = {"iso": "ISOMETRIC, FOR REFERENCE"}.get(name, name.upper())
+        if name in view_scales:
+            title = f"{title}, SCALE {scale_text(view_scale)}"
         if name in section_faces:
-            title = f"SECTION {name}-{name}, Y = {section_specs[section_names.index(name)][2]:g} mm"
+            position = section_specs[section_names.index(name)][2]
+            title = f"SECTION {name}-{name}, {section_axis[name].upper()} = {position:g} mm"
         sheet.text((box[0] + box[1]) / 2, oy - 4 if name == "iso" else oy - 13, title, 6.5, "center", "top", GREY, weight="bold")
-        projected[name] = (visible, hidden, axes, box)
+        projected[name] = (visible, hidden, axes, box, view_scale)
 
     if "top" in placers:
-        for label, _, position in section_specs:
-            _, x1_, _, _ = projected["top"][3]
-            x0_ = projected["top"][3][0]
+        for label, axis, position in section_specs:
+            x0_, x1_, y0_, y1_ = projected["top"][3]
+            if axis == "x":
+                # Cutting plane seen edge-on as a vertical line; arrows point at the kept half.
+                x_ = placers["top"]((position, 0, 0))[0]
+                sheet.line([(x_, y0_ - 7), (x_, y1_ + 7)], "CENTER", GREY)
+                for y_, direction in ((y0_ - 7, 1), (y1_ + 7, -1)):
+                    sheet.line([(x_, y_), (x_ - 5, y_)], "DIM")
+                    sheet.arrow((x_ - 5, y_), (-1, 0))
+                    sheet.text(x_ - 2.5, y_ - 1.2 * direction, label, 8, "center", "top" if direction > 0 else "bottom", weight="bold")
+                continue
             y_ = placers["top"]((0, position, 0))[1]
             sheet.line([(x0_ - 7, y_), (x1_ + 7, y_)], "CENTER", GREY)
             for x_, direction in ((x0_ - 7, 1), (x1_ + 7, -1)):
@@ -892,7 +926,7 @@ def main_sheet(meta, params, dims, shape, variant_label, volume):
                 sheet.text(x_ - 1.2 * direction, y_ + 2.5, label, 8, "right" if direction > 0 else "left", "center", weight="bold")
 
     for dim in dims:
-        draw_dim(sheet, dim, placers[dim[0]], params, projected[dim[0]][3], scale)
+        draw_dim(sheet, dim, placers[dim[0]], params, projected[dim[0]][3], projected[dim[0]][4])
 
     draw_frame(sheet, meta, params, variant_label, scale, volume)
     return sheet

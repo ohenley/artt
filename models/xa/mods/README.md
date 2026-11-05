@@ -11,6 +11,7 @@ Upgrades for an XA. Each page says if it also applies to the XB. **TBC** means t
 - [Tonearm rewire](tonearm-rewire.md): replace the aged arm wire, and record the pin map.
 - [Vertical pivot bearing upgrade](vertical-pivot-bearing.md): jewel cups for lower pivot friction.
 - [Hardwood plinth](hardwood-plinth.md): replace a damaged or low-grade base.
+- [Plinth rebuild](plinth-rebuild.md): one plinth carrying the RCA plate, ground post, IEC inlet, and terminal strip.
 - [Motor phase capacitor](motor-capacitor.md): replace the aged capacitor with a film part.
 - [Headshell with top mounting holes](headshell-top-mount.md): fit a Grado wood-body cartridge.
 - [Tall acrylic dust cover](dust-cover.md): more clearance over the arm.

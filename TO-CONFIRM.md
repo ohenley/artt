@@ -130,6 +130,48 @@ Measure an original shell and its retaining nut, and record the model and serial
 | GA5 | Overhang gauge width | 18 mm placeholder | Design freedom | Open | |
 | GA6 | Overhang gauge thickness | 3 mm placeholder | Check the spindle shoulder and arm height | Open | |
 
+### Plinth
+
+Rows for the [plinth model](cad/parts/xa-plinth.scad) and the [plinth rebuild](models/xa/mods/plinth-rebuild.md). Measure an original base with the top plate off.
+
+| ID | What to confirm | Value now | How to check | Status | Result |
+| --- | --- | --- | --- | --- | --- |
+| PL10 | Outside length | 425 mm, Owner report | Rule, on the base alone | Open | |
+| PL11 | Outside width | 324 mm, Owner report | Rule, on the base alone | Open | |
+| PL12 | Base height, no feet | 110 mm, placeholder | Calipers or rule | Open | |
+| PL13 | Wall thickness, front and rear | 19 mm, placeholder | Calipers | Open | |
+| PL14 | Wall thickness, sides | 19 mm, placeholder | Calipers | Open | |
+| PL15 | Top rebate depth | 3 mm, placeholder | Calipers; the top plate thickness | Open | |
+| PL16 | Top rebate ledge width | 10 mm, placeholder | Calipers | Open | |
+| PL17 | Bottom panel thickness; also its rebate width | 6 mm, placeholder | Calipers | Open | |
+| PL18 | Bottom panel rebate depth | 6 mm, placeholder | Calipers | Open | |
+| PL19 | Corner block size | 25 mm, placeholder | Calipers | Open | |
+| PL20 | Corner block height | 60 mm, placeholder | Calipers | Open | |
+| PL21 | Foot hole diameter | 6 mm, placeholder | Datasheet of the feet | Open | |
+| PL22 | Foot inset from each corner of the bottom panel | 30 mm, placeholder | Rule | Open | |
+| PL30 | RCA cutout: window width | 105 mm, Owner report | Calipers on your plate | Open | |
+| PL31 | RCA cutout: window height | 35 mm, Owner report | Calipers on your plate | Open | |
+| PL32 | RCA cutout: center X from base center | 100 mm, placeholder | Rule; see PL60 and PL61 | Open | |
+| PL33 | RCA cutout: center Z from bottom | 55 mm, placeholder | Rule | Open | |
+| PL34 | Ground post hole diameter | 6.5 mm, placeholder | Calipers on the post | Open | |
+| PL35 | Ground post X from RCA window center | 70 mm, placeholder | Rule; clear of the plate and the corner block | Open | |
+| PL36 | Plate screw hole diameter | 3.2 mm, design choice | Calipers on the screws | Open | |
+| PL37 | Plate screw offset outside each window corner | 8 mm, design choice | Calipers on your plate | Open | |
+| PL40 | IEC cutout width | 27.5 mm, common part | Datasheet | Open | |
+| PL41 | IEC cutout height | 31 mm, common part | Datasheet | Open | |
+| PL42 | IEC cutout center X from base center | -120 mm, placeholder | Rule; see PL60 and PL61 | Open | |
+| PL43 | IEC cutout center Z from bottom | 55 mm, placeholder | Rule | Open | |
+| PL44 | IEC mounting hole spacing | 40 mm, common part | Datasheet | Open | |
+| PL45 | IEC mounting hole diameter | 3.2 mm, placeholder | Datasheet | Open | |
+| PL50 | Terminal strip position X | 0 mm, placeholder | Rule, from the stock strip | Open | |
+| PL51 | Terminal strip position Y, from the rear wall inside face | 30 mm, placeholder | Rule | Open | |
+| PL52 | Terminal strip mounting hole diameter | 2.5 mm, placeholder | Calipers on the strip screws | Open | |
+| PL53 | Terminal strip mounting hole spacing | 50 mm, placeholder | Calipers on the strip | Open | |
+| PL60 | Closest approach of the T-bar to each wall | Not recorded | Rule, with the subchassis pushed to each side | Open | |
+| PL61 | Closest approach of the motor to the rear wall | Not recorded | Rule | Open | |
+| PL62 | Top plate screw positions | Not recorded | Rule, from two edges of the top plate | Open | |
+| PL63 | Stock cable exit hole position and diameter | Not recorded | Rule and calipers | Open | |
+
 ## XA mods
 
 Open items from the [XA mods](models/xa/mods/README.md), marked TBC on each page.

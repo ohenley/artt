@@ -6,6 +6,8 @@
 
 Replace a damaged or low-grade base with solid hardwood. Vinyl Nirvana says early XA bases had solid walnut sides, then walnut veneer, then a walnut-look vinyl. Chipboard is reported for the XB and AR77XB, so the mod applies to them too.
 
+Building all three plinth mods at once: see the [plinth rebuild](plinth-rebuild.md).
+
 ## Stock situation
 
 Only the overall envelope is known: see [Dimensions and arm geometry](../README.md#dimensions-and-arm-geometry) and the [part index](../../../parts/reproduction.md#body-and-cover).

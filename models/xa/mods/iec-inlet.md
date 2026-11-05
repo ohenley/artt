@@ -6,6 +6,8 @@
 
 Fit a detachable mains cord. This mod works on mains voltage. The idea also applies to the XB.
 
+Building all three plinth mods at once: see the [plinth rebuild](plinth-rebuild.md).
+
 ## Stock situation
 
 The manual's diagrams show a two-pin plug and no fuse: see [Historical capacitor values](../README.md#historical-capacitor-values) and the [XA service manual, p. 3](../../../docs/originals/xa-service-manual.pdf). The [XB parts list](../../xb/README.md#factory-component-identifiers) has no fuse item either.
