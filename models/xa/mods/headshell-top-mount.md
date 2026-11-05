@@ -19,7 +19,7 @@ Fit a Grado Master4 to the stock arm. Its screws enter from the top, into the ca
 
 ## New shell
 
-A shell in clear acrylic (PMMA) with two recessed slots on top and a pocket underneath for the cartridge. [Drawing](../../../cad/exports/headshell-pmma-top-mount/PRELIMINARY-headshell-pmma-top-mount.pdf) · [STEP](../../../cad/exports/headshell-pmma-top-mount/PRELIMINARY-headshell-pmma-top-mount.step) · [Source](../../../cad/parts/headshell-pmma-top-mount.scad). 21 dimensions are placeholders: rows GR and HD in the confirmation list.
+A shell in clear acrylic (PMMA) with two recessed slots on top and a pocket underneath for the cartridge. [Drawing](../../../cad/exports/headshell-pmma-top-mount/PRELIMINARY-headshell-pmma-top-mount.pdf) · [STEP](../../../cad/exports/headshell-pmma-top-mount/PRELIMINARY-headshell-pmma-top-mount.step) · [Source](../../../cad/parts/headshell-pmma-top-mount.scad). 23 dimensions are placeholders: rows GR and HD in the confirmation list.
 
 | Item | Value |
 | --- | --- |
@@ -50,6 +50,7 @@ A shell in clear acrylic (PMMA) with two recessed slots on top and a pocket unde
 - **Do not overtighten.** A review of the Opus3 warns that wood bodies may not take many cycles of screw insertion.
 - **Check record clearance.** The stylus sits only a few millimeters below the shell's underside.
 - **A thin acrylic finger lift breaks.** Measure the stock lift, and make the new one thicker.
+- **The finger lift is flat in plan with an outward arc, not swept downward like the original.** A downward sweep is a 3D contour and costs a second CNC setup.
 - **Grados can pick up hum.** Galo needed hum shielding for an unshielded Grado Signature 10MR. Grado's Master4 page does not cover this.
 - **It needs three machining setups:** the top, the bottom, and the neck end. Published minimum PMMA walls range from 0.5 to 1.0 mm; plan for 1.0 mm.
 

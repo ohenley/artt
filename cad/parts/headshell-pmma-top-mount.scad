@@ -4,7 +4,8 @@
 // body, neck, thread, pins, and key are all placeholders here. The layout comes
 // from the exploded view on p. 4 of the XA service manual: a box open underneath,
 // a round rear neck with contact pins, a knurled retaining nut on the arm, and
-// a finger lift. Do not order this until the PH rows are measured.
+// a curved finger lift on one side wall near the front (item 20). Do not
+// order this until the PH rows are measured.
 //
 // Axes: X along the shell with the neck at +X, Y across, Z up. z = 0 is the
 // open underside of the body.
@@ -42,9 +43,13 @@ P = [
     ["HD14", "Contact-pin hole diameter", 1.6, "PH", "mm", "Set from the pins chosen"],
 
     // Finger lift.
-    ["HD16", "Finger-lift length past the front", 12, "PH", "mm", "Calipers on an original shell"],
+    // An arc in plan, constant thickness in Z, so it is cut in the top setup.
     ["HD17", "Finger-lift width", 6, "PH", "mm", "Calipers on an original shell"],
     ["HD18", "Finger-lift thickness", 2.5, "PH", "mm", "PMMA is brittle; a thin tab can snap"],
+    ["HD22", "Lift arc inner radius", 10, "PH", "mm", "Trace the lift of an original shell in plan"],
+    ["HD23", "Lift root position from the front face", 4, "PH", "mm", "Calipers on an original shell"],
+    ["HD24", "Lift arc sweep angle", 70, "PH", "deg", "Trace the lift of an original shell in plan"],
+    ["HD25", "Lift side: +1 or -1", 1, "D", "", "Outer side, away from the platter. Right wall when facing the front on an XA. Confirm on an original shell"],
 ];
 
 spacing = pv(P, "GR0");
@@ -70,13 +75,80 @@ neck_z = pv(P, "HD12");
 pin_c = pv(P, "HD13");
 pin_d = pv(P, "HD14");
 
-lift_l = pv(P, "HD16");
 lift_w = pv(P, "HD17");
 lift_t = pv(P, "HD18");
+lift_r = pv(P, "HD22");
+lift_x = pv(P, "HD23");
+lift_a = pv(P, "HD24");
+lift_side = pv(P, "HD25");
 
 pocket_l = body_l - wall_f - wall_r;
 pocket_x = (wall_f - wall_r) / 2;
 pocket_h = body_h - top_t;
+
+// Finger lift. Local frame: u along X, v outward from the side wall. The lift
+// is an annular arc whose outer surface is tangent to the wall at the root and
+// curls outward toward the front. Both inside corners at the root get a
+// fillet of the cutter radius HD8.
+lift_ys = -lift_side;                 // +1 side is the right wall seen from the front: model -Y
+lift_ro = lift_r + lift_w;            // outer radius
+lift_f = r_pocket;                    // root fillet radius
+lift_u0 = -body_l / 2 + lift_x;       // root
+lift_c = [lift_u0, lift_ro - EPS];    // arc center
+lift_k = [-body_l / 2 + r_body, -r_body];   // body corner center
+lift_out = lift_c[1] - lift_r * cos(min(lift_a, 90));   // farthest reach from the wall
+
+function dist(a, b) = norm(a - b);
+// The intersection of two circles that lies farther toward the front.
+function meet(c1, r1, c2, r2) =
+    let (d = dist(c1, c2), a = (r1 * r1 - r2 * r2 + d * d) / (2 * d),
+         h = sqrt(r1 * r1 - a * a), u = (c2 - c1) / d,
+         m = c1 + a * u, n = [-u[1], u[0]] * h)
+    (m + n)[0] < (m - n)[0] ? m + n : m - n;
+
+// Front fillet center: tangent to the lift and to the wall, or to the body's
+// corner radius when the lift leaves the wall too close to the front.
+lift_on_wall = lift_u0 - sqrt(pow(lift_ro + lift_f, 2) - pow(lift_c[1] - lift_f, 2));
+lift_wall_case = lift_on_wall >= lift_k[0];
+lift_fc = lift_wall_case ? [lift_on_wall, lift_f]
+                         : meet(lift_k, r_body + lift_f, lift_c, lift_ro + lift_f);
+// Fill between the lift and the body, as far as the fillet's tangent line.
+lift_fill = [
+    lift_wall_case ? [lift_on_wall, -1] : lift_k,
+    lift_fc,
+    lift_c + (lift_fc - lift_c) * (lift_ro - 1) / (lift_ro + lift_f),
+    [lift_u0, -1],
+];
+// Angle of the front fillet's tangent point, from the root: it must lie on the lift.
+lift_fa = atan2(lift_c[0] - lift_fc[0], lift_c[1] - lift_fc[1]);
+assert(lift_fa < lift_a, "HD24 is too small for the root fillet");
+assert(lift_f < lift_w, "HD8 must be smaller than HD17");
+
+function lift_xy(p) = [p[0], lift_ys * (body_w / 2 + p[1])];
+function lift_poly(pts) = lift_ys > 0 ? [for (p = pts) lift_xy(p)]
+                                      : [for (i = [len(pts) - 1 : -1 : 0]) lift_xy(pts[i])];
+
+module finger_lift() {
+    translate([0, 0, body_h - lift_t]) {
+        // The arc.
+        translate(lift_xy(lift_c))
+            rotate([0, 0, lift_ys > 0 ? 270 - lift_a : 90])
+                rotate_extrude(angle = lift_a)
+                    polygon([[lift_r, 0], [lift_ro, 0], [lift_ro, lift_t], [lift_r, lift_t]]);
+        // Front fillet.
+        difference() {
+            linear_extrude(height = lift_t) polygon(lift_poly(lift_fill));
+            translate(concat(lift_xy(lift_fc), [-1])) cylinder(r = lift_f, h = lift_t + 2);
+        }
+        // Rear fillet.
+        difference() {
+            linear_extrude(height = lift_t)
+                polygon(lift_poly([[lift_u0 - 0.5, -1], [lift_u0 - 0.5, lift_f],
+                                   [lift_u0 + lift_f, lift_f], [lift_u0 + lift_f, -1]]));
+            translate(concat(lift_xy([lift_u0 + lift_f, lift_f]), [-1])) cylinder(r = lift_f, h = lift_t + 2);
+        }
+    }
+}
 
 module part() {
     difference() {
@@ -85,9 +157,8 @@ module part() {
             // Neck, overlapping into the rear wall.
             translate([body_l / 2 - 1, 0, neck_z])
                 rotate([0, 90, 0]) cylinder(d = neck_d, h = neck_l + 1);
-            // Finger lift at the front, flush with the top.
-            translate([-body_l / 2 - lift_l, -lift_w / 2, body_h - lift_t])
-                cube([lift_l + 1, lift_w, lift_t]);
+            // Finger lift on a side wall, flush with the top.
+            finger_lift();
         }
         // Cartridge pocket, open underneath.
         translate([pocket_x, 0, -1]) rr_prism(pocket_l, pocket_w, pocket_h + 1, r_pocket);
@@ -111,7 +182,7 @@ emit(
         ["scope", "New design for a Grado Master4. Layout from the XA service manual, p. 4. Not an AR dimension set"],
         ["material", "PMMA (acrylic), cast grade preferred"],
         ["density", 1.18],
-        ["make", "Mill from two sides, plus the end face for the neck. Print a test piece first"],
+        ["make", "Mill from the top, the bottom, and the neck end. The lift is cut in the top setup. Print a test piece first"],
         ["views", ["front", "top", "bottom", "right", "left", "iso"]],
         ["sections", [["A", "y", 6.35]]],
         ["notes", [
@@ -129,20 +200,24 @@ emit(
         ["front", "v", [-body_l / 2, 0, 0], [-body_l / 2, 0, body_h], -9, "HD3"],
         ["front", "h", [body_l / 2, 0, neck_z], [body_l / 2 + neck_l, 0, neck_z], 9, "HD11"],
         ["front", "v", [body_l / 2 + neck_l, 0, 0], [body_l / 2 + neck_l, 0, neck_z], 9, "HD12"],
-        ["front", "h", [-body_l / 2 - lift_l, 0, body_h], [-body_l / 2, 0, body_h], 9, "HD16"],
         ["front", "cl", [body_l / 2 - 3, 0, neck_z], [body_l / 2 + neck_l + 2, 0, neck_z]],
         ["top", "v", [body_l / 2, -body_w / 2, 0], [body_l / 2, body_w / 2, 0], 22, "HD2"],
         ["top", "v", [slot_x, -spacing / 2, 0], [slot_x, spacing / 2, 0], 9, "GR0"],
         ["top", "h", [slot_x - slot_c / 2, body_w / 2, 0], [slot_x + slot_c / 2, body_w / 2, 0], 9, "GR4"],
         ["top", "d", [slot_x + slot_c / 2, spacing / 2, 0], rec_w / 2, 13, "GR2", "W ", 50],
         ["top", "d", [slot_x - slot_c / 2, spacing / 2, 0], slot_w / 2, 13, "GR1", "W ", 135],
-        ["top", "h", [0, -body_w / 2, 0], [slot_x, -body_w / 2, 0], -9, "GR5", "", "from body center"],
+        ["bottom", "h", [0, lift_ys * body_w / 2, 0], [slot_x, lift_ys * body_w / 2, 0], -lift_ys * 9, "GR5", "", "from body center"],
+        // Lift, in plan. Labels sit to the front of the arc center, clear of the other dimensions.
+        ["top", "r", concat(lift_xy(lift_c), [0]), lift_r, lift_ys > 0 ? 270 - lift_a / 4 : 90 + lift_a / 4, "HD22", -17, -lift_ys * 3.5, "right"],
+        ["top", "a", concat(lift_xy(lift_c), [0]), lift_r - 3, lift_ys > 0 ? 270 - lift_a : 90, lift_ys > 0 ? 270 : 90 + lift_a, "HD24", -17, 0, "right"],
+        ["top", "h", [-body_l / 2, lift_ys * body_w / 2, 0], [lift_u0, lift_ys * body_w / 2, 0], lift_ys * 9, "HD23"],
         ["bottom", "v", [body_l / 2, -pocket_w / 2, 0], [body_l / 2, pocket_w / 2, 0], 9, "GR6"],
         ["bottom", "h", [-body_l / 2, body_w / 2, 0], [-body_l / 2 + wall_f, body_w / 2, 0], -9, "HD5"],
         ["bottom", "h", [body_l / 2 - wall_r, body_w / 2, 0], [body_l / 2, body_w / 2, 0], -9, "HD6"],
         ["right", "d", [0, 0, neck_z], neck_d / 2, 9, "HD10", "Ø", 60],
         ["right", "d", [0, pin_c / 2 * cos(315), neck_z + pin_c / 2 * sin(315)], pin_d / 2, 9, "HD14", "Ø", 300],
-        ["left", "h", [-lift_w / 2, 0, 0], [lift_w / 2, 0, 0], -9, "HD17"],
+        ["right", "h", [0, lift_ys * body_w / 2, body_h], [0, lift_ys * (body_w / 2 + lift_w), body_h], 16, "HD17"],
+        ["right", "v", [0, lift_ys * (body_w / 2 + lift_out), body_h - lift_t], [0, lift_ys * (body_w / 2 + lift_out), body_h], lift_ys * 9, "HD18"],
         ["A", "v", [body_l / 2, 0, pocket_h], [body_l / 2, 0, body_h], 9, "HD4"],
         ["A", "v", [-body_l / 2, 0, body_h - rec_d], [-body_l / 2, 0, body_h], -9, "GR3"],
     ]

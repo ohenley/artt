@@ -106,12 +106,15 @@ Measure an original shell and its retaining nut, and record the model and serial
 | HD13 | Contact-pin circle | 5.5 mm placeholder | Loupe or calipers; shell and arm socket | Open | |
 | HD14 | Contact-pin hole | 1.6 mm placeholder | Set from the pins chosen | Open | |
 | HD15 | Neck thread for the knurled nut | Not modeled | Thread gauge; measure the nut too | Open | |
-| HD16 | Finger-lift length | 12 mm placeholder | Calipers | Open | |
 | HD17 | Finger-lift width | 6 mm placeholder | Calipers | Open | |
 | HD18 | Finger-lift thickness | 2.5 mm placeholder | Calipers; must suit PMMA | Open | |
 | HD19 | Neck key or locating feature | Not modeled; the exploded view shows a notched part, item 21a | Inspect and photograph | Open | |
 | HD20 | Pin count, type, and spring travel | Four contacts in the arm receptacle, per Hamrick; four wires per AR sheet L-1591; Pat's Audio advertises spring-loaded pins | Inspect the shell and arm socket; find a source for pins | Open | |
 | HD21 | Original shell mass, with hardware | Not recorded | Balance; needed to judge the counterweight | Open | |
+| HD22 | Lift arc inner radius | 10 mm placeholder | Trace the original lift in plan | Open | |
+| HD23 | Lift root position from the front face | 4 mm placeholder | Calipers | Open | |
+| HD24 | Lift arc sweep angle | 70° placeholder | Trace the original lift in plan | Open | |
+| HD25 | Lift side | +1 design choice: outer side, away from the platter; right wall when facing the front on an XA | Inspect an original shell | Open | |
 
 ### Other parts
 

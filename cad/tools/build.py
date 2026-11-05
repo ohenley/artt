@@ -592,6 +592,10 @@ def format_value(row):
     value_mm, unit = row[2], row[4]
     if unit == "in":
         return f"{value_mm / 25.4:.3f} in ({value_mm:.2f})"
+    if unit == "deg":
+        return f"{value_mm:g} deg"
+    if unit == "":
+        return f"{value_mm:g}"
     return f"{value_mm:g} mm ({value_mm / 25.4:.3f} in)"
 
 
@@ -618,10 +622,53 @@ def draw_leader(sheet, dim, place, params, box, scale):
     sheet.text(end[0] + side * 0.8, target_y, label, 6.2, "left" if side > 0 else "right", "center", color)
 
 
+def draw_arc_dim(sheet, dim, place, params):
+    """Radius or angle of an arc in the XY plane. The label sits beside the arc center.
+
+    Radius: [view, "r", center, radius, at_deg, id, dx, dy, ha].
+    Angle:  [view, "a", center, radius, start_deg, end_deg, id, dx, dy, ha].
+    dx and dy move the label from the center, in sheet mm.
+    """
+    kind, center, radius = dim[1], dim[2], dim[3]
+    param_id, dx, dy, ha = dim[5:9] if kind == "r" else dim[6:10]
+    row = params[param_id]
+    placeholder = row[3] == "PH"
+    color = RED if placeholder else INK
+
+    def at(angle, r):
+        a = math.radians(angle)
+        return place((center[0] + r * math.cos(a), center[1] + r * math.sin(a), center[2]))
+
+    def unit(tip, back):
+        length = math.hypot(tip[0] - back[0], tip[1] - back[1])
+        return ((tip[0] - back[0]) / length, (tip[1] - back[1]) / length)
+
+    origin = place(center)
+    if kind == "r":
+        tip = at(dim[4], radius)
+        sheet.line([origin, tip], "DIM", color)
+        sheet.arrow(tip, unit(tip, origin), color)
+        prefix = "R"
+    else:
+        start, end = dim[4], dim[5]
+        for angle in (start, end):
+            sheet.line([origin, at(angle, radius + 2)], "DIM", color)
+        arc = [at(start + (end - start) * i / 24, radius) for i in range(25)]
+        sheet.line(arc, "DIM", color)
+        sheet.arrow(arc[0], unit(arc[0], arc[1]), color)
+        sheet.arrow(arc[-1], unit(arc[-1], arc[-2]), color)
+        prefix = ""
+    label = f"{prefix}{format_value(row)}  {param_id}{' PH' if placeholder else ''}"
+    sheet.text(origin[0] + dx, origin[1] + dy, label, 6.2, ha, "center", color)
+
+
 def draw_dim(sheet, dim, place, params, box, scale):
     kind = dim[1]
     if kind == "d":
         draw_leader(sheet, dim, place, params, box, scale)
+        return
+    if kind in ("r", "a"):
+        draw_arc_dim(sheet, dim, place, params)
         return
     a, b = dim[2], dim[3]
     pa, pb = place(a), place(b)

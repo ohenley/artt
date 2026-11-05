@@ -12,7 +12,7 @@ One OpenSCAD file per part, with a drawing and exports built from it. For what e
 | Set screw, #4-40 | Reference; buy it | [PDF](exports/set-screw-4-40/set-screw-4-40.pdf) | Not for machining | [scad](parts/set-screw-4-40.scad) |
 | XA counterweight | Preliminary: 3 placeholders | [PDF](exports/xa-counterweight/PRELIMINARY-xa-counterweight.pdf) | [STEP](exports/xa-counterweight/PRELIMINARY-xa-counterweight.step) | [scad](parts/xa-counterweight.scad) |
 | Overhang gauge | Preliminary: 5 placeholders; new design | [PDF](exports/overhang-gauge/PRELIMINARY-overhang-gauge.pdf) | [STEP](exports/overhang-gauge/PRELIMINARY-overhang-gauge.step), with 1:1 cutting DXF | [scad](parts/overhang-gauge.scad) |
-| [PMMA headshell](../models/xa/mods/headshell-top-mount.md), top-mount Grado Master4 | Concept: 21 placeholders; new design | [PDF](exports/headshell-pmma-top-mount/PRELIMINARY-headshell-pmma-top-mount.pdf) | [STEP](exports/headshell-pmma-top-mount/PRELIMINARY-headshell-pmma-top-mount.step) | [scad](parts/headshell-pmma-top-mount.scad) |
+| [PMMA headshell](../models/xa/mods/headshell-top-mount.md), top-mount Grado Master4 | Concept: 23 placeholders; new design | [PDF](exports/headshell-pmma-top-mount/PRELIMINARY-headshell-pmma-top-mount.pdf) | [STEP](exports/headshell-pmma-top-mount/PRELIMINARY-headshell-pmma-top-mount.step) | [scad](parts/headshell-pmma-top-mount.scad) |
 
 Files for a part with placeholders start with `PRELIMINARY-`. Every placeholder is a row in [TO-CONFIRM.md](../TO-CONFIRM.md#cad-dimensions-needed).
 
