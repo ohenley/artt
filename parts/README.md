@@ -25,5 +25,3 @@ Original cartridge screws and spacers: [What it is and where it goes](../docs/wh
 | [John's XA restoration, 2009](https://www.johnsweather.com/Turntable1.html) | Disassembly photographs (Owner report) |
 | [John's second XA restoration, 2012](https://www.johnsweather.com/Turntable.html) | Wiring, arm work, refinishing (Owner report) |
 | [Audio Appraisal AR drawing archive](https://audioappraisal.com/acoustic-research-drawings-archive/) | Factory scans, including XB assembly changes |
-
-No licensed third-party CAD or STL file is listed. The repository's own models are in [cad](../cad/README.md).

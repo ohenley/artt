@@ -43,5 +43,5 @@ Vinyl Nirvana has an [install video](https://vinylnirvana.com/ar-turntable-resou
 
 - [Vinyl Nirvana upgrade kit](https://vinylnirvana.com/product/upgrade-spring-kit-for-ar-turntables-xa-xb-xb-77) and [heavy duty kit](https://vinylnirvana.com/product/heavy-duty-spring-kit-for-ar-turntables). Maker claim.
 - [XA service manual, p. 2](../../../docs/originals/xa-service-manual.pdf). Factory.
-- [XB drawing 119, note 13](../../../docs/originals/xb-drawing-119.tif). Factory.
+- [XB drawing 119, note 13](../../../docs/drawings/xb-drawing-119.png). Factory.
 - [Vinyl Nirvana: Replacing an AR XA Tonearm with a Mayware Formula 4](https://vinylnirvana.com/ar-turntable-resources/ar-diy-do-it-yourself/replacing-an-ar-xa-tonearm-with-a-mayware-formula-4-mkiii). Owner report.

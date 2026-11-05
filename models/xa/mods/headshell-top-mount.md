@@ -67,7 +67,7 @@ A shell in clear acrylic (PMMA) with two recessed slots on top and a pocket unde
 
 - [XA service manual, p. 4](../../../docs/originals/xa-service-manual.pdf). Factory.
 - [AR sheet L-1591](../../../docs/originals/ar-cartridge-mount.jpg). Factory.
-- [XB drawing 119](../../../docs/originals/xb-drawing-119.tif). Factory.
+- [XB drawing 119](../../../docs/drawings/xb-drawing-119.png). Factory.
 - [Scott Hamrick, "Rewiring an AR XA Tonearm"](https://vinylnirvana.com/ar-turntable-resources/ar-diy-do-it-yourself/rewiring-an-ar-xa-tonearm). Owner report.
 - [Grado Master4](https://gradolabs.com/products/master4). Maker claim.
 - [Pat's Audio XA/XB headshell](https://www.patsaudioparts.com/single-post/AR-XA-XB-Headshell). Maker claim.

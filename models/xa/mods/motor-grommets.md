@@ -40,4 +40,4 @@ Two screws hold the motor to the top plate, with no motor grommet in the parts l
 ## Sources
 
 - [XA service manual, pp. 1, 2, and 4](../../../docs/originals/xa-service-manual.pdf). Factory.
-- [XB drawing 119, note 12](../../../docs/originals/xb-drawing-119.tif). Factory.
+- [XB drawing 119, note 12](../../../docs/drawings/xb-drawing-119.png). Factory.

@@ -11,10 +11,10 @@ Part index for the XA, XB, and AR77XB. A row is a worklist entry, not a drawing.
 | Part | Possible making method | Evidence | Needed |
 | --- | --- | --- | --- |
 | Wooden base / plinth | Woodworking or CNC routing | Assembly only; [XA envelope](../models/xa/README.md#dimensions-and-arm-geometry) | Wall sections, rebates, fixing positions, finish |
-| Metal top plate | Cut and drill sheet; form | Assembly only; [XB drawing 119](../docs/originals/xb-drawing-119.tif) | Hole pattern, thickness, material, edges |
+| Metal top plate | Cut and drill sheet; form | Assembly only; [XB drawing 119](../docs/drawings/xb-drawing-119.png) | Hole pattern, thickness, material, edges |
 | Bottom panel | Cut sheet and drill | Assembly only, XB | Outline, thickness, attachment, cable exit |
 | Dust cover | Cut, bend, or bond acrylic | Dimensioned in part; [XB hinge detail](../models/xb/README.md#cover-dimensions-and-clearance) | Shape, thickness, lip, corners, clearances by version |
-| Hinges and brackets | Form sheet or machine | Dimensioned in part; [XB drawing 114](../docs/originals/xb-drawing-114.tif). Later XB revisions delete hinges | Hinge mechanism, pin fits |
+| Hinges and brackets | Form sheet or machine | Dimensioned in part; [XB drawing 114](../docs/drawings/xb-drawing-114.png). Later XB revisions delete hinges | Hinge mechanism, pin fits |
 | Feet / pads | Cut or mold | Felt feet on the XB BOM | Footprint, thickness, material |
 | Badges / bezels | Engrave, print, or cut | Assembly only | Geometry, artwork, attachment |
 

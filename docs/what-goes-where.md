@@ -38,7 +38,7 @@ A template that checks how far the needle reaches past the record's center. That
 
 ![Overhang is the distance by which the needle passes the spindle; the gauge has a big hole for the spindle and a small hole for the needle](images/overhang.png)
 
-An arm swings in an arc, so the needle cannot stay in line with the groove. The right overhang keeps that error low. AR arm: **0.688 in (17.48 mm)** (Factory, [Villchur 1962, p. 69](originals/villchur-1962-part-1.pdf)), ± 0.030 in on the XB (Factory, [drawing 119](originals/xb-drawing-119.tif), note 10). Check it after fitting a new cartridge or shell.
+An arm swings in an arc, so the needle cannot stay in line with the groove. The right overhang keeps that error low. AR arm: **0.688 in (17.48 mm)** (Factory, [Villchur 1962, p. 69](originals/villchur-1962-part-1.pdf)), ± 0.030 in on the XB (Factory, [drawing 119](drawings/xb-drawing-119.png), note 10). Check it after fitting a new cartridge or shell.
 
 1. Drop the big hole over the spindle, with the small hole on the line toward the arm's pivot.
 2. Lower the needle gently. It should land in the small hole.
@@ -48,7 +48,7 @@ AR supplied a gauge: "Overhang Template", part 914, on the XA, and P/N 402001 on
 
 ## Every screw, by job
 
-XA column: Factory, [XA service manual](originals/xa-service-manual.pdf). XB column: Factory, [drawing 119](originals/xb-drawing-119.tif), revision T. No AR77XB source exists. "Not stated" means the source names the part without a size; those are logged in [TO-CONFIRM.md](../TO-CONFIRM.md).
+XA column: Factory, [XA service manual](originals/xa-service-manual.pdf). XB column: Factory, [drawing 119](drawings/xb-drawing-119.png), revision T. No AR77XB source exists. "Not stated" means the source names the part without a size; those are logged in [TO-CONFIRM.md](../TO-CONFIRM.md).
 
 | Job | XA | XB, revision T |
 | --- | --- | --- |

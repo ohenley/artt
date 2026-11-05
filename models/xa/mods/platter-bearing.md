@@ -45,7 +45,7 @@ Unplug the table and support it on its side if you need to work underneath.
 
 ## Sources
 
-- [XB drawing 119, notes 11 and 14](../../../docs/originals/xb-drawing-119.tif). Factory.
+- [XB drawing 119, notes 11 and 14](../../../docs/drawings/xb-drawing-119.png). Factory.
 - [XA service manual, pp. 2 and 4](../../../docs/originals/xa-service-manual.pdf). Factory.
 - [Gary Galo, "A Belt-Drive Turntable Upgrade", audioXpress](https://audioXpress.com/assets/upload/files/galo2931.pdf).
 - [Roy Allison: Acoustic Research Inc., The Golden Years](https://vinylnirvana.com/ar-turntable-resources/ar-turntable-history/acoustic-research-inc-the-golden-years-by-roy-allison).

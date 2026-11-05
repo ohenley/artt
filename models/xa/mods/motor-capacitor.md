@@ -40,4 +40,4 @@ Unplug the table first.
 ## Sources
 
 - [XA service manual, pp. 1 and 3](../../../docs/originals/xa-service-manual.pdf). Factory.
-- [XB drawing 119](../../../docs/originals/xb-drawing-119.tif). Factory.
+- [XB drawing 119](../../../docs/drawings/xb-drawing-119.png). Factory.

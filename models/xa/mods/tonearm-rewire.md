@@ -4,7 +4,7 @@
 
 ## Purpose
 
-Replace the aged original wire. The usual failure point is where the wires pass through the top plate, from years of rubbing on the edge of the hole. The XB uses a similar arrangement, with different wire colors on [drawing 119](../../../docs/originals/xb-drawing-119.tif).
+Replace the aged original wire. The usual failure point is where the wires pass through the top plate, from years of rubbing on the edge of the hole. The XB uses a similar arrangement, with different wire colors on [drawing 119](../../../docs/drawings/xb-drawing-119.png).
 
 ## Stock situation
 

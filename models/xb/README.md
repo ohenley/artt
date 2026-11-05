@@ -8,7 +8,7 @@ The XB has a separate cueing lift. The drawings cover several XB configurations,
 
 ### Factory hardware
 
-Factory, [drawing 119](../../docs/originals/xb-drawing-119.tif), AR drawing 100012, revision T, bill of materials and callouts. For each screw's job, see [What it is and where it goes](../../docs/what-goes-where.md).
+Factory, [drawing 119](../../docs/drawings/xb-drawing-119.png), AR drawing 100012, revision T, bill of materials and callouts. For each screw's job, see [What it is and where it goes](../../docs/what-goes-where.md).
 
 | Item | AR part number | Description | Quantity | Where it goes |
 | --- | --- | --- | --- | --- |
@@ -20,11 +20,11 @@ Factory, [drawing 119](../../docs/originals/xb-drawing-119.tif), AR drawing 1000
 | 61 | 504014 | #5 star lockwasher | 1 | Tonearm rest, item 22 |
 | 62 | 501014 | #4-40 screw | 1 | Cueing lever assembly. Length not stated |
 
-Revision S ([drawing 113](../../docs/originals/xb-drawing-113.tif)) lists four #6 × 0.375 in wood screws, four #4-40 × 0.375 in screws, and four #4-40 dome nuts for the hinged cover. ECO 1315 ([sheet 1](../../docs/originals/xb-drawing-115.tif)) removes the hinges and that hardware.
+Revision S ([drawing 113](../../docs/drawings/xb-drawing-113.png)) lists four #6 × 0.375 in wood screws, four #4-40 × 0.375 in screws, and four #4-40 dome nuts for the hinged cover. ECO 1315 ([sheet 1](../../docs/drawings/xb-drawing-115.png)) removes the hinges and that hardware.
 
 ### Cover dimensions and clearance
 
-Factory, [drawing 114](../../docs/originals/xb-drawing-114.tif), revision S, sheet 2, lower-left detail of the older hinge arrangement. Both units are as printed.
+Factory, [drawing 114](../../docs/drawings/xb-drawing-114.png), revision S, sheet 2, lower-left detail of the older hinge arrangement. Both units are as printed.
 
 | Detail | Drawing value |
 | --- | --- |
@@ -68,7 +68,7 @@ Factory, drawing 119, revision T, assembly notes and performance test requiremen
 
 ### Factory component identifiers
 
-Factory, [drawing 119](../../docs/originals/xb-drawing-119.tif). The BOM gives part numbers only. Capacitance, voltage, and suppression class: Unconfirmed.
+Factory, [drawing 119](../../docs/drawings/xb-drawing-119.png). The BOM gives part numbers only. Capacitance, voltage, and suppression class: Unconfirmed.
 
 | Component | AR part number | Item |
 | --- | --- | --- |
@@ -83,9 +83,9 @@ Factory, [drawing 119](../../docs/originals/xb-drawing-119.tif). The BOM gives p
 
 Factory, ECO 1315. Sheets 2–4 are dated October 21, 1976, and sheet 1 January 28, 1977. All four carry a March 30, 1977 stamp.
 
-- Cable assembly 404017 moves to the inside rear of the base, with a **2.36 in maximum allowable length** for amplifier cable and arm wires inside the cabinet. The motor capacitor stays at least **⅛ in** from the top plate. [Sheet 2](../../docs/originals/xb-drawing-116.tif)
-- Straps and insulating tubing replace the tape and staples on the capacitors: a **⅝ in strap for the switch capacitor** and a **⁷⁄₁₆ in strap for the motor capacitor**, adding two #8 × ⅜ in screws. [Sheet 3](../../docs/originals/xb-drawing-117.tif)
-- The XB1 bezel, top-plate, and switch rework parts are removed, as no longer required for the cited British standard. [Sheet 4](../../docs/originals/xb-drawing-118.tif)
+- Cable assembly 404017 moves to the inside rear of the base, with a **2.36 in maximum allowable length** for amplifier cable and arm wires inside the cabinet. The motor capacitor stays at least **⅛ in** from the top plate. [Sheet 2](../../docs/drawings/xb-drawing-116.png)
+- Straps and insulating tubing replace the tape and staples on the capacitors: a **⅝ in strap for the switch capacitor** and a **⁷⁄₁₆ in strap for the motor capacitor**, adding two #8 × ⅜ in screws. [Sheet 3](../../docs/drawings/xb-drawing-117.png)
+- The XB1 bezel, top-plate, and switch rework parts are removed, as no longer required for the cited British standard. [Sheet 4](../../docs/drawings/xb-drawing-118.png)
 
 For the audio terminal layout, use the wiring detail on drawing 119 and match the arm-side and cable-side labels, not only the wire colors.
 

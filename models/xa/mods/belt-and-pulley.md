@@ -42,7 +42,7 @@ Pulleys differ by motor and mains frequency: see [Motor identification](../READM
 ## Sources
 
 - [XA service manual, pp. 1, 2, and 4](../../../docs/originals/xa-service-manual.pdf). Factory.
-- [XB drawing 119, note 12](../../../docs/originals/xb-drawing-119.tif). Factory.
+- [XB drawing 119, note 12](../../../docs/drawings/xb-drawing-119.png). Factory.
 - [Vinyl Nirvana belt](https://vinylnirvana.com/product/replacement-ar-turntable-belt) and [pulley](https://vinylnirvana.com/product/vinyl-nirvana-upgrade-33-45-replacement-pulley). Maker claim.
 - [Vinyl Nirvana: Installing the Co-Polymer Pulley](https://vinylnirvana.com/ar-turntable-resources/ar-diy-do-it-yourself/installing-the-co-polymer-pulley).
 - [Gary Galo, "A Belt-Drive Turntable Upgrade", audioXpress](https://audioXpress.com/assets/upload/files/galo2931.pdf).

@@ -21,25 +21,19 @@ Source URLs and hashes of local copies are in [manifest.tsv](manifest.tsv).
 
 ## XB factory drawings
 
-From [Audio Appraisal's archive](https://audioappraisal.com/acoustic-research-drawings-archive/). Numbers 112–119 are archive index numbers. The assembly sheets are AR drawing 100012. [Combined 8-page PDF](xb-factory-drawings.pdf), in archive order, with 113 rotated upright.
+From [Audio Appraisal's archive](https://audioappraisal.com/acoustic-research-drawings-archive/). Numbers 112–119 are archive index numbers. The assembly sheets are AR drawing 100012. The links open full-size PNG copies. [All eight as one PDF](xb-factory-drawings.pdf). The unmodified TIFF downloads are in `originals/`.
 
 | Entry | Original | Contents |
 | --- | --- | --- |
-| 112 | [TIFF](originals/xb-drawing-112.tif) | Earlier assembly, superseded |
-| 113 | [TIFF](originals/xb-drawing-113.tif) | Revision S, sheet 1 of 2: assembly, wiring detail, BOM |
-| 114 | [TIFF](originals/xb-drawing-114.tif) | Revision S, sheet 2: hinge locating, switch detail |
-| 115 | [TIFF](originals/xb-drawing-115.tif) | ECO 1315, sheet 1 of 4: hinge deletion |
-| 116 | [TIFF](originals/xb-drawing-116.tif) | ECO 1315, sheet 2: cable routing, capacitor clearance |
-| 117 | [TIFF](originals/xb-drawing-117.tif) | ECO 1315, sheet 3: capacitor straps and tubing |
-| 118 | [TIFF](originals/xb-drawing-118.tif) | ECO 1315, sheet 4: XB1 rework parts removed |
-| 119 | [TIFF](originals/xb-drawing-119.tif) | Revision T final assembly: BOM, notes, wiring detail |
+| 112 | [View](drawings/xb-drawing-112.png) | Earlier assembly, superseded |
+| 113 | [View](drawings/xb-drawing-113.png) | Revision S, sheet 1 of 2: assembly, wiring detail, BOM |
+| 114 | [View](drawings/xb-drawing-114.png) | Revision S, sheet 2: hinge locating, switch detail |
+| 115 | [View](drawings/xb-drawing-115.png) | ECO 1315, sheet 1 of 4: hinge deletion |
+| 116 | [View](drawings/xb-drawing-116.png) | ECO 1315, sheet 2: cable routing, capacitor clearance |
+| 117 | [View](drawings/xb-drawing-117.png) | ECO 1315, sheet 3: capacitor straps and tubing |
+| 118 | [View](drawings/xb-drawing-118.png) | ECO 1315, sheet 4: XB1 rework parts removed |
+| 119 | [View](drawings/xb-drawing-119.png) | Revision T final assembly: BOM, notes, wiring detail |
 
-## Other sources
+## Background
 
-| Source | Contents |
-| --- | --- |
-| Vinyl Nirvana: [XA](https://vinylnirvana.com/ar-turntable-resources/ar-models/ar-xa), [XB](https://vinylnirvana.com/ar-turntable-resources/ar-models/ar-xb), [XB77](https://vinylnirvana.com/ar-turntable-resources/ar-models/ar-xb77) | Model identification notes |
-| [Scott Hamrick, "Rewiring an AR XA Tonearm"](https://vinylnirvana.com/ar-turntable-resources/ar-diy-do-it-yourself/rewiring-an-ar-xa-tonearm) | Arm rewire, Owner report |
-| [patrickhenrypdx, XA counterweight and rest](https://www.reddit.com/r/turntables/comments/1t5vqzh/ar_xa_tone_arm_counter_weight_tone_arm_rest/) | Dimensions and mass, Owner report |
-| [Gary Galo, "A Belt-Drive Turntable Upgrade", audioXpress](https://audioXpress.com/assets/upload/files/galo2931.pdf) | Connectors, wiring, grounding on a modified XA |
-| [Roy Allison, "Acoustic Research Inc., The Golden Years"](https://vinylnirvana.com/ar-turntable-resources/ar-turntable-history/acoustic-research-inc-the-golden-years-by-roy-allison) | Manufacturing history: bearings, belts |
+[Roy Allison, "Acoustic Research Inc., The Golden Years"](https://vinylnirvana.com/ar-turntable-resources/ar-turntable-history/acoustic-research-inc-the-golden-years-by-roy-allison): manufacturing history, including bearings and belts.

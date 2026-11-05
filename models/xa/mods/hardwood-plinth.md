@@ -49,4 +49,4 @@ Only the overall envelope is known: see [Dimensions and arm geometry](../README.
 - [Vinyl Nirvana: Replacing an AR XA Tonearm with a Mayware Formula 4](https://vinylnirvana.com/ar-turntable-resources/ar-diy-do-it-yourself/replacing-an-ar-xa-tonearm-with-a-mayware-formula-4-mkiii). Owner report.
 - [Gary Galo, "A Belt-Drive Turntable Upgrade", audioXpress](https://audioXpress.com/assets/upload/files/galo2931.pdf).
 - [John's first XA restoration](https://www.johnsweather.com/Turntable1.html). Owner report.
-- [XB drawing 119, note 16](../../../docs/originals/xb-drawing-119.tif). Factory.
+- [XB drawing 119, note 16](../../../docs/drawings/xb-drawing-119.png). Factory.
