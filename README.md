@@ -10,6 +10,7 @@ A sourced workshop reference for the **XA, XB, and AR77XB**.
 | Buying parts | [Parts and makers](parts/README.md) |
 | Making parts | [Part index](parts/reproduction.md) · [CAD drawings](cad/README.md) |
 | Original documents | [Manuals and factory drawings](docs/README.md) |
+| Archived articles | [Local copies of community and maker pages](docs/archive/README.md) |
 | Open questions | [Things to confirm](TO-CONFIRM.md) |
 
 ## How to read this reference

@@ -1,6 +1,6 @@
 # Original documents
 
-[Home](../README.md) · [Design-paper notes](design-notes.md) · [Sources to read](sources-to-read.md)
+[Home](../README.md) · [Archived articles](archive/README.md) · [Design-paper notes](design-notes.md) · [Sources to read](sources-to-read.md)
 
 Source URLs and hashes of local copies are in [manifest.tsv](manifest.tsv).
 
@@ -36,4 +36,4 @@ From [Audio Appraisal's archive](https://audioappraisal.com/acoustic-research-dr
 
 ## Background
 
-[Roy Allison, "Acoustic Research Inc., The Golden Years"](https://vinylnirvana.com/ar-turntable-resources/ar-turntable-history/acoustic-research-inc-the-golden-years-by-roy-allison): manufacturing history, including bearings and belts.
+[Roy Allison, "Acoustic Research Inc., The Golden Years"](archive/vinyl-nirvana/ar-turntable-history/acoustic-research-inc-the-golden-years-by-roy-allison.md): manufacturing history, including bearings and belts.
