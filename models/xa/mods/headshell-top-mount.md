@@ -1,61 +1,75 @@
 # Headshell with top mounting holes
 
-[XA](../README.md) · [Mods](README.md) · [Home](../../../README.md)
+[XA](../README.md) · [Mods](README.md) · [CAD](../../../cad/README.md) · [Things to confirm](../../../TO-CONFIRM.md#cad-dimensions-needed)
 
 ## Purpose
 
-Fit a Grado wood-body cartridge, Master series, to the stock arm. The screws of these cartridges enter from the top.
+Fit a Grado Master4 to the stock arm. Its screws enter from the top, into the cartridge's wood body. Pat's Audio sells one shell for both the XA and XB, so the connector appears to be shared.
 
-Pat's Audio sells its own shell for both the XA and XB, so the connector appears to be shared. Fit on the AR77XB is unconfirmed.
+## Stock shell
 
-## Stock situation
-
-See [Screws and replacements](../README.md#screws-and-replacements) and the [headshell reference](../../../docs/headshells.md). No dimensioned drawing of the stock shell has been found.
-
-## Parts
-
-| Part | What is established |
+| Item | What is known |
 | --- | --- |
-| Shell in crystal clear acrylic (PMMA) | [Concept model and drawing](../../../cad/README.md#the-pmma-headshell). 21 dimensions are placeholders |
-| Slots at 12.7 mm spacing | The standard ½ in mount. Check it on the cartridge; Grado's Master4 page does not state it |
-| Four contact pins | Hamrick describes four contacts in the arm's receptacle. Type and size to confirm on the part |
-| Grado screws | Supplied with the cartridge. Thread to confirm on the part |
-| Grado Master4 | Maker lists 9.6 g, 1.6 to 1.9 g tracking force, 20 µm/mN compliance |
+| Body | "A light plastic" with threaded mounting studs (Factory, AR sheet L-1591) |
+| Layout | Headshell, item 20, part 1175: a box open underneath, a round rear neck with contact pins, a finger lift on one side near the front. Knurled retaining nut, item 21C, on the arm (Factory, XA service manual, p. 4) |
+| XB part number | Cartridge-shell assembly 404003 (Factory, drawing 119) |
+| Contacts | Four in the arm's receptacle (Owner report, Hamrick); four wires (Factory, sheet L-1591) |
+| Mounting hardware | [Screws, bushings, and shims](../../../docs/what-goes-where.md#why-are-there-so-many-cartridge-screws) |
+| Body, neck, locking, and pin dimensions | Unconfirmed. No drawing or CAD file found |
+
+## New shell
+
+A shell in clear acrylic (PMMA) with two recessed slots on top and a pocket underneath for the cartridge. [Drawing](../../../cad/exports/headshell-pmma-top-mount/PRELIMINARY-headshell-pmma-top-mount.pdf) · [STEP](../../../cad/exports/headshell-pmma-top-mount/PRELIMINARY-headshell-pmma-top-mount.step) · [Source](../../../cad/parts/headshell-pmma-top-mount.scad). 21 dimensions are placeholders: rows GR and HD in the confirmation list.
+
+| Item | Value |
+| --- | --- |
+| Master4 mass | 9.6 g (Maker claim, Grado) |
+| Master4 tracking force | 1.6–1.9 g (Maker claim, Grado) |
+| Master4 compliance | 20 µm/mN (Maker claim, Grado) |
+| Master4 body size and screws | Not published. Grado says the housing was reshaped |
+| Stand-in body, Grado Opus3 | 20.1 mm wide, 16.3 mm tall, 25.3 mm deep, 29.6 mm with pins, 18.3 mm top to stylus tip; bolts "screw in from the top" (Addicted to Audio review) |
+| Slot spacing | 12.7 mm, the standard ½ in mount. Not stated by Grado |
+| Shell mass, model estimate | About 10 g, without pins or wires |
+| Stylus below the shell underside | 5.8 mm, using the Opus3 figure |
+| Arm resonance estimate | About 8 Hz at 20 g total moving mass, from 159 / √(mass × compliance). The arm's own effective mass is Unconfirmed |
 
 ## Procedure
 
-1. Measure a stock shell and your cartridge, using the [confirmation list](../../../TO-CONFIRM.md#cad-dimensions-needed).
-2. Copy the stock connector bore and mounting plane height, then enter the values in the model.
-3. Rebuild the model, and check that no red dimensions remain.
-4. Print a test piece and fit it to the arm.
-5. Order the shell in acrylic.
-6. Wire it, then set the overhang with the short slots: see [What is an overhang gauge?](../../../docs/what-goes-where.md#what-is-an-overhang-gauge).
+1. Measure a stock shell, its retaining nut, and the Master4: rows GR and HD.
+2. Enter the values in the source file and [rebuild](../../../cad/README.md#rebuilding). No red dimensions should remain.
+3. Print the STL in cheap plastic. Test the neck, pins, and screw length on the arm.
+4. Order the shell in PMMA.
+5. Wire it, then set the overhang with the slots: see [What is an overhang gauge?](../../../docs/what-goes-where.md#what-is-an-overhang-gauge)
 
 ## Gotchas
 
-- **Confirm the balance before buying.** The counterweight must balance the Grado and the shell together. AR's own sheet already calls for an extra counterweight section with some cartridges.
-- **A thin acrylic finger lift breaks.** Make it thicker than stock. Measure the stock lift first.
-- **Grados can pick up hum.** Galo describes the Grado Signature 10MR as unshielded, and needed hum shielding for it. Grado's Master4 page does not cover this, so check for motor hum at the inner groove.
-- **The neck is the weak point.** Pat's Audio advertises threads "that won't crack off", which suggests the problem is known. Acrylic is brittle, so a metal insert may be needed.
-- **Threadlocker and solvents can craze acrylic.** Do not carry over the factory's Loctite habit here.
+- **The neck is the weak point.** Pat's Audio advertises a reinforced neck with threads "that won't crack off" (Maker claim). PMMA is brittle, so a metal neck insert may be needed.
+- **Confirm the balance before buying.** The counterweight must balance the shell and the Master4 together. AR's sheet already calls for an extra counterweight section with some cartridges.
+- **Weight lowers arm resonance.** Measure the finished shell, and keep it light.
+- **Threadlocker and solvents craze PMMA.** Skip the factory's Loctite here.
 - **Do not overtighten.** A review of the Opus3 warns that wood bodies may not take many cycles of screw insertion.
-- **Weight affects arm resonance.** Every gram of shell lowers it: see the [CAD notes](../../../cad/README.md#the-pmma-headshell).
+- **Check record clearance.** The stylus sits only a few millimeters below the shell's underside.
+- **A thin acrylic finger lift breaks.** Measure the stock lift, and make the new one thicker.
+- **Grados can pick up hum.** Galo needed hum shielding for an unshielded Grado Signature 10MR. Grado's Master4 page does not cover this.
+- **It needs three machining setups:** the top, the bottom, and the neck end. Published minimum PMMA walls range from 0.5 to 1.0 mm; plan for 1.0 mm.
 
 ## Verification
 
 1. All four pins connect correctly, with no shorts, before the cartridge goes on.
-2. The arm balances, and reaches 1.6 to 1.9 g tracking force on the Master4.
+2. The arm balances, and reaches 1.6 to 1.9 g tracking force.
 3. Overhang checks at 0.688 in with a gauge.
 4. The mounting plane is parallel to the record. XB note 10 allows ±1°.
-5. Check for hum at the inner groove with the motor running.
+5. No hum at the inner groove with the motor running.
 6. The shell clears the record at the arm's working angle.
 
 ## Sources
 
-- [XA service manual, p. 4](../../../docs/originals/xa-service-manual.pdf). Factory layout.
+- [XA service manual, p. 4](../../../docs/originals/xa-service-manual.pdf). Factory.
 - [AR sheet L-1591](../../../docs/originals/ar-cartridge-mount.jpg). Factory.
+- [XB drawing 119](../../../docs/originals/xb-drawing-119.tif). Factory.
 - [Scott Hamrick, "Rewiring an AR XA Tonearm"](https://vinylnirvana.com/ar-turntable-resources/ar-diy-do-it-yourself/rewiring-an-ar-xa-tonearm). Owner report.
-- [Grado Master4](https://gradolabs.com/products/master4). Maker page.
-- [Pat's Audio XA headshell](https://www.patsaudioparts.com/single-post/AR-XA-XB-Headshell). Maker claim.
+- [Grado Master4](https://gradolabs.com/products/master4). Maker claim.
+- [Pat's Audio XA/XB headshell](https://www.patsaudioparts.com/single-post/AR-XA-XB-Headshell). Maker claim.
 - [Gary Galo, "A Belt-Drive Turntable Upgrade", audioXpress](https://audioXpress.com/assets/upload/files/galo2931.pdf).
-- [Positive Feedback: Grado Opus3](https://positive-feedback.com/reviews/hardware-reviews/grado-timbre-series-opus3-phono-cartridge/). Review of a related model.
+- [Addicted to Audio: Grado Opus3](https://addictedtoaudio.co.nz/blogs/reviews/grado-timbre-series-opus3-cartridge).
+- [Positive Feedback: Grado Opus3](https://positive-feedback.com/reviews/hardware-reviews/grado-timbre-series-opus3-phono-cartridge/).

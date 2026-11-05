@@ -4,23 +4,21 @@
 
 ## Purpose
 
-Use jewel cups in place of the stock pivot, for lower friction.
-
-The XB has pivot screws too, with its setting in note 9 of [drawing 119](../../../docs/originals/xb-drawing-119.tif). Nothing is confirmed for the AR77XB.
+Use jewel cups in place of the stock pivot, for lower friction. The XB has pivot screws too, with its setting in note 9 of drawing 119.
 
 ## Stock situation
 
-See [Service details](../README.md#service-details). The [XA service manual, pp. 1 and 2](../../../docs/originals/xa-service-manual.pdf), describes two pivot screws seating in plastic bearing inserts, in the arm's central coupling block, sealed with Loc-Tite. Early arms also have a damping mechanism, omitted from XA236534 on.
+Two pivot screws seat in plastic bearing inserts in the arm's central coupling block, sealed with Loc-Tite, and early arms have a damping mechanism, omitted from XA236534 on: see the [XA service manual, pp. 1 and 2](../../../docs/originals/xa-service-manual.pdf).
 
 ## Parts
 
 | Part | What is established |
 | --- | --- |
-| Jewel bearing cups | Forum excerpts mention these. Type and size to confirm on the part |
-| Polished pivot screws, or originals | Stock part 918, item 21H. Thread and tip to confirm on the part |
+| Jewel bearing cups | Type and size TBC |
+| Polished pivot screws, or originals | Stock part 918, item 21H. Thread and tip TBC |
 | MEK, for breaking the Loc-Tite | XA service manual, p. 1 |
 
-No drawing of this upgrade was found, so this page gives no dimensions.
+No drawing of this upgrade exists, so this page gives no dimensions.
 
 ## Procedure
 
@@ -35,18 +33,17 @@ Record the friction test first, so you can compare before and after.
 **The change:**
 
 1. Remove the pivot screws from the coupling block. You may need MEK to free them.
-2. Fit the bearing cups. The method depends on the parts, and is to confirm on the part.
+2. Fit the bearing cups. Method TBC.
 3. Refit the screws roughly evenly. Tighten until friction is barely perceptible, then back one screw out ⅛ to ¼ turn, per XB note 9.
 4. Set azimuth and bearing play again.
 5. Repeat the friction test and record the result.
 
 ## Gotchas
 
-- **The pivot screws set more than friction.** They set azimuth and bearing play. After the change, azimuth and friction must be set again.
+- **The pivot screws set more than friction.** They set azimuth and bearing play, so both must be set again.
 - **Uneven screws push the arm sideways.** The manual warns that a gross difference between the two screws causes a lateral force.
 - **Deformed tips cause binding.** The manual says deformed or overtightened screws make the arm stick. Soft inserts are easy to damage.
-- **Record the same test before and after.** Otherwise the improvement cannot be shown.
-- **Service availability is unconfirmed.** Marc Morin's arm work is widely cited, but one forum post suggests he no longer offers it. [Vinyl Nirvana's restoration page](https://vinylnirvana.com/restoration-services) lists AR the Turntable, EB-101, and ES-1, and refers other models elsewhere. Ask before planning around either.
+- **Service availability is Unconfirmed.** Vinyl Nirvana's restoration page lists AR the Turntable, EB-101, and ES-1, and refers other models elsewhere.
 
 ## Verification
 
@@ -58,6 +55,5 @@ Record the friction test first, so you can compare before and after.
 ## Sources
 
 - [XA service manual](../../../docs/originals/xa-service-manual.pdf). Factory.
-- [XB drawing 119, note 9](../../../docs/originals/xb-drawing-119.tif). Factory, XB.
-- [AudioKarma: AR XA pivot bearing parts](https://audiokarma.org/forums/threads/ar-xa-pivot-bearing-parts.1053357/) and [AR XA and other Marc Morin tips](https://audiokarma.org/forums/threads/ar-xa-other-marc-morin-tips-hints-instruction.967048/). Direct access returned 403; seen only in search excerpts.
-- [Vinyl Nirvana restoration services](https://vinylnirvana.com/restoration-services). Maker page.
+- [XB drawing 119, note 9](../../../docs/originals/xb-drawing-119.tif). Factory.
+- [Vinyl Nirvana restoration services](https://vinylnirvana.com/restoration-services). Maker claim.

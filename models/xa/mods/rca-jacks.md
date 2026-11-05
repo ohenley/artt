@@ -4,33 +4,31 @@
 
 ## Purpose
 
-Stop the stiff interconnect from loading the floating subchassis. Thin tonearm wire runs from the arm to jacks fixed in the plinth, so any interconnect can then be used.
-
-The idea applies to the XB and AR77XB too. Their cable and terminal parts differ: see the [XB page](../../xb/README.md#factory-component-identifiers). Nothing is confirmed for the AR77XB.
+Stop the stiff interconnect from loading the floating subchassis. Thin tonearm wire runs from the arm to jacks fixed in the plinth, so any interconnect can be used. The idea also applies to the XB, whose [cable and terminal parts](../../xb/README.md#factory-component-identifiers) differ.
 
 ## Stock situation
 
-See [Wire and audio cable](../README.md#wire-and-audio-cable). The stock cable leaves the base directly, and stock capacitance is known only for that cable.
+The stock cable leaves the base directly, and stock capacitance is known only for that cable: see [Wire and audio cable](../README.md#wire-and-audio-cable).
 
 ## Parts
 
-Chassis-mount RCA jacks. Check each candidate on the part before drilling.
+Chassis-mount RCA jacks.
 
 | Jack | Panel hole | Maximum panel | Insulated from the panel? |
 | --- | --- | --- | --- |
-| KLEI Copper Harmony, Parts Connexion SKU KLEI-86829 | M10, per the listing | To confirm on the part | Listing mentions a high-temperature polymer but does not say it isolates the body. To confirm on the part |
-| KLEI Classic Harmony, Parts Connexion SKU KLEI-86827 | To confirm on the part | 7.0 mm, in one retailer listing whose title says "plugs". To confirm on the part | To confirm on the part |
-| Neutrik NF2D-B-2 | To confirm on the part | To confirm on the part | Maker lists "red isolation washers" and a zinc die-cast shell. Isolation of both conductors, and direct mounting in wood, are not stated. To confirm on the part |
-| AECO ARJ-4045 | To confirm on the part | To confirm on the part | To confirm on the part |
-| D.H. Labs CM-R1, used by Galo | ⅜ in, with its insulating washers | To confirm on the part | Galo used the supplied insulating washers. Current availability to confirm |
+| KLEI Copper Harmony, Parts Connexion SKU KLEI-86829 | M10 (Maker claim) | TBC | Listing mentions a high-temperature polymer, not isolation. TBC |
+| KLEI Classic Harmony, Parts Connexion SKU KLEI-86827 | TBC | 7.0 mm (Unconfirmed). TBC | TBC |
+| Neutrik NF2D-B-2 | TBC | TBC | "Red isolation washers" and a zinc die-cast shell (Maker claim). TBC |
+| AECO ARJ-4045 | TBC | TBC | TBC |
+| D.H. Labs CM-R1, used by Galo | ⅜ in, with its insulating washers | TBC | Galo used the supplied insulating washers. Availability TBC |
 
 Also needed: a separate ground post next to the jacks. Galo's recipe is a 6-32 × ⅝ in machine screw, #6 ground lug, lock washer, hex nut, and knurled thumbnut. The insulated post adds a nylon shoulder washer and flat washer.
 
 ## Procedure
 
-Measure the wall of your base first. Both routes below come from other builds, so their sizes may not suit your wall or jack.
+Measure the wall of your base first. Both routes come from other builds.
 
-**Route A, jacks directly in the wood (owner report, John's XA):**
+**Route A, jacks directly in the wood (Owner report, John's XA):**
 
 1. On the inside of the wall, drill a ⅝ in counterbore about 5/16 in deep. Do not go all the way through.
 2. Drill ⅜ in through the center of that hole.
@@ -52,9 +50,9 @@ Measure the wall of your base first. Both routes below come from other builds, s
 
 ## Gotchas
 
-- **The wall is thicker than the jack thread.** Wood walls are thicker than any jack thread, so either counterbore the inside of the wall or mount the jacks on a thin plate in a cutout.
-- **Metal jacks on a metal plate short the grounds.** All-metal jacks on a metal plate short both grounds to the plate. Use insulated jacks or nylon shoulder washers.
-- **Galo's turntable is not a stock XA.** His has a Merrill sub-chassis and a Grado arm, so his dimensions are examples.
+- **The wall is thicker than the jack thread.** Counterbore the inside of the wall, or mount the jacks on a thin plate in a cutout.
+- **Metal jacks on a metal plate short the grounds.** Use insulated jacks or nylon shoulder washers.
+- **Galo's turntable is not a stock XA.** It has a Merrill sub-chassis and a Grado arm, so his dimensions are examples.
 - **Capacitance changes.** The stock figure of about 135 pF applies to the stock cable. The new total depends on your arm wire and interconnect.
 
 ## Verification
@@ -72,9 +70,8 @@ After wiring:
 
 ## Sources
 
-- [Gary Galo, "A Belt-Drive Turntable Upgrade", audioXpress](https://audioXpress.com/assets/upload/files/galo2931.pdf). Read in full. Page footers say 2008, and the last says June 2005.
-- [John's first XA restoration](https://www.johnsweather.com/Turntable1.html) and [second restoration](https://www.johnsweather.com/Turntable.html). Owner reports.
-- [KLEI Copper Harmony, Parts Connexion](https://partsconnexion.com/klei-copper-harmony-rca-female-jacks-2). Maker listing.
-- [KLEI Classic Harmony, Parts Connexion](https://partsconnexion.com/klei-classic-harmony-rca-female-jacks-1) and [Audiophonics listing](https://www.audiophonics.fr/en/rca-sockets/klei-harmony-classic-rca-plugs-silver-plated-copper-pair-p-14423.html). The 7.0 mm figure was seen in a search excerpt.
-- [Neutrik NF2D-B-2](https://www.neutrik.com/en/product/nf2d-b-2). Maker page.
-- [AECO ARJ-4045 seller listing](https://yeo.ro/conector-socket-rca-aeco-arj-4045-silver-plated/p/ad73d04678780ba3c161710a4825995f). It gives only overall size.
+- [Gary Galo, "A Belt-Drive Turntable Upgrade", audioXpress](https://audioXpress.com/assets/upload/files/galo2931.pdf).
+- [John's first XA restoration](https://www.johnsweather.com/Turntable1.html) and [second restoration](https://www.johnsweather.com/Turntable.html). Owner report.
+- [KLEI Copper Harmony](https://partsconnexion.com/klei-copper-harmony-rca-female-jacks-2) and [KLEI Classic Harmony](https://partsconnexion.com/klei-classic-harmony-rca-female-jacks-1), Parts Connexion. Maker claim.
+- [Neutrik NF2D-B-2](https://www.neutrik.com/en/product/nf2d-b-2). Maker claim.
+- [AECO ARJ-4045 seller listing](https://yeo.ro/conector-socket-rca-aeco-arj-4045-silver-plated/p/ad73d04678780ba3c161710a4825995f).

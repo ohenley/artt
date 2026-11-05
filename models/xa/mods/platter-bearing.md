@@ -4,21 +4,19 @@
 
 ## Purpose
 
-Remove old lubricant, inspect the thrust ball, and oil the bearing.
-
-The XB's oiling instructions are the most detailed source here. Nothing is confirmed for the AR77XB.
+Remove old lubricant, inspect the thrust ball, and oil the bearing. The XB's oiling instructions are the most detailed source.
 
 ## Stock situation
 
-See [Service details](../README.md#service-details). The XA parts list has oil as part 972, a ball bearing as part 996, and a nylon disc bearing as part 1092. It does not say which positions they fill or give their sizes. Allison reports that early bearings changed to steel-jacketed Babbitt inserts.
+The XA parts list has oil as part 972, a ball bearing as part 996, and a nylon disc bearing as part 1092, without positions or sizes: see [Service details](../README.md#service-details). Allison reports that early bearings changed to steel-jacketed Babbitt inserts.
 
 ## Parts
 
 | Part | What is established |
 | --- | --- |
-| Oil | XB drawing 119 lists Shell oil 10W, part 600013. A modern equivalent is not established. Galo used Merrill Ultra High-Film Strength Turntable Oil on his table |
-| Thrust ball | XB item 23, part 500013. Size to confirm on the part |
-| Bearing spacers | XB item 20, part 400061, quantity 2. Size to confirm on the part |
+| Oil | XB drawing 119 lists Shell oil 10W, part 600013. Galo used Merrill Ultra High-Film Strength Turntable Oil. Modern equivalent TBC |
+| Thrust ball | XB item 23, part 500013. Size TBC |
+| Bearing spacers | XB item 20, part 400061, quantity 2. Size TBC |
 | Soft, lint-free cloth | Galo |
 
 ## Procedure
@@ -38,8 +36,6 @@ Unplug the table and support it on its side if you need to work underneath.
 - **Do not turn the table upside down.** The manual warns against it, and Galo warns about spilling oil.
 - **The factory's item numbers disagree.** XB note 11 cites item 36 for oil, but the list gives oil as item 35 and staples as item 36.
 - **Do not lose the ball or spacers.** Note their order as you remove them.
-- **Grease may not be original.** One diyAudio thread asks about grey grease found in an XB bearing. Its details have not been read here.
-- **The oil is not a modern recommendation.** Shell 10W is a historical entry.
 
 ## Verification
 
@@ -49,8 +45,7 @@ Unplug the table and support it on its side if you need to work underneath.
 
 ## Sources
 
-- [XB drawing 119, notes 11 and 14](../../../docs/originals/xb-drawing-119.tif). Factory, XB.
+- [XB drawing 119, notes 11 and 14](../../../docs/originals/xb-drawing-119.tif). Factory.
 - [XA service manual, pp. 2 and 4](../../../docs/originals/xa-service-manual.pdf). Factory.
 - [Gary Galo, "A Belt-Drive Turntable Upgrade", audioXpress](https://audioXpress.com/assets/upload/files/galo2931.pdf).
-- [Roy Allison: Acoustic Research Inc., The Golden Years](https://vinylnirvana.com/ar-turntable-resources/ar-turntable-history/acoustic-research-inc-the-golden-years-by-roy-allison). Firsthand history.
-- [diyAudio: AR XB main bearing grease](https://www.diyaudio.com/community/threads/acoustic-research-arxb-main-bearing-has-alot-of-grey-grease-in-there-i-thought-it-was-supposed-to-be-thin-oil.409524/latest). Thread title seen in search results only.
+- [Roy Allison: Acoustic Research Inc., The Golden Years](https://vinylnirvana.com/ar-turntable-resources/ar-turntable-history/acoustic-research-inc-the-golden-years-by-roy-allison).

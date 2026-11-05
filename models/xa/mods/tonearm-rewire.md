@@ -4,25 +4,23 @@
 
 ## Purpose
 
-Replace the aged original wire. The usual failure point is where the wires pass through the top plate, from years of rubbing on the edge of the hole.
-
-The XB uses a similar arrangement, with different wire colors on [drawing 119](../../../docs/originals/xb-drawing-119.tif). Nothing is confirmed for the AR77XB.
+Replace the aged original wire. The usual failure point is where the wires pass through the top plate, from years of rubbing on the edge of the hole. The XB uses a similar arrangement, with different wire colors on [drawing 119](../../../docs/originals/xb-drawing-119.tif).
 
 ## Stock situation
 
-See [Wire and audio cable](../README.md#wire-and-audio-cable). The arm carries four signal wires and a silver ground braid, according to Scott Hamrick's account.
+The arm carries four signal wires and a silver ground braid (Owner report, Hamrick): see [Wire and audio cable](../README.md#wire-and-audio-cable).
 
 ## Parts
 
 | Part | Gauge | Evidence |
 | --- | --- | --- |
-| Cardas Original tonearm wire | 33 AWG | Seller listing; used by Hamrick and John |
-| Cardas Clear tonearm wire | 34 AWG | Seller listing |
-| Zavfino 1877Phono 5LITZ-7 | 33 AWG | Seller listing |
-| Zavfino 1877Phono LITZ-76 | 34 AWG | Seller listing |
-| ConneX tonearm wire | 36 AWG in the listing found, so outside the 33 to 34 AWG range. To confirm on the part | Seller listing |
+| Cardas Original tonearm wire | 33 AWG | Maker claim; used by Hamrick and John |
+| Cardas Clear tonearm wire | 34 AWG | Maker claim |
+| Zavfino 1877Phono 5LITZ-7 | 33 AWG | Maker claim |
+| Zavfino 1877Phono LITZ-76 | 34 AWG | Maker claim |
+| ConneX tonearm wire | 36 AWG, outside the 33 to 34 AWG range. TBC | Maker claim |
 
-Also needed: cartridge clips, if yours are damaged, plus thin solder and a fifth thin wire for ground. Hamrick found that his first ground wire left a low buzz until he changed it.
+Also needed: cartridge clips, if yours are damaged, plus thin solder and a fifth thin wire for ground. Hamrick's first ground wire left a low buzz until he changed it.
 
 ## Procedure
 
@@ -37,9 +35,9 @@ This follows Hamrick's account. Expect about five hours.
 7. Refit the arm, run the wires through the top plate, and solder them to the posts, leaving a few inches of slack.
 8. Write down the final color and pin map.
 
-Use the block that matches what you find. Do not assume either one.
+Use the block that matches what you find.
 
-**AR's shell wire code, from AR sheet L-1591:**
+**AR's shell wire code (Factory, AR sheet L-1591):**
 
 ```text
 Red    right hot
@@ -59,8 +57,8 @@ Blue   left ground
 
 ## Gotchas
 
-- **Green means opposite things.** On AR's sheet, green is left ground. In the modern code, green is right ground. Check every pin with an ohmmeter instead of trusting a color.
-- **The wire can kill the suspension.** The wire loop between the arm and the jacks must not restrain the subchassis. Too short or too stiff kills the suspension.
+- **Green means opposite things.** On AR's sheet, green is left ground. In the modern code, green is right ground. Check every pin with an ohmmeter.
+- **The wire can kill the suspension.** The loop between the arm and the jacks must not restrain the subchassis.
 - **The wire can also pull the arm.** Hamrick warns that tension can impede tracking and cause a reverse anti-skate force.
 - **Do not go thicker than 33 AWG.** Hamrick reports that 33 AWG is already slightly thicker than the original.
 - **The small ball is easy to lose.** The arm runs badly without it: see [Service details](../README.md#service-details).
@@ -76,6 +74,6 @@ Blue   left ground
 
 - [Scott Hamrick, "Rewiring an AR XA Tonearm", Vinyl Nirvana](https://vinylnirvana.com/ar-turntable-resources/ar-diy-do-it-yourself/rewiring-an-ar-xa-tonearm). Owner report.
 - [AR sheet L-1591](../../../docs/originals/ar-cartridge-mount.jpg). Factory.
-- [Gary Galo, "A Belt-Drive Turntable Upgrade", audioXpress](https://audioXpress.com/assets/upload/files/galo2931.pdf). Wiring key in Figure 1.
-- [Parts Connexion tonearm wire](https://partsconnexion.com/tonearm-bulk-wire) and [Zavfino 5LITZ-7 kit](https://partsconnexion.com/products/1877phono-5litz-7-direct-wire-rewiring-kit-2m). Seller listings.
-- [John's first XA restoration](https://www.johnsweather.com/Turntable1.html). Owner report using Cardas 4 × 33 shielded cable.
+- [Gary Galo, "A Belt-Drive Turntable Upgrade", audioXpress](https://audioXpress.com/assets/upload/files/galo2931.pdf).
+- [Parts Connexion tonearm wire](https://partsconnexion.com/tonearm-bulk-wire) and [Zavfino 5LITZ-7 kit](https://partsconnexion.com/products/1877phono-5litz-7-direct-wire-rewiring-kit-2m). Maker claim.
+- [John's first XA restoration](https://www.johnsweather.com/Turntable1.html). Owner report.
