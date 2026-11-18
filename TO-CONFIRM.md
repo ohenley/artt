@@ -74,7 +74,7 @@ Values now are from one owner's XA on the [counterweight page](parts/counterweig
 | DM1 | XA size with cover | 16¾ × 12¾ × 5¼ in; [1969 directory](models/xa/README.md#dimensions-and-arm-geometry) | Tape or calipers | Open | |
 | DM2 | XA complete weight | 13½ lb; same directory | Scale; note whether cover and mat are included | Open | |
 | DM3 | XB and AR77XB overall size and weight | XB: 12¾ × 16¾ × 5¾ in with cover, 19 lb shipping weight, in a [1970s catalogue](models/xb/README.md#at-a-glance). AR77XB: not recorded | Tape or calipers, scale | Open | |
-| DM4 | Hinge position on cover | 2.20 in and 60.6 mm on [drawing 114](models/xb/README.md#cover-dimensions-and-clearance), which do not convert | Measure a hinged XB cover | Conflict | |
+| DM4 | Hinge position on cover | 2.20 in and 60.6 mm on [drawing 114](models/xb/README.md#cover-dimensions-and-clearance), which do not convert; red on the [hinge template](parts/hinge-template.md) | Measure a hinged XB cover | Conflict | |
 
 ### Models and dates
 
