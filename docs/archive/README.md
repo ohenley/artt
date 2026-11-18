@@ -159,7 +159,7 @@ When an author asks, through an issue titled "Removal request" or through the ow
 
 ## Not archived
 
-No copy of these is kept. The facts taken from them are written out on the pages that cite them; what is still unread is tracked in [sources to read](../sources-to-read.md).
+No copy of these is kept. The facts taken from them are written out on the pages that cite them; what is still unread is tracked in [sources to read](../sources-to-read.md). Every page wanted, with whether the Wayback Machine has it: [pages to save](../archive-wanted.md).
 
 Sites that refuse automated access. Save the page from a browser and add it here:
 
