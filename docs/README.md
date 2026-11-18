@@ -41,6 +41,7 @@ Both are written out in the [model guide](../models/README.md#second-family).
 | Julian D. Hirsch, Technical Talk, *HiFi/Stereo Review*, March 1963, pp. 33–34 | XA, one-speed | [PDF pages](originals/hifi-stereo-review-1963-03-hirsch-ar-pp33-34.pdf) | Rumble, wow and flutter, speed, tracking error, and arm friction as he measured them; price of the one-speed and two-speed tables |
 | Equipment report by United States Testing Company, *High Fidelity*, March 1963, pp. 59–60, and the magazine's May 1963 note on its rumble method, p. 51 | XA, one-speed | [Report](originals/high-fidelity-1963-03-ar-report-pp59-60.pdf), [note](originals/high-fidelity-1963-05-rumble-method-p51.pdf) | Speed error, wow, flutter, rumble, arm resonance, hum field, platter weight |
 | Equipment profile, Acoustic Research two-speed turntable, *Audio*, April 1963, pp. 48 and 54 | XA, two-speed | [PDF pages](originals/audio-1963-04-ar-profile-pp48-54.pdf) | Speed, wow and flutter, rumble, tracking force, accessories, prices |
+| R. S. Oakley Jr., Skating Force: Mountain or Molehill?, *Audio*, March 1967, pp. 40 and 42 | The arm | [PDF pages](originals/audio-1967-03-oakley-skating-force-pp40-42.pdf) | The skating-force formula, four anti-skating methods, and an AR arm fitted with a bent paper clip, thread, and gram weight |
 
 ## Community drawing
 
