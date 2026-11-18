@@ -4,7 +4,17 @@
 
 Local copies of what people have written about AR turntables, and of the makers' listings the reference cites, saved in case the original sites disappear. The first set was saved on 2026-11-05 and the second on 2026-11-18. Each page keeps its text and pictures and names its original address. Pictures are JPEG, at most 1600 px on the long side, with lowercase file names.
 
-These are third-party works. The repository license does not cover them: rights remain with each author and site, and a copy will be removed if its author asks.
+These are third-party works. The repository license does not cover them: rights remain with each author and site, and a copy will be removed if its author asks. See [Other people's material](../../README.md#other-peoples-material).
+
+### Removing an author's material
+
+When an author asks, through an issue titled "Removal request" or through the owner's GitHub profile:
+
+1. Delete the author's folder under `docs/archive/`. If the author is one of several on a site folder, delete only their pages and their pictures under that folder's `images/`.
+2. Remove their rows from `docs/manifest.tsv`.
+3. Remove their entries from this index.
+4. Search the repository for every link to the deleted files. Replace each citation with the fact itself and the words "source removed at the author's request".
+5. Commit with the message "Remove <site> at the author's request".
 
 ## Vinyl Nirvana
 

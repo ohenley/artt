@@ -62,6 +62,14 @@ A measurement from one table stays tied to that table. Do not carry a value acro
 
 Last reviewed: 2026-11-18. To add or correct something, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
+## Other people's material
+
+This repository keeps local copies of pages and photos about AR turntables, because the sites that hold them keep disappearing. Each copy names its author and links to the original. These copies are not covered by this repository's license: all rights stay with their authors.
+
+I do not ask each author first. This is a one-person, unpaid project, and tracking down every author of every forum photo would mean the archive never gets built and the material is lost.
+
+If something of yours is here and you want it gone, open an issue titled "Removal request" or contact me through my GitHub profile. I will remove it, no questions asked, normally within a day.
+
 ## License
 
 Text, models, and drawings: [CC BY-SA 4.0](LICENSE). Build script: [MIT](cad/tools/LICENSE). Scans under `docs/` are third-party material and keep their own rights. Not affiliated with Acoustic Research or Grado.
