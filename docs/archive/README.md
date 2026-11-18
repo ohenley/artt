@@ -159,3 +159,10 @@ Shop pages that are live catalogues, or that limit automated requests:
 - [Parts Connexion: bulk tonearm wire catalogue](https://partsconnexion.com/tonearm-bulk-wire). A changing list.
 
 Videos cannot be stored. The pages that carry only a video keep its address: the Vinyl Nirvana guides for the spring kit, the co-polymer pulley, the upgrade motor, and the parts glossary.
+
+## Video records
+
+A video cannot be stored. For each of these a record page keeps the address, title, author, date, length, and the posted description with its time marks.
+
+- [M. Zillch, Audiophile Turntable TESTED: Acoustic Research AR-XA!, 2018](youtube/zillch-2018-ar-xa-tested.md) ([video](https://www.youtube.com/watch?v=1rgK0YMsJXM)). Filmed tests of a stock XA: tracking force, headshell mass, speed, pivot height, feedback, room rumble
+- [M. Zillch, TechDAS Air Force Zero vs. AR-XA blind test: XA breakdown, 2022](youtube/zillch-2022-blind-test-xa-breakdown.md) ([video](https://www.youtube.com/watch?v=sHuHd-GFu9o)). The XA rig used in the AVS Forum blind listening poll, and the poll result as the author posted it
