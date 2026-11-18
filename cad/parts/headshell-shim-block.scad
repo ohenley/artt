@@ -25,12 +25,17 @@ module part() {
 
 emit(
     [
-        ["id", "headshell-shim-block"],
-        ["title", "XA/XB cartridge shim block"],
+        ["id", "shim-block-xa-xb-cardboard"],
+        ["title", "Cartridge shim block, XA and XB"],
         ["status", "GEOMETRY COMPLETE"],
+        ["part", "parts/cartridge-hardware.md"],
+        ["part_name", "Cartridge screws, bushings and shims"],
+        ["version", "XA and XB hardware set, thicknesses #1 to #3"],
         ["scope", "Original-style XA/XB hardware set. Community drawing, not an AR factory drawing"],
         ["material", "Cardboard, per the drawing"],
         ["density", 0.7],
+        ["fits", [["XA", "Fitted by AR", "sheet L-1591 names the shim block; sizes from the community drawing of XA and XB sets"],
+                  ["XB", "Fitted by AR", "same two sources"], ["AR77XB", "Unconfirmed", ""]]],
         ["make", "Cut from sheet. 1 of each thickness per set"],
         ["flat", true],
         ["variants", [[1, "#1, 0.045 in"], [2, "#2, 0.080 in"], [3, "#3, 0.125 in"]]],

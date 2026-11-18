@@ -15,7 +15,7 @@
 | Cardboard shim block | 1 of each of 3 thicknesses | 0.805 × 0.230; thicknesses 0.045, 0.080, 0.125 | Tilts the front of the cartridge, where the sheet calls for one |
 | #4-40 brass set screw | 1 | Length 0.125 | Location Unconfirmed |
 
-Dimensions and counts for the XA and XB (Owner report, [community drawing](originals/ar-headshell-hardware-rev-1.pdf) signed RDW, December 7, 2023, shared by ronaldw441, who checked the #3-48 thread against 14 original XA/XB shells; posted in a diyAudio thread on AR77XB headshell bolts, posts 2 and 4, whose address is in the [archive index](archive/README.md#not-archived)). Four screw sizes and three bushing sizes (Factory, sheet L-1591).
+Part page: [cartridge screws, bushings and shims](../parts/cartridge-hardware.md). Dimensions and counts for the XA and XB (Owner report, [community drawing](originals/ar-headshell-hardware-rev-1.pdf) signed RDW, December 7, 2023, shared by ronaldw441, who checked the #3-48 thread against 14 original XA/XB shells; posted in a diyAudio thread on AR77XB headshell bolts, posts 2 and 4, whose address is in the [archive index](archive/README.md#not-archived)). Four screw sizes and three bushing sizes (Factory, sheet L-1591).
 
 ## Where do they go?
 

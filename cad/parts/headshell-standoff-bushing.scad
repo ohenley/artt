@@ -28,12 +28,17 @@ module part() {
 
 emit(
     [
-        ["id", "headshell-standoff-bushing"],
-        ["title", "XA/XB cartridge standoff bushing"],
+        ["id", "standoff-bushing-xa-xb-plastic"],
+        ["title", "Cartridge standoff bushing, XA and XB"],
         ["status", "GEOMETRY COMPLETE"],
+        ["part", "parts/cartridge-hardware.md"],
+        ["part_name", "Cartridge screws, bushings and shims"],
+        ["version", "XA and XB hardware set, heights #1 to #3"],
         ["scope", "Original-style XA/XB hardware set. Community drawing, not an AR factory drawing"],
         ["material", "Soft plastic, grade not established"],
         ["density", 1.1],
+        ["fits", [["XA", "Fitted by AR", "sheet L-1591 lists three bushing sizes; dimensions from the community drawing of XA and XB sets"],
+                  ["XB", "Fitted by AR", "same two sources"], ["AR77XB", "Unconfirmed", ""]]],
         ["make", "Turn or cut from tube. 2 of each size per set"],
         ["variants", [[1, "#1, 0.050 in"], [2, "#2, 0.100 in"], [3, "#3, 0.150 in"]]],
         ["views", ["front", "top", "right", "iso"]],
