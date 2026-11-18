@@ -16,6 +16,7 @@ Not sure which one you have? Use the [model guide](models/README.md). Photos: Gi
 
 | Start here | |
 | --- | --- |
+| Does it perform? | [The evidence](docs/evidence/README.md): 0.05 percent speed error, the lowest a testing laboratory had met in a fixed-speed table (Period, *High Fidelity*, 1963); rumble −38 dB unweighted against a −35 dB broadcast standard (Period, *HiFi/Stereo Review*, 1963); 19 dB more gain before acoustic feedback than a direct-drive reference on the same bench, on the 1983 table (Period, *Audio*, 1984). The [weaknesses](docs/evidence/weaker.md) are on the same pages |
 | Which model is it? | [Model guide](models/README.md): every model and variant, how to recognise it, dates, and published figures |
 | Your model | [XA](models/xa/README.md) · [XB](models/xb/README.md) · [AR77XB](models/ar77xb/README.md) |
 | Upgrades | [XA mods](models/xa/mods/README.md) |
