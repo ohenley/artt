@@ -15,11 +15,12 @@ The plug-in holder at the end of the arm that the cartridge bolts into; its roun
 | Cutaway shell | On request: "special cartridge shell with cutaway in front, which permits mounting cartridge deeper in shell, available free directly from AR", for the Stanton-Pickering 581 and 681 (Factory, sheet L-1591, note 9). Sold as 1404025-0 "Cutaway Shell w/Hardware" in 1979 (Factory, 1979 price list) | As the production shell | The front wall is cut away | Unconfirmed | Unconfirmed | Factory, two documents |
 | AR77XB shell | AR77XB | Metal in one line of the specialist's description and plastic in another: Conflict, HS5 | Black | Unconfirmed | Unconfirmed | Specialist, [VN XB77](../docs/archive/vinyl-nirvana/ar-models/ar-xb77.md) |
 | Pat's Audio reproduction | Sold for the XA and XB | Black; reinforced neck, brass inserts | Spring-loaded gold-plated pins, M2.5 cartridge screws in several lengths | Unconfirmed | Unconfirmed | Maker claim, [Pat's Audio](../docs/archive/pats-audio/ar-xa-xb-headshell.md) |
+| Best Audio reproduction | Sold for the XA and XB. The repository owner's pick for a stock-pattern shell (Owner report) | Injection moulded, "not an inferior 3D print"; the plastic is not stated | Glossy finish made to resemble the original; tan, black, gray, red or champagne; sealed connections, gold-plated contacts; takes M2.5 cartridge screws | Unconfirmed | Unconfirmed | Maker claim, [Best Audio eBay listings](../docs/archive/ebay/best-audio-xa-headshell.md) |
 | Top-mount acrylic shell, this repository | Nobody yet. A concept for a Grado Master4 | PMMA (acrylic) | Two slots on top, pocket underneath | Concept drawing; the neck and pins are placeholders | About 10 g from the model against the 7 g target; the title block prints the difference | Design, [drawing](../cad/exports/headshell-top-mount-pmma/PRELIMINARY-headshell-top-mount-pmma.pdf) |
 | Printed XA shell, redcedarprints | Sold on eBay | Unconfirmed | Unconfirmed | Unconfirmed | Unconfirmed | Not read: SR4 |
 | Second-family shells | The AR Turntable and ES-1: carbon-fibre reinforced, with a clamping screw on the arm (Factory, [1983 brochure](../docs/archive/vinyl-nirvana/ar-turntable-history/ar-the-turntable-brochure.md); Specialist, VN ES-1). The Legend: integral die-cast aluminium (Factory, [GB brochure](../docs/archive/vinyl-nirvana/ar-turntable-history/ar-legend-and-eb-101-brochure-from-great-britain.md)) | As stated | A different arm: see the [model guide](../models/README.md#two-families) | Unconfirmed | Unconfirmed | Factory |
 
-The 1979 XA number 1404003-0 and the XB number 404003 share the pattern noted on the [counterweight page](counterweight.md#versions). Whether XA and XB shells are one part: Unconfirmed, HS6. Pat's Audio sells one shell for both, which suggests one neck fits both; that is a maker claim.
+The 1979 XA number 1404003-0 and the XB number 404003 share the pattern noted on the [counterweight page](counterweight.md#versions). Whether XA and XB shells are one part: Unconfirmed, HS6. Pat's Audio and Best Audio each sell one shell for both, which suggests one neck fits both; those are maker claims.
 
 ## What fits what
 
@@ -29,6 +30,7 @@ The 1979 XA number 1404003-0 and the XB number 404003 share the pattern noted on
 | Cutaway shell | Fitted by AR on request (Factory, L-1591 note 9; 1979 price list) | Unconfirmed | Unconfirmed | Unconfirmed | Unconfirmed | Unconfirmed | Unconfirmed | Unconfirmed |
 | AR77XB shell | Unconfirmed | Unconfirmed | Unconfirmed | Fitted by AR (Specialist, VN XB77) | Unconfirmed | Unconfirmed | Unconfirmed | Unconfirmed |
 | Pat's Audio reproduction | Fits (Maker claim, Pat's Audio) | Fits (Maker claim, Pat's Audio) | Unconfirmed | Unconfirmed: the listing names the XA and XB only | Unconfirmed | Unconfirmed | Unconfirmed | Unconfirmed |
+| Best Audio reproduction | Fits (Maker claim, Best Audio) | Fits (Maker claim, Best Audio) | Unconfirmed | Unconfirmed: the listing names the XA and XB only | Unconfirmed | Unconfirmed | Unconfirmed | Unconfirmed |
 | Top-mount shell, this repository | Unconfirmed | Unconfirmed | Unconfirmed | Unconfirmed | Unconfirmed | Unconfirmed | Unconfirmed | Unconfirmed |
 | The Legend's shell | Does not fit: integral to The Legend's arm (Factory, GB brochure) | Does not fit (same) | Does not fit (same) | Does not fit (same) | Fitted by AR (Factory, GB brochure) | Unconfirmed | Unconfirmed | Unconfirmed |
 | Carbon-fibre shell | Unconfirmed | Unconfirmed | Unconfirmed | Unconfirmed | Fitted by AR (Factory, 1983 brochure) | Unconfirmed | Fitted by AR (Specialist, VN ES-1) | Unconfirmed |
@@ -39,7 +41,7 @@ The 1979 XA number 1404003-0 and the XB number 404003 share the pattern noted on
 | --- | --- | --- | --- | --- |
 | Top-mount shell, PMMA | Concept: 23 placeholders, 2 derived (GR5, HD27) | [PDF](../cad/exports/headshell-top-mount-pmma/PRELIMINARY-headshell-top-mount-pmma.pdf) | [STEP](../cad/exports/headshell-top-mount-pmma/PRELIMINARY-headshell-top-mount-pmma.step) | [scad](../cad/parts/headshell-pmma-top-mount.scad) |
 | Production shell | No drawing. Missing: every body, neck and pin dimension, HD1 to HD25, measured on an original | | | |
-| Pat's Audio, AR77XB, second family | No drawing. Not this repository's to draw; no dimensions held | | | |
+| Pat's Audio, Best Audio, AR77XB, second family | No drawing. Not this repository's to draw; no dimensions held | | | |
 
 The photographs held, [Pat's Audio](../docs/archive/pats-audio/ar-xa-xb-headshell.md) and [John's Weather](../docs/archive/johns-weather/xa-restoration-2009.md), were checked for photo scaling. None has a sourced dimension lying in the same plane as the neck or the body outline, so no dimension was scaled from them. The neck, pins and outline stay placeholders.
 
@@ -60,7 +62,7 @@ The photographs held, [Pat's Audio](../docs/archive/pats-audio/ar-xa-xb-headshel
 
 - **The [counterweight](counterweight.md):** a heavier shell needs more counterweight travel or a heavier weight; AR's extra section exists for that.
 - **The overhang:** every new shell or cartridge is followed by the [overhang template](overhang-template.md); the XA has an overhang set screw on the arm for it.
-- **The [cartridge screws, bushings and shims](cartridge-hardware.md):** a shell with different studs takes different screws. Pat's Audio uses M2.5.
+- **The [cartridge screws, bushings and shims](cartridge-hardware.md):** a shell with different studs takes different screws. Pat's Audio and Best Audio use M2.5.
 - **Arm resonance:** mass at the end of the arm with the cartridge's compliance sets it; GR12.
 
 ## Check after fitting
@@ -90,5 +92,5 @@ Each link opens the copy kept in this repository.
 - [Community hardware drawing, RDW, 2023](../docs/originals/ar-headshell-hardware-rev-1.pdf). Owner report.
 - [Wikipedia, Unified Thread Standard](../docs/archive/wikipedia/unified-thread-standard.md). Standard.
 - [Vinyl Nirvana XA](../docs/archive/vinyl-nirvana/ar-models/ar-xa.md), [XB](../docs/archive/vinyl-nirvana/ar-models/ar-xb.md), [XB77](../docs/archive/vinyl-nirvana/ar-models/ar-xb77.md), [ES-1](../docs/archive/vinyl-nirvana/ar-models/ar-es-1.md). Specialist.
-- [Pat's Audio](../docs/archive/pats-audio/ar-xa-xb-headshell.md). Maker claim.
+- [Pat's Audio](../docs/archive/pats-audio/ar-xa-xb-headshell.md) and [Best Audio](../docs/archive/ebay/best-audio-xa-headshell.md). Maker claims. The owner's pick for a stock-pattern shell is the Best Audio one, because it is moulded (Owner report, stated 2026-11-18).
 - [John's Weather, 2009](../docs/archive/johns-weather/xa-restoration-2009.md): photographs. Owner report.

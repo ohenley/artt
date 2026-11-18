@@ -20,6 +20,7 @@ Dimensions are from the community drawing by RDW, December 7, 2023, who checked 
 | Set screw | In the bag. Where it goes is not stated: HS3 | Brass | 1 | #4-40 × 0.125 in (3.18 mm) | Unconfirmed | Owner report |
 | Counterweight set screw, for comparison | XA item 22A, part 942; 1979 part 1501008-0; XB item 6, part 501008. Thread not stated: CW8 | Unconfirmed | Not the #4-40 above unless CW8 says so | Unconfirmed | Unconfirmed | Factory, [XA service manual](../docs/originals/xa-service-manual.pdf), [drawing 119](../docs/drawings/xb-drawing-119.png) |
 | Pat's Audio M2.5 screws | Supplied with the reproduction shell | Unconfirmed | "Multiple pairs of progressive length M2.5 screws" | M2.5 | Unconfirmed | Maker claim, [Pat's Audio](../docs/archive/pats-audio/ar-xa-xb-headshell.md) |
+| Best Audio M2.5 screws | Sent on request with the Best Audio shell, which takes M2.5 | Unconfirmed | Screws and washers | M2.5 | Unconfirmed | Maker claim, [Best Audio](../docs/archive/ebay/best-audio-xa-headshell.md) |
 
 The thread, from the thread table: #3-48 has a major diameter of 0.0990 in (2.51 mm) and a pitch of 0.5292 mm; #4-40 has a major diameter of 0.1120 in (2.84 mm) and a pitch of 0.635 mm (Standard, [Wikipedia, Unified Thread Standard](../docs/archive/wikipedia/unified-thread-standard.md)). A 4-40 and then an M2.5 thread were also reported in the same forum thread: Conflict, HS1, SR3.
 
@@ -28,7 +29,7 @@ The thread, from the thread table: #3-48 has a major diameter of 0.0990 in (2.51
 | Version | XA | XB | XB1 | AR77XB | The AR Turntable and Legend | EB-101 | ES-1 | ETL-1 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | #3-48 screws, bushings, shims | Fitted by AR (Factory, L-1591; thread checked on 14 XA and XB shells, community drawing) | Fitted by AR (same) | Unconfirmed | Unconfirmed, HS1 | Unconfirmed | Unconfirmed | Unconfirmed | Unconfirmed |
-| Pat's Audio M2.5 screws | Fits with a change: only in the Pat's Audio shell, whose inserts are M2.5 (Maker claim) | Fits with a change (same) | Unconfirmed | Unconfirmed | Unconfirmed | Unconfirmed | Unconfirmed | Unconfirmed |
+| Pat's Audio and Best Audio M2.5 screws | Fits with a change: only in those makers' shells, whose inserts are M2.5 (Maker claims) | Fits with a change (same) | Unconfirmed | Unconfirmed | Unconfirmed | Unconfirmed | Unconfirmed | Unconfirmed |
 
 ## Drawings
 

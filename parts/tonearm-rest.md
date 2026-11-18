@@ -13,6 +13,9 @@ The yoke beside the arm that the arm snaps into when it is not playing. Photo wa
 | XA rest | XA. "Rest with its nut", item 10, part 907 (Factory, [XA service manual, p. 4](../docs/originals/xa-service-manual.pdf)). Sold as 1404005-2, "Tonearm Rest w/Nut Assembly", in January 1979 (Factory, [1979 price list](../docs/archive/vinyl-nirvana/ar-turntable-history/1979-xa-price-list.md)) | Black plastic (Specialist, [Vinyl Nirvana XA](../docs/archive/vinyl-nirvana/ar-models/ar-xa.md)) | A black plastic yoke | Installed height 39 mm, bottom of the yoke to the top of the top plate (Owner report, patrickhenrypdx, one table, CW10) | Unconfirmed | Factory for the part; Specialist for the material; Owner report for the height |
 | XB rest | XB. Tone arm rest assembly, item 22, part 404005, held by a #5-40 hex nut, item 60, and a #5 star lockwasher, item 61 (Factory, [drawing 119](../docs/drawings/xb-drawing-119.png)) | Metal (Specialist, [Vinyl Nirvana XB](../docs/archive/vinyl-nirvana/ar-models/ar-xb.md)) | A metal yoke | Unconfirmed | Unconfirmed | Factory for the part; Specialist for the material |
 | AR77XB rest | AR77XB | Unconfirmed | Unconfirmed | Unconfirmed | Unconfirmed | No source |
+| Pat's Audio rest with clasp | Sold for the XA. The repository owner's pick (Owner report) | Machined aluminium post | A clasp holds the arm in the cradle; sits flush on the top plate, fixed from below with a washer and nut | No height given | Unconfirmed | Maker claim, [Pat's Audio, clasp rest](../docs/archive/pats-audio/ar-xa-arm-rest-clasp.md) |
+| Pat's Audio rest, standard base | Sold for the XA | Unconfirmed | "The same dimensions as the original"; sits flush with an offset boss, fixed with a screw and washer into a tapped hole | No figure given | Unconfirmed | Maker claim, [Pat's Audio, standard base](../docs/archive/pats-audio/ar-xa-arm-rest-standard-base.md) |
+| Pat's Audio rest, square base | Sold for the XA | Unconfirmed | "The same height as the original" on a square base; fixed as the standard base | No figure given | Unconfirmed | Maker claim, [Pat's Audio, square base](../docs/archive/pats-audio/ar-xa-arm-rest-square-base.md) |
 | New rest, Gig Harbor Audio | A stock XA sold with "a new cover and arm rest" (Maker claim, [Gig Harbor Audio](../docs/archive/gig-harbor-audio/custom-units.md)) | Unconfirmed | See the [XA cover photo](../docs/images/models/xa.jpg) | Unconfirmed | Unconfirmed | Maker claim |
 
 The 1979 XA number 1404005-2 and the XB number 404005 share the pattern noted on the [counterweight page](counterweight.md#versions). Whether they are the same part: Unconfirmed.
@@ -23,6 +26,7 @@ The 1979 XA number 1404005-2 and the XB number 404005 share the pattern noted on
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | XA rest | Fitted by AR (Factory, service manual p. 4) | Unconfirmed | Unconfirmed | Unconfirmed | Unconfirmed | Unconfirmed | Unconfirmed | Unconfirmed |
 | XB rest | Unconfirmed | Fitted by AR (Factory, drawing 119, item 22) | Unconfirmed | Unconfirmed | Unconfirmed | Unconfirmed | Unconfirmed | Unconfirmed |
+| Pat's Audio rests, all three | Fits (Maker claim: sold for the XA; the standard base has the original dimensions, the others the original height) | Unconfirmed: not listed for the XB, whose rest is metal and fixed with a #5-40 nut | Unconfirmed | Unconfirmed | Unconfirmed | Unconfirmed | Unconfirmed | Unconfirmed |
 
 ## Drawings
 
@@ -54,5 +58,6 @@ Each link opens the copy kept in this repository.
 - [XA parts price list, January 1979](../docs/archive/vinyl-nirvana/ar-turntable-history/1979-xa-price-list.md). Factory.
 - [XB drawing 119](../docs/drawings/xb-drawing-119.png). Factory.
 - [Vinyl Nirvana XA](../docs/archive/vinyl-nirvana/ar-models/ar-xa.md) and [XB](../docs/archive/vinyl-nirvana/ar-models/ar-xb.md). Specialist.
+- [Pat's Audio arm rests: clasp](../docs/archive/pats-audio/ar-xa-arm-rest-clasp.md), [standard base](../docs/archive/pats-audio/ar-xa-arm-rest-standard-base.md), [square base](../docs/archive/pats-audio/ar-xa-arm-rest-square-base.md). Maker claim. The owner's pick is the clasp rest (Owner report, stated 2026-11-18).
 - [Gig Harbor Audio custom units](../docs/archive/gig-harbor-audio/custom-units.md). Maker claim.
 - patrickhenrypdx on Reddit, not held: SR1 in [sources to read](../docs/sources-to-read.md). Owner report.

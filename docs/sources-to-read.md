@@ -20,6 +20,7 @@ Save each page from a browser, add it to the [archive](archive/README.md), then 
 - SR2: [diyAudio thread](https://www.diyaudio.com/community/threads/acoustic-research-ar77xb-search-for-new-headshell-bolts.407382/). The 14 shells, whether they are original, and posts 2 and 4 (HS1).
 - SR3: Same thread. A reported 4-40, then M2.5, cartridge thread (HS1).
 - SR4: [eBay headshell listing](https://www.ebay.com/itm/144937941911) by redcedarprints. A printed XA shell design and its license.
+- SR44: eBay listings by bestaudioparts for the [tan](https://www.ebay.com/itm/332509547009) and [black](https://www.ebay.com/itm/332290103217) Best Audio XA headshell, by jnbaudio for the [XA and XB dust cover with insignia](https://www.ebay.com/itm/182412300716), and by patsaudioparts for the [arm rest with clasp](https://www.ebay.com/itm/302476992907). Records made through a public mirror are held in the [archive](archive/README.md#other-makers-listings); the pages themselves are not. Save them from a browser to replace the records.
 - SR5: [AudioKarma AR77XB thread](https://audiokarma.org/forums/threads/ar77xb-questions.860919/). AR77XB details.
 - SR6: [Vinyl Engine AR77-XB entry](https://www.vinylengine.com/library/acoustic-research/ar77-xb.shtml). An AR77XB manual (MD10).
 - SR7: [Radiomuseum AR77-XB entry](https://radiomuseum.org/r/acoustic_ar77_xb.html). Overall size, about 16.4 × 5.5 × 15.6 in (DM3).
@@ -38,6 +39,17 @@ Save each page from a browser, add it to the [archive](archive/README.md), then 
 - SR29: [AudioKarma, "AR weight of counterweight"](https://audiokarma.org/forums/threads/ar-weight-of-counterweight-i-need-one-or-weight-to-make-one-up.725992/). Found by search; said to give a weighed brass counterweight and remade heavy ones. Not read (CW1, CW11).
 - SR30: [AudioKarma, "Help with AR XA"](https://audiokarma.org/forums/threads/help-with-ar-xa.849668/). Found by search; said to discuss whether XA and XB weights have the same mass. Not read (CW12).
 - SR31: [AudioKarma, "Comments on Acoustic Research AR77XB"](https://audiokarma.org/forums/threads/comments-on-acoustic-research-ar77xb.332555/). Found by search; said to compare the AR77XB weight with the XB's. Not read (CW13).
+- SR36: AVS Forum thread [Audiophile Turntable 101: Acoustic Research AR-XA](https://www.avsforum.com/threads/audiophile-turntable-101-acoustic-research-ar-xa.3036830/), by the author of the [filmed tests](archive/youtube/zillch-2018-ar-xa-tested.md). The site answers automated requests with a challenge page. Discussion of the tests, and a speed measurement of an XA attributed to Michael Fremer.
+- SR37: AVS Forum thread [$500,000 vs. $78 Turntable Blind Test](https://www.avsforum.com/threads/500-000-vs-78-turntable-blind-test.3237117/). Same site, same refusal. The poll itself, its files, and a 2021 magazine piece by a reviewer who had just acquired an AR, pointed to from the thread. The result as the author posted it is kept on the [video record](archive/youtube/zillch-2022-blind-test-xa-breakdown.md).
+- SR38: [AudioKarma post on an overhauled XA measured on a wow and flutter meter](https://audiokarma.org/forums/showthread.php?p=5437571). Refuses automated access. Nothing from it is stated on the [evidence pages](evidence/README.md) until it is archived.
+- SR39: [Vinyl Engine thread on the filmed tests](https://www.vinylengine.com/turntable_forum/viewtopic.php?t=112447). Refuses automated access.
+
+## Not held: not found online
+
+- SR40: John Milder's report on the AR turntable in *Modern Hi-Fi*, 1962 or 1963, quoted on page 9 of the [AR brochure](archive/vinyl-nirvana/ar-turntable-history/ar-brochure.md). No scan of the magazine has been found on worldradiohistory.com. AR offered reprints at the time.
+- SR41: The 1963 magazine systems that chose the AR turntable, named on the same brochure page: *Gentlemen's Quarterly*, *Popular Science*, *Bravo*. Scans of *Popular Science* for 1963 exist on archive.org and have not been searched; *Industrial Design*, quoted on the same page, has not been looked for.
+- SR42: The May 2009 magazine line quoted in the filmed tests' description, attributed there to *Hi-Fi News*, p. 41. Not found on hifinews.com; the magazine's archive is behind a subscription.
+- SR43: The phone app and the database of 316 turntables used for the speed reading in the [filmed tests](archive/youtube/zillch-2018-ar-xa-tested.md), with its entries for the Linn, Thorens, Technics and Rega tables. The app is not named in the video description.
 
 ## Not held: not yet fetched
 
