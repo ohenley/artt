@@ -39,6 +39,7 @@ Both are written out in the [model guide](../models/README.md#second-family).
 | Retail catalogue panel, 1970s | XB, XB-91 | [Image](archive/hifi-wiki/acoustic-research-model-xb.md) | Size with cover, speeds, motor type, prices |
 | Peter W. Mitchell, review, *Audio*, July 1984 | The AR Turntable | [Text](archive/gamma-electronics/audio-1984-07-ar-turntable.md) | Maker's specifications, price, measurements, history |
 | Julian D. Hirsch, Technical Talk, *HiFi/Stereo Review*, March 1963, pp. 33–34 | XA, one-speed | [PDF pages](originals/hifi-stereo-review-1963-03-hirsch-ar-pp33-34.pdf) | Rumble, wow and flutter, speed, tracking error, and arm friction as he measured them; price of the one-speed and two-speed tables |
+| Equipment report by United States Testing Company, *High Fidelity*, March 1963, pp. 59–60, and the magazine's May 1963 note on its rumble method, p. 51 | XA, one-speed | [Report](originals/high-fidelity-1963-03-ar-report-pp59-60.pdf), [note](originals/high-fidelity-1963-05-rumble-method-p51.pdf) | Speed error, wow, flutter, rumble, arm resonance, hum field, platter weight |
 
 ## Community drawing
 
