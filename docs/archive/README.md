@@ -129,6 +129,7 @@ These are third-party works. The repository license does not cover them: rights 
 - [Peter W. Mitchell, the AR turntable, *Audio*, July 1984](gamma-electronics/audio-1984-07-ar-turntable.md) ([original](https://gammaelectronics.xyz/audio_07-1984_ar.html))
 - [Dagogo: The AR Turntable, commentary and readers' comments](dagogo/the-ar-turntable-commentary.md) ([original](https://www.dagogo.com/acoustic-research-ar-turntable-commentary/))
 - [hifi-wiki: Acoustic Research Model XB, with a 1970s catalogue panel](hifi-wiki/acoustic-research-model-xb.md) ([original](https://hifi-wiki.com/index.php/Acoustic_Research_Model_XB))
+- [hifi-wiki: Technics SL-1200MK2](hifi-wiki/technics-sl-1200mk2.md) ([original](https://hifi-wiki.com/index.php/Technics_SL-1200_MK2)). A reference table's published figures, with the two rumble weightings side by side
 - [stereonomono: Acoustic Research AR-XB](stereonomono/acoustic-research-ar-xb.md) ([original](https://stereonomono.blogspot.com/2021/02/acoustic-research-ar-xb.html))
 - [stereonomono: Linn Sondek LP12, retyped Linn literature with leaflet scans](stereonomono/linn-sondek-lp12.md) ([original](https://stereonomono.blogspot.com/2014/07/linn-sondek-lp12.html))
 - [Wikipedia: Acoustic Research](wikipedia/acoustic-research.md) ([original](https://en.wikipedia.org/wiki/Acoustic_Research)). Text under CC BY-SA 4.0.
