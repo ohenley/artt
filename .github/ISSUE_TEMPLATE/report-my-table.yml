@@ -1,0 +1,61 @@
+name: Report my table
+description: Tell us about an AR turntable you own or have handled. Every row helps date the models and close open questions.
+title: "My table: <model> <serial>"
+labels: ["owner report"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Fill in what you can and leave the rest blank. A photo of each label is worth more than a typed value: drag it into the last box.
+  - type: dropdown
+    id: model
+    attributes:
+      label: Model
+      options: [XA, TA, XB, XB1, AR77XB, The AR Turntable, The Legend, EB-101, ES-1, ETL-1, Not sure]
+    validations:
+      required: true
+  - type: input
+    id: serial
+    attributes:
+      label: Serial number, exactly as printed
+  - type: input
+    id: motor
+    attributes:
+      label: Motor label (maker, part number, voltage, frequency)
+  - type: input
+    id: shaft
+    attributes:
+      label: Motor shaft diameter, and how you measured it
+  - type: input
+    id: capacitors
+    attributes:
+      label: Capacitor markings (value, voltage, any maker or date code)
+  - type: input
+    id: base
+    attributes:
+      label: Base material (solid wood, veneer, vinyl wrap, other)
+  - type: input
+    id: headshell
+    attributes:
+      label: Headshell (colour, plastic or metal, original or replacement)
+  - type: input
+    id: counterweight
+    attributes:
+      label: Counterweight (material, mass if weighed)
+  - type: dropdown
+    id: cover
+    attributes:
+      label: Hinged cover?
+      options: ["Yes", "No, lift-off", "No cover", Not sure]
+  - type: input
+    id: mains
+    attributes:
+      label: Mains voltage and frequency
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything original, replaced or modified, and photos
+  - type: input
+    id: credit
+    attributes:
+      label: Name to credit you by (or leave blank)

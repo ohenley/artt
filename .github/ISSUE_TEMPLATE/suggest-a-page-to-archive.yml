@@ -1,0 +1,27 @@
+name: Suggest a page to archive
+description: A web page about AR turntables that should be saved before it disappears.
+title: "Archive: <site and subject>"
+labels: ["archive"]
+body:
+  - type: input
+    id: address
+    attributes:
+      label: Address of the page
+    validations:
+      required: true
+  - type: textarea
+    id: contains
+    attributes:
+      label: What it contains (measurements, photos, a repair, a factory document)
+    validations:
+      required: true
+  - type: dropdown
+    id: wayback
+    attributes:
+      label: Is it saved on the Wayback Machine?
+      options: ["Yes", "No", Not sure]
+  - type: dropdown
+    id: blocked
+    attributes:
+      label: Does it need a login, or block copying?
+      options: ["No", "Yes", Not sure]

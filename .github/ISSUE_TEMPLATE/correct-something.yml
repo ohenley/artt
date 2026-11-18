@@ -1,0 +1,34 @@
+name: Correct something
+description: A value, a date, a name or a link on a page is wrong.
+title: "Correction: <page>"
+labels: ["correction"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page and line, or a link to it
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What it says now
+    validations:
+      required: true
+  - type: textarea
+    id: right
+    attributes:
+      label: What it should say
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source (document and page, or your own measurement with a photo)
+    validations:
+      required: true
+  - type: dropdown
+    id: label
+    attributes:
+      label: Label for the corrected value
+      options: [Factory, Period listing, Specialist, Owner report, Maker claim, Unconfirmed]

@@ -1,0 +1,46 @@
+name: Report a measurement
+description: A value you measured on a table or a part, such as a mass, a size, a speed or a thread.
+title: "Measurement: <what> on <model>"
+labels: ["measurement"]
+body:
+  - type: input
+    id: id
+    attributes:
+      label: Things-to-confirm ID, if there is one (for example CW2 or PL5)
+  - type: input
+    id: part
+    attributes:
+      label: Part or location
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: Model, serial, and revision
+    validations:
+      required: true
+  - type: input
+    id: value
+    attributes:
+      label: Value, with units
+    validations:
+      required: true
+  - type: input
+    id: tool
+    attributes:
+      label: Tool used, and how (for example digital scale 0.01 g, part removed, set screw fitted)
+    validations:
+      required: true
+  - type: dropdown
+    id: state
+    attributes:
+      label: Is the part original?
+      options: [Original, Replacement, Modified, Not sure]
+  - type: textarea
+    id: photo
+    attributes:
+      label: Photo of the part and the reading, and any notes
+  - type: input
+    id: credit
+    attributes:
+      label: Name to credit you by (or leave blank)
