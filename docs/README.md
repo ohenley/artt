@@ -38,6 +38,7 @@ Both are written out in the [model guide](../models/README.md#second-family).
 | Allied sales flyer, 1964 | XA | [Scan](archive/vinyl-nirvana/ar-turntable-history/1964-ar-xa-ad.md) | Two motors, 3.5 lb platter, 110–120 V, price |
 | Retail catalogue panel, 1970s | XB, XB-91 | [Image](archive/hifi-wiki/acoustic-research-model-xb.md) | Size with cover, speeds, motor type, prices |
 | Peter W. Mitchell, review, *Audio*, July 1984 | The AR Turntable | [Text](archive/gamma-electronics/audio-1984-07-ar-turntable.md) | Maker's specifications, price, measurements, history |
+| Julian D. Hirsch, Technical Talk, *HiFi/Stereo Review*, March 1963, pp. 33–34 | XA, one-speed | [PDF pages](originals/hifi-stereo-review-1963-03-hirsch-ar-pp33-34.pdf) | Rumble, wow and flutter, speed, tracking error, and arm friction as he measured them; price of the one-speed and two-speed tables |
 
 ## Community drawing
 

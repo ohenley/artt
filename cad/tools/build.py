@@ -5,13 +5,15 @@ OpenSCAD files are the only source. This script asks OpenSCAD for each part's
 CSG tree and its parameter data, rebuilds the tree in OpenCASCADE to get true
 cylinders and planes for STEP, then projects that solid into orthographic views.
 
-    python build.py            build every part
+    python build.py            build every part, then rewrite the drawings table in cad/README.md
     python build.py NAME       build one part file, without .scad
-    python build.py --check    check that placeholders are logged in TO-CONFIRM.md
+    python build.py --check    check that every PH and DV row is logged in TO-CONFIRM.md
+                               and that the README table matches the part files
 
 Requires: openscad on PATH, and the packages in requirements.txt.
 License: MIT, see LICENSE in this directory.
 """
+import datetime
 import json
 import math
 import os
@@ -72,13 +74,19 @@ ROOT = Path(__file__).resolve().parents[1]
 PARTS = ROOT / "parts"
 EXPORTS = ROOT / "exports"
 TO_CONFIRM = ROOT.parent / "TO-CONFIRM.md"
-DRAWING_DATE = "2026-11-04"
-REVISION = "A"
+README = ROOT / "README.md"
+DRAWING_DATE = "2026-11-18"
+REVISION = "B"
+# Fixed timestamps, so that rebuilding an unchanged part leaves its files unchanged.
+FIXED_TIME = datetime.datetime(2026, 11, 18, 12, 0, 0, tzinfo=datetime.timezone.utc)
+FIXED_GUID = "{00000000-0000-0000-0000-000000000000}"
 
 SHEET_W, SHEET_H = 420.0, 297.0  # A3 landscape, mm
-RED = "#c00000"
-INK = "#000000"
+RED = "#c00000"       # PH: placeholder
+BLUE = "#0050b0"      # DV: derived from sources, verify on the part
+INK = "#000000"       # sourced
 GREY = "#555555"
+DXF_COLOR = {RED: 1, BLUE: 5}
 
 EVIDENCE = {
     "F": "factory document",
@@ -87,16 +95,38 @@ EVIDENCE = {
     "S": "industry standard",
     "D": "design choice",
     "M": "measured",
+    "DV": "derived from cited sources, verify on the part",
     "PH": "PLACEHOLDER, measure first",
 }
+# Codes that need a row in TO-CONFIRM.md.
+OPEN_CODES = {"PH", "DV"}
 
 STATUS_TEXT = {
     "GEOMETRY COMPLETE": "All dimensions from the cited source. Tolerances and fit are not established.",
     "REFERENCE": "Reference for a part to buy. Do not machine from this sheet.",
+    "DERIVED": "Prototype and fit test only. Dimensions marked DV are worked out from sources and not yet verified on a part.",
     "PRELIMINARY": "NOT FOR MANUFACTURE until every red dimension is measured.",
     "CONCEPT": "NOT FOR MANUFACTURE. Concept layout; red dimensions are not measurements.",
 }
-BLOCKED = {"PRELIMINARY", "CONCEPT"}
+# Status: (file prefix, watermark, colour).
+STATUS_MARK = {
+    "GEOMETRY COMPLETE": ("", None, INK),
+    "REFERENCE": ("", None, INK),
+    "DERIVED": ("DERIVED-", "FIT TEST ONLY", BLUE),
+    "PRELIMINARY": ("PRELIMINARY-", "NOT FOR MANUFACTURE", RED),
+    "CONCEPT": ("PRELIMINARY-", "NOT FOR MANUFACTURE", RED),
+}
+# The tables a part can be claimed to fit, in the order the pages use.
+TABLES = ["XA", "XB", "XB1", "AR77XB", "The AR Turntable and Legend", "EB-101", "ES-1", "ETL-1"]
+FIT_WORDS = ("Fitted by AR", "Fits", "Fits with a change", "Does not fit", "Unconfirmed")
+
+
+def row_color(row):
+    return {"PH": RED, "DV": BLUE}.get(row[3], INK)
+
+
+def row_tag(row):
+    return f" {row[3]}" if row[3] in OPEN_CODES else ""
 
 # Third-angle views: (direction from part to viewer, sheet x axis).
 VIEWS = {
@@ -494,6 +524,7 @@ class Sheet:
         self.lines = []
         self.texts = []
         self.hatches = []
+        self.fills = []
         self.arrows = []
 
     def line(self, pts, layer="VISIBLE", color=INK):
@@ -516,7 +547,7 @@ LINE_STYLES = {
 }
 
 
-def render_pdf_page(sheet, pdf, watermark=None):
+def render_pdf_page(sheet, pdf, watermark=None, watermark_color=RED):
     fig = plt.figure(figsize=(SHEET_W / 25.4, SHEET_H / 25.4))
     ax = fig.add_axes([0, 0, 1, 1])
     ax.set_xlim(0, SHEET_W)
@@ -529,6 +560,10 @@ def render_pdf_page(sheet, pdf, watermark=None):
             verts += loop + [loop[0]]
             codes += [MplPath.MOVETO] + [MplPath.LINETO] * (len(loop) - 1) + [MplPath.CLOSEPOLY]
         ax.add_patch(PathPatch(MplPath(verts, codes), facecolor="none", edgecolor=GREY, hatch="////", lw=0))
+    for loops in sheet.fills:
+        for loop in loops:
+            xs, ys = zip(*loop)
+            ax.fill(xs, ys, color=INK, lw=0)
     for pts, layer, color in sheet.lines:
         xs, ys = zip(*pts)
         ax.plot(xs, ys, color=color, solid_capstyle="round", **LINE_STYLES[layer])
@@ -547,11 +582,17 @@ def render_pdf_page(sheet, pdf, watermark=None):
         ax.text(x, y, s, fontsize=size, ha=ha, va=va, color=color, rotation=rot, fontweight=weight, family="DejaVu Sans")
     if watermark:
         ax.text(
-            SHEET_W / 2, 182, watermark, fontsize=46, color=RED, alpha=0.10, rotation=24,
+            SHEET_W / 2, 182, watermark, fontsize=46, color=watermark_color, alpha=0.10, rotation=24,
             ha="center", va="center", fontweight="bold", family="DejaVu Sans",
         )
     pdf.savefig(fig)
     plt.close(fig)
+
+
+def open_pdf(path):
+    """A PdfPages with fixed metadata, so an unchanged part gives an unchanged file."""
+    return PdfPages(path, metadata={"CreationDate": FIXED_TIME, "ModDate": FIXED_TIME,
+                                    "Creator": "cad/tools/build.py", "Producer": "matplotlib"})
 
 
 def render_dxf(sheet, path):
@@ -569,16 +610,16 @@ def render_dxf(sheet, path):
             hatch.paths.add_polyline_path(loop, is_closed=True)
     for pts, layer, color in sheet.lines:
         attrs = {"layer": layer}
-        if color == RED:
-            attrs["color"] = 1
+        if color in DXF_COLOR:
+            attrs["color"] = DXF_COLOR[color]
         space.add_lwpolyline(pts, dxfattribs=attrs)
     for tip, direction, color in sheet.arrows:
         tx, ty = tip
         dx, dy = direction
         px, py = -dy, dx
         attrs = {"layer": "DIM"}
-        if color == RED:
-            attrs["color"] = 1
+        if color in DXF_COLOR:
+            attrs["color"] = DXF_COLOR[color]
         space.add_lwpolyline(
             [(tx, ty), (tx - dx * 2.4 + px * 0.42, ty - dy * 2.4 + py * 0.42),
              (tx - dx * 2.4 - px * 0.42, ty - dy * 2.4 - py * 0.42)],
@@ -586,12 +627,17 @@ def render_dxf(sheet, path):
         )
     for x, y, s, size, ha, va, color, rot, _ in sheet.texts:
         attrs = {"layer": "TEXT", "rotation": rot, "style": "OpenSans"}
-        if color == RED:
-            attrs["color"] = 1
+        if color in DXF_COLOR:
+            attrs["color"] = DXF_COLOR[color]
         for i, line in enumerate(s.split("\n")):
             entity = space.add_text(line, height=size * 0.3528 * 0.72, dxfattribs=attrs)
             align = {"left": "LEFT", "center": "CENTER", "right": "RIGHT"}[ha]
             entity.set_placement((x, y - i * size * 0.45), align=ezdxf.enums.TextEntityAlignment[align])
+    # Fixed timestamps and GUIDs, so an unchanged part gives an unchanged file.
+    for key in ("$TDCREATE", "$TDUCREATE", "$TDUPDATE", "$TDUUPDATE"):
+        doc.header[key] = FIXED_TIME
+    doc.header["$FINGERPRINTGUID"] = FIXED_GUID
+    doc.header["$VERSIONGUID"] = FIXED_GUID
     doc.saveas(path)
 
 
@@ -601,6 +647,8 @@ def format_value(row):
         return f"{value_mm / 25.4:.3f} in ({value_mm:.2f})"
     if unit == "deg":
         return f"{value_mm:g} deg"
+    if unit in ("g", "g/cm3", "lines"):
+        return f"{value_mm:g} {unit}"
     if unit == "":
         return f"{value_mm:g}"
     return f"{value_mm:g} mm ({value_mm / 25.4:.3f} in)"
@@ -614,8 +662,7 @@ def draw_leader(sheet, dim, place, params, box, scale):
     prefix = dim[6] if len(dim) > 6 else ""
     angle = math.radians(dim[7] if len(dim) > 7 else 45)
     row = params[param_id]
-    placeholder = row[3] == "PH"
-    color = RED if placeholder else INK
+    color = row_color(row)
     cos_a, sin_a = math.cos(angle), math.sin(angle)
     tip = (center[0] + radius * cos_a, center[1] + radius * sin_a)
     target_y = box[3] + offset if sin_a > 0 else box[2] - offset
@@ -625,7 +672,7 @@ def draw_leader(sheet, dim, place, params, box, scale):
     end = (knee[0] + side * 4, target_y)
     sheet.line([tip, knee, end], "DIM", color)
     sheet.arrow(tip, (-cos_a, -sin_a), color)
-    label = f"{prefix}{format_value(row)}  {param_id}{' PH' if placeholder else ''}"
+    label = f"{prefix}{format_value(row)}  {param_id}{row_tag(row)}"
     sheet.text(end[0] + side * 0.8, target_y, label, 6.2, "left" if side > 0 else "right", "center", color)
 
 
@@ -639,8 +686,7 @@ def draw_arc_dim(sheet, dim, place, params):
     kind, center, radius = dim[1], dim[2], dim[3]
     param_id, dx, dy, ha = dim[5:9] if kind == "r" else dim[6:10]
     row = params[param_id]
-    placeholder = row[3] == "PH"
-    color = RED if placeholder else INK
+    color = row_color(row)
 
     def at(angle, r):
         a = math.radians(angle)
@@ -665,7 +711,7 @@ def draw_arc_dim(sheet, dim, place, params):
         sheet.arrow(arc[0], unit(arc[0], arc[1]), color)
         sheet.arrow(arc[-1], unit(arc[-1], arc[-2]), color)
         prefix = ""
-    label = f"{prefix}{format_value(row)}  {param_id}{' PH' if placeholder else ''}"
+    label = f"{prefix}{format_value(row)}  {param_id}{row_tag(row)}"
     sheet.text(origin[0] + dx, origin[1] + dy, label, 6.2, ha, "center", color)
 
 
@@ -686,10 +732,9 @@ def draw_dim(sheet, dim, place, params, box, scale):
     prefix = dim[6] if len(dim) > 6 else ""
     suffix = dim[7] if len(dim) > 7 else ""
     row = params[param_id]
-    placeholder = row[3] == "PH"
-    color = RED if placeholder else INK
+    color = row_color(row)
     label = f"{prefix}{format_value(row)}"
-    label += f"  {param_id}{' PH' if placeholder else ''}"
+    label += f"  {param_id}{row_tag(row)}"
     if suffix:
         label += f", {suffix}"
     x0, x1, y0, y1 = box
@@ -734,8 +779,10 @@ def third_angle_symbol(sheet, x, y):
 
 
 ISO_MAX = 68.0  # largest side of the isometric view on the sheet, mm
+BAND_TOP = 88.0  # top of the notes and title band
+SPLIT = 226.0  # left edge of the title block
 STACK_TOP = 272.0  # top of the view stack; labels above it stay inside the border
-STACK_BOTTOM = 83.0  # lowest edge for the stack, above its title and the band
+STACK_BOTTOM = BAND_TOP + 17.0  # lowest edge for the stack, above its title and the band
 VIEW_GAP = 28.0  # space between views, for dimensions and view titles
 EXTRAS_GAP = 44.0  # wider gap before the isometric and section column
 SECTION_VIEW = {"y": "front", "x": "right"}
@@ -761,7 +808,7 @@ def view_scale_for(view, sizes, scale, view_scales):
 
 def layout_scale(sizes, views, sections, view_scales):
     """Largest standard scale that fits the views in the area above the title band."""
-    area_w, extras_h = 405.0 - margin_for(views), 205.0
+    area_w, extras_h = 405.0 - margin_for(views), STACK_TOP - STACK_BOTTOM + 15.0
     stack_h = STACK_TOP - STACK_BOTTOM
     gap = VIEW_GAP
     for scale in (20, 10, 5, 2, 1, 0.5, 0.2, 0.1):
@@ -932,12 +979,37 @@ def main_sheet(meta, params, dims, shape, variant_label, volume):
     return sheet
 
 
+def fits_text(meta):
+    """One line per table: 'XA: fitted by AR (XA service manual p. 4, item 22B)'."""
+    parts = []
+    for table, word, evidence in meta.get("fits", []):
+        if word not in FIT_WORDS:
+            raise RuntimeError(f"{meta['id']}: fit word {word!r} for {table} is not one of {FIT_WORDS}")
+        if table not in TABLES:
+            raise RuntimeError(f"{meta['id']}: {table!r} is not a table name in TABLES")
+        if word != "Unconfirmed" and not evidence:
+            raise RuntimeError(f"{meta['id']}: fit {word!r} for {table} needs evidence")
+        parts.append(f"{table}: {word.lower()}" + (f" ({evidence})" if evidence else ""))
+    return "; ".join(parts)
+
+
+def mass_text(meta, volume):
+    mass = volume / 1000 * meta["density"]
+    text = f"{mass:.2f} g at {meta['density']:g} g/cm3, calculated from this model"
+    if "reference_mass_g" in meta:
+        text += f"; reported {meta['reference_mass_g']:g} g"
+    if "target_mass_g" in meta:
+        target = meta["target_mass_g"]
+        text += f"; target {target:g} g ({meta.get('target_mass_source', 'source not given')}), model is {mass - target:+.1f} g from it"
+    return text
+
+
 def draw_frame(sheet, meta, params, variant_label, scale, volume):
     # Border.
     sheet.line([(8, 8), (412, 8), (412, 289), (8, 289), (8, 8)], "FRAME")
-    band_top = 66.0
+    band_top = BAND_TOP
     sheet.line([(8, band_top), (412, band_top)], "FRAME")
-    split = 248.0
+    split = SPLIT
     sheet.line([(split, 8), (split, band_top)], "FRAME")
 
     # Notes column.
@@ -949,13 +1021,18 @@ def draw_frame(sheet, meta, params, variant_label, scale, volume):
     notes.append("Do not scale this drawing. Use the dimensions shown, or the STEP model once its placeholders are cleared.")
     notes.append("Tolerances: none supplied by the source. Agree them with the maker before ordering.")
     for i, note in enumerate(notes, 1):
-        wrapped = textwrap.wrap(note, 140)
+        wrapped = textwrap.wrap(note, 126)
         for j, line in enumerate(wrapped):
             sheet.text(11, y, f"{i}. {line}" if j == 0 else f"    {line}", 6.2, "left", "top")
             y -= 3.1
         y -= 0.5
-    legend = "Evidence tag after each dimension: see the register on page 2. Red with PH = placeholder, not a measurement."
-    sheet.text(11, 11, legend, 6.2, "left", "bottom", RED if any(r[3] == "PH" for r in params.values()) else GREY)
+    # Legend: the three kinds of dimension, each in its own colour.
+    codes = {r[3] for r in params.values()}
+    sheet.text(11, 11, "Dimension colours:", 6.2, "left", "bottom", GREY)
+    sheet.text(36, 11, "black = from the cited source", 6.2, "left", "bottom", INK)
+    sheet.text(78, 11, "blue DV = derived from sources, verify on the part", 6.2, "left", "bottom", BLUE if "DV" in codes else GREY)
+    sheet.text(146, 11, "red PH = placeholder, not a measurement", 6.2, "left", "bottom", RED if "PH" in codes else GREY)
+    sheet.text(200, 11, "ID and evidence: page 2", 6.2, "left", "bottom", GREY)
 
     # Title block.
     x0, x1 = split, 412.0
@@ -964,26 +1041,34 @@ def draw_frame(sheet, meta, params, variant_label, scale, volume):
     sheet.text(x0 + 3, band_top - 7.5, title, 12, "left", "top", weight="bold")
     subtitle = variant_label or ""
     sheet.text(x0 + 3, band_top - 13.5, subtitle, 8, "left", "top")
-    status_color = RED if status in BLOCKED else INK
+    status_color = STATUS_MARK[status][2]
     sheet.text(x0 + 3, band_top - 18, status, 9, "left", "top", status_color, weight="bold")
-    sheet.text(x0 + 3, band_top - 22.3, STATUS_TEXT[status], 6.2, "left", "top", status_color)
+    y = band_top - 22.3
+    for line in textwrap.wrap(STATUS_TEXT[status], 112):
+        sheet.text(x0 + 3, y, line, 6.2, "left", "top", status_color)
+        y -= 3
     rows = [
+        ("Part", f"{meta['part_name']}, page {meta['part']}"),
+        ("Version", meta["version"]),
         ("Material", meta["material"]),
+        ("Fits", fits_text(meta)),
         ("Make", meta["make"]),
         ("Scope", meta["scope"]),
+        ("Est. mass", mass_text(meta, volume)),
     ]
-    mass = volume / 1000 * meta["density"]
-    mass_text = f"{mass:.2f} g at {meta['density']:g} g/cm3 (calculated from this model)"
-    if "reference_mass_g" in meta:
-        mass_text += f"; reported {meta['reference_mass_g']:g} g"
-    rows.append(("Est. mass", mass_text))
-    y = band_top - 26
+    if "formula" in meta:
+        rows.append(("Formula", meta["formula"]))
+    if "final_check" in meta:
+        rows.append(("Final check", meta["final_check"]))
+    y -= 0.7
     for key, value in rows:
         sheet.text(x0 + 3, y, key, 6, "left", "top", GREY)
-        for line in textwrap.wrap(value, 94):
-            sheet.text(x0 + 19, y, line, 6.2, "left", "top")
+        for line in textwrap.wrap(value, 108):
+            sheet.text(x0 + 19, y, line, 6.2, "left", "top", weight="bold" if key == "Final check" else "normal")
             y -= 3
         y -= 0.4
+    if y < 21.5:
+        raise RuntimeError(f"{meta['id']}: title block text runs into the drawing cells; shorten the metadata")
     sheet.line([(x0, 21), (x1, 21)], "THIN")
     cells = [
         ("Drawing", meta["id"]),
@@ -992,7 +1077,7 @@ def draw_frame(sheet, meta, params, variant_label, scale, volume):
         ("Rev", REVISION),
         ("Date", DRAWING_DATE),
     ]
-    widths = [58, 28, 18, 12, 24]
+    widths = [80, 28, 18, 12, 24]
     cx = x0
     for (label, value), width in zip(cells, widths):
         sheet.text(cx + 2, 20.3, label, 5.5, "left", "top", GREY)
@@ -1018,8 +1103,7 @@ def register_sheet(meta, params, variant_label):
     sheet.line([(14, y - 1.5), (406, y - 1.5)], "THIN")
     y -= 6
     for row in params.values():
-        placeholder = row[3] == "PH"
-        color = RED if placeholder else INK
+        color = row_color(row)
         how = textwrap.wrap(row[5], 62)
         name = textwrap.wrap(row[1], 62)
         sheet.text(14, y, row[0], 7, "left", "top", color)
@@ -1030,36 +1114,102 @@ def register_sheet(meta, params, variant_label):
         for i, line in enumerate(how):
             sheet.text(255, y - i * 3.4, line, 7, "left", "top", color)
         y -= max(len(how), len(name)) * 3.4 + 2.2
+        if y < 14:
+            raise RuntimeError(f"{meta['id']}: the register does not fit on one page")
     y -= 3
-    blocked = [r for r in params.values() if r[3] == "PH"]
-    message = (
-        f"{len(blocked)} placeholder value(s). Do not order until each is measured; they are logged in TO-CONFIRM.md."
-        if blocked
-        else "No placeholders. Tolerances and fit still need agreeing with the maker."
-    )
-    sheet.text(14, y, message, 8, "left", "top", RED if blocked else INK, weight="bold")
+    placeholders = [r for r in params.values() if r[3] == "PH"]
+    derived = [r for r in params.values() if r[3] == "DV"]
+    if placeholders:
+        message = f"{len(placeholders)} placeholder value(s). Do not order until each is measured; they are logged in TO-CONFIRM.md."
+        color = RED
+    elif derived:
+        message = f"No placeholders. {len(derived)} derived value(s) to verify on a part before ordering in final material; logged in TO-CONFIRM.md."
+        color = BLUE
+    else:
+        message = "No placeholders. Tolerances and fit still need agreeing with the maker."
+        color = INK
+    sheet.text(14, y, message, 8, "left", "top", color, weight="bold")
+    if derived:
+        y -= 5
+        sheet.text(14, y, f"{len(derived)} derived value(s), shown in blue with DV: the Source column gives the derivation and how to verify it.", 7, "left", "top", BLUE)
+    return sheet
+
+
+def print_sheet(meta, shape, variant_label):
+    """A 1:1 page: the top view outline, with the polygons in meta 'print_fills' filled black."""
+    sheet = Sheet()
+    sheet.line([(8, 8), (412, 8), (412, 289), (8, 289), (8, 8)], "FRAME")
+    sheet.text(14, 282, f"Print at 100%: {meta['title']}", 12, "left", "top", weight="bold")
+    sheet.text(14, 275, variant_label or meta["id"], 8, "left", "top", GREY)
+    visible, hidden = hlr(shape, "top")
+    x0, x1, y0, y1 = bounds(visible)
+    cx, cy = SHEET_W / 2, 150.0
+    _, ax_x, ax_y = view_axes("top")
+
+    def place(p):
+        return (cx + (p[0] - (x0 + x1) / 2), cy + (p[1] - (y0 + y1) / 2))
+
+    for line in visible:
+        sheet.line([place(p) for p in line], "VISIBLE")
+    for loop in meta.get("print_fills", []):
+        pts = [place((np.array([p[0], p[1], 0]).dot(ax_x), np.array([p[0], p[1], 0]).dot(ax_y))) for p in loop]
+        sheet.fills.append([pts])
+    # A 100 mm check bar: measure it after printing.
+    bx, by = 14.0, 20.0
+    sheet.line([(bx, by), (bx + 100, by)], "FRAME")
+    for x in (bx, bx + 50, bx + 100):
+        sheet.line([(x, by - 2), (x, by + 2)], "FRAME")
+    sheet.text(bx, by + 3, "100 mm check bar: measure it after printing. If it is not 100 mm, set the printer to 100% with no fit-to-page.", 7, "left", "bottom")
+    for i, note in enumerate(meta.get("print_notes", []), 1):
+        sheet.text(14, by - 5 - i * 3.4, f"{i}. {note}", 6.2, "left", "top")
     return sheet
 
 
 # Build one part
 
+def validate_meta(meta, params):
+    for key in ("id", "title", "status", "scope", "material", "density", "make", "part", "part_name", "version", "fits"):
+        if key not in meta:
+            raise RuntimeError(f"{meta.get('id', '?')}: metadata is missing {key!r}")
+    if not (ROOT.parent / meta["part"]).exists():
+        raise RuntimeError(f"{meta['id']}: part page {meta['part']} does not exist")
+    fits_text(meta)
+    codes = {r[3] for r in params.values()}
+    bad = codes - set(EVIDENCE)
+    if bad:
+        raise RuntimeError(f"{meta['id']}: unknown evidence code(s) {sorted(bad)}")
+    status = meta["status"]
+    if status == "DERIVED" and ("PH" in codes or "DV" not in codes):
+        raise RuntimeError(f"{meta['id']}: status DERIVED needs no PH row and at least one DV row")
+    if status in ("GEOMETRY COMPLETE", "REFERENCE") and codes & OPEN_CODES:
+        raise RuntimeError(f"{meta['id']}: status {status} cannot have PH or DV rows")
+
+
+def variant_runs(scad, tmp):
+    """Yield (number, label, meta, params, dims, csg_path) for each variant of a part file."""
+    probe = tmp / "probe.csg"
+    meta, _, _ = read_part_data(openscad(scad, probe))
+    variants = meta.get("variants", [[1, ""]])
+    base_id = meta["id"]
+    for number, label in variants:
+        csg = tmp / f"{number}.csg"
+        meta, params, dims = read_part_data(openscad(scad, csg, [("variant", number)]))
+        validate_meta(meta, params)
+        # A variant with its own id gets its own folder; size variants share one and take a suffix.
+        own = meta["id"] != base_id or len(variants) == 1
+        stem_id = meta["id"] if own else f"{base_id}-{number}"
+        yield number, label, meta, params, dims, csg, meta["id"], stem_id
+
+
 def build_part(scad):
     with tempfile.TemporaryDirectory() as tmp:
         tmp = Path(tmp)
-        probe = tmp / "probe.csg"
-        meta, _, _ = read_part_data(openscad(scad, probe))
-        variants = meta.get("variants", [[1, ""]])
-        part_id = meta["id"]
-        outdir = EXPORTS / part_id
-        outdir.mkdir(parents=True, exist_ok=True)
-        prefix = "PRELIMINARY-" if meta["status"] in BLOCKED else ""
         report = []
-        for number, label in variants:
-            suffix = f"-{number}" if len(variants) > 1 else ""
-            stem = f"{prefix}{part_id}{suffix}"
-            csg = tmp / f"{stem}.csg"
-            console = openscad(scad, csg, [("variant", number)])
-            meta, params, dims = read_part_data(console)
+        for number, label, meta, params, dims, csg, folder, stem_id in variant_runs(scad, tmp):
+            outdir = EXPORTS / folder
+            outdir.mkdir(parents=True, exist_ok=True)
+            prefix, watermark, color = STATUS_MARK[meta["status"]]
+            stem = f"{prefix}{stem_id}"
             shape = fuse_all([s for s in (build_3d(n) for n in parse_csg(csg.read_text())) if s is not None])
             if not BRepCheck_Analyzer(shape).IsValid():
                 raise RuntimeError(f"Invalid solid: {stem}")
@@ -1079,40 +1229,124 @@ def build_part(scad):
 
             page1 = main_sheet(meta, params, dims, shape, label, volume)
             page2 = register_sheet(meta, params, label)
-            with PdfPages(outdir / f"{stem}.pdf") as pdf:
-                render_pdf_page(page1, pdf, "NOT FOR MANUFACTURE" if meta["status"] in BLOCKED else None)
+            with open_pdf(outdir / f"{stem}.pdf") as pdf:
+                render_pdf_page(page1, pdf, watermark, color)
                 render_pdf_page(page2, pdf)
+                if meta.get("print_1to1"):
+                    render_pdf_page(print_sheet(meta, shape, label), pdf)
             render_dxf(page1, outdir / f"{stem}-drawing.dxf")
             if meta.get("flat"):
                 openscad(scad, outdir / f"{stem}-flat-1to1.dxf", [("variant", number), ("flat", "true")])
 
             placeholders = sum(1 for r in params.values() if r[3] == "PH")
+            derived = sum(1 for r in params.values() if r[3] == "DV")
             report.append(
                 f"  {stem}: {volume:.2f} mm3, {volume / 1000 * meta['density']:.2f} g, "
-                f"mesh diff {mesh_error:.3%}, placeholders {placeholders}"
+                f"mesh diff {mesh_error:.3%}, placeholders {placeholders}, derived {derived}"
             )
         return report
 
 
-def all_placeholders():
-    ids = {}
+def all_parts():
+    """Metadata of every variant of every part file, without building anything."""
+    found = []
     for scad in sorted(PARTS.glob("*.scad")):
         with tempfile.TemporaryDirectory() as tmp:
-            console = openscad(scad, Path(tmp) / "p.csg")
-        _, params, _ = read_part_data(console)
+            for number, label, meta, params, dims, csg, folder, stem_id in variant_runs(scad, Path(tmp)):
+                found.append((scad, number, label, meta, params, folder, stem_id))
+    return found
+
+
+def open_rows(parts):
+    """{id: (code, scad name)} for every PH and DV row."""
+    rows = {}
+    for scad, number, label, meta, params, folder, stem_id in parts:
         for row in params.values():
-            if row[3] == "PH":
-                ids[row[0]] = scad.name
-    return ids
+            if row[3] in OPEN_CODES:
+                rows[row[0]] = (row[3], scad.name)
+    return rows
+
+
+def status_cell(meta, params):
+    ph = sum(1 for r in params.values() if r[3] == "PH")
+    dv = sum(1 for r in params.values() if r[3] == "DV")
+    status = meta["status"]
+    if status == "GEOMETRY COMPLETE":
+        return "Complete"
+    if status == "REFERENCE":
+        return "Reference; buy it"
+    if status == "DERIVED":
+        return f"Derived: {dv} to verify"
+    text = f"{ph} placeholder" + ("s" if ph != 1 else "")
+    if dv:
+        text += f", {dv} derived"
+    return ("Concept: " if status == "CONCEPT" else "") + text
+
+
+def readme_table(parts):
+    """The drawings table of cad/README.md, one row per export folder."""
+    rows = {}
+    for scad, number, label, meta, params, folder, stem_id in parts:
+        prefix = STATUS_MARK[meta["status"]][0]
+        entry = rows.setdefault(folder, {"meta": meta, "params": params, "scad": scad.name, "stems": [], "labels": []})
+        entry["stems"].append(f"{prefix}{stem_id}")
+        entry["labels"].append(label)
+    lines = [
+        "| Part | Version | Material | Fits | Status | Drawing | Files |",
+        "| --- | --- | --- | --- | --- | --- | --- |",
+    ]
+    for folder, entry in rows.items():
+        meta, params = entry["meta"], entry["params"]
+        fits = "; ".join(f"{t}: {w.lower()}" for t, w, e in meta.get("fits", [])) or "Unconfirmed"
+        if len(entry["stems"]) == 1:
+            stem = entry["stems"][0]
+            drawing = f"[PDF](exports/{folder}/{stem}.pdf)"
+            files = f"[STEP](exports/{folder}/{stem}.step) · [scad](parts/{entry['scad']})"
+        else:
+            drawing = " · ".join(f"[{label}](exports/{folder}/{stem}.pdf)" for stem, label in zip(entry["stems"], entry["labels"]))
+            files = f"[Folder](exports/{folder}/) · [scad](parts/{entry['scad']})"
+        lines.append(
+            f"| [{meta['part_name']}](../{meta['part']}) | {meta['version']} | {meta['material']} | {fits} | "
+            f"{status_cell(meta, params)} | {drawing} | {files} |"
+        )
+    return "\n".join(lines)
+
+
+README_START = "<!-- drawings table: written by cad/tools/build.py from the part files. Do not edit by hand. -->"
+README_END = "<!-- end of drawings table -->"
+
+
+def readme_with_table(table):
+    text = README.read_text()
+    start, end = text.index(README_START), text.index(README_END)
+    return text[: start + len(README_START)] + "\n" + table + "\n" + text[end:]
+
+
+def write_readme(parts):
+    README.write_text(readme_with_table(readme_table(parts)))
 
 
 def check():
-    logged = set(re.findall(r"^\| ([A-Z]{2}\d+) \|", TO_CONFIRM.read_text(), re.M))
-    missing = {k: v for k, v in all_placeholders().items() if k not in logged}
-    for key, name in sorted(missing.items()):
-        print(f"NOT LOGGED in TO-CONFIRM.md: {key} ({name})")
-    print(f"{len(all_placeholders())} placeholders; {len(missing)} not logged")
-    return 1 if missing else 0
+    parts = all_parts()
+    confirm = TO_CONFIRM.read_text()
+    logged = {}
+    for match in re.finditer(r"^\| ([A-Z]{2}\d+) \| [^|]* \| ([^|]*) \|", confirm, re.M):
+        logged[match.group(1)] = match.group(2).strip()
+    problems = 0
+    rows = open_rows(parts)
+    for key, (code, name) in sorted(rows.items()):
+        if key not in logged:
+            print(f"NOT LOGGED in TO-CONFIRM.md: {key} {code} ({name})")
+            problems += 1
+        elif code == "DV" and not logged[key].startswith("Derived:"):
+            print(f"DV ROW WITHOUT 'Derived:' in TO-CONFIRM.md: {key} ({name}): value now is {logged[key]!r}")
+            problems += 1
+    counts = {code: sum(1 for c, _ in rows.values() if c == code) for code in OPEN_CODES}
+    print(f"{counts['PH']} placeholders and {counts['DV']} derived values; {problems} problem(s)")
+    if README.read_text() != readme_with_table(readme_table(parts)):
+        print("cad/README.md drawings table is out of date: run build.py with no arguments")
+        problems += 1
+    return 1 if problems else 0
 
 
 def main():
@@ -1125,6 +1359,7 @@ def main():
         print(name)
         for line in build_part(scad):
             print(line)
+    write_readme(all_parts())
     return 0
 
 
