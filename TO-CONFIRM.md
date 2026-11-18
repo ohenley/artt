@@ -160,6 +160,9 @@ Measure an original shell and its retaining nut, and record the model and serial
 | GA4 | Overhang gauge length | 40 mm placeholder | Design freedom | Open | |
 | GA5 | Overhang gauge width | 18 mm placeholder | Design freedom | Open | |
 | GA6 | Overhang gauge thickness | 3 mm placeholder | Check the spindle shoulder and arm height | Open | |
+| SD1 | Strobe disc lines, 33⅓ rpm ring | Derived: 216 at 60 Hz, which is also the spec sheet's card; 180 at 50 Hz, from 2 × 50 × 60 / 33⅓ | The printed disc stands still on a table known to run true | Open | |
+| SD2 | Strobe disc lines, 45 rpm ring | Derived: 160 at 60 Hz, from 2 × 60 × 60 / 45. At 50 Hz the result is 133.33 and the ring is not drawn | Same | Open | |
+| SD3 | Strobe disc spindle hole | 7.3 mm placeholder | Micrometer on the spindle | Open | |
 
 ### Plinth
 
