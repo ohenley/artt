@@ -44,7 +44,7 @@ An arm swings in an arc, so the needle cannot stay in line with the groove. The 
 2. Lower the needle gently. It should land in the small hole.
 3. If not, adjust and try again. Villchur's paper says "the effective arm length is adjusted". The XA parts list has an overhang set screw, item 21J, on the arm's center block: loosen it, slide the arm tube, and retighten.
 
-AR supplied a gauge: "Overhang Template", part 914, on the XA, and P/N 402001 on the XB. The [model here](../cad/exports/overhang-gauge/PRELIMINARY-overhang-gauge.pdf) is for tables that have lost it. Only the distance between the two holes matters.
+AR supplied a gauge: "Overhang Template", part 914, on the XA, and P/N 402001 on the XB. The [overhang template page](../parts/overhang-template.md) lists both and a [new design](../cad/exports/overhang-gauge-new-pmma/PRELIMINARY-overhang-gauge-new-pmma.pdf) for tables that have lost theirs. Only the distance between the two holes matters.
 
 ## Every screw, by job
 
