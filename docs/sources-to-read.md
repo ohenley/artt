@@ -34,10 +34,21 @@ Save each page from a browser, add it to the [archive](archive/README.md), then 
 - SR24: diyAudio threads on [grey grease in an XB main bearing](https://www.diyaudio.com/community/threads/acoustic-research-arxb-main-bearing-has-alot-of-grey-grease-in-there-i-thought-it-was-supposed-to-be-thin-oil.409524/latest) (PB1) and an [XA with custom mods](https://www.diyaudio.com/community/threads/ar-xa-w-custom-mods.368650/).
 - SR25: [Vinyl Engine's Acoustic Research library](https://www.vinylengine.com/library/acoustic-research.shtml). Which AR turntable manuals exist.
 - SR26: [Schurter inlet datasheet](https://datasheets.globalspec.com/ds/Schurter/kd/f2b002c3-9424-4f27-9f5d-cd0383e9044e). IEC inlet cutout and fuse (PL40 to PL45, IE1).
-- SR28: [Classic Speaker Pages, "Wanted: AR XB tonearm counterweight"](https://community.classicspeakerpages.net/topic/6215-wanted-ar-xb-tonearm-counterweight). Found by search; said to mention a longer brass weight AR supplied for heavy cartridges. Not read: the site returned 403 on 2026-11-18 (CW11).
-- SR29: [AudioKarma, "AR weight of counterweight"](https://audiokarma.org/forums/threads/ar-weight-of-counterweight-i-need-one-or-weight-to-make-one-up.725992/). Found by search; said to give a weighed brass counterweight and remade heavy ones. Not read (CW1, CW11).
-- SR30: [AudioKarma, "Help with AR XA"](https://audiokarma.org/forums/threads/help-with-ar-xa.849668/). Found by search; said to discuss whether XA and XB weights have the same mass. Not read (CW12).
-- SR31: [AudioKarma, "Comments on Acoustic Research AR77XB"](https://audiokarma.org/forums/threads/comments-on-acoustic-research-ar77xb.332555/). Found by search; said to compare the AR77XB weight with the XB's. Not read (CW13).
+- SR28: AVS Forum thread [Audiophile Turntable 101: Acoustic Research AR-XA](https://www.avsforum.com/threads/audiophile-turntable-101-acoustic-research-ar-xa.3036830/), by the author of the [filmed tests](archive/youtube/zillch-2018-ar-xa-tested.md). The site answers automated requests with a challenge page. Discussion of the tests, and a speed measurement of an XA attributed to Michael Fremer.
+- SR29: AVS Forum thread [$500,000 vs. $78 Turntable Blind Test](https://www.avsforum.com/threads/500-000-vs-78-turntable-blind-test.3237117/). Same site, same refusal. The poll itself, its files, and a 2021 magazine piece by a reviewer who had just acquired an AR, pointed to from the thread. The result as the author posted it is kept on the [video record](archive/youtube/zillch-2022-blind-test-xa-breakdown.md).
+- SR30: [AudioKarma post on an overhauled XA measured on a wow and flutter meter](https://audiokarma.org/forums/showthread.php?p=5437571). Refuses automated access. Nothing from it is stated on the [evidence pages](evidence/README.md) until it is archived.
+- SR31: [Vinyl Engine thread on the filmed tests](https://www.vinylengine.com/turntable_forum/viewtopic.php?t=112447). Refuses automated access.
+- SR36: [Classic Speaker Pages, "Wanted: AR XB tonearm counterweight"](https://community.classicspeakerpages.net/topic/6215-wanted-ar-xb-tonearm-counterweight). Found by search; said to mention a longer brass weight AR supplied for heavy cartridges. Not read: the site returned 403 on 2026-11-18 (CW11).
+- SR37: [AudioKarma, "AR weight of counterweight"](https://audiokarma.org/forums/threads/ar-weight-of-counterweight-i-need-one-or-weight-to-make-one-up.725992/). Found by search; said to give a weighed brass counterweight and remade heavy ones. Not read (CW1, CW11).
+- SR38: [AudioKarma, "Help with AR XA"](https://audiokarma.org/forums/threads/help-with-ar-xa.849668/). Found by search; said to discuss whether XA and XB weights have the same mass. Not read (CW12).
+- SR39: [AudioKarma, "Comments on Acoustic Research AR77XB"](https://audiokarma.org/forums/threads/comments-on-acoustic-research-ar77xb.332555/). Found by search; said to compare the AR77XB weight with the XB's. Not read (CW13).
+
+## Not held: not found online
+
+- SR40: John Milder's report on the AR turntable in *Modern Hi-Fi*, 1962 or 1963, quoted on page 9 of the [AR brochure](archive/vinyl-nirvana/ar-turntable-history/ar-brochure.md). No scan of the magazine has been found on worldradiohistory.com. AR offered reprints at the time.
+- SR41: The 1963 magazine systems that chose the AR turntable, named on the same brochure page: *Gentlemen's Quarterly*, *Popular Science*, *Bravo*. Scans of *Popular Science* for 1963 exist on archive.org and have not been searched; *Industrial Design*, quoted on the same page, has not been looked for.
+- SR42: The May 2009 magazine line quoted in the filmed tests' description, attributed there to *Hi-Fi News*, p. 41. Not found on hifinews.com; the magazine's archive is behind a subscription.
+- SR43: The phone app and the database of 316 turntables used for the speed reading in the [filmed tests](archive/youtube/zillch-2018-ar-xa-tested.md), with its entries for the Linn, Thorens, Technics and Rega tables. The app is not named in the video description.
 
 ## Not held: not yet fetched
 

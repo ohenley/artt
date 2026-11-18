@@ -150,7 +150,7 @@ Sites that refuse automated access. Save the page from a browser and add it here
 
 - [patrickhenrypdx, XA counterweight and tonearm rest, Reddit](https://www.reddit.com/r/turntables/comments/1t5vqzh/ar_xa_tone_arm_counter_weight_tone_arm_rest/). Values are on the [counterweight page](../../parts/xa-counterweight.md).
 - [diyAudio: AR77XB, search for new headshell bolts](https://www.diyaudio.com/community/threads/acoustic-research-ar77xb-search-for-new-headshell-bolts.407382/). The drawing shared there is held: [mounting hardware drawing](../originals/ar-headshell-hardware-rev-1.pdf).
-- AudioKarma, Classic Speaker Pages, Vinyl Engine, Radiomuseum, Stereophile, Hi-Fi News, HiFi Shark, Collectors Weekly, eBay, and the cartridge-screw forum threads: addresses in [sources to read](../sources-to-read.md).
+- AudioKarma, Classic Speaker Pages, Vinyl Engine, AVS Forum, Radiomuseum, Stereophile, HiFi Shark, Collectors Weekly, eBay, and the cartridge-screw forum threads: addresses in [sources to read](../sources-to-read.md). Hi-Fi News lab report pages answered a plain request and are held above; its article pages behind the subscription are not.
 
 Shop pages that are live catalogues, or that limit automated requests:
 
