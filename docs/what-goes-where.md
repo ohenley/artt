@@ -84,3 +84,18 @@ XA column: Factory, [XA service manual](originals/xa-service-manual.pdf). XB col
 | Shim block | A thin block used to raise or tilt something |
 | Set screw | A small headless screw, tightened into a part to lock it |
 | ECO | Engineering change order: a factory record of a design change |
+| Subchassis | The sprung frame that carries the platter and the arm, apart from the base. On the first family it is the T-bar |
+| Armboard | A separate board the arm is mounted on; changing it lets another arm be fitted |
+| Overhang | How far the stylus reaches past the centre of the spindle when the arm is swung over it |
+| Effective mass | The mass the stylus feels when it moves the arm, in grams |
+| Anti-skating | A control that offsets the arm's pull toward the record centre. The first-family AR arm has none |
+| Cueing lift | The lever-worked plunger on the XB pattern that raises the arm and lowers it slowly |
+| Cue cylinder cap | The cap on the XB cueing lift that sets how fast the arm comes down |
+| Arm damping | On the XA, the drag that slows a dropped arm and lets go once the stylus is on the record. AR recommends disabling it |
+| Transit bolt, shipping bolt | A bolt that locks the sprung frame for shipping. Remove it before playing; refit it before moving the table |
+| Strobe disc | A printed disc whose bars appear to stand still when the platter turns at the right speed under mains light |
+| Hum | A steady low tone from electrical interference or a missing ground |
+| Rumble | Low-frequency noise from the motor or bearings that reaches the stylus |
+| DIN weighting | A standard filter applied before quoting wow, flutter or rumble. Figures measured to different standards cannot be compared |
+| Sapphire bearing | A main bearing in which the platter spindle runs on a sapphire |
+| MEK, methyl ethyl ketone | The solvent AR names for freeing pivot screws sealed with Loc-Tite |
