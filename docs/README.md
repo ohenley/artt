@@ -4,6 +4,17 @@
 
 Factory and period documents, each as a copy kept in this repository. Original addresses and file hashes are in [manifest.tsv](manifest.tsv). What each document says is written out on the page that uses it; this page says where to find the document itself.
 
+## Workshop pages
+
+| Page | What it gives |
+| --- | --- |
+| [Bench sheets](bench-sheets/README.md) | One printable page per table: every open measurement it can settle, in the order you meet the parts |
+| [Troubleshooting](troubleshooting.md) | Causes, checks and fixes by symptom |
+| [The first hour](first-hour.md) | For a new owner: checks before power, moving it, what is usually missing |
+| [Owner registry](registry.md) | Where the serial is, and a table of owners' tables |
+| [Pages to save](archive-wanted.md) | Web pages wanted for the archive, with their Wayback Machine status |
+| [Photo requests](photo-requests.md) | Photos the pages need from the owner's tables |
+
 ## Factory documents, first family
 
 | Document | Covers | Copy | What it gives |

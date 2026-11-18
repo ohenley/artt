@@ -19,7 +19,11 @@ Not sure which one you have? Use the [model guide](models/README.md). Photos: Gi
 | Does it perform? | [The evidence](docs/evidence/README.md): 0.05 percent speed error, the lowest a testing laboratory had met in a fixed-speed table (Period, *High Fidelity*, 1963); rumble −38 dB unweighted against a −35 dB broadcast standard (Period, *HiFi/Stereo Review*, 1963); 19 dB more gain before acoustic feedback than a direct-drive reference on the same bench, on the 1983 table (Period, *Audio*, 1984). The [weaknesses](docs/evidence/weaker.md) are on the same pages |
 | Which model is it? | [Model guide](models/README.md): every model and variant, how to recognise it, dates, and published figures |
 | Your model | [XA](models/xa/README.md) · [XB](models/xb/README.md) · [AR77XB](models/ar77xb/README.md) · [The AR Turntable and The Legend](models/the-ar-turntable/README.md) · [EB-101](models/eb-101/README.md) · [ES-1](models/es-1/README.md) · [ETL-1](models/etl-1/README.md). [Status of each](#status-by-model) |
-| Upgrades | [XA mods](models/xa/mods/README.md) |
+| Just bought one? | [The first hour](docs/first-hour.md): what to check before plugging it in, how to move it, what is usually missing |
+| Something wrong? | [Troubleshooting](docs/troubleshooting.md), by symptom |
+| Service | [XA](models/xa/service.md) · [XB](models/xb/service.md) · [AR77XB](models/ar77xb/service.md): bearings, spindle, motor, cueing, damping, cleaning |
+| Measure your table | [Bench sheets](docs/bench-sheets/README.md), one printable page per table · [Owner registry](docs/registry.md) |
+| Upgrades | [XA mods](models/xa/mods/README.md), with [which mod fits which model](models/xa/mods/README.md#which-mod-fits-which-model) |
 | Small parts explained | [What it is and where it goes](docs/what-goes-where.md) |
 | A part in hand, or one you need | [Find your part](parts/README.md#find-your-part): its versions, which tables each fits, the drawing, and what to keep if you make one |
 | Buying parts | [Parts and makers](parts/README.md#replacement-parts) |
