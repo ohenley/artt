@@ -1,6 +1,6 @@
 # AR XB
 
-[Home](../../README.md) · [Parts and makers](../../parts/README.md) · [Factory drawing index](../../docs/README.md#xb-factory-drawings)
+[Home](../../README.md) · [All models](../README.md) · [Parts and makers](../../parts/README.md) · [Factory drawing index](../../docs/README.md#xb-factory-drawings)
 
 The XB has a separate cueing lift. The drawings cover several XB configurations, so check the revision against your table. The British **XB1** has its own [operating manual](../../docs/originals/xb1-owners.pdf). Some [XA mods](../xa/mods/README.md) also apply to the XB.
 

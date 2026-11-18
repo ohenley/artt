@@ -1,6 +1,6 @@
 # AR77XB
 
-[Home](../../README.md) · [Parts and makers](../../parts/README.md) · [Documents](../../docs/README.md)
+[Home](../../README.md) · [All models](../README.md) · [Parts and makers](../../parts/README.md) · [Documents](../../docs/README.md)
 
 Also written AR77-XB, AR77 XB, XB77, and XB-77. The XB1 is a different model.
 

@@ -1,6 +1,6 @@
 # Original documents
 
-[Home](../README.md) · [Archived articles](archive/README.md) · [Design-paper notes](design-notes.md) · [Sources to read](sources-to-read.md)
+[Home](../README.md) · [Model guide](../models/README.md) · [Archived articles](archive/README.md) · [Design-paper notes](design-notes.md) · [Sources to read](sources-to-read.md)
 
 Source URLs and hashes of local copies are in [manifest.tsv](manifest.tsv).
 
@@ -33,6 +33,17 @@ From [Audio Appraisal's archive](https://audioappraisal.com/acoustic-research-dr
 | 117 | [View](drawings/xb-drawing-117.png) | ECO 1315, sheet 3: capacitor straps and tubing |
 | 118 | [View](drawings/xb-drawing-118.png) | ECO 1315, sheet 4: XB1 rework parts removed |
 | 119 | [View](drawings/xb-drawing-119.png) | Revision T final assembly: BOM, notes, wiring detail |
+
+## Second-family schematics
+
+From the same archive. The six-digit numbers are AR drawing numbers. The unmodified TIFF downloads are in `originals/`.
+
+| Entry | Original | Contents |
+| --- | --- | --- |
+| 130 | [View](drawings/ar-turntable-drawing-130.png) | Hurst motor, 230 V 50 Hz, used on "AR TT"; AR drawing 192068, December 1983 |
+| 131 | [View](drawings/ar-turntable-drawing-131.png) | Hurst motor, 115 V 60 Hz, used on "AR TT"; AR drawing 102068, December 1983 |
+| 148 | [View](drawings/eb101n-drawing-148.png) | EB101N, 230 V 50 Hz; AR drawing 192125, September 1988 |
+| 149 | [View](drawings/eb101n-drawing-149.png) | EB101N, 115 V 60 Hz; AR drawing 102125, September 1988 |
 
 ## Background
 

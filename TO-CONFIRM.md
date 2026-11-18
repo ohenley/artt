@@ -64,6 +64,23 @@ Values now are from the [XA record](parts/xa-counterweight.md) (Owner report). V
 | DM3 | XB and AR77XB overall size and weight | Not recorded | Tape or calipers, scale | Open | |
 | DM4 | Hinge position on cover | 2.20 in and 60.6 mm on [drawing 114](models/xb/README.md#cover-dimensions-and-clearance), which do not convert | Measure a hinged XB cover | Conflict | |
 
+### Models and dates
+
+Open points from the [model guide](models/README.md). Most need a dated document or a labelled table, not a measurement.
+
+| ID | What to confirm | Value now, and source | How to check | Status | Result |
+| --- | --- | --- | --- | --- | --- |
+| MD1 | Year the XB went on sale | "Around 1972" on Vinyl Nirvana; 1972 on hifi-wiki; assembly drawing 100012 drawn July 1973 | A dated advert, price list, or review | Conflict | |
+| MD2 | What the TT-XBU build is | Second build on [drawing 112](docs/drawings/xb-drawing-112.png): top plate 400039-2 and P.C. board 800018, no UL or CSA label. Market and link to the XB1 not stated | Underside labels and top plate on an export XB or an XB1 | Open | |
+| MD3 | What the TA is | "Nearly identical" to the XA on Vinyl Nirvana; 33⅓ rpm only in a forum account not yet read (SR19) | Label, pulley, and serial of a TA | Open | |
+| MD4 | First year of the XA | Shipped to dealers in 1961 (Allison); "introduced in 1962" (*Audio*, July 1984) | A dated 1961 advert or dealer notice | Conflict | |
+| MD5 | Last year of the AR77XB | Production "ceased in 1979" (1983 brochure), model not named | A dated price list or a late serial with a receipt | Open | |
+| MD6 | Year the ES-1 went on sale | 1984 on Vinyl Nirvana; on sale by 1985 (Wolf); "3 or 4 years after" November 1983 in one owner's account (Dagogo) | A dated brochure or price list | Conflict | |
+| MD7 | Last year of the ETL-1 | Phased out in early 1987 (Wolf); priced for 1988 on Vinyl Nirvana | A dated price list | Conflict | |
+| MD8 | Names behind the drawing signatures, and the designer of the 1983 table | Initials and handwriting only; no designer named | SR17 and SR18; AR staff accounts | Open | |
+| MD9 | Motor in the first units of The AR Turntable | Not a Hurst on early units, per Vinyl Nirvana; Hurst schematics dated December 1983 | Motor label and serial on a 1983 table | Conflict | |
+| MD10 | AR77XB factory papers | None found | A manual, brochure, or drawing naming the model | Open | |
+
 ## CAD dimensions needed
 
 Placeholders in the [CAD models](cad/README.md), shown in red on each drawing. CW6, CW8, and CW9 above are placeholders too.

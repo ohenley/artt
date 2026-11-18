@@ -1,9 +1,22 @@
 # Acoustic Research turntable restoration
 
-A sourced workshop reference for the **XA, XB, and AR77XB**.
+A sourced workshop reference for the **XA, XB, and AR77XB**. The model guide also covers the 1980s tables, for identification only.
+
+| XA | XB | AR77XB | The AR Turntable |
+| --- | --- | --- | --- |
+| ![AR XA under a clear cover](docs/images/models/xa.jpg) | ![XB-pattern table with cueing lever, in a maple plinth](docs/images/models/xb.jpg) | ![AR77XB with its badge at the front left of the top plate](docs/images/models/ar77xb.jpg) | ![The AR Turntable, 1983 brochure photo](docs/images/models/the-ar-turntable.jpg) |
+| 1961 to 1979. No cueing lever | From about 1972. Cueing lever and rocker switch | From 1977. AR77XB badge on the top plate; lever and switch with no panel | From late 1983. Arm on a black board |
+
+| The Legend | EB-101 | ES-1 | ETL-1 |
+| --- | --- | --- | --- |
+| ![The Legend from above](docs/images/models/the-legend.jpg) | ![EB-101 from above](docs/images/models/eb-101.jpg) | No stock photo yet | ![ETL-1 in cherry](docs/images/models/etl-1.jpg) |
+| The British name for The AR Turntable | The budget model, square-edged | Solid wood sides, sapphire bearing | The large one, sold without an arm |
+
+Not sure which one you have? Use the [model guide](models/README.md). Photos: Gig Harbor Audio (XA), the repository owner's files (XB, AR77XB), Vinyl Nirvana (ETL-1), AR factory brochures (The AR Turntable, The Legend, EB-101). The XA and XB shown have new covers, and the XB a new plinth and top-plate colour; every arm is the original.
 
 | Start here | |
 | --- | --- |
+| Which model is it? | [Model guide](models/README.md): every model and variant, how to recognise it, dates, and published figures |
 | Your model | [XA](models/xa/README.md) · [XB](models/xb/README.md) · [AR77XB](models/ar77xb/README.md) |
 | Upgrades | [XA mods](models/xa/mods/README.md) |
 | Small parts explained | [What it is and where it goes](docs/what-goes-where.md) |
@@ -24,7 +37,7 @@ Each value carries one label and its source, in parentheses.
 
 A measurement from one table stays tied to that table. Do not carry a value across models. Nothing is confirmed for the AR77XB unless its page gives a source. None of the mods or CAD parts has been built or fit-tested. Advice with no source is our assessment.
 
-Last reviewed: 2026-11-04. To add or correct something, see [CONTRIBUTING.md](CONTRIBUTING.md).
+Last reviewed: 2026-11-18. To add or correct something, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
