@@ -131,6 +131,10 @@ These are third-party works. The repository license does not cover them: rights 
 - [hifi-wiki: Acoustic Research Model XB, with a 1970s catalogue panel](hifi-wiki/acoustic-research-model-xb.md) ([original](https://hifi-wiki.com/index.php/Acoustic_Research_Model_XB))
 - [stereonomono: Acoustic Research AR-XB](stereonomono/acoustic-research-ar-xb.md) ([original](https://stereonomono.blogspot.com/2021/02/acoustic-research-ar-xb.html))
 - [Wikipedia: Acoustic Research](wikipedia/acoustic-research.md) ([original](https://en.wikipedia.org/wiki/Acoustic_Research)). Text under CC BY-SA 4.0.
+- [Wikipedia: Brass, excerpt](wikipedia/brass.md) ([original](https://en.wikipedia.org/wiki/Brass)). The Properties section, for the density of brass. Text under CC BY-SA 4.0.
+- [Wikipedia: SAE 304 stainless steel, excerpt](wikipedia/sae-304-stainless-steel.md) ([original](https://en.wikipedia.org/wiki/SAE_304_stainless_steel)). For the density. Text under CC BY-SA 4.0.
+- [Wikipedia: 6061 aluminium alloy, excerpt](wikipedia/6061-aluminium-alloy.md) ([original](https://en.wikipedia.org/wiki/6061_aluminium_alloy)). For the density. Text under CC BY-SA 4.0.
+- [Wikipedia: Unified Thread Standard, excerpt](wikipedia/unified-thread-standard.md) ([original](https://en.wikipedia.org/wiki/Unified_Thread_Standard)). The size table, for the #3-48 and #4-40 threads. Text under CC BY-SA 4.0.
 - [Addicted to Audio: Grado Opus3 review](addicted-to-audio/grado-opus3-review.md) ([original](https://addictedtoaudio.co.nz/blogs/reviews/grado-timbre-series-opus3-cartridge))
 - [Positive Feedback: Grado Opus3 review](positive-feedback/grado-opus3-review.md) ([original](https://positive-feedback.com/reviews/hardware-reviews/grado-timbre-series-opus3-phono-cartridge/))
 
@@ -142,7 +146,7 @@ Sites that refuse automated access. Save the page from a browser and add it here
 
 - [patrickhenrypdx, XA counterweight and tonearm rest, Reddit](https://www.reddit.com/r/turntables/comments/1t5vqzh/ar_xa_tone_arm_counter_weight_tone_arm_rest/). Values are on the [counterweight page](../../parts/xa-counterweight.md).
 - [diyAudio: AR77XB, search for new headshell bolts](https://www.diyaudio.com/community/threads/acoustic-research-ar77xb-search-for-new-headshell-bolts.407382/). The drawing shared there is held: [mounting hardware drawing](../originals/ar-headshell-hardware-rev-1.pdf).
-- AudioKarma, Vinyl Engine, Radiomuseum, Stereophile, Hi-Fi News, HiFi Shark, Collectors Weekly, eBay, and the cartridge-screw forum threads: addresses in [sources to read](../sources-to-read.md).
+- AudioKarma, Classic Speaker Pages, Vinyl Engine, Radiomuseum, Stereophile, Hi-Fi News, HiFi Shark, Collectors Weekly, eBay, and the cartridge-screw forum threads: addresses in [sources to read](../sources-to-read.md).
 
 Shop pages that are live catalogues, or that limit automated requests:
 
