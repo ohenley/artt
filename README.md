@@ -1,6 +1,6 @@
 # ARTT: the open reference for Acoustic Research turntables
 
-A sourced workshop reference for the **XA, XB, and AR77XB**. The model guide also covers the 1980s tables, for identification only.
+Every AR turntable, from the 1961 XA to the 1980s ETL-1, in one place: how to identify it, factory figures and documents, service, mods, parts and drawings. Every value names its source. Versioned with git, free, non-commercial, open to corrections and contributions.
 
 | XA | XB | AR77XB | The AR Turntable |
 | --- | --- | --- | --- |
@@ -18,7 +18,7 @@ Not sure which one you have? Use the [model guide](models/README.md). Photos: Gi
 | --- | --- |
 | Does it perform? | [The evidence](docs/evidence/README.md): 0.05 percent speed error, the lowest a testing laboratory had met in a fixed-speed table (Period, *High Fidelity*, 1963); rumble −38 dB unweighted against a −35 dB broadcast standard (Period, *HiFi/Stereo Review*, 1963); 19 dB more gain before acoustic feedback than a direct-drive reference on the same bench, on the 1983 table (Period, *Audio*, 1984). The [weaknesses](docs/evidence/weaker.md) are on the same pages |
 | Which model is it? | [Model guide](models/README.md): every model and variant, how to recognise it, dates, and published figures |
-| Your model | [XA](models/xa/README.md) · [XB](models/xb/README.md) · [AR77XB](models/ar77xb/README.md) |
+| Your model | [XA](models/xa/README.md) · [XB](models/xb/README.md) · [AR77XB](models/ar77xb/README.md) · [The AR Turntable and The Legend](models/the-ar-turntable/README.md) · [EB-101](models/eb-101/README.md) · [ES-1](models/es-1/README.md) · [ETL-1](models/etl-1/README.md). [Status of each](#status-by-model) |
 | Upgrades | [XA mods](models/xa/mods/README.md) |
 | Small parts explained | [What it is and where it goes](docs/what-goes-where.md) |
 | A part in hand, or one you need | [Find your part](parts/README.md#find-your-part): its versions, which tables each fits, the drawing, and what to keep if you make one |
@@ -27,6 +27,25 @@ Not sure which one you have? Use the [model guide](models/README.md). Photos: Gi
 | Original documents | [Manuals and factory drawings](docs/README.md) |
 | Archived articles | [Local copies of community and maker pages](docs/archive/README.md) |
 | Open questions | [Things to confirm](TO-CONFIRM.md) |
+
+## Status by model
+
+The owner has an XA, an XB and an AR77XB on the bench. No other model has been inspected or measured for this reference.
+
+| Model | Page | Bench-verified by the owner | Factory documents held | Wanted from owners |
+| --- | --- | --- | --- | --- |
+| XA | [Yes](models/xa/README.md) | Not yet: on the bench, checks open | Owner's manual, service manual, sheet L-1591, needle force gauge sheet, specification sheet, brochure, 1979 parts and price lists, Villchur's two design papers | Motor label and shaft by serial, capacitor markings, overall size and weight |
+| TA | In the [model guide](models/README.md) | No. No table on hand | None | Any photo, label, serial and pulley |
+| XB | [Yes](models/xb/README.md) | Not yet: on the bench, checks open | Factory drawings 112 to 119 | Capacitor markings, overall size and weight, a dated advert or price list |
+| XB1 | Section of the [XB page](models/xb/README.md) | No. No table on hand | XB1 owner's manual | Underside labels, motor and capacitor markings |
+| AR77XB | [Yes](models/ar77xb/README.md) | Not yet: on the bench, checks open | None | Any factory paper naming it, motor and capacitor markings, headshell material |
+| The AR Turntable | [Yes](models/the-ar-turntable/README.md) | No. No table on hand | 1983 brochure, Hurst motor schematics 130 and 131 | Photos, motor label, serial, measurements |
+| The Legend | Section of [The AR Turntable](models/the-ar-turntable/README.md) | No. No table on hand | British brochure | Photos, motor label, serial, measurements |
+| EB-101 | [Yes](models/eb-101/README.md) | No. No table on hand | British brochure, EB101N schematics 148 and 149 | Photos, motor label, serial, measurements |
+| ES-1 | [Yes](models/es-1/README.md) | No. No table on hand | None | A stock photo with the original arm, any factory paper |
+| ETL-1 | [Yes](models/etl-1/README.md) | No. No table on hand | None | Any factory paper, photos of the speed control |
+
+The [registry](docs/registry.md) collects owners' tables; the [bench sheets](docs/bench-sheets/README.md) list what to measure.
 
 ## How to read this reference
 
