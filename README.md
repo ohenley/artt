@@ -20,7 +20,8 @@ Not sure which one you have? Use the [model guide](models/README.md). Photos: Gi
 | Your model | [XA](models/xa/README.md) · [XB](models/xb/README.md) · [AR77XB](models/ar77xb/README.md) |
 | Upgrades | [XA mods](models/xa/mods/README.md) |
 | Small parts explained | [What it is and where it goes](docs/what-goes-where.md) |
-| Buying parts | [Parts and makers](parts/README.md) |
+| A part in hand, or one you need | [Find your part](parts/README.md#find-your-part): its versions, which tables each fits, the drawing, and what to keep if you make one |
+| Buying parts | [Parts and makers](parts/README.md#replacement-parts) |
 | Making parts | [Part index](parts/reproduction.md) · [CAD drawings](cad/README.md) |
 | Original documents | [Manuals and factory drawings](docs/README.md) |
 | Archived articles | [Local copies of community and maker pages](docs/archive/README.md) |
