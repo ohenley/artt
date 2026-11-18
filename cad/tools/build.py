@@ -79,6 +79,7 @@ DRAWING_DATE = "2026-11-18"
 REVISION = "B"
 # Fixed timestamps, so that rebuilding an unchanged part leaves its files unchanged.
 FIXED_TIME = datetime.datetime(2026, 11, 18, 12, 0, 0, tzinfo=datetime.timezone.utc)
+FIXED_JULIAN = 2461363.5  # the same instant as a DXF Julian date
 FIXED_GUID = "{00000000-0000-0000-0000-000000000000}"
 
 SHEET_W, SHEET_H = 420.0, 297.0  # A3 landscape, mm
@@ -95,7 +96,7 @@ EVIDENCE = {
     "S": "industry standard",
     "D": "design choice",
     "M": "measured",
-    "DV": "derived from cited sources, verify on the part",
+    "DV": "DERIVED, verify on the part",
     "PH": "PLACEHOLDER, measure first",
 }
 # Codes that need a row in TO-CONFIRM.md.
@@ -364,9 +365,11 @@ def write_step(shape, path):
     writer.Transfer(shape, STEPControl_AsIs)
     if writer.Write(str(path)) != IFSelect_RetDone:
         raise RuntimeError(f"STEP write failed: {path}")
-    # Drop the timestamp so rebuilding an unchanged part leaves the file unchanged.
+    # Drop the timestamp and the library build number so rebuilding an unchanged
+    # part leaves the file unchanged.
     text = Path(path).read_text()
     text = re.sub(r"FILE_NAME\('[^']*','[^']*'", f"FILE_NAME('{Path(path).name}','{DRAWING_DATE}'", text, count=1)
+    text = re.sub(r"Open CASCADE STEP translator [\d.]+ \d+", "Open CASCADE STEP translator", text)
     Path(path).write_text(text)
 
 
@@ -633,12 +636,17 @@ def render_dxf(sheet, path):
             entity = space.add_text(line, height=size * 0.3528 * 0.72, dxfattribs=attrs)
             align = {"left": "LEFT", "center": "CENTER", "right": "RIGHT"}[ha]
             entity.set_placement((x, y - i * size * 0.45), align=ezdxf.enums.TextEntityAlignment[align])
-    # Fixed timestamps and GUIDs, so an unchanged part gives an unchanged file.
-    for key in ("$TDCREATE", "$TDUCREATE", "$TDUPDATE", "$TDUUPDATE"):
-        doc.header[key] = FIXED_TIME
+    for key in ("$TDCREATE", "$TDUCREATE"):
+        doc.header[key] = FIXED_JULIAN
     doc.header["$FINGERPRINTGUID"] = FIXED_GUID
-    doc.header["$VERSIONGUID"] = FIXED_GUID
     doc.saveas(path)
+    # ezdxf stamps the update time, a version GUID and a save timestamp on every
+    # save. Fix them, so an unchanged part gives an unchanged file.
+    text = Path(path).read_text()
+    text = re.sub(r"(\$TDU?UPDATE\n 40\n)[\d.]+", lambda m: f"{m.group(1)}{FIXED_JULIAN}", text)
+    text = re.sub(r"(\$VERSIONGUID\n  2\n)\{[0-9A-F-]+\}", lambda m: f"{m.group(1)}{FIXED_GUID}", text)
+    text = re.sub(r"(\n  1\n)(\d+\.\d+\.\d+) @ [0-9T:.+-]+", lambda m: f"{m.group(1)}{m.group(2)} @ {FIXED_TIME.isoformat()}", text)
+    Path(path).write_text(text)
 
 
 def format_value(row):
@@ -989,8 +997,13 @@ def fits_text(meta):
             raise RuntimeError(f"{meta['id']}: {table!r} is not a table name in TABLES")
         if word != "Unconfirmed" and not evidence:
             raise RuntimeError(f"{meta['id']}: fit {word!r} for {table} needs evidence")
-        parts.append(f"{table}: {word.lower()}" + (f" ({evidence})" if evidence else ""))
+        parts.append(f"{table}: {fit_word(word)}" + (f" ({evidence})" if evidence else ""))
     return "; ".join(parts)
+
+
+def fit_word(word):
+    """'Fitted by AR' -> 'fitted by AR'."""
+    return word[0].lower() + word[1:]
 
 
 def mass_text(meta, volume):
@@ -1181,7 +1194,7 @@ def validate_meta(meta, params):
     status = meta["status"]
     if status == "DERIVED" and ("PH" in codes or "DV" not in codes):
         raise RuntimeError(f"{meta['id']}: status DERIVED needs no PH row and at least one DV row")
-    if status in ("GEOMETRY COMPLETE", "REFERENCE") and codes & OPEN_CODES:
+    if status == "GEOMETRY COMPLETE" and codes & OPEN_CODES:
         raise RuntimeError(f"{meta['id']}: status {status} cannot have PH or DV rows")
 
 
@@ -1190,14 +1203,16 @@ def variant_runs(scad, tmp):
     probe = tmp / "probe.csg"
     meta, _, _ = read_part_data(openscad(scad, probe))
     variants = meta.get("variants", [[1, ""]])
-    base_id = meta["id"]
+    runs = []
     for number, label in variants:
         csg = tmp / f"{number}.csg"
         meta, params, dims = read_part_data(openscad(scad, csg, [("variant", number)]))
         validate_meta(meta, params)
-        # A variant with its own id gets its own folder; size variants share one and take a suffix.
-        own = meta["id"] != base_id or len(variants) == 1
-        stem_id = meta["id"] if own else f"{base_id}-{number}"
+        runs.append((number, label, meta, params, dims, csg))
+    # Variants with their own ids get their own folders; size variants share one and take a suffix.
+    own = len({run[2]["id"] for run in runs}) == len(runs)
+    for number, label, meta, params, dims, csg in runs:
+        stem_id = meta["id"] if own else f"{meta['id']}-{number}"
         yield number, label, meta, params, dims, csg, meta["id"], stem_id
 
 
@@ -1295,9 +1310,12 @@ def readme_table(parts):
         "| Part | Version | Material | Fits | Status | Drawing | Files |",
         "| --- | --- | --- | --- | --- | --- | --- |",
     ]
-    for folder, entry in rows.items():
+    # One part's sheets together, in the order the part files give them.
+    order = sorted(rows, key=lambda f: (rows[f]["meta"]["part_name"], rows[f]["scad"], list(rows).index(f)))
+    for folder in order:
+        entry = rows[folder]
         meta, params = entry["meta"], entry["params"]
-        fits = "; ".join(f"{t}: {w.lower()}" for t, w, e in meta.get("fits", [])) or "Unconfirmed"
+        fits = "; ".join(f"{t}: {fit_word(w)}" for t, w, e in meta.get("fits", [])) or "Unconfirmed"
         if len(entry["stems"]) == 1:
             stem = entry["stems"][0]
             drawing = f"[PDF](exports/{folder}/{stem}.pdf)"
@@ -1350,6 +1368,10 @@ def check():
 
 
 def main():
+    # ezdxf orders some objects by Python's hash seed, so fix the seed: an
+    # unchanged part then gives an unchanged DXF.
+    if os.environ.get("PYTHONHASHSEED") != "0":
+        os.execve(sys.executable, [sys.executable] + sys.argv, {**os.environ, "PYTHONHASHSEED": "0"})
     args = sys.argv[1:]
     if args == ["--check"]:
         return check()

@@ -7,8 +7,22 @@
 //   F  factory document          O  owner report
 //   C  community drawing         S  industry standard
 //   D  design choice             M  measured for this repository
+//   DV derived from cited sources, not yet verified on a part. The source
+//      column holds the derivation: the formula, each input with its source,
+//      and how to verify. Drawn in blue. Needs a row in TO-CONFIRM.md whose
+//      value starts with "Derived:". Change to M once measured.
 //   PH placeholder: chosen only so the model has a shape. It is NOT a
-//      measurement. Replace it, and change the code, once it is measured.
+//      measurement. Drawn in red. Replace it, and change the code, once it
+//      is measured.
+//
+// Every part file also emits metadata naming the part page, the part, the
+// version, the material and the tables it fits, each fit with its evidence:
+//   ["part", "parts/counterweight.md"], ["part_name", "Counterweight"],
+//   ["version", "XA brass weight, 1961 to 1979"], ["material", "Brass"],
+//   ["fits", [["XA", "Fitted by AR", "XA service manual p. 4"], ["XB", "Unconfirmed", ""]]]
+// The fit word is one of: Fitted by AR, Fits, Fits with a change, Does not
+// fit, Unconfirmed. build.py prints these in the title block and writes the
+// drawings table of cad/README.md from them.
 // License: CC BY-SA 4.0. See LICENSE at the repository root.
 
 IN = 25.4;      // one inch, in mm. All model geometry is in mm.
