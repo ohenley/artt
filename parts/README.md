@@ -1,12 +1,32 @@
 # Parts, makers, and community
 
-[Home](../README.md) · [Part index](reproduction.md) · [XA mods](../models/xa/mods/README.md) · [Model guide](../models/README.md)
+[Home](../README.md) · [Part index](reproduction.md) · [CAD drawings](../cad/README.md) · [XA mods](../models/xa/mods/README.md) · [Model guide](../models/README.md)
+
+## Find your part
+
+Find your part down the side and your table across the top. Each cell names the version that table had and opens the part's page, where the versions, what fits what, the drawings, and what to keep when making one are laid out the same way on every page. Unconfirmed means no source says which version, or whether one fits.
+
+| Part | XA | XB | XB1 | AR77XB | The AR Turntable and Legend | EB-101 | ES-1 | ETL-1 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [Counterweight](counterweight.md) | [XA brass](counterweight.md#versions) | [XB, brass or stainless](counterweight.md#versions) | [Unconfirmed](counterweight.md#what-fits-what) | [AR77XB aluminium](counterweight.md#versions) | [Unconfirmed](counterweight.md#what-fits-what) | [Unconfirmed](counterweight.md#what-fits-what) | [Unconfirmed](counterweight.md#what-fits-what) | No arm |
+| [Headshell](headshell.md) | [Production shell, tan or black](headshell.md#versions) | [Production shell, black](headshell.md#versions) | [Unconfirmed](headshell.md#what-fits-what) | [AR77XB shell, metal or plastic](headshell.md#versions) | [Carbon-fibre shell; The Legend's is die-cast and integral](headshell.md#versions) | [Unconfirmed](headshell.md#what-fits-what) | [Carbon-fibre shell](headshell.md#versions) | No arm |
+| [Cartridge screws, bushings and shims](cartridge-hardware.md) | [#3-48 set](cartridge-hardware.md#versions) | [#3-48 set](cartridge-hardware.md#versions) | [Unconfirmed](cartridge-hardware.md#what-fits-what) | [Unconfirmed](cartridge-hardware.md#what-fits-what) | [Unconfirmed](cartridge-hardware.md#what-fits-what) | [Unconfirmed](cartridge-hardware.md#what-fits-what) | [Unconfirmed](cartridge-hardware.md#what-fits-what) | No arm |
+| [Overhang template](overhang-template.md) | [Part 914](overhang-template.md#versions) | [P/N 402001](overhang-template.md#versions) | [Unconfirmed](overhang-template.md#what-fits-what) | [Unconfirmed](overhang-template.md#what-fits-what) | [Does not fit: ¹⁹⁄₃₂ in overhang](overhang-template.md#what-fits-what) | [Does not fit: 16 mm overhang](overhang-template.md#what-fits-what) | [Does not fit: ¹⁹⁄₃₂ in](overhang-template.md#what-fits-what) | No arm |
+| [Base or plinth](plinth.md) | [Solid walnut, then veneer, then vinyl](plinth.md#versions) | [XB base, veneer or vinyl; hinged-cover build in 1976 to 1977](plinth.md#versions) | [XB1 base](plinth.md#versions) | [Vinyl on chipboard](plinth.md#versions) | [Unconfirmed](plinth.md#what-fits-what) | [Unconfirmed](plinth.md#what-fits-what) | [Unconfirmed](plinth.md#what-fits-what) | [Unconfirmed](plinth.md#what-fits-what) |
+| [Motor and pulley](motor-and-pulley.md) | [Two motors, then Haydon, Philips, Haydon, by serial](motor-and-pulley.md#versions) | [Motor 802006, pulley 400126](motor-and-pulley.md#versions) | [Unconfirmed](motor-and-pulley.md#what-fits-what) | [Unconfirmed](motor-and-pulley.md#what-fits-what) | [Hurst](motor-and-pulley.md#versions) | [12-pole; Hurst on the EB101N](motor-and-pulley.md#versions) | [Airpax early, then Hurst](motor-and-pulley.md#versions) | [Unconfirmed](motor-and-pulley.md#what-fits-what) |
+| [Tonearm rest](tonearm-rest.md) | [Black plastic, part 907](tonearm-rest.md#versions) | [Metal, part 404005](tonearm-rest.md#versions) | [Unconfirmed](tonearm-rest.md#what-fits-what) | [Unconfirmed](tonearm-rest.md#what-fits-what) | [Unconfirmed](tonearm-rest.md#what-fits-what) | [Unconfirmed](tonearm-rest.md#what-fits-what) | [Unconfirmed](tonearm-rest.md#what-fits-what) | No arm |
+| [Strobe disc](strobe-disc.md) | [60 Hz or 50 Hz disc](strobe-disc.md#what-fits-what) | [60 Hz disc](strobe-disc.md#what-fits-what) | [Unconfirmed](strobe-disc.md#what-fits-what) | [Unconfirmed](strobe-disc.md#what-fits-what) | [60 Hz or 50 Hz disc](strobe-disc.md#what-fits-what) | [60 Hz or 50 Hz disc](strobe-disc.md#what-fits-what) | [Unconfirmed](strobe-disc.md#what-fits-what) | [Unconfirmed](strobe-disc.md#what-fits-what) |
+| [Platter height gauge](platter-height-gauge.md) | [XA gauge, ⅛ in](platter-height-gauge.md#versions) | [XB gauge, ⅜ in ± ¹⁄₃₂](platter-height-gauge.md#versions) | [Unconfirmed](platter-height-gauge.md#what-fits-what) | [Unconfirmed](platter-height-gauge.md#what-fits-what) | [Unconfirmed](platter-height-gauge.md#what-fits-what) | [Unconfirmed](platter-height-gauge.md#what-fits-what) | [Unconfirmed](platter-height-gauge.md#what-fits-what) | [Unconfirmed](platter-height-gauge.md#what-fits-what) |
+| [Cueing height gauge](cueing-height-gauge.md) | [Does not fit: no cueing lever](cueing-height-gauge.md#what-fits-what) | [XB gauge, ¼ to ⁷⁄₁₆ in](cueing-height-gauge.md#versions) | [Unconfirmed](cueing-height-gauge.md#what-fits-what) | [Unconfirmed](cueing-height-gauge.md#what-fits-what) | [Unconfirmed](cueing-height-gauge.md#what-fits-what) | [Unconfirmed](cueing-height-gauge.md#what-fits-what) | [Unconfirmed](cueing-height-gauge.md#what-fits-what) | [Unconfirmed](cueing-height-gauge.md#what-fits-what) |
+| [Hinge drilling template](hinge-template.md) | [Unconfirmed](hinge-template.md#what-fits-what) | [Hinged XB, September 1976 to January 1977](hinge-template.md#versions) | [Unconfirmed](hinge-template.md#what-fits-what) | [Unconfirmed](hinge-template.md#what-fits-what) | [Unconfirmed](hinge-template.md#what-fits-what) | [Unconfirmed](hinge-template.md#what-fits-what) | [Unconfirmed](hinge-template.md#what-fits-what) | [Unconfirmed](hinge-template.md#what-fits-what) |
+
+"No arm": the ETL-1 was sold without an arm (Specialist, [Vinyl Nirvana ETL-1](../docs/archive/vinyl-nirvana/ar-models/ar-etl-1.md)). The [drawings table](../cad/README.md) lists every sheet by part, version and material. Parts with no page yet are in the [part index](reproduction.md).
+
+## Replacement parts
 
 What can be bought, what each maker says about it, and which tables it is listed for. Every row is a Maker claim unless marked. Prices and stock change, so they are left out; the stored copy of each listing shows the price on the day it was saved.
 
 Each link opens the copy kept in this repository. The copy names its original address, and the makers' sites are listed at the foot of this page.
-
-## Replacement parts
 
 | Part | Maker | Listed for | What the maker says |
 | --- | --- | --- | --- |
@@ -23,7 +43,7 @@ How to choose and fit each one: [belt and pulley](../models/xa/mods/belt-and-pul
 
 Internal arm wire used in one documented rewire: Cardas 33 AWG, "nothing thicker" (Owner report, [Scott Hamrick](../docs/archive/vinyl-nirvana/ar-diy-do-it-yourself/rewiring-an-ar-xa-tonearm.md)).
 
-Original cartridge screws and spacers: [What it is and where it goes](../docs/what-goes-where.md). A modern motor and capacitor combination, and a complete hardware list: Unconfirmed.
+Original cartridge screws and spacers: [cartridge screws, bushings and shims](cartridge-hardware.md) and [What it is and where it goes](../docs/what-goes-where.md). A modern motor and capacitor combination, and a complete hardware list: Unconfirmed.
 
 ## Services
 
