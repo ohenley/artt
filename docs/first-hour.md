@@ -16,7 +16,7 @@ Most of it comes from first-family papers: the XA owner's manual, the XA service
 2. Lift off the mat and the outer platter. Hold the outer platter by its rim and lift it straight up. Try not to hit the pulley (Factory, [XA owner's manual, p. 11](transcripts/xa-owners-manual.md)).
 3. XA only: count the motors you can see. Two motors means a serial up to XA66866 (Factory, XA service manual, p. 1). Its parts have not been available for years (same page).
 4. Look at the belt. It should run round the inner platter and the upper, smaller pulley step for 33⅓ rpm, with no twists (Factory, XA owner's manual, p. 4). A shiny, sticky or cracked belt needs cleaning or replacing: [troubleshooting, slow start](troubleshooting.md#slow-start-or-wrong-speed).
-5. XB pattern: look for a wing-nut transit bolt, perhaps with a red CAUTION tag, holding the suspension to the top plate, and for foam shims under the inner platter. Remove both (Factory, XB1 manual, pp. 2–3). Keep the bolt for moving the table. On the XB drawings the shipping bolt is item 8, part 501011, with a nylon washer, item 7 (Factory, [What it is and where it goes](what-goes-where.md)). Where it sits on an XB or AR77XB: Unconfirmed, TCNEW-T4.
+5. XB pattern: look for a wing-nut transit bolt, perhaps with a red CAUTION tag, holding the suspension to the top plate, and for foam shims under the inner platter. Remove both (Factory, XB1 manual, pp. 2–3). Keep the bolt for moving the table. On the XB drawings the shipping bolt is item 8, part 501011, with a nylon washer, item 7 (Factory, [What it is and where it goes](what-goes-where.md)). Where it sits on an XB or AR77XB: Unconfirmed, [TR1](../TO-CONFIRM.md#other-parts).
 
    Photo wanted: `xb-transit-bolt.jpg`
 

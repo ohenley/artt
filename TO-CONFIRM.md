@@ -48,6 +48,9 @@ Values now are from one owner's XA on the [counterweight page](parts/counterweig
 | HS4 | Shell body material | "An acrylic plastic" at the 1962 design (Villchur 1962, Part 1, p. 22); "a light plastic"; [AR sheet L-1591](docs/originals/ar-cartridge-mount.jpg) | Inspect a real shell; record model and serial | Open | |
 | HS5 | AR77XB shell material | Metal and plastic; the [Vinyl Nirvana page](models/ar77xb/README.md#how-to-recognise-one) says both | Inspect an identified AR77XB | Conflict | |
 | HS6 | Whether the XA and XB shells are one part | 1979 XA price list 1404003-0 against XB drawing 119 part 404003: the numbers match in pattern; Pat's Audio sells one shell for both | Plug an XA shell into an XB arm and the reverse; measure both necks | Open | |
+| HS7 | ES-1 headshell | Carbon-fibre reinforced, clamping screw on the arm (Vinyl Nirvana); "fixed headshell" (Wolf) | Inspect a stock ES-1 arm | Conflict | |
+| HS8 | AR77XB headshell mass with nut and hardware, cartridge off | Not recorded | Scale reading to 0.1 g | Open | |
+| HS9 | Whether XB shells and XB cartridge screws fit the AR77XB | Not recorded. Pat's Audio lists its shell for the XA and XB only | Plug an XB shell into an AR77XB arm; try the XB screws | Open | |
 
 ### Platter, bearings, and suspension
 
@@ -61,6 +64,7 @@ Values now are from one owner's XA on the [counterweight page](parts/counterweig
 | PL6 | Main bearing ball diameter | Not recorded | Micrometer | Open | |
 | PL7 | Suspension stud thread and length | XB nut is #10-24 on drawing 119; stud length not recorded | Thread gauge, calipers | Open | |
 | PL8 | Belt length, width, and thickness | Not recorded | Measure a new belt, flat and unstretched; note the supplier | Open | |
+| PL9 | AR77XB outer platter height above the top plate | Not recorded. The XB value, for comparison: ⅜ in ± ¹⁄₃₂ (drawing 119, note 13) | Rule, feeler gauges or the [platter height gauge](parts/platter-height-gauge.md), at three points | Open | |
 
 ### Motor, electrical, and overall size
 
@@ -75,6 +79,13 @@ Values now are from one owner's XA on the [counterweight page](parts/counterweig
 | DM2 | XA complete weight | 13½ lb; same directory | Scale; note whether cover and mat are included | Open | |
 | DM3 | XB and AR77XB overall size and weight | XB: 12¾ × 16¾ × 5¾ in with cover, 19 lb shipping weight, in a [1970s catalogue](models/xb/README.md#at-a-glance). AR77XB: not recorded | Tape or calipers, scale | Open | |
 | DM4 | Hinge position on cover | 2.20 in and 60.6 mm on [drawing 114](models/xb/README.md#cover-dimensions-and-clearance), which do not convert; red on the [hinge template](parts/hinge-template.md) | Measure a hinged XB cover | Conflict | |
+| EL6 | ES-1 motor and capacitors | Vinyl Nirvana says it always had a 3 W Hurst, and on the same page that early units had a 1.5 W Philips Airpax | Motor label, serial and capacitor markings | Conflict | |
+| EL7 | Pole count of The AR Turntable's motor, by date | 24-pole (Factory, 1983 brochure); 12-pole for a "later unit" (Vinyl Nirvana) | Motor label and serial | Conflict | |
+| EL8 | ETL-1 motor, speed control and mains | Only "electronic speed control" is stated (Vinyl Nirvana) | Motor label, control board and rating label | Open | |
+| EL9 | Whether the XA, XB and AR77XB motors take oil, where, and which oil | No held source says | Inspect the motor for oil holes or bushings; find a factory or maker service note | Open | |
+| EL10 | Why a single-motor table starts backwards | No source. Two-motor XAs have a starter motor that sets direction (Villchur 1962, Part 2, p. 36) | On any table that does it: serial, motor label, capacitor markings, wiring against service manual p. 3 | Open | |
+| DM5 | Weight of The AR Turntable | 18 lb (8.2 kg) (Factory, 1983 brochure); 13.5 lb (Vinyl Nirvana) | Scale, cover on and off | Conflict | |
+| DM6 | EB-101 overall size | 442 × 365 × 180 mm (Factory, GB brochure); 18.19 × 15.25 × 7 in on Vinyl Nirvana, which is the size given for The AR Turntable | Tape measure, cover closed | Conflict | |
 
 ### Models and dates
 
@@ -92,6 +103,26 @@ Open points from the [model guide](models/README.md). Most need a dated document
 | MD8 | Names behind the drawing signatures, and the designer of the 1983 table | Initials and handwriting only; no designer named | SR17 and SR18; AR staff accounts | Open | |
 | MD9 | Motor in the first units of The AR Turntable | Not a Hurst on early units, per Vinyl Nirvana; Hurst schematics dated December 1983 | Motor label and serial on a 1983 table | Conflict | |
 | MD10 | AR77XB factory papers | None found | A manual, brochure, or drawing naming the model | Open | |
+| MD11 | First year of The AR Turntable | Brochure 701049-0 dated 10/83, and an owner who bought one new in November 1983 (Dagogo); 1984 in Wolf and on Vinyl Nirvana | A dated 1983 dealer invoice or advert | Conflict | |
+| MD12 | ETL-1 series name and first year | "Research Series" (Wolf; Vinyl Nirvana gallery) against "Connoisseur Series" (Vinyl Nirvana model page); on sale by 1985 (Wolf) | A dated brochure or price list | Conflict | |
+| MD13 | Years The Legend was sold | The British brochure is undated | A dated UK review, price list or receipt | Open | |
+| MD14 | Second-family factory papers | None held. A bilingual English and French manual for The AR Turntable is known only from Mitchell's 1984 review; nothing for the ES-1 or ETL-1 | A scan from an owner | Open | |
+| MD15 | When the EB-101 changed from a solid top to the armboard | Both styles exist (Vinyl Nirvana); no date given | Serials and dates from both styles | Open | |
+| MD16 | AR77XB badge: text, position, fixing, size | An "AR77XB" plate at the front left of the top plate, from one photo (Owner report) | Inspect and photograph an AR77XB; rule | Open | |
+| MD17 | AR77XB base material and construction | Chipboard wrapped in walnut-look vinyl (Specialist, VN XB77) | Inspect a cut edge inside the base; photograph | Open | |
+| MD18 | Where the serial is on the XB and AR77XB | Not recorded. The XB1 has it on the guarantee card attached to the bottom cover (XB1 manual p. 13) | Look under the base; photograph the label | Open | |
+| MD19 | Serial location and format on The AR Turntable, The Legend, EB-101, ES-1, ETL-1 | No held source | Look under the base of any second-family table | Open | |
+| MD20 | Whether AR put a date code on any table: base, labels, motor, cover | None in any held source | Look over every label and part; record any stamp and where it is | Open | |
+| MD21 | Whether early XA serials carry a TT prefix | One Vinyl Nirvana photo of a two-motor XA label reads TT; the digits cannot be read | Read the label on any two-motor XA | Open | |
+
+### Cueing lift and arm damping
+
+| ID | What to confirm | Value now, and source | How to check | Status | Result |
+| --- | --- | --- | --- | --- | --- |
+| CU1 | XB cueing lift height, drop below the record and descent time, against the factory values | Lift ¼ to ⁷⁄₁₆ in, drop at least ¼ in, descent 1 to 3 seconds (Factory, drawing 119, notes 7 and 8) | Rule and stopwatch on the owner's XB, three tries | Open | |
+| CU2 | AR77XB cueing lift height and descent time | Not recorded. The XB values, for comparison: 1 to 3 seconds, lift ¼ to ⁷⁄₁₆ in (drawing 119) | Photograph the cylinder and knurled caps; rule and stopwatch before any adjustment | Open | |
+| CU3 | Damping medium in the XB and AR77XB cue cylinder, and whether it can be opened and refilled | "Viscous damped" (Factory, XB1 manual p. 8); medium not named | Open the cue cylinder on a spare unit, or find a factory parts list | Open | |
+| CU4 | Which damping parts production XAs used | A porous bronze shaft in silicone fluid turning in a Delrin sleeve (Factory, Villchur 1962, Part 1, p. 23); foam and plastic washers on the spindle rubbing the brass bearing, with an alignment pin (Owner report, John's Weather 2009 and 2012) | Inspect the pivot and spindle of an XA below serial XA236534; record the serial | Conflict | |
 
 ## CAD dimensions needed
 
@@ -163,6 +194,8 @@ Measure an original shell and its retaining nut, and record the model and serial
 | SD1 | Strobe disc lines, 33⅓ rpm ring | Derived: 216 at 60 Hz, which is also the spec sheet's card; 180 at 50 Hz, from 2 × 50 × 60 / 33⅓ | The printed disc stands still on a table known to run true | Open | |
 | SD2 | Strobe disc lines, 45 rpm ring | Derived: 160 at 60 Hz, from 2 × 60 × 60 / 45. At 50 Hz the result is 133.33 and the ring is not drawn | Same | Open | |
 | SD3 | Strobe disc spindle hole | 7.3 mm placeholder | Micrometer on the spindle | Open | |
+| CL1 | A safe cleaner for the painted top plate, the aluminium platter after old mat residue, and the AR77XB vinyl-wrapped base | No source. Paint stripper lifted an XA top plate finish within ten minutes; the platter was cleaned with 240 grit paper and Scotch-Brite (Owner report, John's Weather 2012) | Test a cleaner on a hidden spot; record the product and the result | Open | |
+| TR1 | Where the XB and AR77XB transit bolt sits, its thread and length | Item 8, part 501011, with nylon washer item 7 (Factory, drawing 119). The XB1 manual describes a wing-nut transit bolt holding the suspension to the top plate | Find the bolt or its hole on the owner's XB and AR77XB; thread gauge, calipers | Open | |
 
 ### Plinth
 
@@ -234,4 +267,4 @@ Open items from the [XA mods](models/xa/mods/README.md), marked TBC on each page
 
 ## Sources not yet read
 
-Listed with their addresses in [sources to read](docs/sources-to-read.md), SR1 to SR31.
+Listed with their addresses in [sources to read](docs/sources-to-read.md), SR1 to SR46.

@@ -16,14 +16,14 @@ Print this page and fill it in at the bench. Each line closes or adds evidence t
 | --- | --- | --- | --- |
 | [DM3](../../TO-CONFIRM.md#motor-electrical-and-overall-size) | Width × depth × height with the cover closed, in inches and mm | Tape measure or long calipers | ______ |
 | [DM3](../../TO-CONFIRM.md#motor-electrical-and-overall-size) | Complete weight; note whether cover and mat are on | Kitchen or postal scale | ______ |
-| TCNEW-B1 | Badge: exact text, position, how it is fixed, size | Eyes, rule, photo | ______ |
+| [MD16](../../TO-CONFIRM.md#models-and-dates) | Badge: exact text, position, how it is fixed, size | Eyes, rule, photo | ______ |
 | [MD10](../../TO-CONFIRM.md#models-and-dates) | Every printed name on the table: badge, cover logo, labels. Any paper in the box | Eyes, photo | ______ |
 
 ## 2. Platter and belt
 
 | ID | What to record | Tool | Result |
 | --- | --- | --- | --- |
-| TCNEW-B5 | Outer platter height above the top plate, with mat and one record, at three points | Rule, feeler gauges, or the [platter height gauge](../../parts/platter-height-gauge.md) | ______ |
+| [PL9](../../TO-CONFIRM.md#platter-bearings-and-suspension) | Outer platter height above the top plate, with mat and one record, at three points | Rule, feeler gauges, or the [platter height gauge](../../parts/platter-height-gauge.md) | ______ |
 | [PL1](../../TO-CONFIRM.md#platter-bearings-and-suspension) | Platter mass, outer and inner separately | Scale | ______ |
 | [PL8](../../TO-CONFIRM.md#platter-bearings-and-suspension) | Belt length, width, thickness, laid flat; note if original | Calipers, tape | ______ |
 | [PL6](../../TO-CONFIRM.md#platter-bearings-and-suspension) | Main bearing ball diameter | Micrometer | ______ |
@@ -32,10 +32,10 @@ Print this page and fill it in at the bench. Each line closes or adds evidence t
 
 | ID | What to record | Tool | Result |
 | --- | --- | --- | --- |
-| TCNEW-B6 | Cueing: lift height above the record, and descent time from top to record, three tries | Rule, stopwatch | ______ |
+| [CU2](../../TO-CONFIRM.md#cueing-lift-and-arm-damping) | Cueing: lift height above the record, and descent time from top to record, three tries | Rule, stopwatch | ______ |
 | [HS5](../../TO-CONFIRM.md#headshell-and-screws) | Headshell material: metal or plastic. A magnet and a fingernail tap help; photograph it | Magnet, eyes | ______ |
-| TCNEW-B3 | Headshell mass with its nut and hardware, cartridge off | Scale reading to 0.1 g | ______ |
-| TCNEW-B4 | Does an XB shell plug in and lock? Do the XB cartridge screws thread in? | An XB shell, its screws | ______ |
+| [HS8](../../TO-CONFIRM.md#headshell-and-screws) | Headshell mass with its nut and hardware, cartridge off | Scale reading to 0.1 g | ______ |
+| [HS9](../../TO-CONFIRM.md#headshell-and-screws) | Does an XB shell plug in and lock? Do the XB cartridge screws thread in? | An XB shell, its screws | ______ |
 | [CW13](../../TO-CONFIRM.md#counterweight-and-rest) | Counterweight material, and mass with set screw. Then the rest of the [counterweight procedure](../../parts/counterweight.md#what-it-is): diameter, length, bore | Magnet, scale, calipers | ______ |
 | [PL5](../../TO-CONFIRM.md#platter-bearings-and-suspension) | Arm bearing ball diameter | Micrometer | ______ |
 
@@ -51,7 +51,7 @@ Brace the table on its side. Do not invert it.
 | [EL5](../../TO-CONFIRM.md#motor-electrical-and-overall-size) | Markings on each capacitor: value, voltage, maker, where it is wired | Eyes, photo | ______ |
 | [EL5](../../TO-CONFIRM.md#motor-electrical-and-overall-size) | Mains lead: wires, plug, any label | Eyes | ______ |
 | [MD10](../../TO-CONFIRM.md#models-and-dates) | Labels and date stamps on the base, motor, cable and parts | Eyes, photo | ______ |
-| TCNEW-B2 | Base material and construction: chipboard, plywood or solid; wrap or veneer. Look at a cut edge inside | Eyes, photo | ______ |
+| [MD17](../../TO-CONFIRM.md#models-and-dates) | Base material and construction: chipboard, plywood or solid; wrap or veneer. Look at a cut edge inside | Eyes, photo | ______ |
 
 ## Setup values to compare, not to copy
 

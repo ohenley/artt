@@ -11,14 +11,14 @@ AR changed motors, wiring and parts by serial number, but no factory list ties a
 | XA | On the guarantee card attached to the bottom cover | Factory, [XA owner's manual, p. 12](transcripts/xa-owners-manual.md) |
 | XA, as photographed | Under the base: a printed label headed "AR TURNTABLE" with a "SERIAL NO." box, the supply rating and the Cambridge address, beside the warranty sheet; and a strip label carrying the number and the base finish, "OILED WALNUT". Shown on an early two-motor table and on a later one | Specialist, [Vinyl Nirvana photo comparison](archive/vinyl-nirvana/ar-turntable-history/a-photo-comparison-of-a-new-and-old-ar-xa.md) |
 | XB1 | On the guarantee card attached to the bottom cover | Factory, [XB1 manual, p. 13](transcripts/xb1-owners-manual.md) |
-| XB, AR77XB | Unconfirmed. The XB1 location is the nearest, for comparison only. TCNEW-T1 | |
-| The AR Turntable, The Legend, EB-101, ES-1, ETL-1 | Unconfirmed. No held source says. TCNEW-T2 | |
+| XB, AR77XB | Unconfirmed. The XB1 location is the nearest, for comparison only. [MD18](../TO-CONFIRM.md#models-and-dates) | |
+| The AR Turntable, The Legend, EB-101, ES-1, ETL-1 | Unconfirmed. No held source says. [MD19](../TO-CONFIRM.md#models-and-dates) | |
 
 ![Label under an early XA: "AR TURNTABLE", serial box, supply rating and Cambridge address, beside the warranty sheet](archive/vinyl-nirvana/images/ar-old-label.jpg)
 
 *Photo: Vinyl Nirvana, [A Photo Comparison of a "New" and "Old" AR XA](archive/vinyl-nirvana/ar-turntable-history/a-photo-comparison-of-a-new-and-old-ar-xa.md).*
 
-On this early two-motor table the label reads "110-120 VOLTS A[C]" and "50-60 CPS 9 WATT[S]", the end of each line torn off. The serial is handwritten and faint. Its first two characters read as TT, not XA; the digits are not read with confidence from this photo. Whether early serials carried a TT prefix: Unconfirmed, TCNEW-T7.
+On this early two-motor table the label reads "110-120 VOLTS A[C]" and "50-60 CPS 9 WATT[S]", the end of each line torn off. The serial is handwritten and faint. Its first two characters read as TT, not XA; the digits are not read with confidence from this photo. Whether early serials carried a TT prefix: Unconfirmed, [MD21](../TO-CONFIRM.md#models-and-dates).
 
 ![Strip label under a later XA: a serial beginning XA, partly handwritten, and the words OILED WALNUT](archive/vinyl-nirvana/images/ar-new-label.jpg)
 
@@ -46,7 +46,7 @@ The printed ranges overlap at XA66866 and leave a gap from XA175235 to XA176235:
 
 ## Dates
 
-**No date code on a table is recorded in any held source.** Whether AR stamped a date on the base, the labels, the motor or the cover: Unconfirmed, TCNEW-T3. If you find any stamped or written date, add it to the Notes column below with where it was.
+**No date code on a table is recorded in any held source.** Whether AR stamped a date on the base, the labels, the motor or the cover: Unconfirmed, [MD20](../TO-CONFIRM.md#models-and-dates). If you find any stamped or written date, add it to the Notes column below with where it was.
 
 What the documents do date:
 

@@ -17,7 +17,7 @@ Print this page and fill it in at the bench. Each line closes or adds evidence t
 | [DM3](../../TO-CONFIRM.md#motor-electrical-and-overall-size) | Width × depth × height with the cover closed, in inches and mm | Tape measure or long calipers | ______ |
 | [DM3](../../TO-CONFIRM.md#motor-electrical-and-overall-size) | Complete weight; note whether cover and mat are on | Scale | ______ |
 | [DM4](../../TO-CONFIRM.md#motor-electrical-and-overall-size) | Hinged cover only: end of cover to the first hinge hole, in inches and mm | Calipers | ______ |
-| TCNEW-B7 | Cueing: lift height above one record on the mat, drop below the record surface, and descent time from top to record, three tries. Factory: lift ¼ to ⁷⁄₁₆ in (6.4 to 11.1 mm), drop at least ¼ in (6.4 mm), descent 1 to 3 seconds (drawing 119, notes 7 and 8) | Rule, stopwatch | ______ |
+| [CU1](../../TO-CONFIRM.md#cueing-lift-and-arm-damping) | Cueing: lift height above one record on the mat, drop below the record surface, and descent time from top to record, three tries. Factory: lift ¼ to ⁷⁄₁₆ in (6.4 to 11.1 mm), drop at least ¼ in (6.4 mm), descent 1 to 3 seconds (drawing 119, notes 7 and 8) | Rule, stopwatch | ______ |
 
 ## 2. Platter and belt
 

@@ -44,7 +44,7 @@ All Specialist, VN ES-1, unless noted.
 
 | Item | Value |
 | --- | --- |
-| Motor | 24-pole synchronous, 3 W Hurst. The same page also says early units had a 1.5 W Philips Airpax motor, while saying the ES-1 always had a Hurst. Conflict, TCNEW-M6 |
+| Motor | 24-pole synchronous, 3 W Hurst. The same page also says early units had a 1.5 W Philips Airpax motor, while saying the ES-1 always had a Hurst. Conflict, [EL6](../../TO-CONFIRM.md#motor-electrical-and-overall-size) |
 | Platter | 3.9 lb (1.8 kg) |
 | Wow and flutter | 0.04% |
 | Rumble | −78 dB |
@@ -67,7 +67,7 @@ Vinyl Nirvana gives these as the published figures for the stock AR arm.
 | Cartridge weight | 3 to 9 g |
 | Stylus force range | 0 to 3 g |
 | Arm and lead capacitance | 85 pF |
-| Headshell | Carbon-fibre reinforced, clamping screw on the arm (Specialist, VN ES-1). "Fixed headshell" on the Japanese arm (Period, Wolf). Conflict, TCNEW-M7 |
+| Headshell | Carbon-fibre reinforced, clamping screw on the arm (Specialist, VN ES-1). "Fixed headshell" on the Japanese arm (Period, Wolf). Conflict, [HS7](../../TO-CONFIRM.md#headshell-and-screws) |
 
 Spindle to arm pivot: 8.4 in (213 mm) (Period, Wolf).
 
@@ -84,14 +84,14 @@ These arm figures are the same, line for line, as the 1983 brochure gives for Th
 
 ## Electrical
 
-Motor, capacitors and mains wiring: Unconfirmed, TCNEW-M6. No ES-1 schematic is held. For comparison only, the factory Hurst schematics for The AR Turntable give 0.25 µF on the motor and 0.022 µF across the switch at 115 V, 60 Hz ([The AR Turntable, electrical](../the-ar-turntable/README.md#electrical)). Before changing anything, write down the motor label and both capacitor markings.
+Motor, capacitors and mains wiring: Unconfirmed, [EL6](../../TO-CONFIRM.md#motor-electrical-and-overall-size). No ES-1 schematic is held. For comparison only, the factory Hurst schematics for The AR Turntable give 0.25 µF on the motor and 0.022 µF across the switch at 115 V, 60 Hz ([The AR Turntable, electrical](../the-ar-turntable/README.md#electrical)). Before changing anything, write down the motor label and both capacitor markings.
 
 ## Still missing
 
-- Any factory paper naming the ES-1: brochure, manual, price list or drawing: TCNEW-M10.
+- Any factory paper naming the ES-1: brochure, manual, price list or drawing: [MD14](../../TO-CONFIRM.md#models-and-dates).
 - First year on sale: [MD6](../../TO-CONFIRM.md#models-and-dates).
-- Motor on early units: TCNEW-M6.
-- Headshell: TCNEW-M7.
+- Motor on early units: [EL6](../../TO-CONFIRM.md#motor-electrical-and-overall-size).
+- Headshell: [HS7](../../TO-CONFIRM.md#headshell-and-screws).
 - Weight, and a stock photo with the original arm.
 
 ## Wanted from owners

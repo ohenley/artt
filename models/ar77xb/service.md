@@ -12,7 +12,7 @@ The AR77XB has the same cueing lever and the same oil bearings as the XB pattern
 
 - **No AR77XB value is factory-confirmed.** The XB values below are a starting point. If your table behaves differently, record it; do not force it to the XB figure.
 - **Do not turn the table upside down.** The XA service manual warns against it (Factory, for comparison: [XA service](../xa/service.md#before-you-start)).
-- **Turn the cue cylinder cap no more than ½ turn at a time.** That is the XB rule (Factory, XB1 manual p. 11, for comparison). Whether the AR77XB has the same cap: Unconfirmed, TCNEW-S5.
+- **Turn the cue cylinder cap no more than ½ turn at a time.** That is the XB rule (Factory, XB1 manual p. 11, for comparison). Whether the AR77XB has the same cap: Unconfirmed, [CU2](../../TO-CONFIRM.md#cueing-lift-and-arm-damping).
 - **Oil on the belt stops clean starts.** Keep oil off the belt, pulley and inner platter rim.
 - **The counterweight is aluminium, lighter than the XB's** (Specialist, Vinyl Nirvana XB77). Do not swap weights between tables while servicing; a swapped weight changes the balance.
 
@@ -28,7 +28,7 @@ Deep clean: the [platter bearing page](../xa/mods/platter-bearing.md). Ball and 
 
 Motor maker, label and capacitors: Unconfirmed, [EL5](../../TO-CONFIRM.md#motor-electrical-and-overall-size). Write down the motor label before touching it.
 
-No held source says to oil the motor, or where. Unconfirmed, TCNEW-S1.
+No held source says to oil the motor, or where. Unconfirmed, [EL9](../../TO-CONFIRM.md#motor-electrical-and-overall-size).
 
 For comparison only: XA slow start or chattering is first cured by a new belt and a clean pulley (Factory, [XA service](../xa/service.md#motor)). The XB speed test is ±21 dots per minute at 1.5 g stylus force (Factory, drawing 119).
 
@@ -42,9 +42,9 @@ XB factory values, for comparison (Factory, drawing 119 notes 7, 8 and 13; XB1 m
 | Lowered | At least ¼ in (6.4 mm) of drop below the record surface |
 | Descent | 1 to 3 seconds from full height to the record |
 | Spindle and cueing cylinder to top plate hole | 0.050 in (1.27 mm) minimum |
-| Damping medium | Not named: Unconfirmed, TCNEW-S3 |
+| Damping medium | Not named: Unconfirmed, [CU3](../../TO-CONFIRM.md#cueing-lift-and-arm-damping) |
 
-AR77XB values: Unconfirmed, TCNEW-S5.
+AR77XB values: Unconfirmed, [CU2](../../TO-CONFIRM.md#cueing-lift-and-arm-damping).
 
 Photo wanted: `ar77xb-cue-mechanism.jpg`
 
@@ -70,8 +70,8 @@ For comparison, the XB factory method: clean the belt with methyl alcohol, not r
 ## Cleaning without damage
 
 - **Dust cover:** the XB1 method, for comparison: dry cloth, then a combination cleaner and wax; for heavy dirt, lukewarm (not hot) water with mild dishwashing detergent, a cold rinse, dry, then wax (Factory, XB1 manual p. 12). The AR77XB cover carries a printed metal square with the newer AR logo (Specialist); whether that square survives washing: Unconfirmed, our assessment is to keep it dry.
-- **Top plate paint:** textured black (Specialist). No held source gives a safe cleaner. Unconfirmed, TCNEW-S2.
-- **Base:** chipboard wrapped in walnut-look vinyl (Specialist). A cleaner for the vinyl wrap: Unconfirmed, TCNEW-S2.
+- **Top plate paint:** textured black (Specialist). No held source gives a safe cleaner. Unconfirmed, [CL1](../../TO-CONFIRM.md#other-parts).
+- **Base:** chipboard wrapped in walnut-look vinyl (Specialist). A cleaner for the vinyl wrap: Unconfirmed, [CL1](../../TO-CONFIRM.md#other-parts).
 - **Platter and mat:** for comparison, the XA service manual says to wash the foam mat in a dilute solution of mild soap and water, or replace it (Factory, [XA service](../xa/service.md#platter-and-mat)). The AR77XB mat: not described in a held source.
 
 ## Sources

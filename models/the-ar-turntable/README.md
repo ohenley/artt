@@ -12,7 +12,7 @@ AR's 1983 relaunch: the original sprung T-bar mechanism in a new walnut base, wi
 
 | Item | Value |
 | --- | --- |
-| Made | Brochure printed October 1983, form 701049-0 (Factory, 1983 brochure). One owner bought his new in November 1983 (Owner report, Dagogo). Introduced in 1984 (Period, Wolf; Specialist, VN AR the Turntable). Conflict, TCNEW-M1 |
+| Made | Brochure printed October 1983, form 701049-0 (Factory, 1983 brochure). One owner bought his new in November 1983 (Owner report, Dagogo). Introduced in 1984 (Period, Wolf; Specialist, VN AR the Turntable). Conflict, [MD11](../../TO-CONFIRM.md#models-and-dates) |
 | Maker's name | Teledyne Acoustic Research, 10 American Drive, Norwood, Massachusetts 02062, and High Street, Houghton Regis, Dunstable, Bedfordshire, England (Factory, 1983 brochure) |
 | Family | Second family, 1983 onward: The AR Turntable, The Legend, EB-101, ES-1, ETL-1. Do not carry first-family parts or figures across. See the [model guide](../README.md#two-families) |
 | Layout | Belt drive. Two-part cast aluminium platter. Platter and arm on a die-cast T-bar hung on three damped springs (Factory, 1983 brochure). The arm sits on a separate wood-composite board bolted to an open frame on the T-bar, so the board can be swapped for another arm (Period, Audio 1984) |
@@ -46,7 +46,7 @@ Maker's figures are limits and claims. Measured figures are from one table on on
 
 | Item | Value (Factory, 1983 brochure) | Other source |
 | --- | --- | --- |
-| Motor | 24-pole synchronous, 300 rpm at 60 Hz or 250 rpm at 50 Hz | "Later unit": 12-pole synchronous (Specialist, VN AR the Turntable). Conflict, TCNEW-M8. Motor in the first units: [MD9](../../TO-CONFIRM.md#models-and-dates) |
+| Motor | 24-pole synchronous, 300 rpm at 60 Hz or 250 rpm at 50 Hz | "Later unit": 12-pole synchronous (Specialist, VN AR the Turntable). Conflict, [EL7](../../TO-CONFIRM.md#motor-electrical-and-overall-size). Motor in the first units: [MD9](../../TO-CONFIRM.md#models-and-dates) |
 | Platter | 3.9 lb (1.8 kg) | Same on Vinyl Nirvana |
 | Suspension | Damped three-point sprung suspension of a die-cast T-bar | 3 point dual spring suspension, "same subchassis as the ES-1" (Specialist, VN AR the Turntable) |
 | Wow and flutter | 0.04%, DIN 45507 | 0.05% for the later unit (Specialist, VN AR the Turntable) |
@@ -55,7 +55,7 @@ Maker's figures are limits and claims. Measured figures are from one table on on
 | Power | 9 W | |
 | Width × depth | 18³⁄₁₆ × 15¼ in (462 × 387 mm) | 18.19 × 15.25 in (Specialist, VN AR the Turntable) |
 | Height | 7 in (179 mm) cover closed, 17 in (432 mm) cover open | 7 in (Specialist, same page) |
-| Weight | 18 lb (8.2 kg) | 13.5 lb (6.1 kg) (Specialist, same page). Conflict, TCNEW-M2 |
+| Weight | 18 lb (8.2 kg) | 13.5 lb (6.1 kg) (Specialist, same page). Conflict, [DM5](../../TO-CONFIRM.md#motor-electrical-and-overall-size) |
 | Warranty | 3 years on the table; 1 year on the arm | |
 
 The 12-pole motor, 0.05%, −72 dB and 13.5 lb that Vinyl Nirvana gives this table are the same figures it and the GB brochure give the EB-101.
@@ -100,11 +100,11 @@ Weaknesses Mitchell found on the same table: the vertical pivots sit nearly ½ i
 ## Mechanical
 
 - **Subchassis:** the original AR T-bar, modified: the I-beam is shorter, and an open frame carries the bolted-on armboard (Period, Audio 1984).
-- **Fitting another arm:** replace the armboard. The bilingual English and French owner's manual explains how to trim the spring tension for a different arm weight and how to check whether the motor needs a shim to centre the belt on the pulley (Period, Audio 1984). The manual itself is not held: TCNEW-M10.
+- **Fitting another arm:** replace the armboard. The bilingual English and French owner's manual explains how to trim the spring tension for a different arm weight and how to check whether the motor needs a shim to centre the belt on the pulley (Period, Audio 1984). The manual itself is not held: [MD14](../../TO-CONFIRM.md#models-and-dates).
 - **Arm cable:** loops in a half circle after leaving the arm pillar before it is fixed to the base, so it does not stiffen the suspension (Period, Audio 1984).
 - **Placement:** with a suspension near 3 Hz, the table needs a stable shelf. Heavy footfalls on a weak wooden floor can cause flutter or skipping (Period, Audio 1984).
 - **Belt:** the manual recommended dusting the belt with talcum powder once a year (Period, Audio 1984). Vinyl Nirvana sells a replacement belt listed for this table, not for 50 Hz tables (Maker claim, [belt listing](../../docs/archive/vinyl-nirvana/products/replacement-ar-turntable-belt.md)).
-- **Known faults:** early tables could develop motor bearing noise; a new motor with better bearing materials and finish came in 1985. Most arms developed severe sticking, and the cueing device was redesigned and replaced under warranty (Period, Wolf). One owner's motor began to grind after about 20 years; oiling the motor bearing well stopped it, and he now oils the motor and platter bearings once a year and changes the belt about every 5 years (Owner report, Dagogo). The oil grade AR specified for this table: Unconfirmed, TCNEW-M10.
+- **Known faults:** early tables could develop motor bearing noise; a new motor with better bearing materials and finish came in 1985. Most arms developed severe sticking, and the cueing device was redesigned and replaced under warranty (Period, Wolf). One owner's motor began to grind after about 20 years; oiling the motor bearing well stopped it, and he now oils the motor and platter bearings once a year and changes the belt about every 5 years (Owner report, Dagogo). The oil grade AR specified for this table: Unconfirmed, [MD14](../../TO-CONFIRM.md#models-and-dates).
 - **Restoration:** Vinyl Nirvana offers restoration of The AR Turntable, EB-101 and ES-1, typically 8 to 10 weeks, and rents original packing for $20 plus shipping (Maker claim, [restoration services](../../docs/archive/vinyl-nirvana/restoration-services.md)).
 
 ## Electrical
@@ -124,7 +124,7 @@ Which motor the first units had: Conflict, [MD9](../../TO-CONFIRM.md#models-and-
 
 ![The Legend from above](../../docs/images/models/the-legend.jpg)
 
-The British name. The GB brochure says AR redesigned and relaunched its turntable as the Legend (Factory, GB brochure). Years made: Unconfirmed, TCNEW-M4. The brochure is undated and gives the Houghton Regis address and 330 Turnpike Street, Canton, Massachusetts.
+The British name. The GB brochure says AR redesigned and relaunched its turntable as the Legend (Factory, GB brochure). Years made: Unconfirmed, [MD13](../../TO-CONFIRM.md#models-and-dates). The brochure is undated and gives the Houghton Regis address and 330 Turnpike Street, Canton, Massachusetts.
 
 | Item | The Legend (Factory, GB brochure) | The AR Turntable, for comparison (Factory, 1983 brochure) |
 | --- | --- | --- |
@@ -151,10 +151,10 @@ The turntable figures match line for line; the arm does not. Other arms can be f
 ## Still missing
 
 - The owner's manual (English and French), and any service manual.
-- First year on sale: TCNEW-M1. Weight: TCNEW-M2. Motor pole count by date: TCNEW-M8. First motor: MD9.
+- First year on sale: [MD11](../../TO-CONFIRM.md#models-and-dates). Weight: [DM5](../../TO-CONFIRM.md#motor-electrical-and-overall-size). Motor pole count by date: [EL7](../../TO-CONFIRM.md#motor-electrical-and-overall-size). First motor: MD9.
 - A parts list or exploded drawing of the T-bar, armboard frame, bearing and arm.
-- Oil grade and service intervals from AR: TCNEW-M10.
-- The Legend's years: TCNEW-M4.
+- Oil grade and service intervals from AR: [MD14](../../TO-CONFIRM.md#models-and-dates).
+- The Legend's years: [MD13](../../TO-CONFIRM.md#models-and-dates).
 
 ## Wanted from owners
 

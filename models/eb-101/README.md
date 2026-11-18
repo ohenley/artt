@@ -28,7 +28,7 @@ The budget model of AR's second family: a 12-pole motor, a pressed-steel T-bar a
 | Controls | Rocker switch at the front left (Factory, GB brochure photo) | Rocker switch at the front left |
 | Finish | Walnut (Specialist, VN EB-101). British-built units include an all-black painted version (Specialist, same page) | Walnut veneer |
 
-Vinyl Nirvana warns that the early solid-top style is hard to fit with another arm, and that the British-sourced EB-101 has some cheaper parts; it calls the black painted version the low point of the mid-1980s AR tables (Specialist, VN EB-101). When the solid top gave way to the armboard: Unconfirmed, TCNEW-M11.
+Vinyl Nirvana warns that the early solid-top style is hard to fit with another arm, and that the British-sourced EB-101 has some cheaper parts; it calls the black painted version the low point of the mid-1980s AR tables (Specialist, VN EB-101). When the solid top gave way to the armboard: Unconfirmed, [MD15](../../TO-CONFIRM.md#models-and-dates).
 
 ## Variants
 
@@ -47,7 +47,7 @@ Vinyl Nirvana warns that the early solid-top style is hard to fit with another a
 | Wow and flutter | 0.05%, DIN 45507 | 0.05% |
 | Rumble | −72 dB, DIN 45539B | −72 dB |
 | Mains, power | 110–120 V or 220–240 V, 50 or 60 Hz; 9 W | Not stated |
-| Size | 442 × 365 × 180 mm (17.4 × 14.4 × 7.1 in), width × depth × height | 18.19 × 15.25 × 7 in (462 × 387 × 178 mm), cover down. Conflict, TCNEW-M5 |
+| Size | 442 × 365 × 180 mm (17.4 × 14.4 × 7.1 in), width × depth × height | 18.19 × 15.25 × 7 in (462 × 387 × 178 mm), cover down. Conflict, [DM6](../../TO-CONFIRM.md#motor-electrical-and-overall-size) |
 | Weight | Not stated | 13.5 lb (6.1 kg) |
 | Warranty | 1 year, table and arm | Not stated |
 | Dust cover | Acrylic | Not stated |
@@ -90,9 +90,9 @@ Motor lead colours on the 115 V drawing: two blue to the supply, black to the ca
 
 ## Still missing
 
-- Owner's manual and any service paper: TCNEW-M10.
-- When the armboard replaced the solid top: TCNEW-M11.
-- Overall size: Conflict, TCNEW-M5.
+- Owner's manual and any service paper: [MD14](../../TO-CONFIRM.md#models-and-dates).
+- When the armboard replaced the solid top: [MD15](../../TO-CONFIRM.md#models-and-dates).
+- Overall size: Conflict, [DM6](../../TO-CONFIRM.md#motor-electrical-and-overall-size).
 - Motor on tables before 1988, and the meaning of N in EB101N.
 - Headshell material and arm cable capacitance.
 

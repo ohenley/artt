@@ -12,8 +12,8 @@ The largest AR turntable: electronic speed control, an 8.5 lb platter, a sapphir
 
 | Item | Value |
 | --- | --- |
-| Made | On sale by 1985 (Period, Wolf). Phased out in early 1987 (Period, Wolf); priced for 1988 (Specialist, VN ETL-1). Conflict, [MD7](../../TO-CONFIRM.md#models-and-dates). First year: Unconfirmed, TCNEW-M3 |
-| Series name | "Research Series" (Period, Wolf; Specialist, VN gallery). "Connoisseur Series" on the Vinyl Nirvana model page (Specialist, VN ETL-1). Conflict, TCNEW-M3 |
+| Made | On sale by 1985 (Period, Wolf). Phased out in early 1987 (Period, Wolf); priced for 1988 (Specialist, VN ETL-1). Conflict, [MD7](../../TO-CONFIRM.md#models-and-dates). First year: Unconfirmed, [MD12](../../TO-CONFIRM.md#models-and-dates) |
+| Series name | "Research Series" (Period, Wolf; Specialist, VN gallery). "Connoisseur Series" on the Vinyl Nirvana model page (Specialist, VN ETL-1). Conflict, [MD12](../../TO-CONFIRM.md#models-and-dates) |
 | Maker's name | Teledyne Acoustic Research. No ETL-1 paper with an address is held |
 | Family | Second family. Do not carry first-family parts or figures across. See the [model guide](../README.md#two-families) |
 | Layout | Belt drive with electronic speed control. Sapphire bearing. Three-point dual-spring suspension with adjustable weights. Adjustable feet (Specialist, VN ETL-1) |
@@ -64,13 +64,13 @@ The measurement standard behind the 0.03% and −81 dB is not stated.
 
 ## Electrical
 
-Motor type, speed control circuit, power supply and mains wiring: Unconfirmed, TCNEW-M9. No ETL-1 schematic is held. The Hurst schematics for The AR Turntable and the EB101N do not name the ETL-1 and are not ETL-1 figures. Before changing anything, write down the motor label, the control board markings and the mains rating label.
+Motor type, speed control circuit, power supply and mains wiring: Unconfirmed, [EL8](../../TO-CONFIRM.md#motor-electrical-and-overall-size). No ETL-1 schematic is held. The Hurst schematics for The AR Turntable and the EB101N do not name the ETL-1 and are not ETL-1 figures. Before changing anything, write down the motor label, the control board markings and the mains rating label.
 
 ## Still missing
 
-- Any factory paper naming the ETL-1: TCNEW-M10.
-- Motor and speed control: TCNEW-M9.
-- First year on sale, and the series name: TCNEW-M3. Last year: [MD7](../../TO-CONFIRM.md#models-and-dates).
+- Any factory paper naming the ETL-1: [MD14](../../TO-CONFIRM.md#models-and-dates).
+- Motor and speed control: [EL8](../../TO-CONFIRM.md#motor-electrical-and-overall-size).
+- First year on sale, and the series name: [MD12](../../TO-CONFIRM.md#models-and-dates). Last year: [MD7](../../TO-CONFIRM.md#models-and-dates).
 - Belt size, bearing parts, suspension weight adjustment.
 
 ## Wanted from owners

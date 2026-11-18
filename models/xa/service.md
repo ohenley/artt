@@ -55,7 +55,7 @@ A small grey plastic piece in the spindle thread works as a thread lock, so the 
 
 ## Motor
 
-No held source says to oil the XA motor, or where. Motor lubrication: Unconfirmed, TCNEW-S1.
+No held source says to oil the XA motor, or where. Motor lubrication: Unconfirmed, [EL9](../../TO-CONFIRM.md#motor-electrical-and-overall-size).
 
 What the sources do give:
 
@@ -77,7 +77,7 @@ How it works is described two ways:
 | A stopper pin on a porous bronze shaft soaked in silicone fluid turns in a Delrin sleeve; the silicone gives the drag. Drag is set by turning the arm spindle | Factory, [Villchur 1962, p. 23](../../docs/design-notes.md#setup-facts-from-part-1), the 1962 design |
 | A foam washer and a plastic washer on top of the arm spindle rub against the brass pivot bearing as the arm falls. A flat spot on the bearing lines up with the washers during play, so they no longer touch. A pin pressed into the bearing pokes through a slot in the arm housing and keeps the bearing aligned | Owner report, John's Weather 2009 and 2012, on production tables |
 
-Whether production tables used the 1962 mechanism: Unconfirmed, TCNEW-S4.
+Whether production tables used the 1962 mechanism: Unconfirmed, [CU4](../../TO-CONFIRM.md#cueing-lift-and-arm-damping).
 
 ![The arm pivot housing, with the damping pin showing in its slot below the pivot set screw](../../docs/archive/johns-weather/images/damp-tn.jpg)
 
@@ -157,14 +157,14 @@ Clean it with a wax such as Johnson's Pledge (Factory, owner's manual p. 12). Th
 
 ### Top plate paint
 
-No held source gives a safe cleaner for the painted top plate. Unconfirmed, TCNEW-S2.
+No held source gives a safe cleaner for the painted top plate. Unconfirmed, [CL1](../../TO-CONFIRM.md#other-parts).
 
 **Gotcha: the top plate finish comes off fast under paint stripper.** One owner found it lifted within ten minutes; he then sanded, cleaned with acetone and repainted the plate with Rust-Oleum paint and primer in one (Owner report, John's Weather 2012). That is a refinish, not a clean. Try any cleaner on a hidden spot first (our assessment).
 
 ### Platter and mat
 
 - The original foam mat absorbs dirt from the air when the cover is off, and can break down and soil the records. Wash it in a dilute solution of mild soap and water, or replace it (Factory, service manual p. 2).
-- An old mat stored in a damp place turns into a sticky residue on the platter. One owner scraped it off, then used 240 grit sandpaper, and finished both platters with a Scotch-Brite pad on a lathe (Owner report, John's Weather 2012). **This removes metal and changes the finish.** A cleaner that removes the residue without abrasion: Unconfirmed, TCNEW-S2.
+- An old mat stored in a damp place turns into a sticky residue on the platter. One owner scraped it off, then used 240 grit sandpaper, and finished both platters with a Scotch-Brite pad on a lathe (Owner report, John's Weather 2012). **This removes metal and changes the finish.** A cleaner that removes the residue without abrasion: Unconfirmed, [CL1](../../TO-CONFIRM.md#other-parts).
 - The T-bar: small Scotch-Brite green pads and a wire brush in the corners removed dirt and light oxidation; the brass counterweight was cleaned the same way (Owner report, John's Weather 2009).
 
 ## Sources

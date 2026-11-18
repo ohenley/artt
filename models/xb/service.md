@@ -39,7 +39,7 @@ For comparison only, the XA owner reports on cleaning the wells and the arm spin
 
 ## Motor
 
-No held source says to oil the XB motor, or where. Motor lubrication: Unconfirmed, TCNEW-S1. The XB motor is part 802006, maker not stated (Factory, drawing 119).
+No held source says to oil the XB motor, or where. Motor lubrication: Unconfirmed, [EL9](../../TO-CONFIRM.md#motor-electrical-and-overall-size). The XB motor is part 802006, maker not stated (Factory, drawing 119).
 
 The belt runs centred on the pulley; drawing 119 note 12 sets this with shims under the motor (Factory). Speed must hold ±7 dots in 20 seconds, or ±21 dots per minute, at 1.5 g stylus force (Factory, drawing 119, performance test A).
 
@@ -55,7 +55,7 @@ Factory values, drawing 119 notes 7 and 8, and XB1 manual pp. 8 and 11:
 | Lowered | Leaves at least ¼ in (6.4 mm) of drop below the record surface |
 | Descent | 1 to 3 seconds from full height to the record |
 | Clearance, arm spindle and cueing cylinder to the top plate hole | 0.050 in (1.27 mm) minimum (note 13) |
-| Damping | "Viscous damped" (XB1 manual p. 8). The damping medium is not named: Unconfirmed, TCNEW-S3 |
+| Damping | "Viscous damped" (XB1 manual p. 8). The damping medium is not named: Unconfirmed, [CU3](../../TO-CONFIRM.md#cueing-lift-and-arm-damping) |
 
 The cue cylinder cap is under the pivot assembly and sets the descent. The knurled cap on top of the cue plunger sets the height (Factory, XB1 manual p. 11, Figure 12).
 
@@ -71,7 +71,7 @@ Photo wanted: `xb-cue-mechanism.jpg`
 6. Time it again. Repeat step 5 until it takes 1 to 3 seconds.
 7. If it comes down in under 1 second, turn the cap counterclockwise, ½ turn at a time.
 8. Look at the arm spindle and the cueing cylinder where they pass through the top plate. They must not touch the edge of the hole: at least 0.050 in (1.27 mm) of clearance (note 13). Our assessment: a part touching the plate can hold the lift up; the [platter height gauge](../../parts/platter-height-gauge.md) page covers the same clearance.
-9. If the descent cannot be brought into range with the cap, the damping medium may have thickened or leaked. How to open and refill the cylinder: no held source. Unconfirmed, TCNEW-S3.
+9. If the descent cannot be brought into range with the cap, the damping medium may have thickened or leaked. How to open and refill the cylinder: no held source. Unconfirmed, [CU3](../../TO-CONFIRM.md#cueing-lift-and-arm-damping).
 
 The cueing lift can also be used as a pause during play (XB1 manual p. 8).
 
@@ -108,11 +108,11 @@ Factory, XB1 manual p. 12:
 
 ### Top plate paint
 
-No held source gives a safe cleaner for the black XB top plate. Unconfirmed, TCNEW-S2. On an XA, paint stripper lifted the top plate finish within ten minutes (Owner report, [XA service](../xa/service.md#top-plate-paint)), for comparison.
+No held source gives a safe cleaner for the black XB top plate. Unconfirmed, [CL1](../../TO-CONFIRM.md#other-parts). On an XA, paint stripper lifted the top plate finish within ten minutes (Owner report, [XA service](../xa/service.md#top-plate-paint)), for comparison.
 
 ### Platter and mat
 
-The XA service manual says to wash the foam mat in a dilute solution of mild soap and water, or replace it (Factory, for comparison: [XA service](../xa/service.md#platter-and-mat)). The XB mat: not described in a held source. A cleaner for the platter surface that does not mark the aluminium: Unconfirmed, TCNEW-S2.
+The XA service manual says to wash the foam mat in a dilute solution of mild soap and water, or replace it (Factory, for comparison: [XA service](../xa/service.md#platter-and-mat)). The XB mat: not described in a held source. A cleaner for the platter surface that does not mark the aluminium: Unconfirmed, [CL1](../../TO-CONFIRM.md#other-parts).
 
 ## Sources
 
