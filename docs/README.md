@@ -9,15 +9,15 @@ Factory and period documents, each as a copy kept in this repository. Original a
 | Document | Covers | Copy | What it gives |
 | --- | --- | --- | --- |
 | AR XA Turntable Service Manual, 4 pages | XA | [PDF](originals/xa-service-manual.pdf) | Motors by serial number, 120 V and 220 V circuits, pulleys, arm service, parts list, exploded view. Used on the [XA page](../models/xa/README.md) |
-| The same manual as page scans, 1969 | XA | [Scans](archive/vinyl-nirvana/ar-turntable-history/1969-ar-xa-service-manual.md) | Whether it is the same revision as the PDF is open: SR10 |
-| XA owner's manual | XA | [Scans](archive/vinyl-nirvana/ar-turntable-history/ar-xa-manual.md) | Set-up and operation. Not yet written out: SR9 |
+| The same manual as page scans, 1969 | XA | [Scans](archive/vinyl-nirvana/ar-turntable-history/1969-ar-xa-service-manual.md) | Same revision as the PDF; PDF page 1 and the parts list are not among the scans. [Comparison](transcripts/xa-service-manual-1969-comparison.md) |
+| XA owner's manual | XA | [Scans](archive/vinyl-nirvana/ar-turntable-history/ar-xa-manual.md) | Set-up and operation. [Transcript](transcripts/xa-owners-manual.md) |
 | Technical Specifications of the AR Turntable | XA | [Sheet](archive/vinyl-nirvana/ar-turntable-history/1969-ar-xa-technical-specifications.md) | The NAB limits AR guaranteed. Written out in the [model guide](../models/README.md#first-family) |
 | AR Inc. turntable brochure, 1963 or later | XA | [Scans](archive/vinyl-nirvana/ar-turntable-history/ar-brochure.md) | Size, price, guarantee, press quotes |
-| Mounting Pickup Cartridge in the AR Cartridge Shell, L-1591 | AR shell | [Image](originals/ar-cartridge-mount.jpg) | Mounting table and wire colours. Used in [what goes where](what-goes-where.md) |
-| Needle force gauge instructions, 1969 | XA | [Scan](archive/vinyl-nirvana/ar-turntable-history/1969-ar-xa-needle-force-gauge-instructions.md) | Using the supplied gauge |
+| Mounting Pickup Cartridge in the AR Cartridge Shell, L-1591 | AR shell | [Image](originals/ar-cartridge-mount.jpg) | Mounting table and wire colours. [Transcript](transcripts/ar-cartridge-mount-l-1591.md). Used in [what goes where](what-goes-where.md) |
+| Needle force gauge instructions, 1969 | XA | [Scan](archive/vinyl-nirvana/ar-turntable-history/1969-ar-xa-needle-force-gauge-instructions.md) | Using the supplied gauge. [Transcript](transcripts/needle-force-gauge.md) |
 | Packing instructions, 1969 | XA | [Scan](archive/vinyl-nirvana/ar-turntable-history/1969-xa-packing-instructions.md) | Packing for shipment |
 | XA parts list and price list, January 1979 | XA | [Parts list](archive/vinyl-nirvana/ar-turntable-history/1979-ar-xa-parts-list.md), [price list](archive/vinyl-nirvana/ar-turntable-history/1979-xa-price-list.md) | AR part numbers, and the Teledyne Acoustic Research address in Norwood |
-| Installation and Operating Instructions, Model XB1 | British XB1 | [PDF](originals/xb1-owners.pdf) | 16-page scan, no text layer. Specifications, mains wiring, set-up. Only pp. 2, 6, and 16 are written out so far: SR8 |
+| Installation and Operating Instructions, Model XB1 | British XB1 | [PDF](originals/xb1-owners.pdf) | 16-page scan, no text layer. Specifications, mains wiring, set-up. [Transcript](transcripts/xb1-owners-manual.md) |
 | Villchur, A New Turntable-Arm Design, Part 1, *Audio*, September 1962 | The design | [PDF](originals/villchur-1962-part-1.pdf) | Arm, suspension, geometry. See the [design-paper notes](design-notes.md) |
 | Villchur, Part 2, October 1962 | The design | [PDF](originals/villchur-1962-part-2.pdf) | Motors, belt, rumble |
 

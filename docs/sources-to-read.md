@@ -6,9 +6,10 @@ Work still to do on sources. A source leaves this list once its facts are writte
 
 ## Held here, not yet written out
 
-- SR8: [XB1 manual](originals/xb1-owners.pdf), 16 pages. Only pp. 2, 6, and 16 are written out, on the [XB page](../models/xb/README.md#variants).
-- SR9: [XA owner's manual scans](archive/vinyl-nirvana/ar-turntable-history/ar-xa-manual.md), 14 pages. Set-up and operation.
-- SR10: [1969 service manual scans](archive/vinyl-nirvana/ar-turntable-history/1969-ar-xa-service-manual.md). Whether it is the same revision as the [PDF](originals/xa-service-manual.pdf).
+- SR8: [XB1 manual](originals/xb1-owners.pdf), 16 pages. Full text written out in [transcripts/xb1-owners-manual.md](transcripts/xb1-owners-manual.md). Retires when the setup pages carry its facts.
+- SR9: [XA owner's manual scans](archive/vinyl-nirvana/ar-turntable-history/ar-xa-manual.md), 14 pages. Full text written out in [transcripts/xa-owners-manual.md](transcripts/xa-owners-manual.md); setup values are on the [XA page](../models/xa/README.md#setup-values-from-the-owners-papers). Retires when the setup pages carry its facts.
+- SR45: The same XA owner's manual, needs a higher-resolution scan or an original copy. At 560 px wide, three fractions in the stylus force table (printed p. 6) and the arm free play (printed p. 12) cannot be read: [illegible list](transcripts/xa-owners-manual.md#illegible-spots).
+- SR46: [Sheet L-1591](originals/ar-cartridge-mount.jpg), needs a sharper scan. Four footnote numbers in the mounting table cannot be read: [illegible list](transcripts/ar-cartridge-mount-l-1591.md#illegible-spots).
 - SR16: [Galo's article](archive/audioxpress/galo-belt-drive-turntable-upgrade.pdf). Its date: the footers say 2008, the last says June 2005, and a mirror labels it July 2008.
 - SR21: [stereonomono AR-XB page](archive/stereonomono/acoustic-research-ar-xb.md). Retyped text that reads like AR's own XB literature: hysteresis-synchronous motor, 110–120 V at 50 or 60 Hz, 12¾ × 16¼ × 5¾ in, 14 lb. Find the document it copies before using these.
 
@@ -56,6 +57,8 @@ Save each page from a browser, add it to the [archive](archive/README.md), then 
 - SR27: [Audiophonics KLEI Classic Harmony listing](https://www.audiophonics.fr/en/rca-sockets/klei-harmony-classic-rca-plugs-silver-plated-copper-pair-p-14423.html). Jack dimensions (RJ2).
 
 ## Retired
+
+- SR10: the 1969 service manual scans. Same revision as the PDF; the scans lack PDF page 1 and the parts list. [Comparison](transcripts/xa-service-manual-1969-comparison.md).
 
 - SR11: the AR spec sheet. Written out in the [model guide](../models/README.md#first-family).
 - SR12: AR's 1990 public-domain release of the drawings. Recorded in the [document index](README.md#xb-factory-drawings).
