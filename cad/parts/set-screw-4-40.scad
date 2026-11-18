@@ -9,7 +9,7 @@ variant = 1;
 flat = false;
 
 P = [
-    ["SS1", "Thread major diameter, #4-40", 0.112 * IN, "S", "in", "Unified #4 major diameter; thread called out on the RDW drawing"],
+    ["SS1", "Thread major diameter, #4-40", 0.112 * IN, "S", "in", "Unified #4: 0.1120 in major diameter, 40 threads per inch, 0.635 mm pitch (Wikipedia Unified Thread Standard excerpt). Thread called out on the RDW drawing"],
     ["SS2", "Overall length", 0.125 * IN, "C", "in", "RDW hardware drawing"],
     ["SS3", "Cone tip length", 0.8, "PH", "mm", "Calipers on an original; the drawing shows a cone with no dimensions"],
     ["SS4", "Flat diameter at the tip", 0.5, "PH", "mm", "Calipers or loupe on an original"],
@@ -27,12 +27,16 @@ module part() {
 
 emit(
     [
-        ["id", "set-screw-4-40"],
-        ["title", "XA/XB set screw, #4-40"],
+        ["id", "set-screw-xa-xb-brass"],
+        ["title", "Set screw, #4-40, XA and XB hardware set"],
         ["status", "REFERENCE"],
+        ["part", "parts/cartridge-hardware.md"],
+        ["part_name", "Cartridge screws, bushings and shims"],
+        ["version", "XA and XB hardware set, the one set screw"],
         ["scope", "One in the original-style hardware set. Where it fits is unconfirmed: TO-CONFIRM.md, HS3"],
         ["material", "Brass, per the drawing"],
         ["density", 8.5],
+        ["fits", [["XA", "Unconfirmed", ""], ["XB", "Unconfirmed", ""], ["AR77XB", "Unconfirmed", ""]]],
         ["make", "Buy. Do not machine. 1 per set"],
         ["views", ["front", "top", "right", "iso"]],
         ["notes", [

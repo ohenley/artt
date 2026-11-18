@@ -1,6 +1,6 @@
 # Plinth rebuild
 
-[XA](../README.md) · [Mods](README.md) · [Drawing](../../../cad/exports/xa-plinth/PRELIMINARY-xa-plinth-1.pdf) · [Checklist](../../../TO-CONFIRM.md#plinth)
+[XA](../README.md) · [Mods](README.md) · [Drawing](../../../cad/exports/plinth-xa-rebuild-hardwood/PRELIMINARY-plinth-xa-rebuild-hardwood-1.pdf) · [Plinth part page](../../../parts/plinth.md) · [Checklist](../../../TO-CONFIRM.md#plinth)
 
 ## Purpose
 
@@ -39,7 +39,7 @@ One hardwood plinth that carries the RCA jack plate, the ground post, the fused 
 
 1. Measure the original base, top plate off: the [plinth checklist](../../../TO-CONFIRM.md#plinth).
 2. Enter the values in [xa-plinth.scad](../../../cad/parts/xa-plinth.scad).
-3. [Rebuild](../../../cad/README.md#rebuilding). The [base](../../../cad/exports/xa-plinth/PRELIMINARY-xa-plinth-1.pdf) and [bottom panel](../../../cad/exports/xa-plinth/PRELIMINARY-xa-plinth-2.pdf) drawings should show no red dimensions.
+3. [Rebuild](../../../cad/README.md#rebuilding). The [base](../../../cad/exports/plinth-xa-rebuild-hardwood/PRELIMINARY-plinth-xa-rebuild-hardwood-1.pdf) and [bottom panel](../../../cad/exports/plinth-xa-rebuild-hardwood/PRELIMINARY-plinth-xa-rebuild-hardwood-2.pdf) drawings should show no red dimensions.
 4. Cut a plywood test plinth. Fit the top plate, jack plate, inlet, and strip.
 5. Cut the hardwood one.
 

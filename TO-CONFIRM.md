@@ -160,12 +160,12 @@ Measure an original shell and its retaining nut, and record the model and serial
 
 ### Plinth
 
-Rows for the [plinth model](cad/parts/xa-plinth.scad) and the [plinth rebuild](models/xa/mods/plinth-rebuild.md). Measure an original base with the top plate off.
+Rows for the [plinth model](cad/parts/xa-plinth.scad), the [plinth page](parts/plinth.md) and the [plinth rebuild](models/xa/mods/plinth-rebuild.md). Measure an original base with the top plate off.
 
 | ID | What to confirm | Value now | How to check | Status | Result |
 | --- | --- | --- | --- | --- | --- |
-| PL10 | Outside length | 425 mm, Owner report | Rule, on the base alone | Open | |
-| PL11 | Outside width | 324 mm, Owner report | Rule, on the base alone | Open | |
+| PL10 | Outside length | Derived: 425.45 mm, the 16¾ in size with the cover on (Audio 1969 directory; AR brochure); the base alone may be smaller | Rule, on the base alone | Open | |
+| PL11 | Outside width | Derived: 323.85 mm, the 12¾ in size with the cover on (same); the base alone may be smaller | Rule, on the base alone | Open | |
 | PL12 | Base height, no feet | 110 mm, placeholder | Calipers or rule | Open | |
 | PL13 | Wall thickness, front and rear | 19 mm, placeholder | Calipers | Open | |
 | PL14 | Wall thickness, sides | 19 mm, placeholder | Calipers | Open | |
@@ -177,19 +177,19 @@ Rows for the [plinth model](cad/parts/xa-plinth.scad) and the [plinth rebuild](m
 | PL20 | Corner block height | 60 mm, placeholder | Calipers | Open | |
 | PL21 | Foot hole diameter | 6 mm, placeholder | Datasheet of the feet | Open | |
 | PL22 | Foot inset from each corner of the bottom panel | 30 mm, placeholder | Rule | Open | |
-| PL30 | RCA cutout: window width | 105 mm, Owner report | Calipers on your plate | Open | |
-| PL31 | RCA cutout: window height | 35 mm, Owner report | Calipers on your plate | Open | |
+| PL30 | RCA cutout: window width | 4⅛ in (104.8 mm), "about", Owner report, Galo | Calipers on your plate | Open | |
+| PL31 | RCA cutout: window height | 1⅜ in (34.9 mm), "about", Owner report, Galo | Calipers on your plate | Open | |
 | PL32 | RCA cutout: center X from base center | 100 mm, placeholder | Rule; see PL60 and PL61 | Open | |
 | PL33 | RCA cutout: center Z from bottom | 55 mm, placeholder | Rule | Open | |
 | PL34 | Ground post hole diameter | 6.5 mm, placeholder | Calipers on the post | Open | |
 | PL35 | Ground post X from RCA window center | 70 mm, placeholder | Rule; clear of the plate and the corner block | Open | |
 | PL36 | Plate screw hole diameter | 3.2 mm, design choice | Calipers on the screws | Open | |
 | PL37 | Plate screw offset outside each window corner | 8 mm, design choice | Calipers on your plate | Open | |
-| PL40 | IEC cutout width | 27.5 mm, common part | Datasheet | Open | |
-| PL41 | IEC cutout height | 31 mm, common part | Datasheet | Open | |
+| PL40 | IEC cutout width | 27.5 mm placeholder: a common C14 figure, no datasheet held (SR26) | Datasheet | Open | |
+| PL41 | IEC cutout height | 31 mm placeholder: a common C14 figure, no datasheet held (SR26) | Datasheet | Open | |
 | PL42 | IEC cutout center X from base center | -120 mm, placeholder | Rule; see PL60 and PL61 | Open | |
 | PL43 | IEC cutout center Z from bottom | 55 mm, placeholder | Rule | Open | |
-| PL44 | IEC mounting hole spacing | 40 mm, common part | Datasheet | Open | |
+| PL44 | IEC mounting hole spacing | 40 mm placeholder: a common C14 figure, no datasheet held (SR26) | Datasheet | Open | |
 | PL45 | IEC mounting hole diameter | 3.2 mm, placeholder | Datasheet | Open | |
 | PL50 | Terminal strip position X | 0 mm, placeholder | Rule, from the stock strip | Open | |
 | PL51 | Terminal strip position Y, from the rear wall inside face | 30 mm, placeholder | Rule | Open | |

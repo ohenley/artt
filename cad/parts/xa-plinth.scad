@@ -16,8 +16,8 @@ flat = false;  // true exports the 1:1 cutting outline
 
 P = [
     // Body.
-    ["PL10", "Outside length", 425, "O", "mm", "From the 16 3/4 in listing, which includes the cover. Re-measure on the base alone"],
-    ["PL11", "Outside width", 324, "O", "mm", "From the 12 3/4 in listing, which includes the cover. Re-measure on the base alone"],
+    ["PL10", "Outside length", 16.75 * IN, "DV", "in", "The 16 3/4 in size is with the cover on (Audio 1969 directory; AR brochure); the base alone may be smaller. Verify: rule on an original base"],
+    ["PL11", "Outside width", 12.75 * IN, "DV", "in", "The 12 3/4 in size is with the cover on (same two sources); the base alone may be smaller. Verify: rule on an original base"],
     ["PL12", "Base height, no feet", 110, "PH", "mm", "Calipers or rule on an original base"],
     ["PL13", "Wall thickness, front and rear", 19, "PH", "mm", "Calipers"],
     ["PL14", "Wall thickness, sides", 19, "PH", "mm", "Calipers"],
@@ -31,8 +31,8 @@ P = [
     ["PL22", "Foot inset from each corner of the bottom panel", 30, "PH", "mm", "Rule on the original panel"],
 
     // RCA jack plate and ground post, in the rear wall.
-    ["PL30", "RCA cutout: window width", 105, "O", "mm", "Galo's 4 1/8 in plate window. Set from your plate"],
-    ["PL31", "RCA cutout: window height", 35, "O", "mm", "Galo's 1 3/8 in plate window. Set from your plate"],
+    ["PL30", "RCA cutout: window width", 4.125 * IN, "O", "in", "Galo: a rectangular cutout about 1 3/8 x 4 1/8 in for his connector plate. Set from your plate"],
+    ["PL31", "RCA cutout: window height", 1.375 * IN, "O", "in", "Galo: the same cutout. Set from your plate"],
     ["PL32", "RCA cutout: center X from base center", 100, "PH", "mm", "Clear of the T-bar swing and the motor"],
     ["PL33", "RCA cutout: center Z from bottom", 55, "PH", "mm", "Clear of the top plate parts and the bottom panel"],
     ["PL34", "Ground post hole diameter", 6.5, "PH", "mm", "From the post chosen"],
@@ -41,11 +41,11 @@ P = [
     ["PL37", "Plate screw offset outside each window corner", 8, "D", "mm", "Set from the plate's screw pattern"],
 
     // Fused IEC inlet, in the rear wall.
-    ["PL40", "IEC cutout width", 27.5, "S", "mm", "Common fused C14 inlet. Confirm on the chosen part's datasheet"],
-    ["PL41", "IEC cutout height", 31, "S", "mm", "Common fused C14 inlet. Confirm on the chosen part's datasheet"],
+    ["PL40", "IEC cutout width", 27.5, "PH", "mm", "A common fused C14 inlet figure; no datasheet is held (SR26). Set from the chosen part's datasheet"],
+    ["PL41", "IEC cutout height", 31, "PH", "mm", "A common fused C14 inlet figure; no datasheet is held (SR26). Set from the chosen part's datasheet"],
     ["PL42", "IEC cutout center X from base center", -120, "PH", "mm", "Clear of the motor, switch, and capacitors"],
     ["PL43", "IEC cutout center Z from bottom", 55, "PH", "mm", "Clear of the top plate parts and the bottom panel"],
-    ["PL44", "IEC mounting hole spacing", 40, "S", "mm", "Common fused C14 inlet. Confirm on the chosen part's datasheet"],
+    ["PL44", "IEC mounting hole spacing", 40, "PH", "mm", "A common fused C14 inlet figure; no datasheet is held (SR26). Set from the chosen part's datasheet"],
     ["PL45", "IEC mounting hole diameter", 3.2, "PH", "mm", "From the inlet's datasheet and screws"],
 
     // Audio terminal strip, on the bottom panel.
@@ -159,7 +159,7 @@ module part() {
 }
 
 common_notes = [
-    "All body dimensions are placeholders until a base is measured. The 16 3/4 x 12 3/4 in figures include the cover.",
+    "All body dimensions are placeholders until a base is measured. The 16 3/4 x 12 3/4 in outside size (PL10, PL11) is the listed size with the cover on: the base alone may be smaller.",
 ];
 
 base_meta = [
@@ -227,12 +227,16 @@ panel_dims = concat([
 
 emit(
     concat([
-        ["id", "xa-plinth"],
-        ["title", "XA plinth with RCA, ground post, and IEC inlet"],
+        ["id", "plinth-xa-rebuild-hardwood"],
+        ["title", "Plinth, XA rebuild with RCA plate, ground post and IEC inlet"],
         ["status", "CONCEPT"],
+        ["part", "parts/plinth.md"],
+        ["part_name", "Base or plinth"],
+        ["version", "XA rebuild with new rear cutouts: this repository's design, not an AR part"],
         ["scope", "New design. No AR base drawing exists. Outside size from the 1969 listing"],
         ["material", "Hardwood or plywood for the test piece"],
         ["density", 0.65],
+        ["fits", [["XA", "Unconfirmed", ""], ["XB", "Unconfirmed", ""], ["AR77XB", "Unconfirmed", ""]]],
         ["make", "Woodworking or CNC router. Cut the plywood test piece first"],
         ["flat", true],
         ["variants", [[1, "Base"], [2, "Bottom panel"]]],
