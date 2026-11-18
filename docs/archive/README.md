@@ -130,6 +130,7 @@ These are third-party works. The repository license does not cover them: rights 
 - [Dagogo: The AR Turntable, commentary and readers' comments](dagogo/the-ar-turntable-commentary.md) ([original](https://www.dagogo.com/acoustic-research-ar-turntable-commentary/))
 - [hifi-wiki: Acoustic Research Model XB, with a 1970s catalogue panel](hifi-wiki/acoustic-research-model-xb.md) ([original](https://hifi-wiki.com/index.php/Acoustic_Research_Model_XB))
 - [stereonomono: Acoustic Research AR-XB](stereonomono/acoustic-research-ar-xb.md) ([original](https://stereonomono.blogspot.com/2021/02/acoustic-research-ar-xb.html))
+- [stereonomono: Linn Sondek LP12, retyped Linn literature with leaflet scans](stereonomono/linn-sondek-lp12.md) ([original](https://stereonomono.blogspot.com/2014/07/linn-sondek-lp12.html))
 - [Wikipedia: Acoustic Research](wikipedia/acoustic-research.md) ([original](https://en.wikipedia.org/wiki/Acoustic_Research)). Text under CC BY-SA 4.0.
 - [Wikipedia: Brass, excerpt](wikipedia/brass.md) ([original](https://en.wikipedia.org/wiki/Brass)). The Properties section, for the density of brass. Text under CC BY-SA 4.0.
 - [Wikipedia: SAE 304 stainless steel, excerpt](wikipedia/sae-304-stainless-steel.md) ([original](https://en.wikipedia.org/wiki/SAE_304_stainless_steel)). For the density. Text under CC BY-SA 4.0.
