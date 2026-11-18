@@ -34,6 +34,10 @@ Save each page from a browser, add it to the [archive](archive/README.md), then 
 - SR24: diyAudio threads on [grey grease in an XB main bearing](https://www.diyaudio.com/community/threads/acoustic-research-arxb-main-bearing-has-alot-of-grey-grease-in-there-i-thought-it-was-supposed-to-be-thin-oil.409524/latest) (PB1) and an [XA with custom mods](https://www.diyaudio.com/community/threads/ar-xa-w-custom-mods.368650/).
 - SR25: [Vinyl Engine's Acoustic Research library](https://www.vinylengine.com/library/acoustic-research.shtml). Which AR turntable manuals exist.
 - SR26: [Schurter inlet datasheet](https://datasheets.globalspec.com/ds/Schurter/kd/f2b002c3-9424-4f27-9f5d-cd0383e9044e). IEC inlet cutout and fuse (PL40 to PL45, IE1).
+- SR28: [Classic Speaker Pages, "Wanted: AR XB tonearm counterweight"](https://community.classicspeakerpages.net/topic/6215-wanted-ar-xb-tonearm-counterweight). Found by search; said to mention a longer brass weight AR supplied for heavy cartridges. Not read: the site returned 403 on 2026-11-18 (CW11).
+- SR29: [AudioKarma, "AR weight of counterweight"](https://audiokarma.org/forums/threads/ar-weight-of-counterweight-i-need-one-or-weight-to-make-one-up.725992/). Found by search; said to give a weighed brass counterweight and remade heavy ones. Not read (CW1, CW11).
+- SR30: [AudioKarma, "Help with AR XA"](https://audiokarma.org/forums/threads/help-with-ar-xa.849668/). Found by search; said to discuss whether XA and XB weights have the same mass. Not read (CW12).
+- SR31: [AudioKarma, "Comments on Acoustic Research AR77XB"](https://audiokarma.org/forums/threads/comments-on-acoustic-research-ar77xb.332555/). Found by search; said to compare the AR77XB weight with the XB's. Not read (CW13).
 
 ## Not held: not yet fetched
 

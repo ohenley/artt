@@ -217,4 +217,4 @@ Open items from the [XA mods](models/xa/mods/README.md), marked TBC on each page
 
 ## Sources not yet read
 
-Listed with their addresses in [sources to read](docs/sources-to-read.md), SR1 to SR27.
+Listed with their addresses in [sources to read](docs/sources-to-read.md), SR1 to SR31.
