@@ -20,6 +20,7 @@ Save each page from a browser, add it to the [archive](archive/README.md), then 
 - SR2: [diyAudio thread](https://www.diyaudio.com/community/threads/acoustic-research-ar77xb-search-for-new-headshell-bolts.407382/). The 14 shells, whether they are original, and posts 2 and 4 (HS1).
 - SR3: Same thread. A reported 4-40, then M2.5, cartridge thread (HS1).
 - SR4: [eBay headshell listing](https://www.ebay.com/itm/144937941911) by redcedarprints. A printed XA shell design and its license.
+- SR44: eBay listings by bestaudioparts for the [tan](https://www.ebay.com/itm/332509547009) and [black](https://www.ebay.com/itm/332290103217) Best Audio XA headshell, by jnbaudio for the [XA and XB dust cover with insignia](https://www.ebay.com/itm/182412300716), and by patsaudioparts for the [arm rest with clasp](https://www.ebay.com/itm/302476992907). Records made through a public mirror are held in the [archive](archive/README.md#other-makers-listings); the pages themselves are not. Save them from a browser to replace the records.
 - SR5: [AudioKarma AR77XB thread](https://audiokarma.org/forums/threads/ar77xb-questions.860919/). AR77XB details.
 - SR6: [Vinyl Engine AR77-XB entry](https://www.vinylengine.com/library/acoustic-research/ar77-xb.shtml). An AR77XB manual (MD10).
 - SR7: [Radiomuseum AR77-XB entry](https://radiomuseum.org/r/acoustic_ar77_xb.html). Overall size, about 16.4 × 5.5 × 15.6 in (DM3).

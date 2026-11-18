@@ -4,7 +4,9 @@
 
 ## Purpose
 
-Fit a Grado Master4 to the stock arm. Its screws enter from the top, into the cartridge's wood body. Pat's Audio sells one shell for both the XA and XB, so the connector appears to be shared.
+Fit a Grado Master4 to the stock arm. Its screws enter from the top, into the cartridge's wood body. Pat's Audio and Best Audio each sell one shell for both the XA and XB, so the connector appears to be shared.
+
+For a stock-pattern replacement rather than a top-mount shell, the owner's pick is the Best Audio shell, which is injection moulded where other reproductions are 3D printed: see [parts](../../../parts/README.md#replacement-parts).
 
 ## Stock shell
 
@@ -44,6 +46,7 @@ A shell in clear acrylic (PMMA) with two recessed slots on top and a pocket unde
 ## Gotchas
 
 - **The neck is the weak point.** Pat's Audio advertises a reinforced neck with threads "that won't crack off" (Maker claim). PMMA is brittle, so a metal neck insert may be needed.
+- **A printed test shell will look gritty against a record.** Best Audio moved from printing to injection moulding after buyers said so (Maker claim). Keep the print for fit checks only.
 - **Confirm the balance before buying.** The counterweight must balance the shell and the Master4 together. AR's sheet already calls for an extra counterweight section with some cartridges.
 - **Weight lowers arm resonance.** Measure the finished shell, and keep it light.
 - **Threadlocker and solvents craze PMMA.** Skip the factory's Loctite here.
@@ -73,6 +76,7 @@ Each link opens the copy kept in this repository; the copy names its original ad
 - [Scott Hamrick, "Rewiring an AR XA Tonearm"](../../../docs/archive/vinyl-nirvana/ar-diy-do-it-yourself/rewiring-an-ar-xa-tonearm.md). Owner report.
 - Grado's own Master4 page. Maker claim. No copy is kept, because the shop limits automated requests; its address is in the [archive index](../../../docs/archive/README.md#not-archived). The same specifications are in a retailer's listing: [Sound Approach](../../../docs/archive/sound-approach/grado-master4.md).
 - [Pat's Audio XA/XB headshell](../../../docs/archive/pats-audio/ar-xa-xb-headshell.md). Maker claim.
+- [Best Audio XA/XB headshell, eBay listings](../../../docs/archive/ebay/best-audio-xa-headshell.md). Maker claim.
 - [Gary Galo, "A Belt-Drive Turntable Upgrade", audioXpress](../../../docs/archive/audioxpress/galo-belt-drive-turntable-upgrade.pdf).
 - [Addicted to Audio: Grado Opus3](../../../docs/archive/addicted-to-audio/grado-opus3-review.md).
 - [Positive Feedback: Grado Opus3](../../../docs/archive/positive-feedback/grado-opus3-review.md).

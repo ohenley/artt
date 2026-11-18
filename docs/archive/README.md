@@ -93,6 +93,9 @@ These are third-party works. The repository license does not cover them: rights 
 ## Pat's Audio
 
 - [AR XA Turntable Headshell](pats-audio/ar-xa-xb-headshell.md) ([original](https://www.patsaudioparts.com/single-post/AR-XA-XB-Headshell))
+- [AR XA Turntable Arm Rest, with clasp](pats-audio/ar-xa-arm-rest-clasp.md) ([original](https://www.patsaudioparts.com/single-post/2017/11/09/ar-xa-turntable-claps-arm-rest))
+- [AR XA Turntable Arm Rest, standard base](pats-audio/ar-xa-arm-rest-standard-base.md) ([original](https://www.patsaudioparts.com/single-post/2017/10/04/ar-xa-turntable-arm-rest-standard-base))
+- [AR XA Turntable Arm Rest, square base](pats-audio/ar-xa-arm-rest-square-base.md) ([original](https://www.patsaudioparts.com/single-post/2017/10/04/ar-xa-turntable-arm-rest-square-base))
 
 ## Audio Appraisal
 
@@ -117,6 +120,8 @@ These are third-party works. The repository license does not cover them: rights 
 ## Other makers' listings
 
 - [JnB Audio: AR XA dust cover](jnb-audio/ar-xa-dust-cover.md) ([original](https://jnb-audio.com/products/acoustic-research-ar-xa-new-jnb-audio-turntable-dust-cover-pst-made-in-usa)). Taken from the shop's public product data, not the page layout.
+- [JnB Audio: AR XA and XB dust cover with insignia, eBay listing](ebay/jnb-audio-xa-xb-dust-cover.md) ([original](https://www.ebay.com/itm/182412300716)). A record of the listing with its photographs, read through a public mirror; eBay refuses automated requests.
+- [Best Audio: XA headshell, eBay listings in tan and black](ebay/best-audio-xa-headshell.md) ([tan](https://www.ebay.com/itm/332509547009), [black](https://www.ebay.com/itm/332290103217)). A record of the listings with their photographs, read through a public mirror; eBay refuses automated requests.
 - [Parts Connexion: KLEI Copper Harmony RCA jacks](parts-connexion/klei-copper-harmony-rca-jacks.md) ([original](https://partsconnexion.com/klei-copper-harmony-rca-female-jacks-2))
 - [Parts Connexion: KLEI Classic Harmony RCA jacks](parts-connexion/klei-classic-harmony-rca-jacks.md) ([original](https://partsconnexion.com/klei-classic-harmony-rca-female-jacks-1))
 - [Parts Connexion: 1877Phono 5LITZ-7 rewiring kit](parts-connexion/1877phono-5litz-7-rewiring-kit.md) ([original](https://partsconnexion.com/products/1877phono-5litz-7-direct-wire-rewiring-kit-2m))
@@ -150,6 +155,7 @@ Sites that refuse automated access. Save the page from a browser and add it here
 
 - [patrickhenrypdx, XA counterweight and tonearm rest, Reddit](https://www.reddit.com/r/turntables/comments/1t5vqzh/ar_xa_tone_arm_counter_weight_tone_arm_rest/). Values are on the [counterweight page](../../parts/xa-counterweight.md).
 - [diyAudio: AR77XB, search for new headshell bolts](https://www.diyaudio.com/community/threads/acoustic-research-ar77xb-search-for-new-headshell-bolts.407382/). The drawing shared there is held: [mounting hardware drawing](../originals/ar-headshell-hardware-rev-1.pdf).
+- [Pat's Audio XA arm rest with clasp, eBay listing 302476992907](https://www.ebay.com/itm/302476992907). The maker's own page is held above.
 - AudioKarma, Classic Speaker Pages, Vinyl Engine, AVS Forum, Radiomuseum, Stereophile, HiFi Shark, Collectors Weekly, eBay, and the cartridge-screw forum threads: addresses in [sources to read](../sources-to-read.md). Hi-Fi News lab report pages answered a plain request and are held above; its article pages behind the subscription are not.
 
 Shop pages that are live catalogues, or that limit automated requests:

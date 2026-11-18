@@ -4,7 +4,7 @@
 
 ## Purpose
 
-Give the arm more clearance under the cover, including a shell and cartridge that stand higher than stock. The listing names only the XA.
+Give the arm more clearance under the cover, including a shell and cartridge that stand higher than stock. The maker's shop page names only the XA; its eBay listing names the XA and XB. This cover is the owner's pick (Owner report).
 
 ## Stock situation
 
@@ -14,8 +14,8 @@ Only the overall size with the cover is known: see [Dimensions and arm geometry]
 
 | Item | Record |
 | --- | --- |
-| Source | JnB Audio, AR XA dust cover |
-| Material | ⅛ in clear acrylic |
+| Source | JnB Audio, AR XA dust cover. On eBay, a version with the AR logo on a clear block at the front-left corner |
+| Material | ⅛ in clear acrylic; Acrylite throughout (eBay listing) |
 | Includes | Cover, replacement bumpers, care instructions |
 | Dimensions | Not published. TBC |
 | Hinge type | Listed as "plinth set top lock". It rests on the four corners; no hinge is listed. TBC |
@@ -46,3 +46,4 @@ Only the overall size with the cover is known: see [Dimensions and arm geometry]
 Each link opens the copy kept in this repository; the copy names its original address.
 
 - [JnB Audio, AR XA dust cover](../../../docs/archive/jnb-audio/ar-xa-dust-cover.md). Maker claim.
+- [JnB Audio, AR XA and XB dust cover with insignia, eBay listing](../../../docs/archive/ebay/jnb-audio-xa-xb-dust-cover.md). Maker claim.

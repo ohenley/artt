@@ -23,3 +23,5 @@ Needed for a drawing: bore fit on the arm stub, bore centering, locking-hole thr
 | Installed height, bottom of yoke to top of metal top plate | 39 mm |
 
 Needed: yoke profile, stem diameter and length, thread, material, fixing.
+
+Replacements: Pat's Audio makes three. The [clasp rest](../docs/archive/pats-audio/ar-xa-arm-rest-clasp.md), the owner's pick (Owner report), holds the arm in the cradle with a clasp on a machined aluminium post and fixes from below with a washer and nut. The [standard-base](../docs/archive/pats-audio/ar-xa-arm-rest-standard-base.md) rest has the original dimensions, and the [square-base](../docs/archive/pats-audio/ar-xa-arm-rest-square-base.md) rest the original height on a wider base; both fix with a screw into a tapped hole through an offset boss (Maker claims). None gives a height figure.
