@@ -45,8 +45,9 @@ Values now are from one owner's XA on the [counterweight page](parts/counterweig
 | HS1 | Original shell thread | #3-48; [community drawing](docs/what-goes-where.md#why-are-there-so-many-cartridge-screws) | Thread gauge or a known #3-48 screw | Open | |
 | HS2 | Screw lengths under the head | 0.183, 0.356, 0.462, 0.612 in; same drawing | Calipers, on original screws | Open | |
 | HS3 | Where the #4-40 brass set screw goes | #4-40 × 0.125 in; same drawing, location not given | Find it on a table; gauge the thread | Open | |
-| HS4 | Shell body material | "A light plastic"; [AR sheet L-1591](docs/originals/ar-cartridge-mount.jpg) | Inspect; record model and serial | Open | |
+| HS4 | Shell body material | "An acrylic plastic" at the 1962 design (Villchur 1962, Part 1, p. 22); "a light plastic"; [AR sheet L-1591](docs/originals/ar-cartridge-mount.jpg) | Inspect a real shell; record model and serial | Open | |
 | HS5 | AR77XB shell material | Metal and plastic; the [Vinyl Nirvana page](models/ar77xb/README.md#how-to-recognise-one) says both | Inspect an identified AR77XB | Conflict | |
+| HS6 | Whether the XA and XB shells are one part | 1979 XA price list 1404003-0 against XB drawing 119 part 404003: the numbers match in pattern; Pat's Audio sells one shell for both | Plug an XA shell into an XB arm and the reverse; measure both necks | Open | |
 
 ### Platter, bearings, and suspension
 
@@ -106,7 +107,7 @@ Target cartridge: the Grado Master4. Published figures and the Opus3 stand-in ar
 | GR2 | Head recess width | 5.0 mm placeholder | Calipers on the screw head, plus clearance | Open | |
 | GR3 | Head recess depth | 1.0 mm placeholder | Set with GR7 and HD4 so the screw does not bottom out | Open | |
 | GR4 | Slot travel | 6.0 mm placeholder | Check against GR8 and the arm's own adjustment | Open | |
-| GR5 | Slot position on the body | −1.5 mm placeholder | Work out from GR8 and HD1 | Open | |
+| GR5 | Slot centre behind the stylus tip | Derived: ⅜ in (9.525 mm), the factory setting between mounting centres and needle tip (Villchur 1962, Part 1, p. 69) | GR8 on the Master4, then the overhang template on the finished shell | Open | |
 | GR6 | Pocket width | 21.0 mm placeholder, from the Opus3's 20.1 mm body | Calipers on the cartridge body, plus clearance | Open | |
 | GR7 | Master4 screw length and usable thread depth | Not recorded | Calipers; check depth gently, since wood threads can strip | Open | |
 | GR8 | Mounting holes to stylus tip | Not recorded; AR's factory setting assumed ⅜ in (Villchur 1962, p. 69) | Calipers or a loupe with a scale | Open | |
@@ -114,6 +115,7 @@ Target cartridge: the Grado Master4. Published figures and the Opus3 stand-in ar
 | GR10 | Master4 body size, and top to stylus tip | Unpublished. Opus3 only: 20.1 × 16.3 × 25.3 mm, 29.6 mm with pins, 18.3 mm top to stylus | Calipers | Open | |
 | GR11 | Master4 mounting-hole spacing | ½ in assumed | Calipers, between hole centers | Open | |
 | GR12 | Arm effective mass with the finished shell | Not established | Needed with the Master4's 20 µm/mN compliance to estimate resonance | Open | |
+| GR13 | Stylus tip position from the body centre at the factory overhang | −11 mm placeholder | From GR8 and the 0.688 in overhang, on the arm | Open | |
 
 ### Headshell body and connector
 
@@ -138,11 +140,12 @@ Measure an original shell and its retaining nut, and record the model and serial
 | HD18 | Finger-lift thickness | 2.5 mm placeholder | Calipers; must suit PMMA | Open | |
 | HD19 | Neck key or locating feature | Not modeled; the exploded view shows a notched part, item 21a | Inspect and photograph | Open | |
 | HD20 | Pin count, type, and spring travel | Four contacts in the arm receptacle, per Hamrick; four wires per AR sheet L-1591; Pat's Audio advertises spring-loaded pins | Inspect the shell and arm socket; find a source for pins | Open | |
-| HD21 | Original shell mass, with hardware | Not recorded | Balance; needed to judge the counterweight | Open | |
+| HD21 | Original shell mass, with hardware | 7 g at the 1962 design, acrylic, without hardware (Villchur 1962, Part 1, p. 22); a real shell: not recorded | Balance; needed to judge the counterweight | Open | |
 | HD22 | Lift arc inner radius | 10 mm placeholder | Trace the original lift in plan | Open | |
 | HD23 | Lift root position from the front face | 4 mm placeholder | Calipers | Open | |
 | HD24 | Lift arc sweep angle | 70° placeholder | Trace the original lift in plan | Open | |
 | HD25 | Lift side | +1 design choice: outer side, away from the platter; right wall when facing the front on an XA | Inspect an original shell | Open | |
+| HD27 | Inside width of the original shell, lower bound | Derived: 20.45 mm, because the 0.805 in shim block lies across the inside (community drawing) | Calipers on an original shell | Open | |
 
 ### Other parts
 

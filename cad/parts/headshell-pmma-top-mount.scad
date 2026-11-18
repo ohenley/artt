@@ -22,8 +22,9 @@ P = [
     ["GR2", "Head recess width", 5.0, "PH", "mm", "Calipers on the supplied Grado screw head, plus clearance"],
     ["GR3", "Head recess depth", 1.0, "PH", "mm", "Set so the screw reaches the body threads without bottoming"],
     ["GR4", "Slot length between end-radius centers", 6.0, "PH", "mm", "Enough travel to set the cartridge; check against the stylus position"],
-    ["GR5", "Slot center from body center", -1.5, "PH", "mm", "From the Grado mounting holes to stylus and the 3/8 in factory setting"],
-    ["GR6", "Pocket width: must clear the Grado body", 21.0, "PH", "mm", "Calipers on the Master4. Sized from the Opus3's 20.1 mm; Grado says the Master4 housing was reshaped"],
+    ["GR13", "Stylus tip position from body center, at the factory overhang", -11.0, "PH", "mm", "Set from GR8 on the Master4 and the arm's 0.688 in overhang. Toward the front is negative"],
+    ["GR5", "Slot center behind the stylus tip", 0.375 * IN, "DV", "in", "Villchur 1962, Part 1, p. 69: the arm is factory-set for a cartridge with 3/8 in between mounting centers and needle tip, so the slot centers sit 3/8 in behind the tip. Verify: GR8 on the Master4, then the overhang gauge on the finished shell"],
+    ["GR6", "Pocket width: must clear the Grado body", 21.0, "PH", "mm", "Calipers on the Master4. Sized from the Opus3's 20.1 mm; Grado says the Master4 housing was reshaped. Must be at least HD27"],
 
     // Shell body.
     ["HD1", "Body length", 40, "PH", "mm", "Original shell, but the pocket must clear the Master4. Opus3 is 29.6 mm with pins; Master4 unpublished"],
@@ -34,6 +35,7 @@ P = [
     ["HD6", "Rear wall thickness, carries the neck", 6.0, "PH", "mm", "Set by pin and neck construction"],
     ["HD7", "Body corner radius", 2.0, "PH", "mm", "Design freedom"],
     ["HD8", "Pocket corner radius: milling tool radius", 1.5, "D", "mm", "Design choice for a milled inside corner"],
+    ["HD27", "Inside width, lower bound", 0.805 * IN, "DV", "in", "The 0.805 in shim block (community drawing, RDW 2023) lies across the inside of the original shell, so the inside is at least that wide. Verify: calipers on an original shell"],
 
     // Neck and connector: all must come from an original shell.
     ["HD10", "Neck outside diameter", 10, "PH", "mm", "Micrometer on an original neck"],
@@ -57,8 +59,10 @@ slot_w = pv(P, "GR1");
 rec_w = pv(P, "GR2");
 rec_d = pv(P, "GR3");
 slot_c = pv(P, "GR4");
-slot_x = pv(P, "GR5");
+stylus_x = pv(P, "GR13");
+slot_x = stylus_x + pv(P, "GR5");   // the studs sit behind the stylus, toward the neck
 pocket_w = pv(P, "GR6");
+assert(pocket_w >= pv(P, "HD27"), "GR6 is narrower than the shim block, HD27");
 
 body_l = pv(P, "HD1");
 body_w = pv(P, "HD2");
@@ -176,16 +180,23 @@ module part() {
 
 emit(
     [
-        ["id", "headshell-pmma-top-mount"],
-        ["title", "XA/XB headshell, PMMA, top-mount Grado Master4"],
+        ["id", "headshell-top-mount-pmma"],
+        ["title", "Headshell, top-mount for a Grado Master4, PMMA"],
         ["status", "CONCEPT"],
+        ["part", "parts/headshell.md"],
+        ["part_name", "Headshell"],
+        ["version", "Top-mount shell for a Grado Master4: this repository's design, not an AR part"],
         ["scope", "New design for a Grado Master4. Layout from the XA service manual, p. 4. Not an AR dimension set"],
         ["material", "PMMA (acrylic), cast grade preferred"],
         ["density", 1.18],
+        ["fits", [["XA", "Unconfirmed", ""], ["XB", "Unconfirmed", ""], ["AR77XB", "Unconfirmed", ""]]],
+        ["target_mass_g", 7],
+        ["target_mass_source", "Villchur 1962, Part 1, p. 23: the acrylic shell weighed 7 g"],
         ["make", "Mill from the top, the bottom, and the neck end. The lift is cut in the top setup. Print a test piece first"],
         ["views", ["front", "top", "bottom", "right", "left", "iso"]],
         ["sections", [["A", "y", 6.35]]],
         ["notes", [
+            "Nothing fits any table yet: the neck, pins and mounting height (HD10 to HD14) are placeholders. Pat's Audio sells one shell for the XA and XB, so one neck may serve both; that is a maker claim, not a measurement.",
             "Neck thread, key, and pin style are not modeled because they are unknown. Measure an original shell and its retaining nut.",
             "Pat's Audio advertises a reinforced neck with threads that will not crack off, which suggests this is the weak point. A PMMA thread may not hold; consider a metal neck insert.",
             "Keep threadlockers, alcohol, and solvents away from PMMA: they can craze it. Tighten the screws gently.",
@@ -206,7 +217,11 @@ emit(
         ["top", "h", [slot_x - slot_c / 2, body_w / 2, 0], [slot_x + slot_c / 2, body_w / 2, 0], 9, "GR4"],
         ["top", "d", [slot_x + slot_c / 2, spacing / 2, 0], rec_w / 2, 13, "GR2", "W ", 50],
         ["top", "d", [slot_x - slot_c / 2, spacing / 2, 0], slot_w / 2, 13, "GR1", "W ", 135],
-        ["bottom", "h", [0, lift_ys * body_w / 2, 0], [slot_x, lift_ys * body_w / 2, 0], -lift_ys * 9, "GR5", "", "from body center"],
+        // Stylus position and slot offset, under the front view, below HD1.
+        ["front", "h", [stylus_x, 0, 0], [slot_x, 0, 0], -19, "GR5", "", "stylus to slot"],
+        ["front", "h", [0, 0, 0], [stylus_x, 0, 0], -25, "GR13", "", "center to stylus"],
+        ["front", "cl", [stylus_x, 0, -2], [stylus_x, 0, 6]],
+        ["front", "cl", [0, 0, -2], [0, 0, 4]],
         // Lift, in plan. Labels sit to the front of the arc center, clear of the other dimensions.
         ["top", "r", concat(lift_xy(lift_c), [0]), lift_r, lift_ys > 0 ? 270 - lift_a / 4 : 90 + lift_a / 4, "HD22", -17, -lift_ys * 3.5, "right"],
         ["top", "a", concat(lift_xy(lift_c), [0]), lift_r - 3, lift_ys > 0 ? 270 - lift_a : 90, lift_ys > 0 ? 270 : 90 + lift_a, "HD24", -17, 0, "right"],

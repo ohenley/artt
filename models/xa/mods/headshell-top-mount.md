@@ -19,7 +19,7 @@ Fit a Grado Master4 to the stock arm. Its screws enter from the top, into the ca
 
 ## New shell
 
-A shell in clear acrylic (PMMA) with two recessed slots on top and a pocket underneath for the cartridge. [Drawing](../../../cad/exports/headshell-pmma-top-mount/PRELIMINARY-headshell-pmma-top-mount.pdf) · [STEP](../../../cad/exports/headshell-pmma-top-mount/PRELIMINARY-headshell-pmma-top-mount.step) · [Source](../../../cad/parts/headshell-pmma-top-mount.scad). 23 dimensions are placeholders: rows GR and HD in the confirmation list.
+A shell in clear acrylic (PMMA) with two recessed slots on top and a pocket underneath for the cartridge. [Drawing](../../../cad/exports/headshell-top-mount-pmma/PRELIMINARY-headshell-top-mount-pmma.pdf) · [STEP](../../../cad/exports/headshell-top-mount-pmma/PRELIMINARY-headshell-top-mount-pmma.step) · [Source](../../../cad/parts/headshell-pmma-top-mount.scad) · [Headshell part page](../../../parts/headshell.md). 23 dimensions are placeholders and 2 are derived: rows GR and HD in the confirmation list.
 
 | Item | Value |
 | --- | --- |
