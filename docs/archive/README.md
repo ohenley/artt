@@ -137,6 +137,7 @@ These are third-party works. The repository license does not cover them: rights 
 - [Wikipedia: Unified Thread Standard, excerpt](wikipedia/unified-thread-standard.md) ([original](https://en.wikipedia.org/wiki/Unified_Thread_Standard)). The size table, for the #3-48 and #4-40 threads. Text under CC BY-SA 4.0.
 - [Addicted to Audio: Grado Opus3 review](addicted-to-audio/grado-opus3-review.md) ([original](https://addictedtoaudio.co.nz/blogs/reviews/grado-timbre-series-opus3-cartridge))
 - [Positive Feedback: Grado Opus3 review](positive-feedback/grado-opus3-review.md) ([original](https://positive-feedback.com/reviews/hardware-reviews/grado-timbre-series-opus3-phono-cartridge/))
+- [Edward M. Long, the Linn Sondek LP12, *Audio*, November 1983](gamma-electronics/audio-1983-11-linn-lp12.md) ([original](https://gammaelectronics.xyz/audio_11-1983_linn.html)). A reference table measured by the magazine that reviewed the AR in 1984
 
 ## Not archived
 
