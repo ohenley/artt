@@ -2,26 +2,52 @@
 
 [Home](../README.md) · [Model guide](../models/README.md) · [Archived articles](archive/README.md) · [Design-paper notes](design-notes.md) · [Sources to read](sources-to-read.md)
 
-Source URLs and hashes of local copies are in [manifest.tsv](manifest.tsv).
+Factory and period documents, each as a copy kept in this repository. Original addresses and file hashes are in [manifest.tsv](manifest.tsv). What each document says is written out on the page that uses it; this page says where to find the document itself.
 
-## Manuals and papers
+## Factory documents, first family
 
-| Document | Scope | Copy | Contents |
+| Document | Covers | Copy | What it gives |
 | --- | --- | --- | --- |
-| AR XA service manual, 4 pages | XA | [Local](originals/xa-service-manual.pdf) | Service text, serial ranges, circuits, parts list, exploded view |
-| 1969 XA service manual | XA | [Scans](https://vinylnirvana.com/ar-turntable-resources/ar-turntable-history/1969-ar-xa-service-manual) | Page images |
-| XA owner's manual | XA | [Scans](https://vinylnirvana.com/ar-turntable-resources/ar-turntable-history/ar-xa-manual) | Page images |
-| XA technical specifications, 1969 | XA | [Sheet](https://vinylnirvana.com/ar-turntable-resources/ar-turntable-history/1969-ar-xa-technical-specifications) | Specification sheet |
-| Installation and Operating Instructions, Model XB1 | British XB1 | [Local](originals/xb1-owners.pdf) | 16-page scan, no text layer |
-| Villchur, A New Turntable-Arm Design, Part 1, September 1962 | Early design | [Local](originals/villchur-1962-part-1.pdf) | Arm, suspension, geometry |
-| Villchur, Part 2, October 1962 | Early design | [Local](originals/villchur-1962-part-2.pdf) | Motor, belt, rumble |
-| XA/XB cartridge mounting hardware, RDW, December 7, 2023 | XA, XB | [Local](originals/ar-headshell-hardware-rev-1.pdf) | Community drawing: screws, bushings, shims |
-| Mounting Pickup Cartridge in the AR Cartridge Shell, L-1591 | AR shell | [Local](originals/ar-cartridge-mount.jpg) | Factory sheet: mounting table, wire colors |
-| Audio, September 1969 equipment directory | XA | [Source issue](https://www.worldradiohistory.com/Archive-All-Audio/Archive-Audio/60s/Audio-1969-09.pdf), PDF p. 50 | Size, weight, arm length |
+| AR XA Turntable Service Manual, 4 pages | XA | [PDF](originals/xa-service-manual.pdf) | Motors by serial number, 120 V and 220 V circuits, pulleys, arm service, parts list, exploded view. Used on the [XA page](../models/xa/README.md) |
+| The same manual as page scans, 1969 | XA | [Scans](archive/vinyl-nirvana/ar-turntable-history/1969-ar-xa-service-manual.md) | Whether it is the same revision as the PDF is open: SR10 |
+| XA owner's manual | XA | [Scans](archive/vinyl-nirvana/ar-turntable-history/ar-xa-manual.md) | Set-up and operation. Not yet written out: SR9 |
+| Technical Specifications of the AR Turntable | XA | [Sheet](archive/vinyl-nirvana/ar-turntable-history/1969-ar-xa-technical-specifications.md) | The NAB limits AR guaranteed. Written out in the [model guide](../models/README.md#first-family) |
+| AR Inc. turntable brochure, 1963 or later | XA | [Scans](archive/vinyl-nirvana/ar-turntable-history/ar-brochure.md) | Size, price, guarantee, press quotes |
+| Mounting Pickup Cartridge in the AR Cartridge Shell, L-1591 | AR shell | [Image](originals/ar-cartridge-mount.jpg) | Mounting table and wire colours. Used in [what goes where](what-goes-where.md) |
+| Needle force gauge instructions, 1969 | XA | [Scan](archive/vinyl-nirvana/ar-turntable-history/1969-ar-xa-needle-force-gauge-instructions.md) | Using the supplied gauge |
+| Packing instructions, 1969 | XA | [Scan](archive/vinyl-nirvana/ar-turntable-history/1969-xa-packing-instructions.md) | Packing for shipment |
+| XA parts list and price list, January 1979 | XA | [Parts list](archive/vinyl-nirvana/ar-turntable-history/1979-ar-xa-parts-list.md), [price list](archive/vinyl-nirvana/ar-turntable-history/1979-xa-price-list.md) | AR part numbers, and the Teledyne Acoustic Research address in Norwood |
+| Installation and Operating Instructions, Model XB1 | British XB1 | [PDF](originals/xb1-owners.pdf) | 16-page scan, no text layer. Specifications, mains wiring, set-up. Only pp. 2, 6, and 16 are written out so far: SR8 |
+| Villchur, A New Turntable-Arm Design, Part 1, *Audio*, September 1962 | The design | [PDF](originals/villchur-1962-part-1.pdf) | Arm, suspension, geometry. See the [design-paper notes](design-notes.md) |
+| Villchur, Part 2, October 1962 | The design | [PDF](originals/villchur-1962-part-2.pdf) | Motors, belt, rumble |
+
+## Factory documents, second family
+
+| Document | Covers | Copy | What it gives |
+| --- | --- | --- | --- |
+| "The legendary AR Turntable has returned", 10/83 | The AR Turntable | [Scans](archive/vinyl-nirvana/ar-turntable-history/ar-the-turntable-brochure.md) | Full specifications, warranty, the 1979 end of first-family production |
+| AR Legend and EB101 brochure, Britain | The Legend, EB-101 | [Scans](archive/vinyl-nirvana/ar-turntable-history/ar-legend-and-eb-101-brochure-from-great-britain.md) | Specifications of both, plinth materials, addresses |
+
+Both are written out in the [model guide](../models/README.md#second-family).
+
+## Period listings and reviews
+
+| Document | Covers | Copy | What it gives |
+| --- | --- | --- | --- |
+| *Audio*, September 1969, equipment directory | XA | [PDF page](originals/audio-1969-09-directory-p50.pdf) | Size, weight, arm length |
+| Allied sales flyer, 1964 | XA | [Scan](archive/vinyl-nirvana/ar-turntable-history/1964-ar-xa-ad.md) | Two motors, 3.5 lb platter, 110–120 V, price |
+| Retail catalogue panel, 1970s | XB, XB-91 | [Image](archive/hifi-wiki/acoustic-research-model-xb.md) | Size with cover, speeds, motor type, prices |
+| Peter W. Mitchell, review, *Audio*, July 1984 | The AR Turntable | [Text](archive/gamma-electronics/audio-1984-07-ar-turntable.md) | Maker's specifications, price, measurements, history |
+
+## Community drawing
+
+| Document | Covers | Copy | What it gives |
+| --- | --- | --- | --- |
+| XA/XB cartridge mounting hardware, RDW, December 7, 2023 | XA, XB | [PDF](originals/ar-headshell-hardware-rev-1.pdf) | Screws, bushings, shims. Used in [what goes where](what-goes-where.md) |
 
 ## XB factory drawings
 
-From [Audio Appraisal's archive](https://audioappraisal.com/acoustic-research-drawings-archive/). Numbers 112–119 are archive index numbers. The assembly sheets are AR drawing 100012. The links open full-size PNG copies. [All eight as one PDF](xb-factory-drawings.pdf). The unmodified TIFF downloads are in `originals/`.
+From [Audio Appraisal's archive](archive/audio-appraisal/ar-drawings-archive.md), which states that Acoustic Research released these drawings into the public domain in 1990. Numbers 112–119 are archive index numbers. The assembly sheets are AR drawing 100012. The links open full-size PNG copies. [All eight as one PDF](xb-factory-drawings.pdf). The unmodified TIFF downloads are in `originals/`.
 
 | Entry | Original | Contents |
 | --- | --- | --- |
@@ -47,4 +73,4 @@ From the same archive. The six-digit numbers are AR drawing numbers. The unmodif
 
 ## Background
 
-[Roy Allison, "Acoustic Research Inc., The Golden Years"](archive/vinyl-nirvana/ar-turntable-history/acoustic-research-inc-the-golden-years-by-roy-allison.md): manufacturing history, including bearings and belts.
+[Roy Allison, "Acoustic Research Inc., The Golden Years"](archive/vinyl-nirvana/ar-turntable-history/acoustic-research-inc-the-golden-years-by-roy-allison.md): how the turntable was designed and put into production, by an AR executive. Written out in the [model guide](../models/README.md#company-and-people).

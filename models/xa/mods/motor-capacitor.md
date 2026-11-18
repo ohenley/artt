@@ -39,5 +39,7 @@ Unplug the table first.
 
 ## Sources
 
+Each link opens the copy kept in this repository; the copy names its original address.
+
 - [XA service manual, pp. 1 and 3](../../../docs/originals/xa-service-manual.pdf). Factory.
 - [XB drawing 119](../../../docs/drawings/xb-drawing-119.png). Factory.

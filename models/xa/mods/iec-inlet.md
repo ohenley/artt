@@ -50,6 +50,8 @@ Unplug the table before starting. Have someone qualified check the work if you a
 
 ## Sources
 
+Each link opens the copy kept in this repository; the copy names its original address.
+
 - [XA service manual, p. 3](../../../docs/originals/xa-service-manual.pdf). Factory.
-- [John's second XA restoration](https://www.johnsweather.com/Turntable.html). Owner report.
-- [Gary Galo, "A Belt-Drive Turntable Upgrade", audioXpress](https://audioXpress.com/assets/upload/files/galo2931.pdf).
+- [John's second XA restoration](../../../docs/archive/johns-weather/xa-restoration-2012.md). Owner report.
+- [Gary Galo, "A Belt-Drive Turntable Upgrade", audioXpress](../../../docs/archive/audioxpress/galo-belt-drive-turntable-upgrade.pdf).

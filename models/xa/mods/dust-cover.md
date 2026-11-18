@@ -43,4 +43,6 @@ Only the overall size with the cover is known: see [Dimensions and arm geometry]
 
 ## Sources
 
-- [JnB Audio, AR XA dust cover](https://jnb-audio.com/products/acoustic-research-ar-xa-new-jnb-audio-turntable-dust-cover-pst-made-in-usa). Maker claim.
+Each link opens the copy kept in this repository; the copy names its original address.
+
+- [JnB Audio, AR XA dust cover](../../../docs/archive/jnb-audio/ar-xa-dust-cover.md). Maker claim.

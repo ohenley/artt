@@ -65,12 +65,14 @@ A shell in clear acrylic (PMMA) with two recessed slots on top and a pocket unde
 
 ## Sources
 
+Each link opens the copy kept in this repository; the copy names its original address.
+
 - [XA service manual, p. 4](../../../docs/originals/xa-service-manual.pdf). Factory.
 - [AR sheet L-1591](../../../docs/originals/ar-cartridge-mount.jpg). Factory.
 - [XB drawing 119](../../../docs/drawings/xb-drawing-119.png). Factory.
-- [Scott Hamrick, "Rewiring an AR XA Tonearm"](https://vinylnirvana.com/ar-turntable-resources/ar-diy-do-it-yourself/rewiring-an-ar-xa-tonearm). Owner report.
-- [Grado Master4](https://gradolabs.com/products/master4). Maker claim.
-- [Pat's Audio XA/XB headshell](https://www.patsaudioparts.com/single-post/AR-XA-XB-Headshell). Maker claim.
-- [Gary Galo, "A Belt-Drive Turntable Upgrade", audioXpress](https://audioXpress.com/assets/upload/files/galo2931.pdf).
-- [Addicted to Audio: Grado Opus3](https://addictedtoaudio.co.nz/blogs/reviews/grado-timbre-series-opus3-cartridge).
-- [Positive Feedback: Grado Opus3](https://positive-feedback.com/reviews/hardware-reviews/grado-timbre-series-opus3-phono-cartridge/).
+- [Scott Hamrick, "Rewiring an AR XA Tonearm"](../../../docs/archive/vinyl-nirvana/ar-diy-do-it-yourself/rewiring-an-ar-xa-tonearm.md). Owner report.
+- Grado's own Master4 page. Maker claim. No copy is kept, because the shop limits automated requests; its address is in the [archive index](../../../docs/archive/README.md#not-archived). The same specifications are in a retailer's listing: [Sound Approach](../../../docs/archive/sound-approach/grado-master4.md).
+- [Pat's Audio XA/XB headshell](../../../docs/archive/pats-audio/ar-xa-xb-headshell.md). Maker claim.
+- [Gary Galo, "A Belt-Drive Turntable Upgrade", audioXpress](../../../docs/archive/audioxpress/galo-belt-drive-turntable-upgrade.pdf).
+- [Addicted to Audio: Grado Opus3](../../../docs/archive/addicted-to-audio/grado-opus3-review.md).
+- [Positive Feedback: Grado Opus3](../../../docs/archive/positive-feedback/grado-opus3-review.md).

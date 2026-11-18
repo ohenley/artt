@@ -1,4 +1,4 @@
-# Acoustic Research turntable restoration
+# ARTT: the open reference for Acoustic Research turntables
 
 A sourced workshop reference for the **XA, XB, and AR77XB**. The model guide also covers the 1980s tables, for identification only.
 
@@ -34,6 +34,8 @@ Each value carries one label and its source, in parentheses.
 - **Owner report**: a firsthand restoration account or measurement.
 - **Maker claim**: a supplier describing its own product.
 - **Unconfirmed**: evidence is missing or contradictory.
+
+Every source link opens a copy kept in this repository, so the reference still works when the original site is gone. The copy names its original address, and the [archive index](docs/archive/README.md) lists them all.
 
 A measurement from one table stays tied to that table. Do not carry a value across models. Nothing is confirmed for the AR77XB unless its page gives a source. None of the mods or CAD parts has been built or fit-tested. Advice with no source is our assessment.
 

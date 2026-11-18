@@ -23,11 +23,16 @@ Dates: first shipped to dealers in 1961 (Owner report, Allison). "Production cea
 
 ### First family, 1961 to 1979
 
+| XA | XB | AR77XB |
+| --- | --- | --- |
+| ![AR XA under a clear cover](../docs/images/models/xa.jpg) | ![XB-pattern table in a maple plinth](../docs/images/models/xb.jpg) | ![AR77XB with its badge on the top plate](../docs/images/models/ar77xb.jpg) |
+| New cover and arm rest | New plinth, cover, and top-plate colour | As found |
+
 | Name on the listing | Look for | Made | More |
 | --- | --- | --- | --- |
 | **XA** | No cueing lever. Top plate grey, brown, or black. Headshell tan or black plastic. Black plastic arm rest. Base solid oiled walnut, later walnut veneer, last walnut-look vinyl (Specialist, VN XA). Up to serial XA66866, two motors show under the outer platter (Factory, XA service manual p. 1) | 1961 to 1979 | [XA page](xa/README.md) |
-| **TA** | "Nearly identical" to the XA (Specialist, VN XA). A forum account calls it a 33⅓ rpm only table: Unconfirmed, [MD3](../TO-CONFIRM.md#models-and-dates) | Unconfirmed | |
-| **XA91**, **XB91** | An XA or XB sold with a Shure M91ED cartridge for $55 more (Specialist, VN XB). No difference in the table itself is recorded | Unconfirmed | |
+| **TA** | "Nearly identical" to the XA (Specialist, VN XA). A forum account, not yet read, calls it a 33⅓ rpm only table: Unconfirmed, [MD3](../TO-CONFIRM.md#models-and-dates) | Unconfirmed | |
+| **XA91**, **XB91**, also XB-91 | An XA or XB sold with a Shure M91ED cartridge: "same as XB but with Shure M91ED cartridge mounted and tested" (Period, retail catalogue). $55 more at list (Specialist, VN XB) | Unconfirmed | |
 | **XB** | A cueing lever beside a rocker power switch at the front right, both set in a brushed-metal AR panel. Top plate always black. Metal arm rest. Black plastic headshell. Brass or stainless steel counterweight (Specialist, VN XB). The same page gives the base as plywood veneer in its text and walnut-look vinyl in its list | From about 1972 or 1973, [MD1](../TO-CONFIRM.md#models-and-dates). Drawings still revised in March 1977 | [XB page](xb/README.md) |
 | **XBU**, factory code TT-XBU | Not a name on the table. It is the second build on the XB assembly drawing, added on 5 June 1974: its own top plate (400039-2) and a P.C. board assembly (800018), with no UL label, no CSA label, and no separate motor and switch capacitors (Factory, drawing 112). Its appearance, its market, and the meaning of U: Unconfirmed, [MD2](../TO-CONFIRM.md#models-and-dates) | From 1974 | [Drawing 112](../docs/drawings/xb-drawing-112.png) |
 | **XB1** | The British XB: a 220–240 V table with a blue and brown mains lead, a 3 A fuse notice, and a Houghton Regis address in its manual. Cueing lever and rocker switch as on the XB (Factory, XB1 manual pp. 6–8, 16) | Unconfirmed. Its rework parts were removed from the drawings in 1976–77 (Factory, [ECO 1315 sheet 4](../docs/drawings/xb-drawing-118.png)) | [XB1 manual](../docs/originals/xb1-owners.pdf) |
@@ -36,6 +41,13 @@ Dates: first shipped to dealers in 1961 (Owner report, Allison). "Production cea
 To tell an XB from an AR77XB, check the badge, the panel around the lever and switch, the base material, and the counterweight. The mechanism is the same pattern. Factory papers for the AR77XB have not been found.
 
 ### Second family, 1983 onward
+
+| The AR Turntable | The Legend | EB-101 | ETL-1 |
+| --- | --- | --- | --- |
+| ![The AR Turntable, 1983 brochure photo](../docs/images/models/the-ar-turntable.jpg) | ![The Legend from above](../docs/images/models/the-legend.jpg) | ![EB-101 from above](../docs/images/models/eb-101.jpg) | ![ETL-1 in cherry](../docs/images/models/etl-1.jpg) |
+| Factory brochure, 1983 | Factory brochure | Factory brochure | The owner's own arm; it was sold without one |
+
+No ES-1 photo with its original arm has been found. Photo credits are on the [home page](../README.md).
 
 | Name on the listing | Look for | Made | Arm |
 | --- | --- | --- | --- |
@@ -111,11 +123,11 @@ The approval signatures on the drawings are handwritten and not read with confid
 
 | Item | XA | XB | XB1 | AR77XB |
 | --- | --- | --- | --- | --- |
-| Speeds | 33⅓ and 45 rpm (Factory, AR brochure) | Not stated on the drawings | 33⅓ and 45 rpm ± 0.3% (Factory, XB1 manual p. 2) | Unconfirmed |
+| Speeds | 33⅓ and 45 rpm (Factory, AR brochure) | 33⅓ and 45 rpm (Period, retail catalogue) | 33⅓ and 45 rpm ± 0.3% (Factory, XB1 manual p. 2) | Unconfirmed |
 | Speed accuracy | ±0.3%, which is 21 lines a minute on a 216-line strobe card, held with 5 g of extra stylus force (Factory, AR spec sheet) | ±21 dots a minute at 1.5 g (Factory, drawing 119) | ±0.3% | Unconfirmed |
 | Wow and flutter | Within NAB's 0.1% combined (Factory, AR spec sheet) | Unconfirmed | 0.03% | Unconfirmed |
 | Rumble | Within NAB's 35 dB below 1 cm/sec at 100 cps (Factory, AR spec sheet) | Unconfirmed | "Greater than −40 dB", as printed | Unconfirmed |
-| Motor | [By serial](xa/README.md#motor-identification). First design: an 18-pole, 400 rpm permanent-magnet synchronous drive motor and a 600 rpm hysteresis starter motor (Factory, Villchur 1962, Part 2, p. 36) | Part 802006, maker not stated (Factory, drawing 119) | Permanent-magnet, synchronous | Unconfirmed |
+| Motor | [By serial](xa/README.md#motor-identification). First design: an 18-pole, 400 rpm permanent-magnet synchronous drive motor and a 600 rpm hysteresis starter motor (Factory, Villchur 1962, Part 2, p. 36) | "Hysteresis/synchronous" (Period, retail catalogue). Part 802006, maker not stated (Factory, drawing 119) | Permanent-magnet, synchronous | Unconfirmed |
 | Platter | 3.3, 3.5, or 3.9 lb: Conflict, [PL1](../TO-CONFIRM.md#platter-bearings-and-suspension) | Unconfirmed | 11¾ in diameter, 4 lb | Unconfirmed |
 | Belt | Ground rubber (Owner report, Allison) | Part 400134 | Ground neoprene | Unconfirmed |
 | Suspension | Three springs, designed for 3.5 cps (Factory, Villchur 1962, Part 1) | Three studs and nuts (Factory, drawing 119) | Unconfirmed | Unconfirmed |
@@ -123,8 +135,8 @@ The approval signatures on the drawings are handwritten and not read with confid
 | Overhang | 0.688 in (same) | 0.688 in ± 0.030 (Factory, drawing 119) | Unconfirmed | Unconfirmed |
 | Cartridge mounting | Unconfirmed, [GR11](../TO-CONFIRM.md#grado-cartridge-and-top-mounting) | Unconfirmed | ½ in EIA centres | Unconfirmed |
 | Cable capacitance | About 135 pF a channel in all (Factory, Villchur 1962, Part 1, p. 69) | Unconfirmed | 100 pF | Unconfirmed |
-| Size with cover | 12¾ × 16¾ × 5¼ in (Factory, AR brochure) | Unconfirmed | 12¾ × 16¾ × 5½ in | Unconfirmed |
-| Weight | 13½ lb (Period, Audio 1969 directory) | Unconfirmed | 13 lb 9 oz, printed as 6.32 kg | Unconfirmed |
+| Size with cover | 12¾ × 16¾ × 5¼ in (Factory, AR brochure) | 12¾ × 16¾ × 5¾ in (Period, retail catalogue) | 12¾ × 16¾ × 5½ in | Unconfirmed |
+| Weight | 13½ lb (Period, Audio 1969 directory) | 19 lb shipping weight (Period, retail catalogue) | 13 lb 9 oz, printed as 6.32 kg | Unconfirmed |
 | Guarantee | 1 year (Factory, AR brochure) | Unconfirmed | 5 years | Unconfirmed |
 
 XB1 figures are all from the XB1 manual, p. 2. Web listings give the AR77XB 0.03% wow and flutter and 5.89 kg; no document behind them has been read, see [SR5 to SR7](../docs/sources-to-read.md).
@@ -184,6 +196,7 @@ Vinyl Nirvana says early units of The AR Turntable did not have the Hurst motor;
 | 1964 | XA | $68.00; $68.01 with an Empire 880P cartridge | Period, 1964 Allied flyer |
 | 1972 | XA | "Still only $90" | Owner report, Allison |
 | About 1972 | XA; XB | $115; $130 | Specialist, VN XB |
+| Undated, 1970s | XB; XB-91 | $99.95; $119.95, a retailer's own prices | Period, retail catalogue |
 | 1984 | The AR Turntable | $450 with arm, $325 without | Period, Audio 1984 |
 | 1984 | The AR Turntable | $475 with arm, $350 without | Period, Wolf |
 | 1985 | EB-101; ES-1; ETL-1 | $399; $475 with arm or $350 without; $700 | Period, Wolf |
@@ -200,7 +213,7 @@ The 1972 figures disagree, and so do the 1984 ones. They stay side by side.
 | AR brochure | [AR Inc. turntable brochure](../docs/archive/vinyl-nirvana/ar-turntable-history/ar-brochure.md), which quotes 1963 magazines |
 | AR spec sheet | [Technical Specifications of the AR Turntable](../docs/archive/vinyl-nirvana/ar-turntable-history/1969-ar-xa-technical-specifications.md), AR Inc., Cambridge |
 | 1964 Allied flyer | [Allied sales flyer advert](../docs/archive/vinyl-nirvana/ar-turntable-history/1964-ar-xa-ad.md) |
-| Audio 1969 directory | [*Audio*, September 1969](https://www.worldradiohistory.com/Archive-All-Audio/Archive-Audio/60s/Audio-1969-09.pdf), PDF p. 50 |
+| Audio 1969 directory | [*Audio*, September 1969](../docs/originals/audio-1969-09-directory-p50.pdf), PDF p. 50 |
 | XA service manual | [AR XA Turntable Service Manual](../docs/originals/xa-service-manual.pdf) |
 | 1979 price list | [XA turntable parts price list](../docs/archive/vinyl-nirvana/ar-turntable-history/1979-xa-price-list.md), January 1979 |
 | XB1 manual | [Installation and Operating Instructions, Model XB1](../docs/originals/xb1-owners.pdf) |
@@ -210,7 +223,8 @@ The 1972 figures disagree, and so do the 1984 ones. They stay side by side.
 | Drawings 148 and 149 | Schematic, EB101N: [230 V, 50 Hz](../docs/drawings/eb101n-drawing-148.png) and [115 V, 60 Hz](../docs/drawings/eb101n-drawing-149.png) |
 | 1983 brochure | ["The legendary AR Turntable has returned"](../docs/archive/vinyl-nirvana/ar-turntable-history/ar-the-turntable-brochure.md), Teledyne Acoustic Research, 701049-0, 10/83 |
 | GB brochure | [AR Legend and EB101 brochure](../docs/archive/vinyl-nirvana/ar-turntable-history/ar-legend-and-eb-101-brochure-from-great-britain.md), Teledyne Acoustic Research, printed in England, undated |
-| Audio 1984 | Peter W. Mitchell, [review of the AR turntable](https://gammaelectronics.xyz/audio_07-1984_ar.html), *Audio*, July 1984 |
+| Retail catalogue | Undated 1970s catalogue panel for the AR Model XB and XB-91, kept on the [hifi-wiki XB entry](../docs/archive/hifi-wiki/acoustic-research-model-xb.md). The entry dates the XB to 1972 |
+| Audio 1984 | Peter W. Mitchell, [review of the AR turntable](../docs/archive/gamma-electronics/audio-1984-07-ar-turntable.md), *Audio*, July 1984 |
 | Wolf | Kurt Wolf, [notes distinguishing the mid-eighties AR turntables](../docs/archive/vinyl-nirvana/ar-models/mid-80s-ar-distinguishing-notes.md) |
 | VN | Vinyl Nirvana model pages: [XA](../docs/archive/vinyl-nirvana/ar-models/ar-xa.md), [XB](../docs/archive/vinyl-nirvana/ar-models/ar-xb.md), [XB77](../docs/archive/vinyl-nirvana/ar-models/ar-xb77.md), [AR the Turntable](../docs/archive/vinyl-nirvana/ar-models/ar-the-turntable.md), [EB-101](../docs/archive/vinyl-nirvana/ar-models/ar-eb-101.md), [ES-1](../docs/archive/vinyl-nirvana/ar-models/ar-es-1.md), [ETL-1](../docs/archive/vinyl-nirvana/ar-models/ar-etl-1.md) |
-| Wikipedia | [Acoustic Research](https://en.wikipedia.org/wiki/Acoustic_Research). Used for company dates only. Its XA motor description, a 24-pole Hurst, does not match the XA service manual |
+| Wikipedia | [Acoustic Research](../docs/archive/wikipedia/acoustic-research.md). Used for company dates only. Its XA motor description, a 24-pole Hurst, does not match the XA service manual |

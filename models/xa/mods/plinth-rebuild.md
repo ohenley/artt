@@ -62,7 +62,9 @@ One hardwood plinth that carries the RCA jack plate, the ground post, the fused 
 
 ## Sources
 
+Each link opens the copy kept in this repository; the copy names its original address.
+
 - [XA service manual, pp. 3 and 4](../../../docs/originals/xa-service-manual.pdf). Factory.
 - [XB drawing 119](../../../docs/drawings/xb-drawing-119.png). Factory.
-- [Gary Galo, "A Belt-Drive Turntable Upgrade", audioXpress](https://audioXpress.com/assets/upload/files/galo2931.pdf). Owner report.
-- [John's second XA restoration](https://www.johnsweather.com/Turntable.html). Owner report.
+- [Gary Galo, "A Belt-Drive Turntable Upgrade", audioXpress](../../../docs/archive/audioxpress/galo-belt-drive-turntable-upgrade.pdf). Owner report.
+- [John's second XA restoration](../../../docs/archive/johns-weather/xa-restoration-2012.md). Owner report.

@@ -2,7 +2,47 @@
 
 [Home](../../README.md) · [All models](../README.md) · [Parts and makers](../../parts/README.md) · [Factory drawing index](../../docs/README.md#xb-factory-drawings)
 
-The XB has a separate cueing lift. The drawings cover several XB configurations, so check the revision against your table. The British **XB1** has its own [operating manual](../../docs/originals/xb1-owners.pdf). Some [XA mods](../xa/mods/README.md) also apply to the XB.
+![XB-pattern table with its cueing lever and rocker switch in an AR panel](../../docs/images/models/xb.jpg)
+
+The XA with a cueing lever added. This table has a new plinth, cover, and top-plate colour; the arm is original (photo supplied by the repository owner).
+
+## At a glance
+
+| Item | Value |
+| --- | --- |
+| Made | From about 1972 (Specialist, [Vinyl Nirvana](../../docs/archive/vinyl-nirvana/ar-models/ar-xb.md)). The factory assembly drawing was drawn in July 1973 and still revised in March 1977 (Factory, [drawing 112](../../docs/drawings/xb-drawing-112.png), [drawing 119](../../docs/drawings/xb-drawing-119.png)). Start year open: [MD1](../../TO-CONFIRM.md#models-and-dates) |
+| Maker's name | Acoustic Research, Inc. on the 1973 drawing; Teledyne Acoustic Research by November 1976 (Factory, same drawings) |
+| Layout | Belt drive. Two-part aluminium platter. Platter and arm on a T-bar subchassis hung on three springs. S-shaped arm with a viscous-damped cueing lift |
+| Speeds | 33⅓ and 45 rpm (Period listing, [retail catalogue](../../docs/archive/hifi-wiki/acoustic-research-model-xb.md)) |
+| Motor | "Hysteresis/synchronous" (Period listing, same catalogue). AR part 802006; maker not stated (Factory, drawing 119) |
+| Size with cover | 12¾ × 16¾ × 5¾ in (Period listing, same catalogue) |
+| Shipping weight | 19 lb (Period listing, same catalogue) |
+| Price when new | $99.95 in the catalogue; $130 list about 1972 (Specialist, Vinyl Nirvana) |
+
+## How to recognise one
+
+Specialist description, [Vinyl Nirvana](../../docs/archive/vinyl-nirvana/ar-models/ar-xb.md), unless noted.
+
+| Look at | XB |
+| --- | --- |
+| Controls | A cueing lever and a rocker power switch at the front right, both set in a brushed-metal AR panel. An XA has no lever; an AR77XB has the lever and switch with no panel |
+| Top plate | Always black |
+| Headshell | Black plastic with brass thread inserts |
+| Arm rest | Metal |
+| Counterweight | Brass or stainless steel |
+| Base | Plywood veneer in the description's text, walnut-look vinyl in its list. "Walnut grained" in the catalogue |
+| Arm damping | None. The cueing lift replaces the XA's damped arm |
+
+## Variants
+
+| Name | What it is | Source |
+| --- | --- | --- |
+| **XB-91** | "Same as XB but with Shure M91ED cartridge mounted and tested", $119.95 against $99.95 | Period listing, [retail catalogue](../../docs/archive/hifi-wiki/acoustic-research-model-xb.md) |
+| **TT-XB** and **TT-XBU** | The two builds on the factory assembly drawing. TT-XBU, added on 5 June 1974, has its own top plate (400039-2) and a P.C. board assembly (800018) in place of the two capacitors, and no UL or CSA label. Its market is open: [MD2](../../TO-CONFIRM.md#models-and-dates) | Factory, [drawing 112](../../docs/drawings/xb-drawing-112.png) |
+| **XB1** | The British table: 220–240 V, blue and brown mains lead, 3 A fuse. 12¾ × 16¾ × 5½ in, 13 lb 9 oz, wow and flutter 0.03%, platter 11¾ in and 4 lb, cable capacitance 100 pF | Factory, [XB1 manual, pp. 2, 6, 16](../../docs/originals/xb1-owners.pdf) |
+| **AR77XB** | The 1977 version | [AR77XB page](../ar77xb/README.md) |
+
+The factory drawings below cover several XB configurations, so check the revision against your table. Some [XA mods](../xa/mods/README.md) also apply to the XB.
 
 ## Mechanical
 

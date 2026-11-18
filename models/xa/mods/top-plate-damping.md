@@ -41,5 +41,7 @@ Top plate thickness and material are missing: see the [part index](../../../part
 
 ## Sources
 
-- [Vinyl Nirvana: Replacing an AR XA Tonearm with a Mayware Formula 4](https://vinylnirvana.com/ar-turntable-resources/ar-diy-do-it-yourself/replacing-an-ar-xa-tonearm-with-a-mayware-formula-4-mkiii). Owner report.
+Each link opens the copy kept in this repository; the copy names its original address.
+
+- [Vinyl Nirvana: Replacing an AR XA Tonearm with a Mayware Formula 4](../../../docs/archive/vinyl-nirvana/ar-diy-do-it-yourself/replacing-an-ar-xa-tonearm-with-a-mayware-formula-4-mkiii.md). Owner report.
 - [XB ECO 1315, sheet 2](../../../docs/drawings/xb-drawing-116.png). Factory.

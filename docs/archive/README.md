@@ -2,7 +2,7 @@
 
 [Home](../../README.md) · [Document index](../README.md)
 
-Local copies of what people have written about AR turntables, saved 2026-11-05 in case the original sites disappear. Each page keeps its text and pictures and names its original address. Pictures are JPEG, at most 1600 px on the long side, with lowercase file names.
+Local copies of what people have written about AR turntables, and of the makers' listings the reference cites, saved in case the original sites disappear. The first set was saved on 2026-11-05 and the second on 2026-11-18. Each page keeps its text and pictures and names its original address. Pictures are JPEG, at most 1600 px on the long side, with lowercase file names.
 
 These are third-party works. The repository license does not cover them: rights remain with each author and site, and a copy will be removed if its author asks.
 
@@ -106,10 +106,48 @@ These are third-party works. The repository license does not cover them: rights 
 
 - [Gary Galo, "A Belt-Drive Turntable Upgrade"](audioxpress/galo-belt-drive-turntable-upgrade.pdf) ([original](https://audioXpress.com/assets/upload/files/galo2931.pdf))
 
-## Not archived yet
+## Vinyl Nirvana: listings and services
 
-These sites refuse automated access. Save each page from a browser and add it here.
+- [Replacement AR Turntable Belt](vinyl-nirvana/products/replacement-ar-turntable-belt.md) ([original](https://vinylnirvana.com/product/replacement-ar-turntable-belt))
+- [AR Turntable Upgrade 33/45 Replacement Pulley](vinyl-nirvana/products/upgrade-33-45-replacement-pulley.md) ([original](https://vinylnirvana.com/product/vinyl-nirvana-upgrade-33-45-replacement-pulley))
+- [Upgrade Spring Kit for AR Turntables XA XB XB-77](vinyl-nirvana/products/upgrade-spring-kit-xa-xb-xb-77.md) ([original](https://vinylnirvana.com/product/upgrade-spring-kit-for-ar-turntables-xa-xb-xb-77))
+- [Heavy Duty Spring Kit for AR Turntables](vinyl-nirvana/products/heavy-duty-spring-kit.md) ([original](https://vinylnirvana.com/product/heavy-duty-spring-kit-for-ar-turntables))
+- [Restoration Services](vinyl-nirvana/restoration-services.md) ([original](https://vinylnirvana.com/restoration-services))
 
-- [patrickhenrypdx, XA counterweight and tonearm rest, Reddit](https://www.reddit.com/r/turntables/comments/1t5vqzh/ar_xa_tone_arm_counter_weight_tone_arm_rest/)
-- [diyAudio: AR77XB, search for new headshell bolts](https://www.diyaudio.com/community/threads/acoustic-research-ar77xb-search-for-new-headshell-bolts.407382/)
-- The AudioKarma threads listed in [sources to read](../sources-to-read.md)
+## Other makers' listings
+
+- [JnB Audio: AR XA dust cover](jnb-audio/ar-xa-dust-cover.md) ([original](https://jnb-audio.com/products/acoustic-research-ar-xa-new-jnb-audio-turntable-dust-cover-pst-made-in-usa)). Taken from the shop's public product data, not the page layout.
+- [Parts Connexion: KLEI Copper Harmony RCA jacks](parts-connexion/klei-copper-harmony-rca-jacks.md) ([original](https://partsconnexion.com/klei-copper-harmony-rca-female-jacks-2))
+- [Parts Connexion: KLEI Classic Harmony RCA jacks](parts-connexion/klei-classic-harmony-rca-jacks.md) ([original](https://partsconnexion.com/klei-classic-harmony-rca-female-jacks-1))
+- [Parts Connexion: 1877Phono 5LITZ-7 rewiring kit](parts-connexion/1877phono-5litz-7-rewiring-kit.md) ([original](https://partsconnexion.com/products/1877phono-5litz-7-direct-wire-rewiring-kit-2m))
+- [Neutrik NF2D-B-2](neutrik/nf2d-b-2.md) ([original](https://www.neutrik.com/en/product/nf2d-b-2))
+- [AECO ARJ-4045, seller listing in Romanian](yeo/aeco-arj-4045.md) ([original](https://yeo.ro/conector-socket-rca-aeco-arj-4045-silver-plated/p/ad73d04678780ba3c161710a4825995f))
+- [Sound Approach: Grado Master4](sound-approach/grado-master4.md) ([original](https://soundapproach.com/grado-master4-timbre-series-turntable-phono-cartridge.html))
+
+## Reviews and reference pages
+
+- [Peter W. Mitchell, the AR turntable, *Audio*, July 1984](gamma-electronics/audio-1984-07-ar-turntable.md) ([original](https://gammaelectronics.xyz/audio_07-1984_ar.html))
+- [Dagogo: The AR Turntable, commentary and readers' comments](dagogo/the-ar-turntable-commentary.md) ([original](https://www.dagogo.com/acoustic-research-ar-turntable-commentary/))
+- [hifi-wiki: Acoustic Research Model XB, with a 1970s catalogue panel](hifi-wiki/acoustic-research-model-xb.md) ([original](https://hifi-wiki.com/index.php/Acoustic_Research_Model_XB))
+- [stereonomono: Acoustic Research AR-XB](stereonomono/acoustic-research-ar-xb.md) ([original](https://stereonomono.blogspot.com/2021/02/acoustic-research-ar-xb.html))
+- [Wikipedia: Acoustic Research](wikipedia/acoustic-research.md) ([original](https://en.wikipedia.org/wiki/Acoustic_Research)). Text under CC BY-SA 4.0.
+- [Addicted to Audio: Grado Opus3 review](addicted-to-audio/grado-opus3-review.md) ([original](https://addictedtoaudio.co.nz/blogs/reviews/grado-timbre-series-opus3-cartridge))
+- [Positive Feedback: Grado Opus3 review](positive-feedback/grado-opus3-review.md) ([original](https://positive-feedback.com/reviews/hardware-reviews/grado-timbre-series-opus3-phono-cartridge/))
+
+## Not archived
+
+No copy of these is kept. The facts taken from them are written out on the pages that cite them; what is still unread is tracked in [sources to read](../sources-to-read.md).
+
+Sites that refuse automated access. Save the page from a browser and add it here:
+
+- [patrickhenrypdx, XA counterweight and tonearm rest, Reddit](https://www.reddit.com/r/turntables/comments/1t5vqzh/ar_xa_tone_arm_counter_weight_tone_arm_rest/). Values are on the [counterweight page](../../parts/xa-counterweight.md).
+- [diyAudio: AR77XB, search for new headshell bolts](https://www.diyaudio.com/community/threads/acoustic-research-ar77xb-search-for-new-headshell-bolts.407382/). The drawing shared there is held: [mounting hardware drawing](../originals/ar-headshell-hardware-rev-1.pdf).
+- AudioKarma, Vinyl Engine, Radiomuseum, Stereophile, Hi-Fi News, HiFi Shark, Collectors Weekly, eBay, and the cartridge-screw forum threads: addresses in [sources to read](../sources-to-read.md).
+
+Shop pages that are live catalogues, or that limit automated requests:
+
+- [Grado Labs: Master4](https://gradolabs.com/products/master4). The shop limits automated requests, and its public product data carries no specifications. A retailer's copy of the specifications is held: [Sound Approach](sound-approach/grado-master4.md).
+- [Vinyl Nirvana: AR parts catalogue](https://vinylnirvana.com/product-category/ar-parts). A changing list; the individual listings cited are held above.
+- [Parts Connexion: bulk tonearm wire catalogue](https://partsconnexion.com/tonearm-bulk-wire). A changing list.
+
+Videos cannot be stored. The pages that carry only a video keep its address: the Vinyl Nirvana guides for the spring kit, the co-polymer pulley, the upgrade motor, and the parts glossary.

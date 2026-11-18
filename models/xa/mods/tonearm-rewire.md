@@ -72,8 +72,11 @@ Blue   left ground
 
 ## Sources
 
-- [Scott Hamrick, "Rewiring an AR XA Tonearm", Vinyl Nirvana](https://vinylnirvana.com/ar-turntable-resources/ar-diy-do-it-yourself/rewiring-an-ar-xa-tonearm). Owner report.
+Each link opens the copy kept in this repository; the copy names its original address.
+
+- [Scott Hamrick, "Rewiring an AR XA Tonearm", Vinyl Nirvana](../../../docs/archive/vinyl-nirvana/ar-diy-do-it-yourself/rewiring-an-ar-xa-tonearm.md). Owner report.
 - [AR sheet L-1591](../../../docs/originals/ar-cartridge-mount.jpg). Factory.
-- [Gary Galo, "A Belt-Drive Turntable Upgrade", audioXpress](https://audioXpress.com/assets/upload/files/galo2931.pdf).
-- [Parts Connexion tonearm wire](https://partsconnexion.com/tonearm-bulk-wire) and [Zavfino 5LITZ-7 kit](https://partsconnexion.com/products/1877phono-5litz-7-direct-wire-rewiring-kit-2m). Maker claim.
-- [John's first XA restoration](https://www.johnsweather.com/Turntable1.html). Owner report.
+- [Gary Galo, "A Belt-Drive Turntable Upgrade", audioXpress](../../../docs/archive/audioxpress/galo-belt-drive-turntable-upgrade.pdf).
+- [1877Phono (Zavfino) 5LITZ-7 rewiring kit](../../../docs/archive/parts-connexion/1877phono-5litz-7-rewiring-kit.md), Parts Connexion. Maker claim.
+- Parts Connexion's bulk tonearm wire catalogue. A live shop catalogue, so no copy is kept; its address is in the [archive index](../../../docs/archive/README.md#not-archived).
+- [John's first XA restoration](../../../docs/archive/johns-weather/xa-restoration-2009.md). Owner report.

@@ -2,7 +2,7 @@
 
 [Part index](reproduction.md) · [XA](../models/xa/README.md) · [Things to confirm](../TO-CONFIRM.md#counterweight-and-rest)
 
-Owner report: **patrickhenrypdx**, measured on their own XA. [Original post](https://www.reddit.com/r/turntables/comments/1t5vqzh/ar_xa_tone_arm_counter_weight_tone_arm_rest/). No tolerances were given.
+Owner report: **patrickhenrypdx**, measured on their own XA and posted to Reddit's r/turntables. No tolerances were given. Every value from the post is in the tables below. No copy of the post is kept, because Reddit refuses automated access; its address is in the [archive index](../docs/archive/README.md#not-archived).
 
 ## Counterweight
 

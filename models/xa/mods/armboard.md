@@ -46,8 +46,10 @@ Vinyl Nirvana's AR parts list has no replacement T-bar.
 
 ## Sources
 
+Each link opens the copy kept in this repository; the copy names its original address.
+
 - [XA service manual](../../../docs/originals/xa-service-manual.pdf). Factory.
 - [XB drawing 119](../../../docs/drawings/xb-drawing-119.png). Factory.
-- [Vinyl Nirvana: Replacing an AR XA Tonearm with a Mayware Formula 4](https://vinylnirvana.com/ar-turntable-resources/ar-diy-do-it-yourself/replacing-an-ar-xa-tonearm-with-a-mayware-formula-4-mkiii). Owner report.
-- [Gary Galo, "A Belt-Drive Turntable Upgrade", audioXpress](https://audioXpress.com/assets/upload/files/galo2931.pdf).
-- [Vinyl Nirvana AR parts list](https://vinylnirvana.com/product-category/ar-parts).
+- [Vinyl Nirvana: Replacing an AR XA Tonearm with a Mayware Formula 4](../../../docs/archive/vinyl-nirvana/ar-diy-do-it-yourself/replacing-an-ar-xa-tonearm-with-a-mayware-formula-4-mkiii.md). Owner report.
+- [Gary Galo, "A Belt-Drive Turntable Upgrade", audioXpress](../../../docs/archive/audioxpress/galo-belt-drive-turntable-upgrade.pdf).
+- Vinyl Nirvana's AR parts catalogue, checked November 2026: no T-bar listed. A live shop catalogue, so no copy is kept; its address is in the [archive index](../../../docs/archive/README.md#not-archived).

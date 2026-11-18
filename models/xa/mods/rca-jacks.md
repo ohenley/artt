@@ -72,8 +72,10 @@ After wiring:
 
 ## Sources
 
-- [Gary Galo, "A Belt-Drive Turntable Upgrade", audioXpress](https://audioXpress.com/assets/upload/files/galo2931.pdf).
-- [John's first XA restoration](https://www.johnsweather.com/Turntable1.html) and [second restoration](https://www.johnsweather.com/Turntable.html). Owner report.
-- [KLEI Copper Harmony](https://partsconnexion.com/klei-copper-harmony-rca-female-jacks-2) and [KLEI Classic Harmony](https://partsconnexion.com/klei-classic-harmony-rca-female-jacks-1), Parts Connexion. Maker claim.
-- [Neutrik NF2D-B-2](https://www.neutrik.com/en/product/nf2d-b-2). Maker claim.
-- [AECO ARJ-4045 seller listing](https://yeo.ro/conector-socket-rca-aeco-arj-4045-silver-plated/p/ad73d04678780ba3c161710a4825995f).
+Each link opens the copy kept in this repository; the copy names its original address.
+
+- [Gary Galo, "A Belt-Drive Turntable Upgrade", audioXpress](../../../docs/archive/audioxpress/galo-belt-drive-turntable-upgrade.pdf).
+- [John's first XA restoration](../../../docs/archive/johns-weather/xa-restoration-2009.md) and [second restoration](../../../docs/archive/johns-weather/xa-restoration-2012.md). Owner report.
+- [KLEI Copper Harmony](../../../docs/archive/parts-connexion/klei-copper-harmony-rca-jacks.md) and [KLEI Classic Harmony](../../../docs/archive/parts-connexion/klei-classic-harmony-rca-jacks.md), Parts Connexion. Maker claim.
+- [Neutrik NF2D-B-2](../../../docs/archive/neutrik/nf2d-b-2.md). Maker claim.
+- [AECO ARJ-4045 seller listing](../../../docs/archive/yeo/aeco-arj-4045.md).

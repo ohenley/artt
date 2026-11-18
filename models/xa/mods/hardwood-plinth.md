@@ -44,9 +44,11 @@ Only the overall envelope is known: see [Dimensions and arm geometry](../README.
 
 ## Sources
 
-- [Vinyl Nirvana: AR XA](https://vinylnirvana.com/ar-turntable-resources/ar-models/ar-xa). Specialist description.
-- [Mike Beauchamp: Walnut AR-XB Turntable Base](https://mikebeauchamp.com/turntable/). Owner report.
-- [Vinyl Nirvana: Replacing an AR XA Tonearm with a Mayware Formula 4](https://vinylnirvana.com/ar-turntable-resources/ar-diy-do-it-yourself/replacing-an-ar-xa-tonearm-with-a-mayware-formula-4-mkiii). Owner report.
-- [Gary Galo, "A Belt-Drive Turntable Upgrade", audioXpress](https://audioXpress.com/assets/upload/files/galo2931.pdf).
-- [John's first XA restoration](https://www.johnsweather.com/Turntable1.html). Owner report.
+Each link opens the copy kept in this repository; the copy names its original address.
+
+- [Vinyl Nirvana: AR XA](../../../docs/archive/vinyl-nirvana/ar-models/ar-xa.md). Specialist description.
+- [Mike Beauchamp: Walnut AR-XB Turntable Base](../../../docs/archive/mike-beauchamp/walnut-ar-xb-base.md). Owner report.
+- [Vinyl Nirvana: Replacing an AR XA Tonearm with a Mayware Formula 4](../../../docs/archive/vinyl-nirvana/ar-diy-do-it-yourself/replacing-an-ar-xa-tonearm-with-a-mayware-formula-4-mkiii.md). Owner report.
+- [Gary Galo, "A Belt-Drive Turntable Upgrade", audioXpress](../../../docs/archive/audioxpress/galo-belt-drive-turntable-upgrade.pdf).
+- [John's first XA restoration](../../../docs/archive/johns-weather/xa-restoration-2009.md). Owner report.
 - [XB drawing 119, note 16](../../../docs/drawings/xb-drawing-119.png). Factory.

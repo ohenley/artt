@@ -54,6 +54,8 @@ Record the friction test first, so you can compare before and after.
 
 ## Sources
 
+Each link opens the copy kept in this repository; the copy names its original address.
+
 - [XA service manual](../../../docs/originals/xa-service-manual.pdf). Factory.
 - [XB drawing 119, note 9](../../../docs/drawings/xb-drawing-119.png). Factory.
-- [Vinyl Nirvana restoration services](https://vinylnirvana.com/restoration-services). Maker claim.
+- [Vinyl Nirvana restoration services](../../../docs/archive/vinyl-nirvana/restoration-services.md). Maker claim.

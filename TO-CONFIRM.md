@@ -35,7 +35,7 @@ Values now are from the [XA record](parts/xa-counterweight.md) (Owner report). V
 | HS2 | Screw lengths under the head | 0.183, 0.356, 0.462, 0.612 in; same drawing | Calipers, on original screws | Open | |
 | HS3 | Where the #4-40 brass set screw goes | #4-40 × 0.125 in; same drawing, location not given | Find it on a table; gauge the thread | Open | |
 | HS4 | Shell body material | "A light plastic"; [AR sheet L-1591](docs/originals/ar-cartridge-mount.jpg) | Inspect; record model and serial | Open | |
-| HS5 | AR77XB shell material | Metal and plastic; the [Vinyl Nirvana page](models/ar77xb/README.md#mechanical) says both | Inspect an identified AR77XB | Conflict | |
+| HS5 | AR77XB shell material | Metal and plastic; the [Vinyl Nirvana page](models/ar77xb/README.md#how-to-recognise-one) says both | Inspect an identified AR77XB | Conflict | |
 
 ### Platter, bearings, and suspension
 
@@ -61,7 +61,7 @@ Values now are from the [XA record](parts/xa-counterweight.md) (Owner report). V
 | EL5 | AR77XB capacitors and motor | Not recorded | Read the markings and motor label | Open | |
 | DM1 | XA size with cover | 16¾ × 12¾ × 5¼ in; [1969 directory](models/xa/README.md#dimensions-and-arm-geometry) | Tape or calipers | Open | |
 | DM2 | XA complete weight | 13½ lb; same directory | Scale; note whether cover and mat are included | Open | |
-| DM3 | XB and AR77XB overall size and weight | Not recorded | Tape or calipers, scale | Open | |
+| DM3 | XB and AR77XB overall size and weight | XB: 12¾ × 16¾ × 5¾ in with cover, 19 lb shipping weight, in a [1970s catalogue](models/xb/README.md#at-a-glance). AR77XB: not recorded | Tape or calipers, scale | Open | |
 | DM4 | Hinge position on cover | 2.20 in and 60.6 mm on [drawing 114](models/xb/README.md#cover-dimensions-and-clearance), which do not convert | Measure a hinged XB cover | Conflict | |
 
 ### Models and dates
@@ -70,7 +70,7 @@ Open points from the [model guide](models/README.md). Most need a dated document
 
 | ID | What to confirm | Value now, and source | How to check | Status | Result |
 | --- | --- | --- | --- | --- | --- |
-| MD1 | Year the XB went on sale | "Around 1972" on Vinyl Nirvana; 1972 on hifi-wiki; assembly drawing 100012 drawn July 1973 | A dated advert, price list, or review | Conflict | |
+| MD1 | Year the XB went on sale | "Around 1972" on Vinyl Nirvana; 1972 on hifi-wiki, beside an undated catalogue panel; assembly drawing 100012 drawn July 1973 | A dated advert, price list, or review | Conflict | |
 | MD2 | What the TT-XBU build is | Second build on [drawing 112](docs/drawings/xb-drawing-112.png): top plate 400039-2 and P.C. board 800018, no UL or CSA label. Market and link to the XB1 not stated | Underside labels and top plate on an export XB or an XB1 | Open | |
 | MD3 | What the TA is | "Nearly identical" to the XA on Vinyl Nirvana; 33⅓ rpm only in a forum account not yet read (SR19) | Label, pulley, and serial of a TA | Open | |
 | MD4 | First year of the XA | Shipped to dealers in 1961 (Allison); "introduced in 1962" (*Audio*, July 1984) | A dated 1961 advert or dealer notice | Conflict | |
@@ -99,7 +99,7 @@ Target cartridge: the Grado Master4. Published figures and the Opus3 stand-in ar
 | GR6 | Pocket width | 21.0 mm placeholder, from the Opus3's 20.1 mm body | Calipers on the cartridge body, plus clearance | Open | |
 | GR7 | Master4 screw length and usable thread depth | Not recorded | Calipers; check depth gently, since wood threads can strip | Open | |
 | GR8 | Mounting holes to stylus tip | Not recorded; AR's factory setting assumed ⅜ in (Villchur 1962, p. 69) | Calipers or a loupe with a scale | Open | |
-| GR9 | Master4 mass, with and without screws | 9.6 g on Grado's page; 10 g on [one retailer's](https://soundapproach.com/grado-master4-timbre-series-turntable-phono-cartridge.html) | Balance | Conflict | |
+| GR9 | Master4 mass, with and without screws | 9.6 g on Grado's page; 10 g on [one retailer's](docs/archive/sound-approach/grado-master4.md) | Balance | Conflict | |
 | GR10 | Master4 body size, and top to stylus tip | Unpublished. Opus3 only: 20.1 × 16.3 × 25.3 mm, 29.6 mm with pins, 18.3 mm top to stylus | Calipers | Open | |
 | GR11 | Master4 mounting-hole spacing | ½ in assumed | Calipers, between hole centers | Open | |
 | GR12 | Arm effective mass with the finished shell | Not established | Needed with the Master4's 20 µm/mN compliance to estimate resonance | Open | |
@@ -217,11 +217,4 @@ Open items from the [XA mods](models/xa/mods/README.md), marked TBC on each page
 
 ## Sources not yet read
 
-- https://audiokarma.org/forums/threads/ar-xa-overhaul-time.1112265/
-- https://audiokarma.org/forums/threads/ar-xa-pivot-bearing-parts.1053357/
-- https://audiokarma.org/forums/threads/ar-xa-other-marc-morin-tips-hints-instruction.967048/
-- https://www.diyaudio.com/community/threads/acoustic-research-arxb-main-bearing-has-alot-of-grey-grease-in-there-i-thought-it-was-supposed-to-be-thin-oil.409524/latest
-- https://www.diyaudio.com/community/threads/ar-xa-w-custom-mods.368650/
-- https://datasheets.globalspec.com/ds/Schurter/kd/f2b002c3-9424-4f27-9f5d-cd0383e9044e
-- https://www.audiophonics.fr/en/rca-sockets/klei-harmony-classic-rca-plugs-silver-plated-copper-pair-p-14423.html
-- https://www.vinylengine.com/library/acoustic-research.shtml
+Listed with their addresses in [sources to read](docs/sources-to-read.md), SR1 to SR27.
