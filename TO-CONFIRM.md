@@ -12,7 +12,7 @@ After a check, set the status and write the result, model, serial, and date in t
 
 ### Counterweight and rest
 
-Values now are from the [XA record](parts/xa-counterweight.md) (Owner report). Vinyl Nirvana lists brass for the XA, brass or stainless steel for the XB, and aluminum for the XB77, so record the model.
+Values now are from one owner's XA on the [counterweight page](parts/counterweight.md) (Owner report). Vinyl Nirvana lists brass for the XA, brass or stainless steel for the XB, and aluminum for the XB77, so record the model. The page gives a five-step measuring procedure: use it for every sample.
 
 | ID | What to confirm | Value now | How to check | Status | Result |
 | --- | --- | --- | --- | --- | --- |
@@ -20,12 +20,23 @@ Values now are from the [XA record](parts/xa-counterweight.md) (Owner report). V
 | CW2 | Mass without set screw | Not recorded | Balance, screw removed | Open | |
 | CW3 | Outside diameter | 28 mm | Calipers, at several points | Open | |
 | CW4 | Length along bore | 22 mm | Calipers | Open | |
-| CW5 | Bore diameter | 9.5 mm | Calipers or pin gauge; note wear | Open | |
+| CW5 | Bore diameter | Derived: ⅜ in (9.525 mm), from the reported 9.5 mm, which is within 0.03 mm of ⅜ in, and AR's inch dimensioning | Pin gauge on an original bore; calipers on the arm stub | Open | |
 | CW6 | Bore through or blind, centered or offset | Not recorded | Inspect; measure the wall around the bore | Open | |
 | CW7 | Material | Brass | Inspect; compare density from CW2–CW6 | Open | |
 | CW8 | Set screw thread, length, and tip | Not recorded; not the #4-40 in HS3 | Thread gauge, calipers | Open | |
 | CW9 | Locking-hole position | Not recorded | Calipers, from one end | Open | |
-| CW10 | Tonearm rest height | 39 mm, bottom of yoke to top of top plate | Calipers, installed | Open | |
+| CW10 | Tonearm rest height | 39 mm, bottom of yoke to top of top plate; [tonearm rest page](parts/tonearm-rest.md) | Calipers, installed | Open | |
+| CW11 | A longer or heavier brass weight for heavy cartridges: does it exist, its mass and length | Not held; two forum threads say so, SR28 and SR29 | Read the threads from a browser; weigh and measure one if found | Open | |
+| CW12 | Whether the XA and XB counterweights are one part | 1979 XA price list 1400092-0 against XB drawing 119 part 400092: the numbers match in pattern; SR30 | Weigh and measure the owner's XA and XB weights with the page's procedure | Open | |
+| CW13 | AR77XB aluminium weight: a bigger body, or a lighter mass that balances less | Aluminium, "lighter" (Specialist); SR31 | Weigh and measure the owner's AR77XB weight; compare with the 32 g an aluminium part of the brass outline would weigh | Open | |
+| CW14 | Length computed from the mass, on each drawing | Derived: 21.3 mm in brass at 8.5 g/cm³, 23.0 mm in stainless steel at 7.9, 67.2 mm in aluminium at 2.70, all at 28 mm diameter and ⅜ in bore, plus about 0.05 mm for the locking hole | Weigh the finished part; compare with CW4 on an original | Open | |
+| CW16 | Largest diameter and length that clear the arm rest, the top plate and the closed cover | Not recorded | Calipers and a rule with the arm at both ends of its swing and the cover closed | Open | |
+| CW17 | Usable length of the arm stub, and its diameter | Not recorded | Calipers on the stub with the weight off | Open | |
+| CW18 | Distance from the pivot to the counterweight centre at both ends of its travel | Not recorded | Rule, with the weight at each end of the stub | Open | |
+| CW19 | Stylus-force change per ¹⁄₃₂ in of counterweight travel | ¼ gram (XA owner's manual, scan p. 5); 0.34 g from 98.8 g × 0.794 mm / 228.6 mm | Move the weight ¹⁄₃₂ in and read the force on a gauge; weigh the weight on the same table | Conflict | |
+| CW20 | XB counterweight: material, mass with and without set screw, diameter, length, bore | Not recorded; brass or stainless steel (Specialist) | The page's procedure, on the owner's XB | Open | |
+| CW21 | Extra counterweight section, part 1058: mass, size, how it attaches | Not recorded; named on sheet L-1591 and in the service manual | Find one; weigh, measure, photograph | Open | |
+| CW22 | Mass range across original XA weights | One value, 98.8 g; a second XA weight is held by the owner | Weigh the spare XA weight with the page's procedure; add every further sample | Open | |
 
 ### Headshell and screws
 
@@ -83,7 +94,7 @@ Open points from the [model guide](models/README.md). Most need a dated document
 
 ## CAD dimensions needed
 
-Placeholders in the [CAD models](cad/README.md), shown in red on each drawing. CW6, CW8, and CW9 above are placeholders too.
+Placeholders in the [CAD models](cad/README.md), shown in red on each drawing, and derived values, shown in blue with the tag DV. A derived row's value starts with "Derived:" and says how it was worked out. CW5, CW6, CW8, CW9 and CW14 above are drawing rows too.
 
 ### Grado cartridge and top mounting
 

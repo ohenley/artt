@@ -16,7 +16,7 @@ Work still to do on sources. A source leaves this list once its facts are writte
 
 Save each page from a browser, add it to the [archive](archive/README.md), then write out what it says.
 
-- SR1: [Reddit post](https://www.reddit.com/r/turntables/comments/1t5vqzh/ar_xa_tone_arm_counter_weight_tone_arm_rest/). The values are already on the [counterweight page](../parts/xa-counterweight.md) (CW1–CW10); the post itself is not held.
+- SR1: [Reddit post](https://www.reddit.com/r/turntables/comments/1t5vqzh/ar_xa_tone_arm_counter_weight_tone_arm_rest/). The values are already on the [counterweight](../parts/counterweight.md) and [tonearm rest](../parts/tonearm-rest.md) pages (CW1–CW10); the post itself is not held.
 - SR2: [diyAudio thread](https://www.diyaudio.com/community/threads/acoustic-research-ar77xb-search-for-new-headshell-bolts.407382/). The 14 shells, whether they are original, and posts 2 and 4 (HS1).
 - SR3: Same thread. A reported 4-40, then M2.5, cartridge thread (HS1).
 - SR4: [eBay headshell listing](https://www.ebay.com/itm/144937941911) by redcedarprints. A printed XA shell design and its license.

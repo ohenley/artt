@@ -46,7 +46,7 @@ Variants: the **TA** is described as nearly identical, and the **XA91** is an XA
 | Arm overall length | 12 in (Period listing, same directory) |
 | Effective arm length, pivot to stylus | 9 in / 228.6 mm (Factory, [Villchur 1962, p. 69](../../docs/originals/villchur-1962-part-1.pdf); same in the directory) |
 | Overhang | 0.688 in / about 17.48 mm (Factory, Villchur 1962, p. 69) |
-| Counterweight and tonearm rest | [Measurement record](../../parts/xa-counterweight.md) |
+| Counterweight and tonearm rest | [Counterweight](../../parts/counterweight.md) and [tonearm rest](../../parts/tonearm-rest.md) pages |
 
 ### Motor identification
 
