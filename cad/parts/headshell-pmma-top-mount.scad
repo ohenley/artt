@@ -17,7 +17,7 @@ flat = false;
 
 P = [
     // Cartridge mounting. Slot width and head recess must suit the actual screw.
-    ["GR0", "Cartridge mounting-hole spacing", 0.5 * IN, "S", "in", "Standard 1/2 in mount. Not stated on Grado's Master4 page; check on the cartridge"],
+    ["GR0", "Cartridge mounting-hole spacing", 0.5 * IN, "F", "in", "XB1 manual p. 2: cartridge mounting on 1/2 in EIA centres. Not stated on Grado's Master4 page: the Master4's own spacing is GR11"],
     ["GR1", "Slot width: clearance for the Grado screw", 2.8, "PH", "mm", "Gauge the supplied Grado screw. Reports conflict: 3-48, M2.6, about 2 mm, nonstandard"],
     ["GR2", "Head recess width", 5.0, "PH", "mm", "Calipers on the supplied Grado screw head, plus clearance"],
     ["GR3", "Head recess depth", 1.0, "PH", "mm", "Set so the screw reaches the body threads without bottoming"],
