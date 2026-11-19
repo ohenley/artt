@@ -38,13 +38,25 @@ The low pivot of the original arm is a feature the 1983 arm did not keep. The tw
 - **What 0.1 percent is:** the NAB broadcast limit that AR guaranteed every table to stay under, in raw, unweighted flutter (Factory, [AR specification sheet](../archive/vinyl-nirvana/ar-turntable-history/1969-ar-xa-technical-specifications.md)). It is a ceiling. It is not a reading from any table.
 - **What it gets compared with:** 0.02 to 0.04 percent for the Linn and the Technics. Those are typical readings taken through a weighting filter. A weighted reading is always lower than a raw one.
 - **So "0.1 against 0.02" is not a valid comparison.** It sets a worst-case, unfiltered limit beside typical, filtered values. Villchur wrote in 1962 that raw flutter percentages cannot rank two turntables (Factory, [Villchur 1962, Part 2](../originals/villchur-1962-part-2.pdf), p. 38).
-- **What AR tables actually measured:**
+- **What AR published and what was measured:**
+  - AR's own published figure: wow and flutter 0.03 percent, printed in the specifications of the XB1 manual, p. 2, beside speed ± 0.3 percent and rumble greater than −40 dB (Factory, [XB1 manual](../originals/xb1-owners.pdf); [transcript](../transcripts/xb1-owners-manual.md#pdf-page-2-printed-page-2)). The weighting is not stated. The three lines are tied by an asterisk to AR's guarantee to meet the NAB standard of March 1964. For the XA it is an XB1 figure, same drive pattern, not an XA figure.
+
+    **Makers' own published figures**
+
+    Each maker's figure by its own method. Not a lab comparison.
+
+    | Table | Wow and flutter, as the maker published it | Source |
+    | --- | --- | --- |
+    | AR XB1 | 0.03 percent | Factory, [XB1 manual](../originals/xb1-owners.pdf), p. 2 |
+    | Linn LP12 | 0.02 percent in 1983; under 0.04 percent in earlier literature | Maker claim: the manufacturer's specifications printed in [*Audio*, November 1983](../archive/gamma-electronics/audio-1983-11-linn-lp12.md); Linn's literature, [retyped on stereonomono](../archive/stereonomono/linn-sondek-lp12.md) |
+    | Technics SL-1200MK2 | 0.025 percent WRMS | Maker claim, as reported on [hifi-wiki](../archive/hifi-wiki/technics-sl-1200mk2.md) |
+
   - The lowest wow and flutter Julian Hirsch had measured on a turntable, 0.05 percent wow and 0.02 percent flutter (Period, [*HiFi/Stereo Review*, March 1963](../originals/hifi-stereo-review-1963-03-hirsch-ar-pp33-34.pdf); the sentence is also quoted in AR's brochure, p. 9).
   - 0.08 percent wow and 0.04 percent flutter, rms (Period, [*High Fidelity*, March 1963](../originals/high-fidelity-1963-03-ar-report-pp59-60.pdf)).
   - Less than 0.04 percent (Period, [*Audio*, April 1963](../originals/audio-1963-04-ar-profile-pp48-54.pdf)).
   - 0.05 percent DIN weighted on the 1983 table (Period, [*Audio*, July 1984](../archive/gamma-electronics/audio-1984-07-ar-turntable.md), measurements by the Boston Audio Society).
   - A further meter reading of a rebuilt XA exists in a forum thread that is not held (Owner report, AudioKarma, SR38 in [sources to read](../sources-to-read.md)). It is cited only once it is archived.
-- **What can be stated today:** every AR that was measured is well inside the 0.1 percent limit, and the weighted readings are in the same range as the reference tables' figures. No held measurement shows a gap of several times.
+- **What can be stated today:** AR's own published figure, 0.03 percent, is in the same range as the reference tables' published figures, and every AR that was measured is well inside the 0.1 percent limit. No held document shows a gap.
 - **What cannot be stated yet:** that they are equal. The readings above use different instruments and weightings. One measurement of an XA by the method *Hi-Fi News* used on the LP12 settles it. That is the empty AR column in the [table of current lab results](compared.md#c-one-current-method-the-hi-fi-news-lab-reports), and the [bench method](bench-method.md) page says how to fill it.
 
 ## The pages
