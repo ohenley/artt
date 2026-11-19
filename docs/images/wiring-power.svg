@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="598.652387pt" height="405.406125pt" viewBox="0 0 598.652387 405.406125" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-18T20:23:03.587042</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 405.406125 
+L 598.652387 405.406125 
+L 598.652387 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 19.60929 245.143931 
+L 96.394323 245.143931 
+L 96.394323 97.058512 
+L 19.60929 97.058512 
+z
+" clip-path="url(#p4d505d1355)" style="fill: #f6dedb; stroke: #222222; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 315.780129 201.26677 
+L 491.288774 201.26677 
+L 491.288774 91.573867 
+L 315.780129 91.573867 
+z
+" clip-path="url(#p4d505d1355)" style="fill: #f7f7f7; stroke: #222222; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; fill: #222222" transform="translate(37.303369 167.697901)">IEC inlet</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; fill: #222222" transform="translate(44.217431 179.700636)">fused</text>
+   </g>
+   <g id="line2d_1">
+    <path d="M 228.025806 348.25526 
+L 348.688 348.25526 
+" clip-path="url(#p4d505d1355)" style="fill: none; stroke: #9aa3ab; stroke-width: 5"/>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; fill: #222222" transform="translate(355.143045 137.015631)">stock motor circuit,</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; fill: #222222" transform="translate(373.936795 149.018365)">unchanged:</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; fill: #222222" transform="translate(353.745389 161.0211)">see the model page</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: middle; fill: #222222" x="299.326194" y="17.758125" transform="rotate(-0 299.326194 17.758125)">Power, modded: inlet and fuse feed the stock switch circuit</text>
+   </g>
+   <g id="line2d_2">
+    <path d="M 96.394323 124.481738 
+L 112.848258 124.481738 
+" clip-path="url(#p4d505d1355)" style="fill: none; stroke: #b03a2e; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 96.394323 173.843544 
+L 112.848258 173.843544 
+" clip-path="url(#p4d505d1355)" style="fill: none; stroke: #b03a2e; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 96.394323 223.205351 
+L 112.848258 223.205351 
+" clip-path="url(#p4d505d1355)" style="fill: none; stroke: #2e7d32; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 112.848258 124.481738 
+L 129.302194 124.481738 
+" clip-path="url(#p4d505d1355)" style="fill: none; stroke: #b03a2e; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 129.302194 131.611777 
+L 173.179355 131.611777 
+L 173.179355 117.351699 
+L 129.302194 117.351699 
+z
+" clip-path="url(#p4d505d1355)" style="fill: #ffffff; stroke: #b03a2e; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 173.179355 124.481738 
+L 206.087226 124.481738 
+" clip-path="url(#p4d505d1355)" style="fill: none; stroke: #b03a2e; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_7">
+    <path d="M 249.964387 124.481738 
+L 271.902968 124.481738 
+" clip-path="url(#p4d505d1355)" style="fill: none; stroke: #b03a2e; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_8">
+    <path d="M 195.117935 124.481738 
+L 195.117935 168.358899 
+L 220.347303 168.358899 
+" clip-path="url(#p4d505d1355)" style="fill: none; stroke: #b03a2e; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_9">
+    <path d="M 220.347303 168.358899 
+L 229.6712 168.358899 
+" clip-path="url(#p4d505d1355)" style="fill: none; stroke: #b03a2e; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_10">
+    <path d="M 237.349703 168.358899 
+L 246.6736 168.358899 
+" clip-path="url(#p4d505d1355)" style="fill: none; stroke: #b03a2e; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_11">
+    <path d="M 229.6712 178.23126 
+L 229.6712 158.486538 
+" clip-path="url(#p4d505d1355)" style="fill: none; stroke: #b03a2e; stroke-width: 1.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_12">
+    <path d="M 237.349703 178.23126 
+L 237.349703 158.486538 
+" clip-path="url(#p4d505d1355)" style="fill: none; stroke: #b03a2e; stroke-width: 1.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_13">
+    <path d="M 246.6736 168.358899 
+L 271.902968 168.358899 
+L 271.902968 124.481738 
+" clip-path="url(#p4d505d1355)" style="fill: none; stroke: #b03a2e; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_14">
+    <path d="M 112.848258 173.843544 
+L 123.817548 173.843544 
+L 123.817548 310.959673 
+L 513.227355 310.959673 
+" clip-path="url(#p4d505d1355)" style="fill: none; stroke: #b03a2e; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_15">
+    <path d="M 112.848258 223.205351 
+L 112.848258 343.867544 
+L 228.025806 343.867544 
+" clip-path="url(#p4d505d1355)" style="fill: none; stroke: #2e7d32; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_16">
+    <path d="M 271.902968 124.481738 
+L 315.780129 124.481738 
+" clip-path="url(#p4d505d1355)" style="fill: none; stroke: #b03a2e; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_17">
+    <path d="M 491.288774 146.420319 
+L 513.227355 146.420319 
+L 513.227355 310.959673 
+" clip-path="url(#p4d505d1355)" style="fill: none; stroke: #b03a2e; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_18">
+    <path d="M 129.302194 124.481738 
+L 173.179355 124.481738 
+" clip-path="url(#p4d505d1355)" style="fill: none; stroke: #b03a2e; stroke-width: 1.2; stroke-linecap: square"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 195.117935 127.498293 
+C 195.917935 127.498293 196.685277 127.180449 197.250962 126.614764 
+C 197.816647 126.049079 198.13449 125.281738 198.13449 124.481738 
+C 198.13449 123.681738 197.816647 122.914397 197.250962 122.348712 
+C 196.685277 121.783026 195.917935 121.465183 195.117935 121.465183 
+C 194.317936 121.465183 193.550594 121.783026 192.984909 122.348712 
+C 192.419224 122.914397 192.101381 123.681738 192.101381 124.481738 
+C 192.101381 125.281738 192.419224 126.049079 192.984909 126.614764 
+C 193.550594 127.180449 194.317936 127.498293 195.117935 127.498293 
+z
+" clip-path="url(#p4d505d1355)" style="fill: #b03a2e; stroke: #b03a2e; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 206.087226 127.22406 
+C 206.814498 127.22406 207.512081 126.935112 208.026341 126.420853 
+C 208.5406 125.906594 208.829548 125.20901 208.829548 124.481738 
+C 208.829548 123.754465 208.5406 123.056882 208.026341 122.542623 
+C 207.512081 122.028364 206.814498 121.739415 206.087226 121.739415 
+C 205.359953 121.739415 204.66237 122.028364 204.148111 122.542623 
+C 203.633852 123.056882 203.344903 123.754465 203.344903 124.481738 
+C 203.344903 125.20901 203.633852 125.906594 204.148111 126.420853 
+C 204.66237 126.935112 205.359953 127.22406 206.087226 127.22406 
+z
+" clip-path="url(#p4d505d1355)" style="fill: #ffffff; stroke: #b03a2e; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 249.964387 127.22406 
+C 250.69166 127.22406 251.389243 126.935112 251.903502 126.420853 
+C 252.417761 125.906594 252.70671 125.20901 252.70671 124.481738 
+C 252.70671 123.754465 252.417761 123.056882 251.903502 122.542623 
+C 251.389243 122.028364 250.69166 121.739415 249.964387 121.739415 
+C 249.237115 121.739415 248.539531 122.028364 248.025272 122.542623 
+C 247.511013 123.056882 247.222065 123.754465 247.222065 124.481738 
+C 247.222065 125.20901 247.511013 125.906594 248.025272 126.420853 
+C 248.539531 126.935112 249.237115 127.22406 249.964387 127.22406 
+z
+" clip-path="url(#p4d505d1355)" style="fill: #ffffff; stroke: #b03a2e; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_19">
+    <path d="M 208.281084 122.836344 
+L 243.382813 108.027802 
+" clip-path="url(#p4d505d1355)" style="fill: none; stroke: #b03a2e; stroke-width: 1.8; stroke-linecap: square"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 271.902968 127.498293 
+C 272.702967 127.498293 273.470309 127.180449 274.035994 126.614764 
+C 274.601679 126.049079 274.919523 125.281738 274.919523 124.481738 
+C 274.919523 123.681738 274.601679 122.914397 274.035994 122.348712 
+C 273.470309 121.783026 272.702967 121.465183 271.902968 121.465183 
+C 271.102968 121.465183 270.335627 121.783026 269.769941 122.348712 
+C 269.204256 122.914397 268.886413 123.681738 268.886413 124.481738 
+C 268.886413 125.281738 269.204256 126.049079 269.769941 126.614764 
+C 270.335627 127.180449 271.102968 127.498293 271.902968 127.498293 
+z
+" clip-path="url(#p4d505d1355)" style="fill: #b03a2e; stroke: #b03a2e; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 228.025806 346.884099 
+C 228.825806 346.884099 229.593148 346.566256 230.158833 346.000571 
+C 230.724518 345.434886 231.042361 344.667544 231.042361 343.867544 
+C 231.042361 343.067545 230.724518 342.300203 230.158833 341.734518 
+C 229.593148 341.168833 228.825806 340.85099 228.025806 340.85099 
+C 227.225807 340.85099 226.458465 341.168833 225.89278 341.734518 
+C 225.327095 342.300203 225.009252 343.067545 225.009252 343.867544 
+C 225.009252 344.667544 225.327095 345.434886 225.89278 346.000571 
+C 226.458465 346.566256 227.225807 346.884099 228.025806 346.884099 
+z
+" clip-path="url(#p4d505d1355)" style="fill: #2e7d32; stroke: #2e7d32; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: middle; fill: #555555" x="104.62129" y="119.269076" transform="rotate(-0 104.62129 119.269076)">line</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: middle; fill: #555555" x="104.62129" y="168.630882" transform="rotate(-0 104.62129 168.630882)">neutral</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: middle; fill: #555555" x="104.62129" y="217.992689" transform="rotate(-0 104.62129 217.992689)">earth</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 8.2px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: middle; fill: #b03a2e" x="151.240774" y="143.875605" transform="rotate(-0 151.240774 143.875605)">fuse: value from the motor label</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: middle; fill: #222222" x="228.025806" y="98.307307" transform="rotate(-0 228.025806 98.307307)">stock switch</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: middle; fill: #222222" x="233.510452" y="193.465365" transform="rotate(-0 233.510452 193.465365)">stock capacitor across the switch</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: middle; fill: #2e7d32" x="288.356903" y="338.534765" transform="rotate(-0 288.356903 338.534765)">metal top plate: ring lug and star washer under a plate screw</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: middle; fill: #555555" x="403.534452" y="302.456224" transform="rotate(-0 403.534452 302.456224)">stock neutral point</text>
+   </g>
+  </g>
+  <g id="text_12">
+   <text style="font-size: 8.2px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: middle; fill: #555555" x="299.326194" y="394.796203" transform="rotate(-0 299.326194 394.796203)">Mains voltage is present on the switch and on both capacitors. Unplug before opening. Only the inlet, the fuse and the earth wire are new.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p4d505d1355">
+   <rect x="8.64" y="25.758125" width="581.372387" height="340.048"/>
+  </clipPath>
+ </defs>
+</svg>

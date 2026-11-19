@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="712.634875pt" height="405.406125pt" viewBox="0 0 712.634875 405.406125" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-18T20:23:04.724041</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 405.406125 
+L 712.634875 405.406125 
+L 712.634875 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 76.600534 113.512448 
+L 186.293437 113.512448 
+L 186.293437 58.665996 
+L 76.600534 58.665996 
+z
+" clip-path="url(#pc97d02ebb6)" style="fill: #f6dedb; stroke: #222222; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 274.04776 113.512448 
+L 405.679244 113.512448 
+L 405.679244 58.665996 
+L 274.04776 58.665996 
+z
+" clip-path="url(#pc97d02ebb6)" style="fill: #eef1f4; stroke: #222222; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 274.04776 234.174641 
+L 405.679244 234.174641 
+L 405.679244 179.32819 
+L 274.04776 179.32819 
+z
+" clip-path="url(#pc97d02ebb6)" style="fill: #fbeeb8; stroke: #222222; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 76.600534 234.174641 
+L 186.293437 234.174641 
+L 186.293437 179.32819 
+L 76.600534 179.32819 
+z
+" clip-path="url(#pc97d02ebb6)" style="fill: #eef1f4; stroke: #222222; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 76.600534 343.867544 
+L 186.293437 343.867544 
+L 186.293437 289.021093 
+L 76.600534 289.021093 
+z
+" clip-path="url(#pc97d02ebb6)" style="fill: #eef1f4; stroke: #222222; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 493.433567 234.174641 
+L 603.12647 234.174641 
+L 603.12647 179.32819 
+L 493.433567 179.32819 
+z
+" clip-path="url(#pc97d02ebb6)" style="fill: #dcecdc; stroke: #222222; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 493.433567 343.867544 
+L 603.12647 343.867544 
+L 603.12647 289.021093 
+L 493.433567 289.021093 
+z
+" clip-path="url(#pc97d02ebb6)" style="fill: #f7f7f7; stroke: #222222; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; fill: #222222" transform="translate(112.818392 83.026233)">IEC inlet</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; fill: #222222" transform="translate(111.065502 93.828694)">earth pin</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: middle; fill: #222222" x="339.863502" y="88.427464" transform="rotate(-0 339.863502 88.427464)">metal top plate</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; fill: #222222" transform="translate(312.79319 203.688427)">ground post</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; fill: #222222" transform="translate(314.729596 214.490888)">(star point)</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; fill: #222222" transform="translate(96.902455 203.688427)">arm shield wire</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; fill: #222222" transform="translate(109.481361 214.490888)">(strip lug)</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; fill: #222222" transform="translate(105.403939 313.38133)">sub-chassis</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; fill: #222222" transform="translate(116.511908 324.183791)">(T-bar)</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; fill: #222222" transform="translate(528.328846 203.688427)">amplifier</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; fill: #222222" transform="translate(512.130956 214.490888)">ground terminal</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; fill: #222222" transform="translate(507.134042 313.551496)">left and right jacks:</text>
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; fill: #222222" transform="translate(511.413924 323.753821)">sleeves insulated</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: middle; fill: #222222" x="356.317437" y="17.758125" transform="rotate(-0 356.317437 17.758125)">XA ground, modded: the stock strap comes out, the post goes in</text>
+   </g>
+   <g id="line2d_1">
+    <path d="M 186.293437 86.089222 
+L 274.04776 86.089222 
+" clip-path="url(#pc97d02ebb6)" style="fill: none; stroke: #2e7d32; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 339.863502 113.512448 
+L 339.863502 179.32819 
+" clip-path="url(#pc97d02ebb6)" style="fill: none; stroke: #4f5b62; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 186.293437 206.751415 
+L 274.04776 206.751415 
+" clip-path="url(#pc97d02ebb6)" style="fill: none; stroke: #4f5b62; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 186.293437 327.413609 
+L 383.740663 327.413609 
+L 383.740663 234.174641 
+" clip-path="url(#pc97d02ebb6)" style="fill: none; stroke: #4f5b62; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 405.679244 206.751415 
+L 493.433567 206.751415 
+" clip-path="url(#pc97d02ebb6)" style="fill: none; stroke: #4f5b62; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 405.679244 316.444319 
+L 493.433567 316.444319 
+" clip-path="url(#pc97d02ebb6)" style="fill: none; stroke-dasharray: 4.8,3.6; stroke-dashoffset: 0; stroke: #555555; stroke-width: 1.2"/>
+   </g>
+   <g id="line2d_7">
+    <path d="M 158.870212 234.174641 
+L 158.870212 289.021093 
+" clip-path="url(#pc97d02ebb6)" style="fill: none; stroke-dasharray: 6.4,4.8; stroke-dashoffset: 0; stroke: #c0392b; stroke-width: 1.6"/>
+   </g>
+   <g id="line2d_8">
+    <path d="M 76.600534 299.990383 
+L 70.01896 299.990383 
+L 70.01896 36.727415 
+L 339.863502 36.727415 
+L 339.863502 58.665996 
+" clip-path="url(#pc97d02ebb6)" style="fill: none; stroke-dasharray: 4,3; stroke-dashoffset: 0; stroke: #555555"/>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: middle; fill: #2e7d32" x="230.170599" y="79.779631" transform="rotate(-0 230.170599 79.779631)">mains earth, ring lug</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #222222" x="345.348147" y="148.498756" transform="rotate(-0 345.348147 148.498756)">one link only</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: middle; fill: #222222" x="230.170599" y="200.441824" transform="rotate(-0 230.170599 200.441824)">shield wire</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: middle; fill: #222222" x="285.01705" y="321.104018" transform="rotate(-0 285.01705 321.104018)">one ring lug</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: middle; fill: #222222" x="449.556405" y="200.441824" transform="rotate(-0 449.556405 200.441824)">one separate wire</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: middle; fill: #555555" x="449.556405" y="220.128747" transform="rotate(-0 449.556405 220.128747)">test on and off</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: middle; fill: #555555" x="449.556405" y="303.67327" transform="rotate(-0 449.556405 303.67327)">no wire from the sleeves</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 7.8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; fill: #c0392b" transform="translate(169.839502 254.262211)">stock braided ground strap,</text>
+    <text style="font-size: 7.8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; fill: #c0392b" transform="translate(169.839502 263.624343)">audio cable to the suspension</text>
+    <text style="font-size: 7.8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; fill: #c0392b" transform="translate(169.839502 272.986476)">(service manual, p. 2): remove</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: middle; fill: #555555" x="208.232018" y="32.183335" transform="rotate(-0 208.232018 32.183335)">springs: is the T-bar joined to the plate through them? row EL15</text>
+   </g>
+   <g id="line2d_9">
+    <path d="M 442.974831 323.025893 
+L 456.137979 309.862744 
+" clip-path="url(#pc97d02ebb6)" style="fill: none; stroke: #c0392b; stroke-width: 2.2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_10">
+    <path d="M 442.974831 309.862744 
+L 456.137979 323.025893 
+" clip-path="url(#pc97d02ebb6)" style="fill: none; stroke: #c0392b; stroke-width: 2.2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_11">
+    <path d="M 152.288637 268.179441 
+L 165.451786 255.016293 
+" clip-path="url(#pc97d02ebb6)" style="fill: none; stroke: #c0392b; stroke-width: 2.2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_12">
+    <path d="M 152.288637 255.016293 
+L 165.451786 268.179441 
+" clip-path="url(#pc97d02ebb6)" style="fill: none; stroke: #c0392b; stroke-width: 2.2; stroke-linecap: square"/>
+   </g>
+  </g>
+  <g id="text_18">
+   <text style="font-size: 8.2px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: middle; fill: #555555" x="356.317437" y="394.796203" transform="rotate(-0 356.317437 394.796203)">Stock strap: XA service manual, p. 2, audio output cable. Whether the stock plate is tied to the shield is open, row IE2: measure before modifying. Never lift mains earth.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pc97d02ebb6">
+   <rect x="65.631244" y="25.758125" width="581.372387" height="340.048"/>
+  </clipPath>
+ </defs>
+</svg>
