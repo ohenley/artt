@@ -98,4 +98,12 @@ XA column: Factory, [XA service manual](originals/xa-service-manual.pdf). XB col
 | Rumble | Low-frequency noise from the motor or bearings that reaches the stylus |
 | DIN weighting | A standard filter applied before quoting wow, flutter or rumble. Figures measured to different standards cannot be compared |
 | Sapphire bearing | A main bearing in which the platter spindle runs on a sapphire |
+| Terminal strip | The bar of screw lugs under the top plate where the arm wires meet the cable |
+| Lug | One screw or solder tab on the terminal strip |
+| Star point | The one place where every ground wire meets, so no current can circulate between grounds |
+| Ground post | A screw terminal in the plinth that is the star point and takes the amplifier's ground lead |
+| Sleeve | The outer contact of a phono jack, which carries the channel's ground |
+| Ring lug | A wire end with a closed metal ring, held under a screw head |
+| Star washer | A toothed washer that bites into paint or plating so a ring lug makes contact |
+| Crimp nut | A twist-on or squeeze-on connector that joins wire ends without solder |
 | MEK, methyl ethyl ketone | The solvent AR names for freeing pivot screws sealed with Loc-Tite |
