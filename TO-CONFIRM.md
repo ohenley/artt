@@ -102,7 +102,7 @@ Open points from the [model guide](models/README.md). Most need a dated document
 | MD7 | Last year of the ETL-1 | Phased out in early 1987 (Wolf); priced for 1988 on Vinyl Nirvana | A dated price list | Conflict | |
 | MD8 | Names behind the drawing signatures, and the designer of the 1983 table | Initials and handwriting only; no designer named | SR17 and SR18; AR staff accounts | Open | |
 | MD9 | Motor in the first units of The AR Turntable | Not a Hurst on early units, per Vinyl Nirvana; Hurst schematics dated December 1983 | Motor label and serial on a 1983 table | Conflict | |
-| MD10 | AR77XB factory papers | None found | A manual, brochure, or drawing naming the model | Open | |
+| MD10 | AR77XB factory papers | None held. Vinyl Engine lists an AR77-XB brochure and a preliminary owner's manual, both behind a forum login, not obtained (SR6) | A manual, brochure, or drawing naming the model | Open | |
 | MD11 | First year of The AR Turntable | Brochure 701049-0 dated 10/83, and an owner who bought one new in November 1983 (Dagogo); 1984 in Wolf and on Vinyl Nirvana | A dated 1983 dealer invoice or advert | Conflict | |
 | MD12 | ETL-1 series name and first year | "Research Series" (Wolf; Vinyl Nirvana gallery) against "Connoisseur Series" (Vinyl Nirvana model page); on sale by 1985 (Wolf) | A dated brochure or price list | Conflict | |
 | MD13 | Years The Legend was sold | The British brochure is undated | A dated UK review, price list or receipt | Open | |
