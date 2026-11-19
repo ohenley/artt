@@ -1,0 +1,43 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,7.0.11+dfsg-1build4*%
+%TF.CreationDate,2026-11-19T08:17:20-05:00*%
+%TF.ProjectId,artt-rear-jack-panel,61727474-2d72-4656-9172-2d6a61636b2d,C*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Soldermask,Top*%
+%TF.FilePolarity,Negative*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 7.0.11+dfsg-1build4) date 2026-11-19 08:17:20*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,3.500000*%
+%ADD11C,9.600000*%
+%ADD12C,3.700000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,H3*%
+X95500000Y-115000000D03*
+%TD*%
+D11*
+%TO.C,H5*%
+X127500000Y-90000000D03*
+%TD*%
+%TO.C,H6*%
+X157500000Y-90000000D03*
+%TD*%
+D10*
+%TO.C,H2*%
+X219500000Y-65000000D03*
+%TD*%
+%TO.C,H1*%
+X95500000Y-65000000D03*
+%TD*%
+%TO.C,H4*%
+X219500000Y-115000000D03*
+%TD*%
+D12*
+%TO.C,H7*%
+X187500000Y-90000000D03*
+%TD*%
+M02*

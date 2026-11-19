@@ -1,0 +1,39 @@
+** Drc report for pcb/audio-strip-board/artt-audio-strip-board.kicad_pcb **
+
+** Found 10 DRC violations **
+[lib_footprint_issues]: The current configuration does not include the library 'Capacitor_THT'.
+    Local override; Severity: warning
+    @(108.0000 mm, 70.0400 mm): Footprint C1
+[lib_footprint_issues]: The current configuration does not include the library 'Connector_Wire'.
+    Local override; Severity: warning
+    @(114.0000 mm, 72.0000 mm): Footprint J1
+[lib_footprint_issues]: The current configuration does not include the library 'Connector_Wire'.
+    Local override; Severity: warning
+    @(141.0000 mm, 72.0000 mm): Footprint J4
+[lib_footprint_issues]: The current configuration does not include the library 'TerminalBlock_Phoenix'.
+    Local override; Severity: warning
+    @(97.0000 mm, 95.0000 mm): Footprint J8
+[lib_footprint_issues]: The current configuration does not include the library 'Connector_Wire'.
+    Local override; Severity: warning
+    @(150.0000 mm, 72.0000 mm): Footprint J5
+[lib_footprint_issues]: The current configuration does not include the library 'Connector_Wire'.
+    Local override; Severity: warning
+    @(132.0000 mm, 72.0000 mm): Footprint J3
+[lib_footprint_issues]: The current configuration does not include the library 'Connector_Wire'.
+    Local override; Severity: warning
+    @(123.0000 mm, 72.0000 mm): Footprint J2
+[lib_footprint_issues]: The current configuration does not include the library 'TerminalBlock_Phoenix'.
+    Local override; Severity: warning
+    @(97.0000 mm, 70.0000 mm): Footprint J6
+[lib_footprint_issues]: The current configuration does not include the library 'Capacitor_THT'.
+    Local override; Severity: warning
+    @(108.0000 mm, 95.0400 mm): Footprint C2
+[lib_footprint_issues]: The current configuration does not include the library 'TerminalBlock_Phoenix'.
+    Local override; Severity: warning
+    @(97.0000 mm, 82.5000 mm): Footprint J7
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

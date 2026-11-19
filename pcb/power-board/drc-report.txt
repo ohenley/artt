@@ -1,0 +1,24 @@
+** Drc report for pcb/power-board/artt-power-board.kicad_pcb **
+
+** Found 5 DRC violations **
+[lib_footprint_issues]: The current configuration does not include the library 'TerminalBlock_MetzConnect'.
+    Local override; Severity: warning
+    @(98.0000 mm, 97.0000 mm): Footprint J4
+[lib_footprint_issues]: The current configuration does not include the library 'TerminalBlock_MetzConnect'.
+    Local override; Severity: warning
+    @(212.0000 mm, 77.5000 mm): Footprint J2
+[lib_footprint_issues]: The current configuration does not include the library 'TerminalBlock_MetzConnect'.
+    Local override; Severity: warning
+    @(98.0000 mm, 70.0000 mm): Footprint J1
+[lib_footprint_issues]: The current configuration does not include the library 'Fuse'.
+    Local override; Severity: warning
+    @(114.0000 mm, 70.0000 mm): Footprint F1
+[lib_footprint_issues]: The current configuration does not include the library 'TerminalBlock_MetzConnect'.
+    Local override; Severity: warning
+    @(212.0000 mm, 122.0000 mm): Footprint J3
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

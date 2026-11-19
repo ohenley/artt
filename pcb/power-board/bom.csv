@@ -1,0 +1,11 @@
+Reference,Quantity,Part,Value or rating,Footprint drawn for,Note
+J1,1,Screw terminal block 3 positions 7.5 mm pitch,250 V AC or higher,Metz Connect Type 171 RT13703HBWC,Mains in: line / neutral / earth
+J3,1,Screw terminal block 4 positions 7.5 mm pitch,250 V AC or higher,Metz Connect Type 171 RT13704HBWC,Motor leads
+J2 J4,2,Screw terminal block 2 positions 7.5 mm pitch,250 V AC or higher,Metz Connect Type 171 RT13702HBWC,Switch (J2) and top plate earth (J4)
+F1,1,Fuse holder for 5 x 20 mm fuse with cover,250 V AC or higher,Schurter FAB 0031.3551 or 0031.3558,Closed type so the fuse is not touchable
+F1 fuse,1,5 x 20 mm fuse,Value to confirm from the motor label (TO-CONFIRM row IE1),,Do not guess the value
+C1,1,Film capacitor rated for continuous AC use at your mains voltage,0.1 uF at 120 V or 0.39 uF at 220 V. Read the old part first,Lead spacing 15 or 22.5 or 27.5 mm,Motor capacitor. XA values from the service manual page 3. XB and AR77XB values to confirm
+C2,1,Film capacitor rated for continuous AC use at your mains voltage (X2 safety class is the usual choice),0.022 uF at 120 V or 0.01 uF at 220 V. Read the old part first,Lead spacing 10 or 15 mm,Switch capacitor. XA values from the service manual page 3. XB and AR77XB values to confirm
+JP1 JP2,2,Tinned copper wire link about 0.8 mm,,7.5 mm between holes,One link per jumper: up for 120 V or left for 220 V. Never both
+H1 H2 H3 H4,4,Number 6 wood screw and a nylon spacer 6 mm or longer,,3.5 mm hole,Into the plinth wall. The spacer keeps the solder joints off the wood
+Behind the board,1,Insulating sheet (fish paper or a bare fibreglass offcut) the size of the board,,,Between the solder side and the wood

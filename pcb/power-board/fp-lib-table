@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "artt")(type "KiCad")(uri "${KIPRJMOD}/../lib/artt.pretty")(options "")(descr "ARTT project footprints"))
+)

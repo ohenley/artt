@@ -1,0 +1,4 @@
+Reference,Quantity,Part,Value or rating,Footprint drawn for,Note
+H5 H6,2,Chassis RCA jack,,9.6 mm hole (3/8 in bush). Ream to 10 mm for an M10 jack,See models/xa/mods/rca-jacks.md for candidate jacks
+H7,1,Ground post,6-32 x 5/8 in machine screw with number 6 lug / lock washer / hex nut / knurled thumbnut,3.7 mm hole,Galo's recipe from models/xa/mods/rca-jacks.md
+H1 H2 H3 H4,4,Number 6 wood screw,,3.5 mm hole,From inside the plinth into the rear wall

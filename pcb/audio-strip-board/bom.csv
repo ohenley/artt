@@ -1,0 +1,5 @@
+Reference,Quantity,Part,Value or rating,Footprint drawn for,Note
+J1 J2 J3 J4 J5,0,No part,,Solder pad with 0.6 mm hole and a 1.5 mm strain relief hole,The five arm wires are soldered here
+J6 J7 J8,3,Screw terminal block 2 positions 5.08 mm pitch,,Phoenix Contact MKDS 1.5/2-5.08,Left jack / ground post / right jack
+C1 C2,0 to 2,Film capacitor 5 mm lead spacing,Only if the cartridge needs more load capacitance,Wima FKS2 / FKP2 / MKS2 size 7.2 x 2.5 mm,Leave empty by default
+H1 H2,2,Number 6 wood screw and a nylon spacer 6 mm or longer,,3.5 mm hole,Into the plinth rear wall
