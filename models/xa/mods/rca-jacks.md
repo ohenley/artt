@@ -6,7 +6,7 @@
 
 Stop the stiff interconnect from loading the floating subchassis. Thin tonearm wire runs from the arm to jacks fixed in the plinth, so any interconnect can be used. The idea also applies to the XB, whose [cable and terminal parts](../../xb/README.md#factory-component-identifiers) differ.
 
-Building all three plinth mods at once: see the [plinth rebuild](plinth-rebuild.md).
+Building all three plinth mods at once: see the [plinth rebuild](plinth-rebuild.md). Lug-by-lug diagrams with the arm wire colours: [XA wiring](../wiring.md#audio), [XB wiring](../../xb/wiring.md#audio), [AR77XB wiring](../../ar77xb/wiring.md#audio).
 
 ## Stock situation
 

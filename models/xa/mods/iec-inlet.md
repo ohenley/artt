@@ -6,7 +6,7 @@
 
 Fit a detachable mains cord. This mod works on mains voltage. The idea also applies to the XB.
 
-Building all three plinth mods at once: see the [plinth rebuild](plinth-rebuild.md).
+Building all three plinth mods at once: see the [plinth rebuild](plinth-rebuild.md). The circuit with the inlet in it, and the ground scheme, per model: [XA wiring](../wiring.md), [XB wiring](../../xb/wiring.md), [AR77XB wiring](../../ar77xb/wiring.md).
 
 ## Stock situation
 

@@ -14,12 +14,13 @@ Factory and period documents, each as a copy kept in this repository. Original a
 | [Owner registry](registry.md) | Where the serial is, and a table of owners' tables |
 | [Pages to save](archive-wanted.md) | Web pages wanted for the archive, with their Wayback Machine status |
 | [Photo requests](photo-requests.md) | Photos the pages need from the owner's tables |
+| [Wiring](wiring/README.md) | Power, audio and ground diagrams for jacks, a fused inlet and a ground post, generic here and with values on the [XA](../models/xa/wiring.md), [XB](../models/xb/wiring.md) and [AR77XB](../models/ar77xb/wiring.md) pages |
 
 ## Factory documents, first family
 
 | Document | Covers | Copy | What it gives |
 | --- | --- | --- | --- |
-| AR XA Turntable Service Manual, 4 pages | XA | [PDF](originals/xa-service-manual.pdf) | Motors by serial number, 120 V and 220 V circuits, pulleys, arm service, parts list, exploded view. Used on the [XA page](../models/xa/README.md) |
+| AR XA Turntable Service Manual, 4 pages | XA | [PDF](originals/xa-service-manual.pdf) | Motors by serial number, 120 V and 220 V circuits, pulleys, arm service, parts list, exploded view. Used on the [XA page](../models/xa/README.md). [The wiring in words](transcripts/xa-service-manual-wiring.md) |
 | The same manual as page scans, 1969 | XA | [Scans](archive/vinyl-nirvana/ar-turntable-history/1969-ar-xa-service-manual.md) | Same revision as the PDF; PDF page 1 and the parts list are not among the scans. [Comparison](transcripts/xa-service-manual-1969-comparison.md) |
 | XA owner's manual | XA | [Scans](archive/vinyl-nirvana/ar-turntable-history/ar-xa-manual.md) | Set-up and operation. [Transcript](transcripts/xa-owners-manual.md) |
 | Technical Specifications of the AR Turntable | XA | [Sheet](archive/vinyl-nirvana/ar-turntable-history/1969-ar-xa-technical-specifications.md) | The NAB limits AR guaranteed. Written out in the [model guide](../models/README.md#first-family) |

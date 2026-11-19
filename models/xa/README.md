@@ -1,6 +1,6 @@
 # AR XA
 
-[Home](../../README.md) · [All models](../README.md) · [Mods](mods/README.md) · [Parts and makers](../../parts/README.md) · [Documents](../../docs/README.md)
+[Home](../../README.md) · [All models](../README.md) · [Mods](mods/README.md) · [Wiring](wiring.md) · [Parts and makers](../../parts/README.md) · [Documents](../../docs/README.md)
 
 ![AR XA under a clear cover](../../docs/images/models/xa.jpg)
 
@@ -107,6 +107,8 @@ Factory, [XA service manual, p. 3](../../docs/originals/xa-service-manual.pdf):
 | 220 V | 0.39 µF, 600 VDC | 0.01 µF, 600 VDC |
 
 600 VDC is a DC rating, not a 600 VAC rating. See [Motor phase capacitor](mods/motor-capacitor.md).
+
+The whole circuit, the terminal strip lugs and the ground scheme, stock and as rebuilt with jacks, a fused inlet and a ground post: [XA wiring](wiring.md).
 
 ### Wire and audio cable
 

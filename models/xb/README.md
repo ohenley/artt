@@ -1,6 +1,6 @@
 # AR XB
 
-[Home](../../README.md) · [All models](../README.md) · [Parts and makers](../../parts/README.md) · [Factory drawing index](../../docs/README.md#xb-factory-drawings)
+[Home](../../README.md) · [All models](../README.md) · [Wiring](wiring.md) · [Parts and makers](../../parts/README.md) · [Factory drawing index](../../docs/README.md#xb-factory-drawings)
 
 ![XB-pattern table with its cueing lever and rocker switch in an AR panel](../../docs/images/models/xb.jpg)
 
@@ -127,7 +127,7 @@ Factory, ECO 1315. Sheets 2–4 are dated October 21, 1976, and sheet 1 January 
 - Straps and insulating tubing replace the tape and staples on the capacitors: a **⅝ in strap for the switch capacitor** and a **⁷⁄₁₆ in strap for the motor capacitor**, adding two #8 × ⅜ in screws. [Sheet 3](../../docs/drawings/xb-drawing-117.png)
 - The XB1 bezel, top-plate, and switch rework parts are removed, as no longer required for the cited British standard. [Sheet 4](../../docs/drawings/xb-drawing-118.png)
 
-For the audio terminal layout, use the wiring detail on drawing 119 and match the arm-side and cable-side labels, not only the wire colors.
+For the audio terminal layout, use the wiring detail on drawing 119 and match the arm-side and cable-side labels, not only the wire colors. The lug table, the power parts and the ground scheme, stock and as rebuilt with jacks, a fused inlet and a ground post: [XB wiring](wiring.md).
 
 ## Still to establish
 

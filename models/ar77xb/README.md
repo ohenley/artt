@@ -1,6 +1,6 @@
 # AR77XB
 
-[Home](../../README.md) · [All models](../README.md) · [XB](../xb/README.md) · [Parts and makers](../../parts/README.md) · [Documents](../../docs/README.md)
+[Home](../../README.md) · [All models](../README.md) · [XB](../xb/README.md) · [Wiring](wiring.md) · [Parts and makers](../../parts/README.md) · [Documents](../../docs/README.md)
 
 ![AR77XB with its badge at the front left of the top plate](../../docs/images/models/ar77xb.jpg)
 
@@ -73,6 +73,8 @@ The XB is the nearest documented table. Its factory values are a starting point 
 Motor maker, capacitor values, and mains wiring: Unconfirmed, [EL5](../../TO-CONFIRM.md#motor-electrical-and-overall-size). Before changing anything, write down the motor label and the markings on both capacitors, and add them here.
 
 For reference only: the XA used 0.1 µF on the motor and 0.022 µF across the switch at 120 V ([XA electrical](../xa/README.md#electrical)). The XB drawings give part numbers without values ([XB electrical](../xb/README.md#electrical)).
+
+Wiring the table with jacks, a fused inlet and a ground post, and the list of what to read on it first: [AR77XB wiring](wiring.md).
 
 ## A modified example
 

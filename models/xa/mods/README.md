@@ -8,6 +8,7 @@ Upgrades for an XA. Each page says if it also applies to the XB. **TBC** means t
 
 - [RCA jacks in the plinth](rca-jacks.md): stop a stiff interconnect from loading the subchassis.
 - [IEC mains inlet in the plinth](iec-inlet.md): a detachable, fused mains cord, with one star ground.
+- [Wiring diagrams](../wiring.md): power, audio and ground for the XA with jacks, inlet and ground post; the same for the [XB](../../xb/wiring.md) and the [AR77XB](../../ar77xb/wiring.md).
 - [Tonearm rewire](tonearm-rewire.md): replace the aged arm wire, and record the pin map.
 - [Vertical pivot bearing upgrade](vertical-pivot-bearing.md): jewel cups for lower pivot friction.
 - [Hardwood plinth](hardwood-plinth.md): replace a damaged or low-grade base.

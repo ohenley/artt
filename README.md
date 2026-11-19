@@ -23,7 +23,7 @@ Not sure which one you have? Use the [model guide](models/README.md). Photos: Gi
 | Something wrong? | [Troubleshooting](docs/troubleshooting.md), by symptom |
 | Service | [XA](models/xa/service.md) · [XB](models/xb/service.md) · [AR77XB](models/ar77xb/service.md): bearings, spindle, motor, cueing, damping, cleaning |
 | Measure your table | [Bench sheets](docs/bench-sheets/README.md), one printable page per table · [Owner registry](docs/registry.md) |
-| Upgrades | [XA mods](models/xa/mods/README.md), with [which mod fits which model](models/xa/mods/README.md#which-mod-fits-which-model) |
+| Upgrades | [XA mods](models/xa/mods/README.md), with [which mod fits which model](models/xa/mods/README.md#which-mod-fits-which-model) · [Wiring diagrams](docs/wiring/README.md) for jacks, a fused inlet and a ground post |
 | Small parts explained | [What it is and where it goes](docs/what-goes-where.md) |
 | A part in hand, or one you need | [Find your part](parts/README.md#find-your-part): its versions, which tables each fits, the drawing, and what to keep if you make one |
 | Buying parts | [Parts and makers](parts/README.md#replacement-parts) |

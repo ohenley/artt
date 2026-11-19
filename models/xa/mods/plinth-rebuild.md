@@ -15,6 +15,8 @@ One hardwood plinth that carries the RCA jack plate, the ground post, the fused 
 
 ## Wiring plan
 
+The diagrams for this plan, with the arm wire colours and capacitor values: [XA wiring](../wiring.md). The XB and AR77XB have their own: [XB wiring](../../xb/wiring.md), [AR77XB wiring](../../ar77xb/wiring.md).
+
 | Junction | Method | Why |
 | --- | --- | --- |
 | Arm wires to terminal strip | Solder | Service point when the T-bar comes out |
